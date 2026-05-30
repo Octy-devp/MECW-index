@@ -197,6 +197,10 @@ def parse_mecw_html(filepath):
     body_html = re.sub(r'<div class="mw-references-wrap">.*?</div>', '', body_html, flags=re.DOTALL)
     body_html = re.sub(r'<ol class="references">.*?</ol>', '', body_html, flags=re.DOTALL)
 
+    body_html = re.sub(r'<div class="donotprint".*?</div>', '', body_html, flags=re.DOTALL)
+    # 去除 SummaryPage（樞紐頁的導航目錄）
+    body_html = re.sub(r'<div id="SummaryPage">.*?</div>', '', body_html, flags=re.DOTALL)
+
     # 提取 <p> 內容
     paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', body_html, re.DOTALL)
 
@@ -270,7 +274,15 @@ def parse_mecw_html(filepath):
 
     # 推斷文檔類型
     title_lower = title.lower()
-    if "letter to" in title_lower or "letter from" in title_lower:
+    if not body or len(body) < 20:
+        # 樞紐頁或空文檔
+        if "content" in title_lower and "volume" in title_lower:
+            doc_type = "toc"
+        elif any(w in title_lower for w in ["manifesto", "poverty of philosophy", "condition of the working class"]):
+            doc_type = "hub"  # 拆分成子頁面的大作品
+        else:
+            doc_type = "hub"
+    elif "letter to" in title_lower or "letter from" in title_lower:
         doc_type = "letter"
     elif any(w in title_lower for w in ["ch.", "chapter", "part ", "section"]):
         doc_type = "chapter"

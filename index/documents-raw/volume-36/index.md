@@ -2,7 +2,7 @@
 id: index
 title: "Volume 36 - Content"
 volume: 36
-doc_type: article
+doc_type: toc
 status: raw
 ---
 
