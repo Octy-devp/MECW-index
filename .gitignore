@@ -1,0 +1,14 @@
+# MECW-index — 第二院：馬克思主義文獻索引
+# 兩院制蘇維埃架構 — 與 ECC 平行自治
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# System
+.DS_Store
+.env
+
+# Symlinks (只在 ECC workspace 內)
+_*/
