@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "built": "2026-05-30T23:01:50.218002"
+  },
+  "locations": [
+    {
+      "name": "London",
+      "count": 3406
+    },
+    {
+      "name": "Manchester",
+      "count": 1061
+    },
+    {
+      "name": "Cologne",
+      "count": 470
+    },
+    {
+      "name": "Paris",
+      "count": 453
+    },
+    {
+      "name": "Berlin",
+      "count": 356
+    },
+    {
+      "name": "New York",
+      "count": 217
+    },
+    {
+      "name": "Vienna",
+      "count": 152
+    },
+    {
+      "name": "Brussels",
+      "count": 148
+    },
+    {
+      "name": "Zurich",
+      "count": 93
+    },
+    {
+      "name": "Geneva",
+      "count": 91
+    },
+    {
+      "name": "Frankfurt",
+      "count": 86
+    },
+    {
+      "name": "Bremen",
+      "count": 53
+    },
+    {
+      "name": "Hamburg",
+      "count": 52
+    },
+    {
+      "name": "Leipzig",
+      "count": 47
+    },
+    {
+      "name": "Trier",
+      "count": 42
+    },
+    {
+      "name": "Barmen",
+      "count": 34
+    }
+  ]
+}

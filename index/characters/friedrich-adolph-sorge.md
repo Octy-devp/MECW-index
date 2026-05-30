@@ -1,0 +1,167 @@
+# Friedrich Adolph Sorge
+
+> MECW 通信對象 · 自動生成
+
+| 屬性 | 值 |
+|------|-----|
+| 收到信件 | 154 |
+| 來自 Marx | 28 |
+| 來自 Engels | 125 |
+| 時期 | 1870–1895 |
+
+## 通信記錄
+
+- [1870] [MECW44-032] Letter to Friedrich Adolph Sorge, September 1, 1870
+- [1871] [MECW44-062] Letter to Friedrich Adolph Sorge, January 21, 1871
+- [1871] [MECW44-130] Letter to Friedrich Adolph Sorge, September 5, 1871
+- [1871] [MECW44-135] Letter to Friedrich Adolph Sorge, September 12, 1871
+- [1871] [MECW44-154] Letter to Friedrich Adolph Sorge, November 6, 1871
+- [1871] [MECW44-157] Letter to Friedrich Adolph Sorge, November 9, 1871
+- [1871] [MECW44-173] Letter to Friedrich Adolph Sorge, November 29, 1871
+- [1872] [MECW44-205] Letter to Friedrich Adolph Sorge, March 8, 1872
+- [1872] [MECW44-210] Letter to Friedrich Adolph Sorge, March 15, 1872
+- [1872] [MECW44-211] Letter to Friedrich Adolph Sorge, March 17, 1872
+- [1872] [MECW44-225] Letter to Friedrich Adolph Sorge, May 23, 1872
+- [1872] [MECW44-227] Letter to Friedrich Adolph Sorge, May 27, 1872
+- [1872] [MECW44-231] Letter to Friedrich Adolph Sorge, May 29, 1872
+- [1872] [MECW44-238] Letter to Friedrich Adolph Sorge, June 21, 1872
+- [1872] [MECW44-260] Letter to Friedrich Adolph Sorge, September 21, 1872
+- [1872] [MECW44-263] Letter to Friedrich Adolph Sorge, October 5, 1872
+- [1872] [MECW44-269] Letter to Friedrich Adolph Sorge, November 2, 1872
+- [1872] [MECW44-270] Letter to Friedrich Adolph Sorge, November 16, 1872
+- [1872] [MECW44-273] Letter to Friedrich Adolph Sorge, December 7, 1872
+- [1872] [MECW44-275] Letter to Friedrich Adolph Sorge, December 14, 1872
+- [1872] [MECW44-276] Letter to Friedrich Adolph Sorge, December 21, 1872
+- [1873] [MECW44-279] Letter to Friedrich Adolph Sorge, January 4, 1873
+- [1873] [MECW44-290] Letter to Friedrich Adolph Sorge, March 20, 1873
+- [1873] [MECW44-293] Letter to Friedrich Adolph Sorge, March 22, 1873
+- [1873] [MECW44-295] Letter to Friedrich Adolph Sorge, May 3, 1873
+- [1873] [MECW44-304] Letter to Friedrich Adolph Sorge, June 14, 1873
+- [1873] [MECW44-309] Letter to Friedrich Adolph Sorge, July 26, 1873
+- [1873] [MECW44-320] Letter to Friedrich Adolph Sorge, September 27, 1873
+- [1873] [MECW44-321] Letter to Friedrich Adolph Sorge, November 25, 1873
+- [1874] [MECW45-004] Letter to Friedrich Adolph Sorge, February 14, 1874
+- [1874] [MECW45-006] Letter to Friedrich Adolph Sorge, February 27, 1874
+- [1874] [MECW45-020] Letter to Friedrich Adolph Sorge, August 4, 1874
+- [1874] [MECW45-028] Letter to Friedrich Adolph Sorge, September 17, 1874
+- [1876] [MECW45-078] Letter to Friedrich Adolph Sorge, April 4, 1876
+- [1876] [MECW45-084] Letter to Friedrich Adolph Sorge, June 14, 1876
+- [1877] [MECW45-195] Letter to Friedrich Adolph Sorge, September 27, 1877
+- [1877] [MECW45-199] Letter to Friedrich Adolph Sorge, October 19, 1877
+- [1878] [MECW45-226] Letter to Friedrich Adolph Sorge, September 4, 1878
+- [1879] [MECW45-280] Letter to Friedrich Adolph Sorge, September 19, 1879
+- [1879] [MECW45-285] Letter to Friedrich Adolph Sorge, November 14, 1879
+- [1877] [MECW45-298] Letter to Friedrich Adolph Sorge, January 20 or 21, 1877
+- [1880] [MECW46-018] Letter to Friedrich Adolph Sorge, August 30, 1880
+- [1880] [MECW46-030] Letter to Friedrich Adolph Sorge, November 5, 1880 (1)
+- [1880] [MECW46-031] Letter to Friedrich Adolph Sorge, November 5, 1880 (2)
+- [1881] [MECW46-062] Letter to Friedrich Adolph Sorge, June 20, 1881
+- [1881] [MECW46-096] Letter to Friedrich Adolph Sorge, December 15, 1881
+- [1882] [MECW46-134] Letter to Friedrich Adolph Sorge, April 13, 1882
+- [1882] [MECW46-157] Letter to Friedrich Adolph Sorge, June 20, 1882
+- [1882] [MECW46-170] Letter to Friedrich Adolph Sorge, August 10, 1882
+- [1882] [MECW46-202] Letter to Friedrich Adolph Sorge, November 9, 1882
+- [1883] [MECW46-250] Letter to Friedrich Adolph Sorge, March 14, 1883
+- [1883] [MECW46-254] Letter to Friedrich Adolph Sorge, March 15, 1883
+- [1883] [MECW47-010] Letter to Friedrich Adolph Sorge, April 24, 1883
+- [1883] [MECW47-013] Letter to Friedrich Adolph Sorge, May 1, 1883
+- [1883] [MECW47-025] Letter to Friedrich Adolph Sorge, June 29, 1883
+- [1884] [MECW47-068] Letter to Friedrich Adolph Sorge, March 7, 1884
+- [1884] [MECW47-141] Letter to Friedrich Adolph Sorge, December 31, 1884
+- [1885] [MECW47-174] Letter to Friedrich Adolph Sorge, June 3, 1885
+- [1886] [MECW47-232] Letter to Friedrich Adolph Sorge, January 29, 1886
+- [1886] [MECW47-237] Letter to Friedrich Adolph Sorge, February 9, 1886
+- [1886] [MECW47-255] Letter to Friedrich Adolph Sorge, April 29, 1886
+- [1886] [MECW47-269] Letter to Friedrich Adolph Sorge, August 3, 1886
+- [1886] [MECW47-283] Letter to Friedrich Adolph Sorge, September 6, 1886
+- [1886] [MECW47-287] Letter to Friedrich Adolph Sorge, September 16, 1886
+- [1886] [MECW47-305] Letter to Friedrich Adolph Sorge, November 29, 1886
+- [1887] [MECW48-002] Letter to Friedrich Adolph Sorge, January 11, 1887
+- [1887] [MECW48-010] Letter to Friedrich Adolph Sorge, February 12, 1887
+- [1887] [MECW48-014] Letter to Friedrich Adolph Sorge, March 3, 1887
+- [1887] [MECW48-015] Letter to Friedrich Adolph Sorge, March 10, 1887
+- [1887] [MECW48-018] Letter to Friedrich Adolph Sorge, March 16, 1887
+- [1887] [MECW48-022] Letter to Friedrich Adolph Sorge, April 6, 1887
+- [1887] [MECW48-023] Letter to Friedrich Adolph Sorge, April 9, 1887
+- [1887] [MECW48-026] Letter to Friedrich Adolph Sorge, April 23, 1887
+- [1887] [MECW48-029] Letter to Friedrich Adolph Sorge, May 4, 1887
+- [1887] [MECW48-032] Letter to Friedrich Adolph Sorge, May 7, 1887
+- [1887] [MECW48-039] Letter to Friedrich Adolph Sorge, June 4, 1887
+- [1887] [MECW48-044] Letter to Friedrich Adolph Sorge, June 18, 1887
+- [1887] [MECW48-048] Letter to Friedrich Adolph Sorge, June 30, 1887
+- [1887] [MECW48-055] Letter to Friedrich Adolph Sorge, August 8, 1887
+- [1887] [MECW48-064] Letter to Friedrich Adolph Sorge, September 16, 1887
+- [1887] [MECW48-068] Letter to Friedrich Adolph Sorge, October 29, 1887
+- [1887] [MECW48-076] Letter to Friedrich Adolph Sorge, November 1887
+- [1888] [MECW48-085] Letter to Friedrich Adolph Sorge, January 7, 1888
+- [1888] [MECW48-093] Letter to Friedrich Adolph Sorge, February 22, 1888
+- [1888] [MECW48-120] Letter to Friedrich Adolph Sorge, July 11, 1888
+- [1888] [MECW48-125] Letter to Friedrich Adolph Sorge, August 4, 1888
+- [1888] [MECW48-129] Letter to Friedrich Adolph Sorge, August 28, 1888
+- [1888] [MECW48-130] Letter to Friedrich Adolph Sorge, August 31, 1888
+- [1888] [MECW48-132] Letter to Friedrich Adolph Sorge, September 4, 1888
+- [1888] [MECW48-134] Letter to Friedrich Adolph Sorge, September 10, 1888
+- [1888] [MECW48-135] Letter to Friedrich Adolph Sorge, September 11, 1888
+- [1888] [MECW48-136] Letter to Friedrich Adolph Sorge, September 12, 1888
+- [1888] [MECW48-142] Letter to Friedrich Adolph Sorge, October 10, 1888
+- [1888] [MECW48-150] Letter to Friedrich Adolph Sorge, December 15, 1888
+- [1889] [MECW48-156] Letter to Friedrich Adolph Sorge, January 12, 1889
+- [1889] [MECW48-168] Letter to Friedrich Adolph Sorge, February 23, 1889
+- [1889] [MECW48-185] Letter to Friedrich Adolph Sorge, May 11, 1889
+- [1889] [MECW48-196] Letter to Friedrich Adolph Sorge, June 8, 1889
+- [1889] [MECW48-205] Letter to Friedrich Adolph Sorge, July 17, 1889
+- [1889] [MECW48-206] Letter to Friedrich Adolph Sorge, July 20, 1889
+- [1889] [MECW48-209] Letter to Friedrich Adolph Sorge, August 17, 1889
+- [1889] [MECW48-217] Letter to Friedrich Adolph Sorge, September 26, 1889
+- [1889] [MECW48-221] Letter to Friedrich Adolph Sorge, October 12, 1889
+- [1889] [MECW48-238] Letter to Friedrich Adolph Sorge, December 7, 1889
+- [1890] [MECW48-253] Letter to Friedrich Adolph Sorge, February 8, 1890
+- [1890] [MECW48-264] Letter to Friedrich Adolph Sorge, April 4, 1890
+- [1890] [MECW48-267] Letter to Friedrich Adolph Sorge, April 12, 1890
+- [1890] [MECW48-271] Letter to Friedrich Adolph Sorge, April 19, 1890
+- [1890] [MECW48-272] Letter to Friedrich Adolph Sorge, April 30, 1890
+- [1890] [MECW48-277] Letter to Friedrich Adolph Sorge, May 29, 1890
+- [1890] [MECW48-288] Letter to Friedrich Adolph Sorge, July 30, 1890
+- [1890] [MECW49-006] Letter to Friedrich Adolph Sorge, August 9, 1890
+- [1890] [MECW49-010] Letter to Friedrich Adolph Sorge, August 27, 1890
+- [1890] [MECW49-025] Letter to Friedrich Adolph Sorge, September 27, 1890
+- [1890] [MECW49-026] Letter to Friedrich Adolph Sorge, October 4, 1890
+- [1890] [MECW49-029] Letter to Friedrich Adolph Sorge, October 18, 1890
+- [1890] [MECW49-035] Letter to Friedrich Adolph Sorge, November 5, 1890
+- [1890] [MECW49-041] Letter to Friedrich Adolph Sorge, November 26, 1890
+- [1890] [MECW49-055] Letter to Friedrich Adolph Sorge, December 20, 1890
+- [1891] [MECW49-059] Letter to Friedrich Adolph Sorge, January 3, 1891
+- [1891] [MECW49-064] Letter to Friedrich Adolph Sorge, January 17, 1891
+- [1891] [MECW49-074] Letter to Friedrich Adolph Sorge, February 11, 1891
+- [1891] [MECW49-080] Letter to Friedrich Adolph Sorge, March 4, 1891
+- [1891] [MECW49-087] Letter to Friedrich Adolph Sorge, March 21, 1891
+- [1891] [MECW49-099] Letter to Friedrich Adolph Sorge, April 8, 1891
+- [1891] [MECW49-109] Letter to Friedrich Adolph Sorge, June 10, 1891
+- [1891] [MECW49-124] Letter to Friedrich Adolph Sorge, August 11, 1891
+- [1891] [MECW49-127] Letter to Friedrich Adolph Sorge, September 2, 1891
+- [1891] [MECW49-129] Letter to Friedrich Adolph Sorge, September 14, 1891
+- [1891] [MECW49-132] Letter to Friedrich Adolph Sorge, September 30, 1891
+- [1891] [MECW49-140] Letter to Friedrich Adolph Sorge, October 24, 1891
+- [1891] [MECW49-144] Letter to Friedrich Adolph Sorge, October 29, 1891
+- [1891] [MECW49-151] Letter to Friedrich Adolph Sorge, November 14, 1891
+- [1891] [MECW49-152] Letter to Friedrich Adolph Sorge, November 21, 1891
+- [1892] [MECW49-165] Letter to Friedrich Adolph Sorge, January 6, 1892
+- [1892] [MECW49-187] Letter to Friedrich Adolph Sorge, March 5, 1892
+- [1892] [MECW49-226] Letter to Friedrich Adolph Sorge, June 18, 1892
+- [1892] [MECW49-259] Letter to Friedrich Adolph Sorge, August 23, 1892
+- [1892] [MECW50-014] Letter to Friedrich Adolph Sorge, November 5, 1892
+- [1892] [MECW50-041] Letter to Friedrich Adolph Sorge, December 31, 1892
+- [1893] [MECW50-047] Letter to Friedrich Adolph Sorge, January 18, 1893
+- [1893] [MECW50-071] Letter to Friedrich Adolph Sorge, March 18, 1893
+- [1893] [MECW50-083] Letter to Friedrich Adolph Sorge, May 17, 1893
+- [1893] [MECW50-115] Letter to Friedrich Adolph Sorge, October 7, 1893
+- [1893] [MECW50-127] Letter to Friedrich Adolph Sorge, November 11, 1893
+- [1893] [MECW50-131] Letter to Friedrich Adolph Sorge, December 2, 1893
+- [1893] [MECW50-140] Letter to Friedrich Adolph Sorge, December 30, 1893
+- [1894] [MECW50-156] Letter to Friedrich Adolph Sorge, February 23, 1894
+- [1894] [MECW50-163] Letter to Friedrich Adolph Sorge, March 21, 1894
+- [1894] [MECW50-175] Letter to Friedrich Adolph Sorge, May 12, 1894
+- [1894] [MECW50-214] Letter to Friedrich Adolph Sorge, November 10, 1894
+- [1894] [MECW50-227] Letter to Friedrich Adolph Sorge, December 4, 1894
+- [1894] [MECW50-229] Letter to Friedrich Adolph Sorge, December 12, 1894
+- [1895] [MECW50-254] Letter to Friedrich Adolph Sorge, January 16, 1895
