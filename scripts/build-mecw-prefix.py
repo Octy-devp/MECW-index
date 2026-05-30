@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-MECW AI Prefix 生成器 v0.1
-為 DeepSeek API 生成固定上下文 Prefix，供語義分析和 DCA 使用。
+MECW AI Prefix 生成器 v0.2 — Version B (DCA 實例嵌入版)
+與 Version A 的差異：嵌入 2 篇完整 DCA 提取實例（而不是抽象定義）
 
 用法：
-  python scripts/build-mecw-prefix.py
-  python scripts/build-mecw-prefix.py --stats
+  python scripts/build-mecw-prefix-v2.py
 """
 
 import json, os
@@ -16,7 +15,6 @@ ROOT = Path(__file__).parent.parent
 COMPILED = ROOT / "index" / "data" / "compiled-documents.json"
 NETWORK = ROOT / "index" / "data" / "character-network.json"
 PREFIX_OUT = ROOT / "index" / "data" / "mecw-prefix.txt"
-STATS_OUT = ROOT / "index" / "data" / "mecw-prefix-stats.json"
 
 def build():
     with open(COMPILED, "r") as f:
@@ -28,172 +26,216 @@ def build():
     contacts = network["contacts"]
 
     lines = []
-
-    # ── 0. 系統標識 ───────────────────────────────
     lines.append("=" * 60)
-    lines.append("MECW-index / Second Chamber — Marxist Literature Index")
-    lines.append("Two-Chamber Soviet Architecture: ECC (Chamber 1) ∥ MECW (Chamber 2)")
+    lines.append("MECW DCA Extraction System v0.2 — WORKED-EXAMPLE EMBEDDED")
+    lines.append("Task: Extract Crisis-Delay-Alternative-Direction from Marx/Engels texts")
+    lines.append("Method: DO NOT invent DCA. EXTRACT the structure Marx already uses.")
     lines.append("=" * 60)
 
-    # ── 1. 專案定義 ───────────────────────────────
+    # ── WORKED EXAMPLE 1: Gotha Critique ──────────────
     lines.append("")
-    lines.append("## 1. PROJECT DEFINITION")
+    lines.append("## WORKED EXAMPLE 1: Critique of the Gotha Programme (Marx, 1875)")
     lines.append("")
-    lines.append("You are analyzing the Marx/Engels Collected Works (MECW),")
-    lines.append("the complete English edition in 50 volumes (6,759 documents, 1835-1895).")
+    lines.append("This is how Marx does Crisis-Delay-Alternative-Direction analysis.")
+    lines.append("Study this example carefully. All your extractions must follow this pattern.")
     lines.append("")
-    lines.append("This corpus includes:")
-    lines.append("- 4,306 letters between Marx, Engels, and 694 correspondents")
-    lines.append("- 2,211 articles, newspaper commentaries, and theoretical essays")
-    lines.append("- 162 chapters from major works (Capital, Anti-Dühring, etc.)")
-    lines.append("- 80 prefaces, afterwords, and editorial notes")
+    lines.append("### TEXT (abridged):")
+    lines.append('"Labor is not the source of all wealth. Nature is just as much the source')
+    lines.append('of use values... A socialist program cannot allow such bourgeois phrases')
+    lines.append('to pass over in silence the conditions that alone give them meaning."')
+    lines.append('')
+    lines.append('"What we have to deal with here is a communist society, not as it has')
+    lines.append('developed on its own foundations, but on the contrary, just as it emerges')
+    lines.append('from capitalist society; which is thus in every respect still stamped')
+    lines.append('with the birthmarks of the old society from whose womb it emerges."')
+    lines.append('')
+    lines.append('"Between capitalist and communist society there lies the period of the')
+    lines.append('revolutionary transformation of the one into the other. Corresponding to')
+    lines.append('this is also a political transition period in which the state can be')
+    lines.append('nothing but the revolutionary dictatorship of the proletariat."')
+    lines.append('')
+    lines.append('"In a higher phase of communist society... after labor has become not')
+    lines.append('only a means of life but life\'s prime want; after the productive forces')
+    lines.append('have also increased... only then can the narrow horizon of bourgeois')
+    lines.append('right be crossed in its entirety and society inscribe on its banners:')
+    lines.append('From each according to his ability, to each according to his needs!"')
     lines.append("")
-    lines.append("Source: MARX-ZH-CN/wikirouge-MECW-2026-Jan-ver (CC0 Public Domain)")
-    lines.append("")
-
-    # ── 2. 核心理論概念 ───────────────────────────
-    lines.append("## 2. CORE THEORETICAL FRAMEWORK")
-    lines.append("")
-    lines.append("Marx and Engels developed an integrated body of thought. Key concepts:")
-    lines.append("")
-    lines.append("### Historical Materialism")
-    lines.append("- The mode of production conditions social, political, and intellectual life")
-    lines.append("- History as the history of class struggles")
-    lines.append("- Base (economic structure) and superstructure (state, ideology, culture)")
-    lines.append("")
-    lines.append("### Critique of Political Economy")
-    lines.append("- Commodity fetishism: social relations appear as relations between things")
-    lines.append("- Surplus value: the source of capitalist profit extracted from labor")
-    lines.append("- Law of the tendency of the rate of profit to fall")
-    lines.append("- Primitive accumulation and the genesis of capital")
-    lines.append("")
-    lines.append("### Class Struggle and Revolution")
-    lines.append("- The proletariat as the revolutionary class")
-    lines.append("- Dictatorship of the proletariat as transition to classless society")
-    lines.append("- The state as instrument of class rule, to wither away under communism")
-    lines.append("")
-    lines.append("### Dialectics")
-    lines.append("- Unity and struggle of opposites")
-    lines.append("- Quantitative change → qualitative transformation")
-    lines.append("- Negation of the negation")
-    lines.append("")
-
-    # ── 3. 歷史時期 ───────────────────────────────
-    lines.append("## 3. HISTORICAL PERIODS")
-    lines.append("")
-    lines.append("1830s: Youth and education. Marx at university, Engels in Bremen.")
-    lines.append("1840s: Revolutionary journalism. Rheinische Zeitung, German Ideology,")
-    lines.append("       Communist Manifesto (1848). Year of Revolutions.")
-    lines.append("1850s: London exile. New York Tribune correspondence. 1857 crisis analysis.")
-    lines.append("1860s: Capital Vol.1 (1867). First International (1864-1872).")
-    lines.append("1870s: Paris Commune (1871). Critique of the Gotha Programme (1875).")
-    lines.append("       Anti-Dühring (1877-78).")
-    lines.append("1880s: Marx's death (1883). Engels edits Capital Vol.2-3.")
-    lines.append("       Origin of the Family (1884). Second International foundation.")
-    lines.append("1890s: Engels' late letters on historical materialism. His death (1895).")
-    lines.append("")
-
-    # ── 4. 人物網絡 ───────────────────────────────
-    lines.append("## 4. KEY FIGURES")
-    lines.append("")
-    lines.append("### Primary")
-    lines.append("- Karl Marx (1818-1883): philosopher, economist, revolutionary")
-    lines.append("- Friedrich Engels (1820-1895): collaborator, patron, editor of Capital Vol.2-3")
-    lines.append("")
-    lines.append("### Major Correspondents (by letter volume)")
-    for i, c in enumerate(contacts[:15], 1):
-        m = c.get("letters_from_marx", 0)
-        e = c.get("letters_from_engels", 0)
-        detail = f"(M:{m} E:{e})" if m or e else ""
-        lines.append(f"{i:>2}. {c['name']} — {c['letters_received']} letters {c['first_year']}-{c['last_year']} {detail}")
-    lines.append("")
-
-    # ── 5. 關鍵統計 ───────────────────────────────
-    lines.append("## 5. CORPUS STATISTICS")
-    lines.append(f"- Total documents: {meta['total_documents']}")
-    lines.append(f"- Volumes: {meta['volume_count']} (1–50)")
-    lines.append(f"- Year range: {meta['year_range'][0]}–{meta['year_range'][1]}")
-    lines.append(f"- Peak year: 1848 (319 documents) — Year of Revolutions")
-    lines.append(f"- Second peak: 1871 (221 documents) — Paris Commune")
-    lines.append("")
-
-    # ── 6. 文獻類型 ───────────────────────────────
-    lines.append("## 6. DOCUMENT TYPES")
-    lines.append("- letter: Personal correspondence, often revealing theoretical development in real-time")
-    lines.append("- article: Published journalism and theoretical essays")
-    lines.append("- chapter: Extracted chapters from major works")
-    lines.append("- paratext: Prefaces, afterwords, editorial introductions")
-    lines.append("")
-
-    # ── 7. DCA 分析框架 ─────────────────────────────
-    lines.append("## 7. DCA ANALYSIS FRAMEWORK")
-    lines.append("")
-    lines.append("For each document, apply the DCA (Crisis-Delay-Alternative-Direction) method:")
-    lines.append("")
-    lines.append("**Crisis** — What specific historical crisis does this text respond to?")
-    lines.append("  (e.g., 1848 revolution defeat, 1857 economic crisis, 1871 Commune suppression)")
-    lines.append("")
-    lines.append("**Delay (Lag)** — What structural lag does the text diagnose?")
-    lines.append("  (e.g., proletariat not yet organized, theory lagging behind practice,")
-    lines.append("   bourgeois ideology blocking class consciousness)")
-    lines.append("")
-    lines.append("**Alternative** — What alternative path or solution does the text propose?")
-    lines.append("  (e.g., workers' party, dictatorship of proletariat, cooperative production)")
-    lines.append("")
-    lines.append("**Direction** — What material constraints shape the direction proposed?")
-    lines.append("  (e.g., level of productive forces, existing class composition, geopolitical situation)")
-    lines.append("")
-
-    # ── 8. 輸出格式 ───────────────────────────────
-    lines.append("## 8. OUTPUT FORMAT")
-    lines.append("")
-    lines.append("Return analysis in YAML-compatible structured format:")
+    lines.append("### DCA EXTRACTION FROM THIS TEXT:")
     lines.append("```yaml")
-    lines.append("document_id: MECW01-004")
-    lines.append("theoretical_position: critique  # critique|defense|synthesis|polemic|analysis")
-    lines.append("crisis_diagnosis: \"...\"")
-    lines.append("lag_mechanism: \"...\"")
-    lines.append("alternative_proposal: \"...\"")
-    lines.append("direction_constraint: \"...\"")
-    lines.append("confidence: 0.85")
-    lines.append("key_concepts: [surplus_value, exploitation, labour_power]")
+    lines.append("crisis_diagnosis:")
+    lines.append("  type: organizational_degeneration")
+    lines.append("  specific: |")
+    lines.append("    The 1875 merger of the Eisenach and Lassallean parties produced a")
+    lines.append("    draft program that replaced scientific socialism with Lassallean")
+    lines.append("    slogans: 'iron law of wages', 'undiminished proceeds of labor',")
+    lines.append("    'free state', 'reactionary mass'. Marx diagnoses this not as")
+    lines.append("    bad wording but as PRINCIPLED RETREAT — the theoretical gains")
+    lines.append("    of Capital and the International are being traded away for")
+    lines.append("    organizational unity.")
+    lines.append("  evidence: [\"What a crime it is to attempt to force on our Party again,")
+    lines.append("             as dogmas, ideas which in a certain period had some meaning")
+    lines.append("             but have now become obsolete verbal rubbish\"]")
+    lines.append("")
+    lines.append("lag_mechanism:")
+    lines.append("  layers: [theoretical, organizational, ideological]")
+    lines.append("  theoretical: |")
+    lines.append("    Lassalle himself did not know what wages were — he took the")
+    lines.append("    appearance (value of labor) for the essence (value of labor-power).")
+    lines.append("    Fifteen years after Capital Vol.1, the party program reverts to")
+    lines.append("    pre-scientific economics.")
+    lines.append("  organizational: |")
+    lines.append("    Merger pressure: the Eisenach wing accepted theoretical concessions")
+    lines.append("    to secure unification. Organization was prioritized over clarity.")
+    lines.append("  ideological: |")
+    lines.append("    The program's 'servile belief in the state' — treating the Prussian")
+    lines.append("    state as a neutral instrument rather than an organ of class rule.")
+    lines.append("")
+    lines.append("alternative_proposal:")
+    lines.append("  method: systematic_correction")
+    lines.append("  elements:")
+    lines.append("    - Replace 'iron law of wages' with scientific theory of labor-power")
+    lines.append("    - Replace 'free state' with 'revolutionary dictatorship of proletariat'")
+    lines.append("    - Replace 'fair distribution' with two-phase analysis:")
+    lines.append("      Phase 1: 'to each according to labor' (still bourgeois right)")
+    lines.append("      Phase 2: 'to each according to needs' (post-scarcity)")
+    lines.append("    - Replace national framework with internationalism")
+    lines.append("")
+    lines.append("direction_constraint:")
+    lines.append("  core: productive_forces_determine_distribution_possibilities")
+    lines.append("  specific: |")
+    lines.append("    Phase 1 communism is 'still stamped with the birthmarks of the old")
+    lines.append("    society.' Equal right remains bourgeois right because it measures")
+    lines.append("    with the standard of labor, ignoring individual inequality. Only")
+    lines.append("    when productive forces are fully developed and labor becomes")
+    lines.append("    'life's prime want' can distribution transcend bourgeois right.")
+    lines.append("  key_insight: \"Right can never be higher than the economic structure")
+    lines.append("                of society and its cultural development conditioned thereby.\"")
     lines.append("```")
+    lines.append("")
+
+    # ── WORKED EXAMPLE 2: Communist Manifesto Ch.1 ─────
+    lines.append("## WORKED EXAMPLE 2: Manifesto of the Communist Party, Ch.1 (Marx & Engels, 1848)")
+    lines.append("")
+    lines.append("### TEXT (abridged — opening paragraphs):")
+    lines.append('"The history of all hitherto existing society is the history of class struggles."')
+    lines.append('')
+    lines.append('"The modern bourgeois society that has sprouted from the ruins of feudal')
+    lines.append('society has not done away with class antagonisms. It has but established')
+    lines.append('new classes, new conditions of oppression, new forms of struggle in place')
+    lines.append('of the old ones."')
+    lines.append('')
+    lines.append('"Modern industry has established the world market... The bourgeoisie...')
+    lines.append('has played a most revolutionary part. Wherever it has got the upper hand,')
+    lines.append('it has put an end to all feudal, patriarchal, idyllic relations... It has')
+    lines.append('drowned the most heavenly ecstasies of religious fervor... in the icy water')
+    lines.append('of egotistical calculation."')
+    lines.append('')
+    lines.append('"A spectre is haunting Europe — the spectre of communism."')
+    lines.append("")
+    lines.append("### DCA EXTRACTION FROM THIS TEXT:")
+    lines.append("```yaml")
+    lines.append("crisis_diagnosis:")
+    lines.append("  type: revolutionary_conjuncture")
+    lines.append("  specific: |")
+    lines.append("    Europe 1848: feudal relations have been shattered by bourgeois")
+    lines.append("    revolution, but the bourgeoisie has immediately created its own")
+    lines.append("    antagonist — the proletariat. The crisis is not just political")
+    lines.append("    but STRUCTURAL: the same productive forces that destroyed feudalism")
+    lines.append("    now threaten bourgeois property itself. Periodic commercial crises")
+    lines.append("    ('epidemics of over-production') expose the contradiction between")
+    lines.append("    socialized production and private appropriation.")
+    lines.append("")
+    lines.append("lag_mechanism:")
+    lines.append("  layers: [organizational, ideological]")
+    lines.append("  organizational: |")
+    lines.append("    Workers compete against each other, not yet conscious of their")
+    lines.append("    class interest. 'The organization of the proletarians into a class,")
+    lines.append("    and consequently into a political party, is continually being upset")
+    lines.append("    again by the competition between the workers themselves.'")
+    lines.append("  ideological: |")
+    lines.append("    Bourgeois ideology (freedom = free trade, equality = juridical")
+    lines.append("    equality) masks exploitation. Existing socialist literature")
+    lines.append("    (feudal, petty-bourgeois, 'true' socialism) reflects backward")
+    lines.append("    class positions and misdirects worker consciousness.")
+    lines.append("")
+    lines.append("alternative_proposal:")
+    lines.append("  method: revolutionary_political_program")
+    lines.append("  elements:")
+    lines.append("    - Abolition of bourgeois private property")
+    lines.append("    - Proletariat organized as ruling class → democratic conquest")
+    lines.append("    - Ten transitional measures (progressive taxation, abolition of")
+    lines.append("      inheritance, centralization of credit and transport, etc.)")
+    lines.append("    - Ultimate goal: classless society where 'the free development of")
+    lines.append("      each is the condition for the free development of all'")
+    lines.append("")
+    lines.append("direction_constraint:")
+    lines.append("  core: national_specificity_of_transitional_measures")
+    lines.append("  specific: |")
+    lines.append("    'These measures will of course be different in different countries.'")
+    lines.append("    The communist program is not a universal blueprint but must be")
+    lines.append("    adapted to each country's level of capitalist development, class")
+    lines.append("    composition, and political conditions. The transition presupposes")
+    lines.append("    that capitalism has already developed the productive forces to a")
+    lines.append("    level where scarcity is socially produced, not natural.")
+    lines.append("```")
+    lines.append("")
+
+    # ── TASK INSTRUCTION ────────────────────────────
+    lines.append("## YOUR TASK")
+    lines.append("")
+    lines.append("You will receive a Marx or Engels text. Your job is to EXTRACT")
+    lines.append("(not invent) the DCA structure — exactly as demonstrated above.")
+    lines.append("")
+    lines.append("CRITICAL RULES:")
+    lines.append("1. CRISIS must be historically specific — name the actual event, conjuncture,")
+    lines.append("   or structural contradiction the text responds to. NOT generic labels.")
+    lines.append("2. LAG must identify MECHANISMS (not just 'X is behind'). What specifically")
+    lines.append("   prevents the resolution? Is it organizational, theoretical, ideological,")
+    lines.append("   or material? Multiple layers may operate simultaneously.")
+    lines.append("3. ALTERNATIVE must be the text's actual proposal, not what you think Marx")
+    lines.append("   should have said. Quote the text when possible.")
+    lines.append("4. DIRECTION must identify the MATERIAL CONSTRAINTS that limit the")
+    lines.append("   alternative — not what 'ought' to happen, but what conditions enable")
+    lines.append("   or constrain the direction proposed.")
+    lines.append("5. Use the same YAML structure as the worked examples. Every field must")
+    lines.append("   contain concrete historical content, not abstract phrases.")
+    lines.append("6. If the text does NOT contain all four DCA dimensions, mark missing")
+    lines.append("   dimensions as null and explain why (e.g., 'letter - no alternative')")
+    lines.append("")
+
+    # ── QUICK REFERENCE ─────────────────────────────
+    lines.append("## QUICK REFERENCE")
+    lines.append(f"- MECW covers 1818–2004, core Marx/Engels period 1835–1895")
+    lines.append(f"- {meta['total_documents']} documents in 50 volumes")
+    lines.append(f"- Peak years: 1848 (revolutions), 1871 (Paris Commune)")
+    lines.append(f"- 694 correspondents, Marx↔Engels: 1,545 letters")
+    lines.append("")
+    lines.append("Key periods for DCA extraction:")
+    lines.append("  1840s: Revolutionary upheaval → Communist Manifesto")
+    lines.append("  1850s: Counter-revolution, exile journalism, 1857 crisis")
+    lines.append("  1860s: Capital Vol.1, First International")
+    lines.append("  1870s: Paris Commune, Gotha Programme, Anti-Dühring")
+    lines.append("  1880s-90s: Engels' late syntheses, Second International")
     lines.append("")
 
     prefix = "\n".join(lines)
 
-    # Write
     os.makedirs(PREFIX_OUT.parent, exist_ok=True)
     with open(PREFIX_OUT, "w", encoding="utf-8") as f:
         f.write(prefix)
 
-    # Stats
-    tokens_est = len(prefix.split())  # rough estimate
     stats = {
-        "built": datetime.now().isoformat(),
+        "version": "v0.2",
         "characters": len(prefix),
         "words": len(prefix.split()),
         "lines": len(lines),
-        "estimated_tokens": tokens_est,
+        "worked_examples": 2,
         "file": str(PREFIX_OUT),
     }
-    with open(STATS_OUT, "w", encoding="utf-8") as f:
-        json.dump(stats, f, ensure_ascii=False, indent=2)
-
+    print(f"✅ {PREFIX_OUT}")
+    print(f"   {stats['words']} words, {stats['lines']} lines")
+    print(f"   2 worked examples embedded")
     return stats
 
-
 if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--stats", action="store_true")
-    args = parser.parse_args()
-
-    stats = build()
-    if args.stats:
-        for k, v in stats.items():
-            print(f"  {k}: {v}")
-    else:
-        print(f"✅ MECW Prefix → {PREFIX_OUT}")
-        print(f"   {stats['words']} words, ~{stats['estimated_tokens']} tokens")
-        print(f"   Stats → {STATS_OUT}")
+    build()
