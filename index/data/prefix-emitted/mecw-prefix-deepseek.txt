@@ -1,0 +1,182 @@
+============================================================
+MECW DCA Extraction System v0.2 — WORKED-EXAMPLE EMBEDDED
+Task: Extract Crisis-Delay-Alternative-Direction from Marx/Engels texts
+Method: DO NOT invent DCA. EXTRACT the structure Marx already uses.
+============================================================
+
+## WORKED EXAMPLE 1: Critique of the Gotha Programme (Marx, 1875)
+
+This is how Marx does Crisis-Delay-Alternative-Direction analysis.
+Study this example carefully. All your extractions must follow this pattern.
+
+### TEXT (abridged):
+"Labor is not the source of all wealth. Nature is just as much the source
+of use values... A socialist program cannot allow such bourgeois phrases
+to pass over in silence the conditions that alone give them meaning."
+
+"What we have to deal with here is a communist society, not as it has
+developed on its own foundations, but on the contrary, just as it emerges
+from capitalist society; which is thus in every respect still stamped
+with the birthmarks of the old society from whose womb it emerges."
+
+"Between capitalist and communist society there lies the period of the
+revolutionary transformation of the one into the other. Corresponding to
+this is also a political transition period in which the state can be
+nothing but the revolutionary dictatorship of the proletariat."
+
+"In a higher phase of communist society... after labor has become not
+only a means of life but life's prime want; after the productive forces
+have also increased... only then can the narrow horizon of bourgeois
+right be crossed in its entirety and society inscribe on its banners:
+From each according to his ability, to each according to his needs!"
+
+### DCA EXTRACTION FROM THIS TEXT:
+```yaml
+crisis_diagnosis:
+  type: organizational_degeneration
+  specific: |
+    The 1875 merger of the Eisenach and Lassallean parties produced a
+    draft program that replaced scientific socialism with Lassallean
+    slogans: 'iron law of wages', 'undiminished proceeds of labor',
+    'free state', 'reactionary mass'. Marx diagnoses this not as
+    bad wording but as PRINCIPLED RETREAT — the theoretical gains
+    of Capital and the International are being traded away for
+    organizational unity.
+  evidence: ["What a crime it is to attempt to force on our Party again,
+             as dogmas, ideas which in a certain period had some meaning
+             but have now become obsolete verbal rubbish"]
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    Lassalle himself did not know what wages were — he took the
+    appearance (value of labor) for the essence (value of labor-power).
+    Fifteen years after Capital Vol.1, the party program reverts to
+    pre-scientific economics.
+  organizational: |
+    Merger pressure: the Eisenach wing accepted theoretical concessions
+    to secure unification. Organization was prioritized over clarity.
+  ideological: |
+    The program's 'servile belief in the state' — treating the Prussian
+    state as a neutral instrument rather than an organ of class rule.
+
+alternative_proposal:
+  method: systematic_correction
+  elements:
+    - Replace 'iron law of wages' with scientific theory of labor-power
+    - Replace 'free state' with 'revolutionary dictatorship of proletariat'
+    - Replace 'fair distribution' with two-phase analysis:
+      Phase 1: 'to each according to labor' (still bourgeois right)
+      Phase 2: 'to each according to needs' (post-scarcity)
+    - Replace national framework with internationalism
+
+direction_constraint:
+  core: productive_forces_determine_distribution_possibilities
+  specific: |
+    Phase 1 communism is 'still stamped with the birthmarks of the old
+    society.' Equal right remains bourgeois right because it measures
+    with the standard of labor, ignoring individual inequality. Only
+    when productive forces are fully developed and labor becomes
+    'life's prime want' can distribution transcend bourgeois right.
+  key_insight: "Right can never be higher than the economic structure
+                of society and its cultural development conditioned thereby."
+```
+
+## WORKED EXAMPLE 2: Manifesto of the Communist Party, Ch.1 (Marx & Engels, 1848)
+
+### TEXT (abridged — opening paragraphs):
+"The history of all hitherto existing society is the history of class struggles."
+
+"The modern bourgeois society that has sprouted from the ruins of feudal
+society has not done away with class antagonisms. It has but established
+new classes, new conditions of oppression, new forms of struggle in place
+of the old ones."
+
+"Modern industry has established the world market... The bourgeoisie...
+has played a most revolutionary part. Wherever it has got the upper hand,
+it has put an end to all feudal, patriarchal, idyllic relations... It has
+drowned the most heavenly ecstasies of religious fervor... in the icy water
+of egotistical calculation."
+
+"A spectre is haunting Europe — the spectre of communism."
+
+### DCA EXTRACTION FROM THIS TEXT:
+```yaml
+crisis_diagnosis:
+  type: revolutionary_conjuncture
+  specific: |
+    Europe 1848: feudal relations have been shattered by bourgeois
+    revolution, but the bourgeoisie has immediately created its own
+    antagonist — the proletariat. The crisis is not just political
+    but STRUCTURAL: the same productive forces that destroyed feudalism
+    now threaten bourgeois property itself. Periodic commercial crises
+    ('epidemics of over-production') expose the contradiction between
+    socialized production and private appropriation.
+
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    Workers compete against each other, not yet conscious of their
+    class interest. 'The organization of the proletarians into a class,
+    and consequently into a political party, is continually being upset
+    again by the competition between the workers themselves.'
+  ideological: |
+    Bourgeois ideology (freedom = free trade, equality = juridical
+    equality) masks exploitation. Existing socialist literature
+    (feudal, petty-bourgeois, 'true' socialism) reflects backward
+    class positions and misdirects worker consciousness.
+
+alternative_proposal:
+  method: revolutionary_political_program
+  elements:
+    - Abolition of bourgeois private property
+    - Proletariat organized as ruling class → democratic conquest
+    - Ten transitional measures (progressive taxation, abolition of
+      inheritance, centralization of credit and transport, etc.)
+    - Ultimate goal: classless society where 'the free development of
+      each is the condition for the free development of all'
+
+direction_constraint:
+  core: national_specificity_of_transitional_measures
+  specific: |
+    'These measures will of course be different in different countries.'
+    The communist program is not a universal blueprint but must be
+    adapted to each country's level of capitalist development, class
+    composition, and political conditions. The transition presupposes
+    that capitalism has already developed the productive forces to a
+    level where scarcity is socially produced, not natural.
+```
+
+## YOUR TASK
+
+You will receive a Marx or Engels text. Your job is to EXTRACT
+(not invent) the DCA structure — exactly as demonstrated above.
+
+CRITICAL RULES:
+1. CRISIS must be historically specific — name the actual event, conjuncture,
+   or structural contradiction the text responds to. NOT generic labels.
+2. LAG must identify MECHANISMS (not just 'X is behind'). What specifically
+   prevents the resolution? Is it organizational, theoretical, ideological,
+   or material? Multiple layers may operate simultaneously.
+3. ALTERNATIVE must be the text's actual proposal, not what you think Marx
+   should have said. Quote the text when possible.
+4. DIRECTION must identify the MATERIAL CONSTRAINTS that limit the
+   alternative — not what 'ought' to happen, but what conditions enable
+   or constrain the direction proposed.
+5. Use the same YAML structure as the worked examples. Every field must
+   contain concrete historical content, not abstract phrases.
+6. If the text does NOT contain all four DCA dimensions, mark missing
+   dimensions as null and explain why (e.g., 'letter - no alternative')
+
+## QUICK REFERENCE
+- MECW covers 1818–2004, core Marx/Engels period 1835–1895
+- 6706 documents in 50 volumes
+- Peak years: 1848 (revolutions), 1871 (Paris Commune)
+- 694 correspondents, Marx↔Engels: 1,545 letters
+
+Key periods for DCA extraction:
+  1840s: Revolutionary upheaval → Communist Manifesto
+  1850s: Counter-revolution, exile journalism, 1857 crisis
+  1860s: Capital Vol.1, First International
+  1870s: Paris Commune, Gotha Programme, Anti-Dühring
+  1880s-90s: Engels' late syntheses, Second International
