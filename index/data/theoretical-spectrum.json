@@ -1,0 +1,728 @@
+{
+  "_meta": {
+    "version": "0.1.0",
+    "built": "2026-05-30T23:56:29.181209",
+    "method": "Keyword composite → Butterworth 4th-order lowpass(0.04)+bandpass[0.04,0.1]",
+    "years_analyzed": "1835-1895",
+    "data_points": 61,
+    "keyword_weights": {
+      "revolution": 1.5,
+      "class": 1.3,
+      "proletariat": 1.2,
+      "capital": 1.1,
+      "communism": 1.4,
+      "state": 0.9,
+      "labour": 0.8,
+      "party": 1.0
+    },
+    "historical_peaks": [
+      1878
+    ],
+    "peak_context": {
+      "1878": "https://en.wikipedia.org/wiki/1878"
+    }
+  },
+  "spectrum": [
+    {
+      "year": 1835,
+      "tension_raw": 20.0,
+      "tension_per_doc": 2.8567,
+      "documents": 7,
+      "theoretical_longwave": 2.9272,
+      "theoretical_midwave": 0.0428,
+      "theoretical_shortwave": -0.1132,
+      "longwave_phase": -0.0541,
+      "longwave_trend": 0.0
+    },
+    {
+      "year": 1836,
+      "tension_raw": 1.3,
+      "tension_per_doc": 0.145,
+      "documents": 9,
+      "theoretical_longwave": 2.7686,
+      "theoretical_midwave": -1.204,
+      "theoretical_shortwave": -1.4196,
+      "longwave_phase": -0.0566,
+      "longwave_trend": 0.0
+    },
+    {
+      "year": 1837,
+      "tension_raw": 2.64,
+      "tension_per_doc": 0.1553,
+      "documents": 17,
+      "theoretical_longwave": 2.6135,
+      "theoretical_midwave": -2.1662,
+      "theoretical_shortwave": -0.292,
+      "longwave_phase": -0.0579,
+      "longwave_trend": -0.3137
+    },
+    {
+      "year": 1838,
+      "tension_raw": 1.94,
+      "tension_per_doc": 0.1938,
+      "documents": 10,
+      "theoretical_longwave": 2.4657,
+      "theoretical_midwave": -2.6312,
+      "theoretical_shortwave": 0.3593,
+      "longwave_phase": -0.0578,
+      "longwave_trend": -0.3029
+    },
+    {
+      "year": 1839,
+      "tension_raw": 8.53,
+      "tension_per_doc": 0.237,
+      "documents": 36,
+      "theoretical_longwave": 2.328,
+      "theoretical_midwave": -2.5151,
+      "theoretical_shortwave": 0.4241,
+      "longwave_phase": -0.0567,
+      "longwave_trend": -0.2855
+    },
+    {
+      "year": 1840,
+      "tension_raw": 16.91,
+      "tension_per_doc": 0.583,
+      "documents": 29,
+      "theoretical_longwave": 2.2016,
+      "theoretical_midwave": -1.8794,
+      "theoretical_shortwave": 0.2608,
+      "longwave_phase": -0.0548,
+      "longwave_trend": -0.2641
+    },
+    {
+      "year": 1841,
+      "tension_raw": 7.01,
+      "tension_per_doc": 0.4125,
+      "documents": 17,
+      "theoretical_longwave": 2.0863,
+      "theoretical_midwave": -0.9082,
+      "theoretical_shortwave": -0.7656,
+      "longwave_phase": -0.0529,
+      "longwave_trend": -0.2417
+    },
+    {
+      "year": 1842,
+      "tension_raw": 68.65,
+      "tension_per_doc": 1.2712,
+      "documents": 54,
+      "theoretical_longwave": 1.9805,
+      "theoretical_midwave": 0.1462,
+      "theoretical_shortwave": -0.8555,
+      "longwave_phase": -0.0516,
+      "longwave_trend": -0.2211
+    },
+    {
+      "year": 1843,
+      "tension_raw": 151.61,
+      "tension_per_doc": 5.228,
+      "documents": 29,
+      "theoretical_longwave": 1.8817,
+      "theoretical_midwave": 1.0344,
+      "theoretical_shortwave": 2.3119,
+      "longwave_phase": -0.0514,
+      "longwave_trend": -0.2046
+    },
+    {
+      "year": 1844,
+      "tension_raw": 134.72,
+      "tension_per_doc": 3.2076,
+      "documents": 42,
+      "theoretical_longwave": 1.7868,
+      "theoretical_midwave": 1.5743,
+      "theoretical_shortwave": -0.1534,
+      "longwave_phase": -0.0529,
+      "longwave_trend": -0.1937
+    },
+    {
+      "year": 1845,
+      "tension_raw": 109.28,
+      "tension_per_doc": 3.6427,
+      "documents": 30,
+      "theoretical_longwave": 1.6926,
+      "theoretical_midwave": 1.6919,
+      "theoretical_shortwave": 0.2582,
+      "longwave_phase": -0.0562,
+      "longwave_trend": -0.1891
+    },
+    {
+      "year": 1846,
+      "tension_raw": 88.31,
+      "tension_per_doc": 2.8486,
+      "documents": 31,
+      "theoretical_longwave": 1.5963,
+      "theoretical_midwave": 1.4291,
+      "theoretical_shortwave": -0.1767,
+      "longwave_phase": -0.0616,
+      "longwave_trend": -0.1905
+    },
+    {
+      "year": 1847,
+      "tension_raw": 175.84,
+      "tension_per_doc": 2.7475,
+      "documents": 64,
+      "theoretical_longwave": 1.4957,
+      "theoretical_midwave": 0.9165,
+      "theoretical_shortwave": 0.3352,
+      "longwave_phase": -0.0689,
+      "longwave_trend": -0.1968
+    },
+    {
+      "year": 1848,
+      "tension_raw": 91.45,
+      "tension_per_doc": 0.2867,
+      "documents": 319,
+      "theoretical_longwave": 1.3898,
+      "theoretical_midwave": 0.326,
+      "theoretical_shortwave": -1.4291,
+      "longwave_phase": -0.0781,
+      "longwave_trend": -0.2065
+    },
+    {
+      "year": 1849,
+      "tension_raw": 76.86,
+      "tension_per_doc": 0.2775,
+      "documents": 277,
+      "theoretical_longwave": 1.2781,
+      "theoretical_midwave": -0.1834,
+      "theoretical_shortwave": -0.8172,
+      "longwave_phase": -0.089,
+      "longwave_trend": -0.2176
+    },
+    {
+      "year": 1850,
+      "tension_raw": 161.31,
+      "tension_per_doc": 1.9672,
+      "documents": 82,
+      "theoretical_longwave": 1.1615,
+      "theoretical_midwave": -0.5077,
+      "theoretical_shortwave": 1.3134,
+      "longwave_phase": -0.1015,
+      "longwave_trend": -0.2282
+    },
+    {
+      "year": 1851,
+      "tension_raw": 116.29,
+      "tension_per_doc": 0.9303,
+      "documents": 125,
+      "theoretical_longwave": 1.0416,
+      "theoretical_midwave": -0.6166,
+      "theoretical_shortwave": 0.5053,
+      "longwave_phase": -0.1151,
+      "longwave_trend": -0.2365
+    },
+    {
+      "year": 1852,
+      "tension_raw": 78.91,
+      "tension_per_doc": 0.4754,
+      "documents": 166,
+      "theoretical_longwave": 0.9207,
+      "theoretical_midwave": -0.5476,
+      "theoretical_shortwave": 0.1023,
+      "longwave_phase": -0.1296,
+      "longwave_trend": -0.2408
+    },
+    {
+      "year": 1853,
+      "tension_raw": 60.18,
+      "tension_per_doc": 0.3833,
+      "documents": 157,
+      "theoretical_longwave": 0.8016,
+      "theoretical_midwave": -0.3796,
+      "theoretical_shortwave": -0.0387,
+      "longwave_phase": -0.1445,
+      "longwave_trend": -0.24
+    },
+    {
+      "year": 1854,
+      "tension_raw": 40.57,
+      "tension_per_doc": 0.2798,
+      "documents": 145,
+      "theoretical_longwave": 0.6874,
+      "theoretical_midwave": -0.1991,
+      "theoretical_shortwave": -0.2085,
+      "longwave_phase": -0.1588,
+      "longwave_trend": -0.2333
+    },
+    {
+      "year": 1855,
+      "tension_raw": 27.07,
+      "tension_per_doc": 0.1487,
+      "documents": 182,
+      "theoretical_longwave": 0.5814,
+      "theoretical_midwave": -0.0696,
+      "theoretical_shortwave": -0.363,
+      "longwave_phase": -0.171,
+      "longwave_trend": -0.2202
+    },
+    {
+      "year": 1856,
+      "tension_raw": 50.42,
+      "tension_per_doc": 0.8265,
+      "documents": 61,
+      "theoretical_longwave": 0.4866,
+      "theoretical_midwave": -0.0147,
+      "theoretical_shortwave": 0.3546,
+      "longwave_phase": -0.1783,
+      "longwave_trend": -0.2008
+    },
+    {
+      "year": 1857,
+      "tension_raw": 25.87,
+      "tension_per_doc": 0.1341,
+      "documents": 193,
+      "theoretical_longwave": 0.406,
+      "theoretical_midwave": -0.018,
+      "theoretical_shortwave": -0.2539,
+      "longwave_phase": -0.1763,
+      "longwave_trend": -0.1754
+    },
+    {
+      "year": 1858,
+      "tension_raw": 44.04,
+      "tension_per_doc": 0.2546,
+      "documents": 173,
+      "theoretical_longwave": 0.342,
+      "theoretical_midwave": -0.0381,
+      "theoretical_shortwave": -0.0493,
+      "longwave_phase": -0.1584,
+      "longwave_trend": -0.1446
+    },
+    {
+      "year": 1859,
+      "tension_raw": 36.85,
+      "tension_per_doc": 0.1789,
+      "documents": 206,
+      "theoretical_longwave": 0.2967,
+      "theoretical_midwave": -0.0306,
+      "theoretical_shortwave": -0.0872,
+      "longwave_phase": -0.118,
+      "longwave_trend": -0.1093
+    },
+    {
+      "year": 1860,
+      "tension_raw": 32.15,
+      "tension_per_doc": 0.1624,
+      "documents": 198,
+      "theoretical_longwave": 0.2716,
+      "theoretical_midwave": 0.0307,
+      "theoretical_shortwave": -0.14,
+      "longwave_phase": -0.0533,
+      "longwave_trend": -0.0703
+    },
+    {
+      "year": 1861,
+      "tension_raw": 48.96,
+      "tension_per_doc": 0.4575,
+      "documents": 107,
+      "theoretical_longwave": 0.2677,
+      "theoretical_midwave": 0.1417,
+      "theoretical_shortwave": 0.048,
+      "longwave_phase": 0.0256,
+      "longwave_trend": -0.029
+    },
+    {
+      "year": 1862,
+      "tension_raw": 54.49,
+      "tension_per_doc": 0.5189,
+      "documents": 105,
+      "theoretical_longwave": 0.2853,
+      "theoretical_midwave": 0.2687,
+      "theoretical_shortwave": -0.0352,
+      "longwave_phase": 0.0986,
+      "longwave_trend": 0.0137
+    },
+    {
+      "year": 1863,
+      "tension_raw": 38.7,
+      "tension_per_doc": 0.7897,
+      "documents": 49,
+      "theoretical_longwave": 0.3242,
+      "theoretical_midwave": 0.3611,
+      "theoretical_shortwave": 0.1043,
+      "longwave_phase": 0.1503,
+      "longwave_trend": 0.0565
+    },
+    {
+      "year": 1864,
+      "tension_raw": 62.6,
+      "tension_per_doc": 0.7542,
+      "documents": 83,
+      "theoretical_longwave": 0.3835,
+      "theoretical_midwave": 0.371,
+      "theoretical_shortwave": -0.0003,
+      "longwave_phase": 0.1775,
+      "longwave_trend": 0.0982
+    },
+    {
+      "year": 1865,
+      "tension_raw": 94.32,
+      "tension_per_doc": 0.7486,
+      "documents": 126,
+      "theoretical_longwave": 0.4618,
+      "theoretical_midwave": 0.2723,
+      "theoretical_shortwave": 0.0145,
+      "longwave_phase": 0.1857,
+      "longwave_trend": 0.1376
+    },
+    {
+      "year": 1866,
+      "tension_raw": 48.06,
+      "tension_per_doc": 0.4491,
+      "documents": 107,
+      "theoretical_longwave": 0.557,
+      "theoretical_midwave": 0.0731,
+      "theoretical_shortwave": -0.1809,
+      "longwave_phase": 0.1817,
+      "longwave_trend": 0.1735
+    },
+    {
+      "year": 1867,
+      "tension_raw": 67.21,
+      "tension_per_doc": 0.513,
+      "documents": 131,
+      "theoretical_longwave": 0.6664,
+      "theoretical_midwave": -0.1846,
+      "theoretical_shortwave": 0.0312,
+      "longwave_phase": 0.1708,
+      "longwave_trend": 0.2046
+    },
+    {
+      "year": 1868,
+      "tension_raw": 106.29,
+      "tension_per_doc": 0.5288,
+      "documents": 201,
+      "theoretical_longwave": 0.7869,
+      "theoretical_midwave": -0.4355,
+      "theoretical_shortwave": 0.1774,
+      "longwave_phase": 0.1564,
+      "longwave_trend": 0.2299
+    },
+    {
+      "year": 1869,
+      "tension_raw": 56.68,
+      "tension_per_doc": 0.3543,
+      "documents": 160,
+      "theoretical_longwave": 0.9145,
+      "theoretical_midwave": -0.6106,
+      "theoretical_shortwave": 0.0503,
+      "longwave_phase": 0.1403,
+      "longwave_trend": 0.2481
+    },
+    {
+      "year": 1870,
+      "tension_raw": 32.49,
+      "tension_per_doc": 0.1969,
+      "documents": 165,
+      "theoretical_longwave": 1.0452,
+      "theoretical_midwave": -0.658,
+      "theoretical_shortwave": -0.1903,
+      "longwave_phase": 0.1236,
+      "longwave_trend": 0.2583
+    },
+    {
+      "year": 1871,
+      "tension_raw": 97.76,
+      "tension_per_doc": 0.4424,
+      "documents": 221,
+      "theoretical_longwave": 1.1742,
+      "theoretical_midwave": -0.559,
+      "theoretical_shortwave": -0.1728,
+      "longwave_phase": 0.1068,
+      "longwave_trend": 0.2596
+    },
+    {
+      "year": 1872,
+      "tension_raw": 86.31,
+      "tension_per_doc": 0.52,
+      "documents": 166,
+      "theoretical_longwave": 1.2968,
+      "theoretical_midwave": -0.3332,
+      "theoretical_shortwave": -0.4437,
+      "longwave_phase": 0.0901,
+      "longwave_trend": 0.2516
+    },
+    {
+      "year": 1873,
+      "tension_raw": 63.26,
+      "tension_per_doc": 0.9168,
+      "documents": 69,
+      "theoretical_longwave": 1.4084,
+      "theoretical_midwave": -0.0329,
+      "theoretical_shortwave": -0.4588,
+      "longwave_phase": 0.0737,
+      "longwave_trend": 0.2343
+    },
+    {
+      "year": 1874,
+      "tension_raw": 145.25,
+      "tension_per_doc": 3.4584,
+      "documents": 42,
+      "theoretical_longwave": 1.5047,
+      "theoretical_midwave": 0.2724,
+      "theoretical_shortwave": 1.6813,
+      "longwave_phase": 0.0576,
+      "longwave_trend": 0.2079
+    },
+    {
+      "year": 1875,
+      "tension_raw": 202.67,
+      "tension_per_doc": 3.6849,
+      "documents": 55,
+      "theoretical_longwave": 1.5819,
+      "theoretical_midwave": 0.515,
+      "theoretical_shortwave": 1.5879,
+      "longwave_phase": 0.0418,
+      "longwave_trend": 0.1735
+    },
+    {
+      "year": 1876,
+      "tension_raw": 47.87,
+      "tension_per_doc": 0.7978,
+      "documents": 60,
+      "theoretical_longwave": 1.6371,
+      "theoretical_midwave": 0.6471,
+      "theoretical_shortwave": -1.4864,
+      "longwave_phase": 0.0264,
+      "longwave_trend": 0.1324
+    },
+    {
+      "year": 1877,
+      "tension_raw": 74.61,
+      "tension_per_doc": 0.8478,
+      "documents": 88,
+      "theoretical_longwave": 1.6684,
+      "theoretical_midwave": 0.6498,
+      "theoretical_shortwave": -1.4704,
+      "longwave_phase": 0.0114,
+      "longwave_trend": 0.0865
+    },
+    {
+      "year": 1878,
+      "tension_raw": 101.66,
+      "tension_per_doc": 2.1629,
+      "documents": 47,
+      "theoretical_longwave": 1.675,
+      "theoretical_midwave": 0.5354,
+      "theoretical_shortwave": -0.0475,
+      "longwave_phase": -0.0033,
+      "longwave_trend": 0.0379
+    },
+    {
+      "year": 1879,
+      "tension_raw": 136.75,
+      "tension_per_doc": 2.5803,
+      "documents": 53,
+      "theoretical_longwave": 1.6573,
+      "theoretical_midwave": 0.3402,
+      "theoretical_shortwave": 0.5828,
+      "longwave_phase": -0.0176,
+      "longwave_trend": -0.0111
+    },
+    {
+      "year": 1880,
+      "tension_raw": 155.89,
+      "tension_per_doc": 3.3169,
+      "documents": 47,
+      "theoretical_longwave": 1.6167,
+      "theoretical_midwave": 0.1134,
+      "theoretical_shortwave": 1.5868,
+      "longwave_phase": -0.0314,
+      "longwave_trend": -0.0583
+    },
+    {
+      "year": 1881,
+      "tension_raw": 111.24,
+      "tension_per_doc": 1.3243,
+      "documents": 84,
+      "theoretical_longwave": 1.5557,
+      "theoretical_midwave": -0.0962,
+      "theoretical_shortwave": -0.1352,
+      "longwave_phase": -0.0447,
+      "longwave_trend": -0.1016
+    },
+    {
+      "year": 1882,
+      "tension_raw": 32.79,
+      "tension_per_doc": 0.2447,
+      "documents": 134,
+      "theoretical_longwave": 1.4776,
+      "theoretical_midwave": -0.2513,
+      "theoretical_shortwave": -0.9816,
+      "longwave_phase": -0.0573,
+      "longwave_trend": -0.1391
+    },
+    {
+      "year": 1883,
+      "tension_raw": 72.77,
+      "tension_per_doc": 0.8983,
+      "documents": 81,
+      "theoretical_longwave": 1.3861,
+      "theoretical_midwave": -0.3329,
+      "theoretical_shortwave": -0.1549,
+      "longwave_phase": -0.0692,
+      "longwave_trend": -0.1696
+    },
+    {
+      "year": 1884,
+      "tension_raw": 97.91,
+      "tension_per_doc": 0.9505,
+      "documents": 103,
+      "theoretical_longwave": 1.2854,
+      "theoretical_midwave": -0.3424,
+      "theoretical_shortwave": 0.0075,
+      "longwave_phase": -0.0801,
+      "longwave_trend": -0.1922
+    },
+    {
+      "year": 1885,
+      "tension_raw": 102.71,
+      "tension_per_doc": 1.1671,
+      "documents": 88,
+      "theoretical_longwave": 1.1796,
+      "theoretical_midwave": -0.297,
+      "theoretical_shortwave": 0.2845,
+      "longwave_phase": -0.0899,
+      "longwave_trend": -0.2065
+    },
+    {
+      "year": 1886,
+      "tension_raw": 89.87,
+      "tension_per_doc": 0.9561,
+      "documents": 94,
+      "theoretical_longwave": 1.0728,
+      "theoretical_midwave": -0.2225,
+      "theoretical_shortwave": 0.1058,
+      "longwave_phase": -0.0981,
+      "longwave_trend": -0.2126
+    },
+    {
+      "year": 1887,
+      "tension_raw": 71.53,
+      "tension_per_doc": 0.7948,
+      "documents": 90,
+      "theoretical_longwave": 0.9685,
+      "theoretical_midwave": -0.1442,
+      "theoretical_shortwave": -0.0296,
+      "longwave_phase": -0.1044,
+      "longwave_trend": -0.2111
+    },
+    {
+      "year": 1888,
+      "tension_raw": 48.27,
+      "tension_per_doc": 0.6524,
+      "documents": 74,
+      "theoretical_longwave": 0.8699,
+      "theoretical_midwave": -0.0797,
+      "theoretical_shortwave": -0.1378,
+      "longwave_phase": -0.1084,
+      "longwave_trend": -0.2029
+    },
+    {
+      "year": 1889,
+      "tension_raw": 55.33,
+      "tension_per_doc": 0.5763,
+      "documents": 96,
+      "theoretical_longwave": 0.7792,
+      "theoretical_midwave": -0.0358,
+      "theoretical_shortwave": -0.1671,
+      "longwave_phase": -0.1096,
+      "longwave_trend": -0.1893
+    },
+    {
+      "year": 1890,
+      "tension_raw": 72.55,
+      "tension_per_doc": 0.6045,
+      "documents": 120,
+      "theoretical_longwave": 0.6984,
+      "theoretical_midwave": -0.0095,
+      "theoretical_shortwave": -0.0844,
+      "longwave_phase": -0.1076,
+      "longwave_trend": -0.1715
+    },
+    {
+      "year": 1891,
+      "tension_raw": 72.75,
+      "tension_per_doc": 0.6063,
+      "documents": 120,
+      "theoretical_longwave": 0.6283,
+      "theoretical_midwave": 0.0083,
+      "theoretical_shortwave": -0.0303,
+      "longwave_phase": -0.1023,
+      "longwave_trend": -0.1509
+    },
+    {
+      "year": 1892,
+      "tension_raw": 55.79,
+      "tension_per_doc": 0.3225,
+      "documents": 173,
+      "theoretical_longwave": 0.5694,
+      "theoretical_midwave": 0.0268,
+      "theoretical_shortwave": -0.2737,
+      "longwave_phase": -0.0936,
+      "longwave_trend": -0.129
+    },
+    {
+      "year": 1893,
+      "tension_raw": 68.04,
+      "tension_per_doc": 0.567,
+      "documents": 120,
+      "theoretical_longwave": 0.5214,
+      "theoretical_midwave": 0.0511,
+      "theoretical_shortwave": -0.0055,
+      "longwave_phase": -0.0821,
+      "longwave_trend": -0.1069
+    },
+    {
+      "year": 1894,
+      "tension_raw": 84.16,
+      "tension_per_doc": 0.7132,
+      "documents": 118,
+      "theoretical_longwave": 0.4836,
+      "theoretical_midwave": 0.08,
+      "theoretical_shortwave": 0.1496,
+      "longwave_phase": -0.0687,
+      "longwave_trend": -0.0858
+    },
+    {
+      "year": 1895,
+      "tension_raw": 50.26,
+      "tension_per_doc": 0.5712,
+      "documents": 88,
+      "theoretical_longwave": 0.4549,
+      "theoretical_midwave": 0.1069,
+      "theoretical_shortwave": 0.0095,
+      "longwave_phase": -0.063,
+      "longwave_trend": -0.0665
+    }
+  ],
+  "decade_summary": {
+    "1830": {
+      "mean_tension": 0.7176,
+      "mean_longwave": 2.6206
+    },
+    "1840": {
+      "mean_tension": 2.0505,
+      "mean_longwave": 1.7389
+    },
+    "1850": {
+      "mean_tension": 0.5579,
+      "mean_longwave": 0.6725
+    },
+    "1860": {
+      "mean_tension": 0.5277,
+      "mean_longwave": 0.4919
+    },
+    "1870": {
+      "mean_tension": 1.5608,
+      "mean_longwave": 1.4649
+    },
+    "1880": {
+      "mean_tension": 1.0881,
+      "mean_longwave": 1.2192
+    },
+    "1890": {
+      "mean_tension": 0.5641,
+      "mean_longwave": 0.5593
+    }
+  }
+}
