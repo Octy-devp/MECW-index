@@ -1,0 +1,228 @@
+{
+  "_meta": {
+    "version": "3.1",
+    "date": "2026-05-30",
+    "total_moods": 48,
+    "dimensions": [
+      "valence",
+      "arousal"
+    ],
+    "valence_range": [
+      -1.0,
+      1.0
+    ],
+    "arousal_range": [
+      0.0,
+      1.0
+    ],
+    "coverage": "84% of 1,168 mood-tagged scenes",
+    "methodology": "70% historical baseline (knowledge-raw) + 30% ECC offset (DeepSeek calibration)",
+    "quadrants": {
+      "QI_active_positive": "valence>0, arousal>=0.5",
+      "QII_active_negative": "valence<0, arousal>=0.5",
+      "QIII_passive_negative": "valence<0, arousal<0.5",
+      "QIV_passive_positive": "valence>0, arousal<0.5"
+    },
+    "notes": [
+      "shocked corrected to QII (-0.70, 0.55) per DeepSeek reverse calibration 2026-05-30",
+      "QIII at 5.0% is narrative reality, not mapping error — ECC's no-WWI structure compresses passive-negative space",
+      "Tier 2 (13 moods) downgraded to background expansion; not blocking Step 2",
+      "Neyman allocation uses σ (std dev), not σ²",
+      "2026-05-30: Added 16 moods for Hong Kong arc coverage (heuristic placement)"
+    ]
+  },
+  "moods": {
+    "warm": {
+      "valence": 0.8,
+      "arousal": 0.51
+    },
+    "exuberant": {
+      "valence": 0.76,
+      "arousal": 0.85
+    },
+    "triumphant": {
+      "valence": 0.84,
+      "arousal": 0.79
+    },
+    "dynamic": {
+      "valence": 0.61,
+      "arousal": 0.96
+    },
+    "playful": {
+      "valence": 0.66,
+      "arousal": 0.56
+    },
+    "anticipatory": {
+      "valence": 0.46,
+      "arousal": 0.68
+    },
+    "focused": {
+      "valence": 0.33,
+      "arousal": 0.61
+    },
+    "tense": {
+      "valence": -0.55,
+      "arousal": 0.8
+    },
+    "intense": {
+      "valence": -0.63,
+      "arousal": 0.98
+    },
+    "strategic": {
+      "valence": -0.12,
+      "arousal": 0.76
+    },
+    "suspense": {
+      "valence": -0.22,
+      "arousal": 0.65
+    },
+    "confrontational": {
+      "valence": -0.5,
+      "arousal": 0.85
+    },
+    "defiant": {
+      "valence": -0.35,
+      "arousal": 0.75
+    },
+    "chaotic": {
+      "valence": -0.7,
+      "arousal": 0.9
+    },
+    "apprehensive": {
+      "valence": -0.3,
+      "arousal": 0.55
+    },
+    "foreboding": {
+      "valence": -0.45,
+      "arousal": 0.35
+    },
+    "chilling": {
+      "valence": -0.55,
+      "arousal": 0.6
+    },
+    "shocked": {
+      "valence": -0.7,
+      "arousal": 0.55
+    },
+    "melancholic": {
+      "valence": -0.46,
+      "arousal": 0.23
+    },
+    "bittersweet": {
+      "valence": -0.17,
+      "arousal": 0.38
+    },
+    "mournful": {
+      "valence": -0.65,
+      "arousal": 0.15
+    },
+    "devastating": {
+      "valence": -0.8,
+      "arousal": 0.2
+    },
+    "shattered": {
+      "valence": -0.75,
+      "arousal": 0.1
+    },
+    "somber": {
+      "valence": -0.4,
+      "arousal": 0.2
+    },
+    "wry": {
+      "valence": -0.1,
+      "arousal": 0.25
+    },
+    "calm": {
+      "valence": 0.22,
+      "arousal": 0.12
+    },
+    "solemn": {
+      "valence": 0.44,
+      "arousal": 0.27
+    },
+    "tender": {
+      "valence": 0.79,
+      "arousal": 0.26
+    },
+    "analytical": {
+      "valence": 0.13,
+      "arousal": 0.36
+    },
+    "intimate": {
+      "valence": 0.71,
+      "arousal": 0.28
+    },
+    "reverent": {
+      "valence": 0.83,
+      "arousal": 0.3
+    },
+    "contemplative": {
+      "valence": 0.35,
+      "arousal": 0.18
+    },
+    "trusting": {
+      "valence": 0.75,
+      "arousal": 0.2
+    },
+    "ceremonial": {
+      "valence": 0.4,
+      "arousal": 0.25
+    },
+    "sacred": {
+      "valence": 0.8,
+      "arousal": 0.2
+    },
+    "earnest": {
+      "valence": 0.5,
+      "arousal": 0.35
+    },
+    "resolute": {
+      "valence": 0.3,
+      "arousal": 0.45
+    },
+    "transcendent": {
+      "valence": 0.8,
+      "arousal": 0.3
+    },
+    "calculating": {
+      "valence": -0.05,
+      "arousal": 0.4
+    },
+    "methodical": {
+      "valence": 0.1,
+      "arousal": 0.3
+    },
+    "resilient": {
+      "valence": 0.55,
+      "arousal": 0.6
+    },
+    "unifying": {
+      "valence": 0.7,
+      "arousal": 0.55
+    },
+    "electrifying": {
+      "valence": 0.75,
+      "arousal": 0.82
+    },
+    "ambitious": {
+      "valence": 0.45,
+      "arousal": 0.7
+    },
+    "inspiring": {
+      "valence": 0.7,
+      "arousal": 0.65
+    },
+    "poignant": {
+      "valence": -0.35,
+      "arousal": 0.25
+    },
+    "revelatory": {
+      "valence": 0.6,
+      "arousal": 0.55
+    },
+    "awe": {
+      "valence": 0.65,
+      "arousal": 0.4
+    }
+  }
+}
