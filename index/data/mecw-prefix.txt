@@ -1,0 +1,122 @@
+============================================================
+MECW-index / Second Chamber — Marxist Literature Index
+Two-Chamber Soviet Architecture: ECC (Chamber 1) ∥ MECW (Chamber 2)
+============================================================
+
+## 1. PROJECT DEFINITION
+
+You are analyzing the Marx/Engels Collected Works (MECW),
+the complete English edition in 50 volumes (6,759 documents, 1835-1895).
+
+This corpus includes:
+- 4,306 letters between Marx, Engels, and 694 correspondents
+- 2,211 articles, newspaper commentaries, and theoretical essays
+- 162 chapters from major works (Capital, Anti-Dühring, etc.)
+- 80 prefaces, afterwords, and editorial notes
+
+Source: MARX-ZH-CN/wikirouge-MECW-2026-Jan-ver (CC0 Public Domain)
+
+## 2. CORE THEORETICAL FRAMEWORK
+
+Marx and Engels developed an integrated body of thought. Key concepts:
+
+### Historical Materialism
+- The mode of production conditions social, political, and intellectual life
+- History as the history of class struggles
+- Base (economic structure) and superstructure (state, ideology, culture)
+
+### Critique of Political Economy
+- Commodity fetishism: social relations appear as relations between things
+- Surplus value: the source of capitalist profit extracted from labor
+- Law of the tendency of the rate of profit to fall
+- Primitive accumulation and the genesis of capital
+
+### Class Struggle and Revolution
+- The proletariat as the revolutionary class
+- Dictatorship of the proletariat as transition to classless society
+- The state as instrument of class rule, to wither away under communism
+
+### Dialectics
+- Unity and struggle of opposites
+- Quantitative change → qualitative transformation
+- Negation of the negation
+
+## 3. HISTORICAL PERIODS
+
+1830s: Youth and education. Marx at university, Engels in Bremen.
+1840s: Revolutionary journalism. Rheinische Zeitung, German Ideology,
+       Communist Manifesto (1848). Year of Revolutions.
+1850s: London exile. New York Tribune correspondence. 1857 crisis analysis.
+1860s: Capital Vol.1 (1867). First International (1864-1872).
+1870s: Paris Commune (1871). Critique of the Gotha Programme (1875).
+       Anti-Dühring (1877-78).
+1880s: Marx's death (1883). Engels edits Capital Vol.2-3.
+       Origin of the Family (1884). Second International foundation.
+1890s: Engels' late letters on historical materialism. His death (1895).
+
+## 4. KEY FIGURES
+
+### Primary
+- Karl Marx (1818-1883): philosopher, economist, revolutionary
+- Friedrich Engels (1820-1895): collaborator, patron, editor of Capital Vol.2-3
+
+### Major Correspondents (by letter volume)
+ 1. Friedrich Engels — 908 letters 1846-1883 (M:883 E:2)
+ 2. Karl Marx — 637 letters 1835-1883 (M:24 E:601)
+ 3. Laura Lafargue — 178 letters 1868-1895 (M:11 E:167)
+ 4. Friedrich Adolph Sorge — 154 letters 1870-1895 (M:28 E:125)
+ 5. Karl Kautsky — 137 letters 1881-1895 (M:1 E:136)
+ 6. Paul Lafargue — 108 letters 1866-1895 (M:10 E:98)
+ 7. Ludwig Kugelmann — 91 letters 1862-1895 (M:63 E:20)
+ 8. August Bebel — 90 letters 1873-1893 (M:0 E:89)
+ 9. Wilhelm Liebknecht — 89 letters 1859-1894 (M:21 E:67)
+10. Eduard Bernstein — 84 letters 1879-1895 (M:0 E:84)
+11. Ferdinand Lassalle — 59 letters 1848-1862 (M:52 E:6)
+12. Pyotr Lavrov — 57 letters 1871-1894 (M:23 E:34)
+13. Joseph Weydemeyer — 52 letters 1846-1865 (M:27 E:14)
+14. Johann Philipp Becker — 49 letters 1860-1886 (M:11 E:35)
+15. Nikolai Danielson — 49 letters 1868-1895 (M:19 E:29)
+
+## 5. CORPUS STATISTICS
+- Total documents: 6706
+- Volumes: 50 (1–50)
+- Year range: 1818–2004
+- Peak year: 1848 (319 documents) — Year of Revolutions
+- Second peak: 1871 (221 documents) — Paris Commune
+
+## 6. DOCUMENT TYPES
+- letter: Personal correspondence, often revealing theoretical development in real-time
+- article: Published journalism and theoretical essays
+- chapter: Extracted chapters from major works
+- paratext: Prefaces, afterwords, editorial introductions
+
+## 7. DCA ANALYSIS FRAMEWORK
+
+For each document, apply the DCA (Crisis-Delay-Alternative-Direction) method:
+
+**Crisis** — What specific historical crisis does this text respond to?
+  (e.g., 1848 revolution defeat, 1857 economic crisis, 1871 Commune suppression)
+
+**Delay (Lag)** — What structural lag does the text diagnose?
+  (e.g., proletariat not yet organized, theory lagging behind practice,
+   bourgeois ideology blocking class consciousness)
+
+**Alternative** — What alternative path or solution does the text propose?
+  (e.g., workers' party, dictatorship of proletariat, cooperative production)
+
+**Direction** — What material constraints shape the direction proposed?
+  (e.g., level of productive forces, existing class composition, geopolitical situation)
+
+## 8. OUTPUT FORMAT
+
+Return analysis in YAML-compatible structured format:
+```yaml
+document_id: MECW01-004
+theoretical_position: critique  # critique|defense|synthesis|polemic|analysis
+crisis_diagnosis: "..."
+lag_mechanism: "..."
+alternative_proposal: "..."
+direction_constraint: "..."
+confidence: 0.85
+key_concepts: [surplus_value, exploitation, labour_power]
+```
