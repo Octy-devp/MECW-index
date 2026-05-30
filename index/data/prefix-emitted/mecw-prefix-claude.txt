@@ -2,7 +2,7 @@
   <system_info>
     <chamber>Second Chamber — MECW-index</chamber>
     <architecture>Two-Chamber Soviet ∥ ECC (Chamber 1)</architecture>
-    <built>2026-05-30T23:46:27.257749</built>
+    <built>2026-05-30T23:52:24.060333</built>
   </system_info>
   <section category="WORKED EXAMPLE 1: Critique of the Gotha Programme (Marx, 1875)">
     <content>This is how Marx does Crisis-Delay-Alternative-Direction analysis.</content>
@@ -24,8 +24,17 @@
     <content>have also increased... only then can the narrow horizon of bourgeois</content>
     <content>right be crossed in its entirety and society inscribe on its banners:</content>
     <content>From each according to his ability, to each according to his needs!"</content>
-    <content>### DCA EXTRACTION FROM THIS TEXT:</content>
+    <content>### DCA EXTRACTION FROM THIS TEXT (Gotha):</content>
     <content>```yaml</content>
+    <content>reasoning: |</content>
+    <content>The 1875 Gotha merger program replaced scientific socialism with</content>
+    <content>Lassallean slogans. Marx diagnoses this as principled retreat —</content>
+    <content>theoretical gains of Capital traded for organizational unity. The</content>
+    <content>lag is triple: Lassalle didn't understand wages (theory), merger</content>
+    <content>pressure forced concessions (organization), and a 'servile belief</content>
+    <content>in the state' persisted (ideology). Marx corrects each error and</content>
+    <content>grounds the alternative in the material constraint that Phase 1</content>
+    <content>communism 'still bears the birthmarks of the old society.'</content>
     <content>crisis_diagnosis:</content>
     <content>type: organizational_degeneration</content>
     <content>specific: |</content>
@@ -88,6 +97,13 @@
     <content>"A spectre is haunting Europe — the spectre of communism."</content>
     <content>### DCA EXTRACTION FROM THIS TEXT:</content>
     <content>```yaml</content>
+    <content>reasoning: |</content>
+    <content>The Manifesto traces how the bourgeoisie emerged from feudal</content>
+    <content>society to create its antagonist. The 1848 revolutionary</content>
+    <content>conjuncture is the crisis. The lag is dual: organizational</content>
+    <content>(workers compete) and ideological (bourgeois ideas mask</content>
+    <content>exploitation). The alternative is a revolutionary political</content>
+    <content>program, constrained by national differences. Complete DCA.</content>
     <content>crisis_diagnosis:</content>
     <content>type: revolutionary_conjuncture</content>
     <content>specific: |</content>
@@ -134,6 +150,10 @@
     <content>You will receive a Marx or Engels text. Your job is to EXTRACT</content>
     <content>(not invent) the DCA structure — exactly as demonstrated above.</content>
     <content>CRITICAL RULES:</content>
+    <content>0. CHAIN-OF-THOUGHT: Before the structured YAML, include a `reasoning` field</content>
+    <content>that explains your analytical process in prose. Cite specific textual</content>
+    <content>evidence. This makes your extraction auditable by humans — the reasoning</content>
+    <content>must be sufficient for a domain expert to verify or challenge your DCA.</content>
     <content>1. CRISIS must be historically specific — name the actual event, conjuncture,</content>
     <content>or structural contradiction the text responds to. NOT generic labels.</content>
     <content>2. LAG must identify MECHANISMS (not just 'X is behind'). What specifically</content>

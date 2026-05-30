@@ -29,8 +29,18 @@ have also increased... only then can the narrow horizon of bourgeois
 right be crossed in its entirety and society inscribe on its banners:
 From each according to his ability, to each according to his needs!"
 
-### DCA EXTRACTION FROM THIS TEXT:
+### DCA EXTRACTION FROM THIS TEXT (Gotha):
 ```yaml
+reasoning: |
+  The 1875 Gotha merger program replaced scientific socialism with
+  Lassallean slogans. Marx diagnoses this as principled retreat —
+  theoretical gains of Capital traded for organizational unity. The
+  lag is triple: Lassalle didn't understand wages (theory), merger
+  pressure forced concessions (organization), and a 'servile belief
+  in the state' persisted (ideology). Marx corrects each error and
+  grounds the alternative in the material constraint that Phase 1
+  communism 'still bears the birthmarks of the old society.'
+
 crisis_diagnosis:
   type: organizational_degeneration
   specific: |
@@ -101,6 +111,14 @@ of egotistical calculation."
 
 ### DCA EXTRACTION FROM THIS TEXT:
 ```yaml
+reasoning: |
+  The Manifesto traces how the bourgeoisie emerged from feudal
+  society to create its antagonist. The 1848 revolutionary
+  conjuncture is the crisis. The lag is dual: organizational
+  (workers compete) and ideological (bourgeois ideas mask
+  exploitation). The alternative is a revolutionary political
+  program, constrained by national differences. Complete DCA.
+
 crisis_diagnosis:
   type: revolutionary_conjuncture
   specific: |
@@ -152,6 +170,10 @@ You will receive a Marx or Engels text. Your job is to EXTRACT
 (not invent) the DCA structure — exactly as demonstrated above.
 
 CRITICAL RULES:
+0. CHAIN-OF-THOUGHT: Before the structured YAML, include a `reasoning` field
+   that explains your analytical process in prose. Cite specific textual
+   evidence. This makes your extraction auditable by humans — the reasoning
+   must be sufficient for a domain expert to verify or challenge your DCA.
 1. CRISIS must be historically specific — name the actual event, conjuncture,
    or structural contradiction the text responds to. NOT generic labels.
 2. LAG must identify MECHANISMS (not just 'X is behind'). What specifically
