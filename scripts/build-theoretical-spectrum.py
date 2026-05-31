@@ -34,16 +34,16 @@ FILTER_ORDER = 2         # 4→2：減少過度平滑，保留更多變異
 # 小樣本閾值
 MIN_DOCS_THRESHOLD = 50  # 年份文獻 < 50 → 衰減
 
-# 關鍵詞權重（初步，後續 ANOVA 校準）
+# 關鍵詞權重（ANOVA 校準版 v0.3 — 基於 variance contribution）
 KEYWORD_WEIGHTS = {
-    "revolution": 1.5,
-    "class": 1.3,
-    "proletariat": 1.2,
-    "capital": 1.1,
-    "communism": 1.4,
-    "state": 0.9,
-    "labour": 0.8,
-    "party": 1.0,
+    "state": 3.78,       # 47.3% variance — 國家理論貫穿全部著作
+    "class": 2.0,        # 25.0% — 階級分析核心
+    "labour": 1.75,      # 21.9% — 勞動/生產
+    "capital": 1.32,     # 16.4% — 資本批判
+    "party": 1.27,       # 15.9% — 政黨組織
+    "revolution": 1.13,  # 14.1% — 革命策略
+    "communism": 1.1,    # 13.8% — 共產主義目標
+    "proletariat": 0.59, # 7.4%  — 集中於特定時期
 }
 
 def build():

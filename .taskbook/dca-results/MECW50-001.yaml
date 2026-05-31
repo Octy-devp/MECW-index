@@ -1,0 +1,30 @@
+```yaml
+reasoning: |
+  This text is a preface to the final volume of the MECW, summarizing Engels' letters from 1892-1895. It is not a primary Marx/Engels text but a secondary editorial summary. However, it explicitly reconstructs Engels' own DCA analysis of the late 19th-century conjuncture. The crisis is the imminent collapse of capitalism, diagnosed through multiple indicators: economic crises (overproduction, US competition), political corruption, and the growth of socialist parties. The lag mechanism is dual: organizational (reformist tendencies within parties, sectarianism in the US) and theoretical (dogmatic interpretations of Marxism, need to revise tactics). The alternative is a revised strategy emphasizing legal/parliamentary methods, universal suffrage, and peaceful transition, while retaining the possibility of force if legality is broken by the ruling class. The direction constraint is material: capitalism's continued development (joint-stock companies, trusts) creates conditions for socialism but also postpones collapse; the transition depends on specific national conditions and the balance of class forces. The text explicitly notes that Engels' prognosis of imminent collapse was mistaken, confirming the constraint.
+
+crisis_diagnosis:
+  type: imminent_collapse_of_capitalism
+  specific: |
+    Engels believed the capitalist system in Europe was approaching a terminal crisis by the mid-1890s. Evidence: 'the growth of the proletarian movement in all countries is about to precipitate a crisis' (letter to Bebel, Oct 1893); 'a crisis of the first water in Italy... things are growing critical throughout the whole of Europe' (letter to Sorge, Jan 1895); economic rivalry between USA and Europe 'must come, tout ce qu'il y a de plus fin de siècle' (letter to Danielson, Feb 1893); 'the end of the century is taking a decidedly revolutionary turn' (letter to Vaillant, 1895). The crisis was seen as structural: trusts and joint-stock companies ended private production and planlessness, creating material conditions for socialism, but also intensifying contradictions.
+
+lag_mechanism:
+  layers: [organizational, theoretical]
+  organizational: |
+    Reformist tendencies within socialist parties (especially German SPD) threatened to dilute Marxist principles. Engels criticized 'the reformist tendency which existed in some socialist parties' and insisted on internal party debate to resolve differences. In the USA, the Socialist Workers' Party's sectarian line (German immigrant base) created 'considerable and peculiar difficulties to the steady growth of a labour party'. The lag is organizational because the working-class movement had not yet achieved unified, revolutionary leadership.
+  theoretical: |
+    Dogmatic interpretations of Marxism persisted. Engels warned against 'a dogmatic approach to Marxism' and emphasized that 'Marx's whole way of thinking is not so much a doctrine as a method'. The vulgar materialist denial of ideological factors' influence on history was a theoretical lag. Engels corrected this in letters to Mehring and Borgius, stressing reciprocal causation. The lag is theoretical because the movement had not fully assimilated the dialectical method.
+
+alternative_proposal:
+  method: revised_strategy_for_legal_struggle
+  elements:
+    - Replace barricade tactics with parliamentary activity and universal suffrage: 'The era of barricades and street fighting has gone for good... Hence the necessity to find new revolutionary tactics' (letter to Lafargue, Nov 1892).
+    - Use legal methods to win political power peacefully, but retain the possibility of force if the ruling class breaks legality: 'It's even ten to one that universal suffrage... will drive the rulers to overthrow legality, that is, to put us in the most favourable position to make the revolution' (letter to Lafargue, Dec 1892).
+    - Expand socialist influence among peasants: 'without which we cannot expect to be victorious'.
+    - Maintain international proletarian solidarity while respecting national independence: 'A certain manner of proceeding may be excellent for one country, and utterly impossible or even disastrous in another' (letter to Lafargue, Jan 1894).
+    - Support trade unions and non-socialist worker organizations in international congresses to draw them 'into the socialist lap'.
+
+direction_constraint:
+  core: capitalism_continued_development_postponed_collapse
+  specific: |
+    The text explicitly states that Engels' prognosis of imminent collapse 'proved invalid, and not only as regards the timing'. The constraint is material: capitalism had not exhausted its potential; joint-stock companies and trusts, while creating conditions for socialism, also stabilized capitalism. Engels recognized that 'those economic consequences of the capitalist system, which must bring it up to the critical point, are only just now developing'. The transition depended on specific national conditions: 'the next revolution... is preparing in Germany with a consistency and steadiness unequalled anywhere else' (letter to Laura Lafargue, Dec 1892), but the outcome was uncertain. The constraint is that the material conditions for socialism were present but not yet sufficient; the crisis could be delayed by capitalism's adaptability.
+```

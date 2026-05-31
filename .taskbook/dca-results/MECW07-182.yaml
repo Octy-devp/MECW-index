@@ -1,0 +1,24 @@
+```yaml
+reasoning: |
+  This document is a Prussian arrest warrant from October 1848, issued during the counter-revolutionary phase following the March 1848 uprisings. It names Heinrich Bürgers and Friedrich Engels as fugitives charged under Articles 87, 91, and 102 of the Penal Code (likely relating to sedition, conspiracy, or incitement). The text itself is purely administrative—a legal instrument for apprehension—and contains no analytical, political, or theoretical content. There is no crisis diagnosis (no identification of structural contradictions or conjunctural events), no lag mechanism (no explanation of why revolutionary potential is delayed), no alternative proposal (no political program or strategic direction), and no direction constraint (no material conditions limiting possibilities). The document is a product of the state's repressive apparatus, not a Marxist analysis. Therefore, all DCA dimensions are null, as the text lacks the substantive content required for extraction.
+
+crisis_diagnosis:
+  type: null
+  specific: null
+  evidence: null
+
+lag_mechanism:
+  layers: null
+  theoretical: null
+  organizational: null
+  ideological: null
+
+alternative_proposal:
+  method: null
+  elements: null
+
+direction_constraint:
+  core: null
+  specific: null
+  key_insight: null
+```
