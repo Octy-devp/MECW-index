@@ -1,0 +1,87 @@
+```yaml
+reasoning: |
+  Engels’s December 1848 dispatch diagnoses a structural crisis in the 
+  Swiss Ur‑cantons triggered by the new Federal Constitution’s ban on 
+  foreign military enlistments. For five centuries the mercenary trade 
+  had drained surplus population and preserved “the existing barbarous 
+  state of things.” By removing this outlet, the ban will produce a 
+  class of peasant proletarians—“younger sons of peasants” forced to 
+  stay home—who cannot be absorbed in sterile mountain economies and 
+  will inevitably overturn “all the old relations of property, property 
+  acquirement and law.” The lag is political‑ideological: the Ur‑cantons 
+  cling to the “right of self‑sale” as a hallowed privilege, while 
+  Lucerne stalls, demanding indemnities, and existing agreements still 
+  run. Engels offers no explicit programme here, but the direction he 
+  predicts is a “real revolution” that will uproot Europe’s oldest 
+  seat of reactionary barbarism. The material constraint is absolute: 
+  “Where would these sterile mountain lands get the means to feed the 
+  paupers?” The old order is perishing of “pecuniary consumption” and 
+  “financial need”—a death sentence for the reactionary republics.
+
+crisis_diagnosis:
+  type: structural_contradiction
+  specific: |
+    The 1848 Swiss Federal Constitution prohibits foreign military 
+    enlistments, severing the economic safety valve that for centuries 
+    had absorbed surplus population in the original forest cantons 
+    (Ur‑cantons). This immediately threatens to convert the younger 
+    peasant sons into a class of peasant proletarians, overturning the 
+    patriarchal property relations and creating a revolutionary ferment 
+    in the “oldest and most firmly entrenched seat of reactionary 
+    barbarism in Europe.”
+  evidence:
+    - “The military enlistment agreements are really a vital matter 
+      for the Ur‑cantons. For five hundred years they have been the 
+      drainage channel for the superfluous population, and hence the 
+      best guarantee for the existing barbarous state of things.”
+    - “Annul the enlistment agreements, and you will unleash a real 
+      revolution in these so‑called clean, i.e. in fact extremely 
+      unclean, democracies.”
+
+lag_mechanism:
+  layers: [political, ideological, temporal]
+  political: |
+    The Lucerne government imitates Berne by wanting to suspend the 
+    enlistment agreements only after Swiss merchants in Naples and 
+    Messina are indemnified; the Ur‑cantons fiercely resist any 
+    encroachment on the “right of every citizen to sell himself” as 
+    long as the Federal Constitution allows it.
+  ideological: |
+    The Ur‑canton populations perceive mercenary service as a 
+    “finest and oldest privilege” of free Swiss, a “five‑hundred‑year‑old 
+    right” they had defended against the new Constitution.
+  temporal: |
+    The immediate impact is blunted because existing enlistment contracts 
+    still have to run—“as long as the present enlistment agreements have 
+    still to run”—effectively buying time for the old order.
+
+alternative_proposal:
+  method: descriptive_prediction
+  elements:
+    - The enforced end of enlistments will generate a “class of peasant 
+      proletarians” whose existence “must bring all the old relations 
+      of property, property acquirement and law … into the utmost 
+      confusion.”
+    - A “revolutionary ferment” is being prepared that will eventually 
+      “completely uproot the oldest and most firmly entrenched seat of 
+      reactionary barbarism in Europe.”
+    - The alternative is not a programmatic demand but the historically 
+      necessary collapse of the reactionary republics under the pressure 
+      of material conditions.
+
+direction_constraint:
+  core: economic_impossibility_of_surplus_labour_absorption
+  specific: |
+    The mountain lands are sterile and already suffering from 
+    “over‑population”; they cannot feed the paupers who will be 
+    deposited there once enlistments cease. “Where would these sterile 
+    mountain lands get the means to feed the paupers…?” This material 
+    constraint makes the patriarchal order unsustainable. The direction 
+    is toward a bourgeois‑democratic revolution within the cantons, 
+    driven by the same “pecuniary consumption” and “financial need” 
+    that are killing the monarchies.
+  key_insight: |
+    “Like the monarchies, the reactionary republics are going under, 
+    dying of pecuniary consumption, of the ‘pale melancholy of 
+    financial need’.”
+```

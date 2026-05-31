@@ -1,0 +1,33 @@
+reasoning: |
+  Marx's short report on the dissolution of the Prussian National Assembly (December 1848) is a direct reaction to the counter-revolutionary coup d'état. The text diagnoses the crisis as the act itself and attributes its success to the prior weakness of the Assembly and the misguided passivity of the people. The lag mechanism is both political (the Assembly's conciliatory policy of "agreement" with the monarchy) and popular (the people's "stupidity" in trusting the constitutional process). The alternative is implicit: a future revolution must break with such conciliatory illusions and resort to revolutionary force. The direction constraint is that the defeat itself serves as a necessary lesson—only by experiencing the failure of constitutionalist illusion can the people adopt an uncompromising revolutionary line.
+
+crisis_diagnosis:
+  type: counter_revolutionary_coup
+  specific: |
+    On December 5, 1848, the Prussian king dissolved the elected National Assembly by royal decree and imposed a monarchical constitution, effectively annihilating the gains of the March revolution. Marx calls this a "coup d'etat of the counter-revolution", an act of "violence" and "insolence".
+  evidence:
+    - "The National Assembly has been dissolved. The representatives of the people have been dispersed "by the grace of God"."
+    - "the government... adds bitter contempt to the coup d'etat carried through with such insolence"
+
+lag_mechanism:
+  layers:
+    - political
+    - popular
+  political: |
+    The National Assembly, dominated by liberal bourgeoisie, practiced a policy of "agreement" (Vereinbarung) with the crown, avoiding any decisive break. Its "perennial weakness and cowardice" allowed the counter-revolution to organize and strike. The Assembly became "its first victim" because it refused to mobilize the people against the monarchy.
+  popular: |
+    The masses failed to intervene decisively. Their "so-called 'passive resistance'", along with earlier misplaced trust ("magnanimity, or rather stupidity, in March and even in April and May"), permitted the reaction to gather strength. The people expected a constitutional outcome without revolutionary action.
+
+alternative_proposal:
+  method: revolutionary_rupture
+  elements:
+    - Abandonment of the policy of "agreement" and all constitutional hypocrisy
+    - Active revolutionary confrontation with the counter-revolution
+    - Popular seizure of power instead of reliance on a bourgeois assembly
+  implicit_text: "Its next victory will put an end to the policy of 'agreement' and to all other phrases and hypocrisies."
+
+direction_constraint:
+  core: lesson_of_defeat
+  specific: |
+    The crushing of the National Assembly is not merely a setback; it is a necessary demonstration that conciliatory policies and parliamentary illusions lead to disaster. The direction toward a future revolutionary victory is constrained by the need for the popular masses to learn from this experience—to shed their "magnanimity or stupidity" and adopt uncompromising revolutionary methods. The defeat itself creates the subjective precondition for the next, more resolute uprising.
+  key_insight: "It is now to be hoped that it has learned its lesson."

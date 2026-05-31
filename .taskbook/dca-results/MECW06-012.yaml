@@ -1,0 +1,97 @@
+```yaml
+reasoning: |
+  This 1847 declaration is a polemical response to a Berlin correspondent
+  who misattributed to Marx a critical report on Proudhon and his translator
+  Grün. The immediate conjuncture is a press campaign by Eduard Meyen,
+  treating Grün as a pioneer of socialism in Germany. Marx diagnoses a
+  broader crisis: the corruption of German socialism by Grün's "insipid and
+  tasteless" literature, enabled by a press system that censors scientific
+  critique but amplifies false prophets. The lag is triple: material
+  (censorship blocked Marx and Engels' The German Ideology and its
+  appendixed critique of Grün for years), ideological (Berlin intellectuals
+  uncritically "learn much" from a work Marx considers unrelated to real
+  socialism), and personal (the correspondent's error forces Marx into
+  "petty attacks" rather than a systematic programmatic assault). The
+  alternative Marx proposes is the separate publication of his Grün review
+  in the Westphälisches Dampfboot, turning the personal attack into an
+  opportunity to expose the "current state of the press in Germany" and
+  the hollowness of German socialism. The direction is constrained by the
+  very censorship that prevented the full manuscript’s printing; Marx admits
+  this review is a tactical fragment, a "petty attack" forced by the
+  corrupt press conditions. The material precondition for a full alternative
+  (publishing the complete ideological critique) is a free press, which
+  Germany lacks.
+
+crisis_diagnosis:
+  type: ideological_degeneration_of_socialism
+  specific: |
+    A Berlin correspondent in the Trier'sche Zeitung (20 March 1847) falsely
+    identifies Marx as the author of a report criticizing Proudhon and his
+    translator Grün, and hails Grün as the person who "acquainted the German
+    world with the results of foreign socialism before Herr Dr. Marx." The
+    incident exposes the deeper crisis: Grün's book Soziale Bewegung in
+    Frankreich und Belgien is being celebrated in Berlin as a source of
+    "much and of great diversity" learning, while Marx's own scientific
+    critique of Proudhon and German ideology cannot find a printer.
+  evidence:
+    - "the report which arouses his enmity might well originate in Brussels,
+      but could not possibly originate with me"
+    - "Herr Grün's Soziale Bewegung in Frankreich und Belgien and the
+      French and the Belgian social movement … have nothing in common"
+    - "the circumstances which have hindered the printing of this manuscript
+      and still hinder it"
+
+lag_mechanism:
+  layers: [material-censorship, ideological-capture, tactical-fragmentation]
+  material-censorship: |
+    The full manuscript of The German Ideology, containing Engels and Marx's
+    systematic critique of Grün and the whole "German socialism," remains
+    unpublished due to press censorship. Only now, forced by the
+    correspondent's attack, does Marx release a severed fragment—the Grün
+    review—separately. The lag is directly material: repression prevents the
+    counter-hegemonic text from circulating.
+  ideological-capture: |
+    The Berlin correspondent's praise ("We here in Berlin have learnt much
+    and of great diversity") shows how Grün's work has captured the
+    intellectual sphere, inoculating readers against Marx's scientific
+    socialism. Grün himself had previously claimed that Marx's work in the
+    Deutsch-Französische Jahrbücher offered "the solution to the ultimate
+    riddle," then switched to Proudhon; this ideological oscillation masks
+    the absence of real scientific content.
+  tactical-fragmentation: |
+    Marx is reduced to "petty attacks in petty little newspaper articles"
+    instead of a unified theoretical offensive. The polemic is reactive,
+    triggered by a personal misattribution; it cannot be the comprehensive
+    annihilation he would prefer. This forces a fragmented alternative.
+
+alternative_proposal:
+  method: reactive-counter-publication
+  elements:
+    - "I shall send it to the Westphälisches Dampfboot to be printed" — the
+      separate publication of the Grün review as a temporary surrogate for
+      the blocked larger work.
+    - The review will "show the manner in which 'the German world'
+      'acquaints itself' with the 'results of foreign socialism'",
+      exposing both Grün's vacuity and Berlin's credulity.
+    - Marx distinguishes his own French critique of Proudhon (in Misère de
+      la philosophie) from the report, inviting Proudhon himself to reply,
+      thus re-centering the debate on scientific grounds.
+    - Sarcastic reversal: he would daily pray "Give me no predecessor, or
+      even better, give me Herr Grün as a predecessor!" to debunk the myth
+      of Grün as pioneer.
+
+direction_constraint:
+  core: press_censorship_fragments_counter_hegemonic_projects
+  specific: |
+    The "current state of the press in Germany" is the material condition
+    that forces Marx into a subordinate, reactive tactic. The complete
+    settled account with German ideology could not be printed, so only a
+    fragment can appear—and only because the personal attack makes ignoring
+    Grün impossible. The direction Marx envisions—a systematic sweep of
+    pseudo-socialism—is blocked until political conditions change. The key
+    constraint is not theoretical but material-political: censorship.
+  key_insight: |
+    "The circumstances which have hindered the printing of this manuscript
+    and still hinder it will perhaps be set forth … as a contribution to the
+    description of the 'current state of the press in Germany'."
+```

@@ -1,0 +1,131 @@
+reasoning: |
+  Engels' biography of Wilhelm Wolff uses Wolff's life and 1848-49 journalistic campaign as an exemplary model of revolutionary practice. The text diagnoses a concrete crisis: the aftermath of the March Revolution, where the bourgeoisie's betrayal and the Prussian state's counter-revolution restored feudal exploitation of Silesian peasants under new legal forms. The lag operates through multiple mechanisms—legal trickery (redemption laws as "entangled snare"), bureaucratic complicity, the cowardice of the Berlin Assembly, and ideological mystification ("in the name of the King"). Wolff's alternative is an agitational counter-attack that calculates the stolen "Silesian milliard" and demands restitution to peasants, thereby transforming economic grievance into political consciousness. The direction is constrained by the necessity of a future revolution that can only succeed if peasants are mobilized against both feudal lords and the state, a process now dependent on proletarian leadership. The 1876 publication reactivates this DCA for the contemporary Social Democratic movement, recalling the unfinished task of eliminating feudal remnants and the need for a worker-peasant alliance.
+
+crisis_diagnosis:
+  type: counter-revolutionary_restoration_after_1848
+  specific: |
+    The March 1848 revolution failed to abolish feudal burdens in Prussia.
+    After the bourgeoisie's retreat and the dissolution of the Berlin
+    Agreement Assembly, the Manteuffel reaction imposed new redemption
+    laws that legalized the continued extraction of labor service, money
+    rents, and tithes from Silesian peasants. The crisis is not merely
+    economic but political: the feudal-absolutist state, allied with
+    Junker landowners, cheated the peasantry of the gains of revolution
+    and perpetuated a regime of "shameless exploitation and disgraceful
+    treatment" that extended from the landed estates into the bureaucratic
+    machinery. Wolff's articles expose that since 1821, Silesian peasants
+    had been robbed of approximately 240 million talers through forced
+    redemption payments, land theft, tax fraud, and statute-labor
+    commutations.
+  evidence:
+    - "The country people refused to go on doing statute labor for the
+      worthy lords like docile cattle, and to go on paying the terrible
+      impositions, interest and dues of all kinds."
+    - "The decree for Silesia published in the *Staats-Anzeiger* is
+      nothing but an entangled snare with all the trimmings, in which the
+      rural population, should it once venture in, will be irrevocably lost."
+    - "In 1848 this mass would have been content with abolition of
+      feudal burdens without compensation.... After the bitter
+      apprenticeship ... the Silesian agrarian population ... is
+      increasingly coming to realize that the knightly landowners ...
+      should by right return at least that part of the booty."
+
+lag_mechanism:
+  layers: [legal-fraud, bureaucratic-corruption, political-betrayal, ideological-mystification]
+  legal-fraud: |
+    The Prussian redemption laws, from 1821 onward and especially the
+    imposed decree of December 1848, systematically defrauded peasants.
+    The "General Commissions" and local officials manipulated land
+    valuations, imposed exorbitant commutation fees, and created
+    "waste hides"—absorbing peasant land while leaving the tax
+    liabilities on the community. The Junkers' "Junker Parliament"
+    proposed a new land-tax scheme that would require western peasants
+    to pay the eastern lords' debts, a legalized robbery of an added
+    100 million talers.
+  bureaucratic-corruption: |
+    Royal Landed Estate Commissaries, Conductors of Surveying, and
+    actuaries were "lavishly entertained and suborned" by Junker lords;
+    champagne bribes secured valuations that enriched the manor and
+    ruined peasants. Even when officials were honest, appeals were
+    blocked by the manorial police and patrimonial jurisdiction, which
+    fused judicial and executive power in the lord's hands.
+  political-betrayal: |
+    The Berlin Assembly "frittered away the time with inquiries" instead
+    of immediately abolishing all feudal dues without compensation.
+    When the Assembly was finally dispersed, the Manteuffel ministry
+    ignored the draft law and imposed an even more regressive decree.
+    The liberal bourgeoisie preferred compromise with reaction to
+    mobilizing the peasant masses.
+  ideological-mystification: |
+    The phrase "'in the name of the King'" paralyzed peasant resistance
+    by associating all demands for payment and labor with legitimate
+    authority. The state deliberately restricted rural education to
+    "the first four rules of arithmetic" so that peasants could not
+    calculate the scale of the theft—a deliberate prevention of the
+    "rule of subtraction" needed to reveal their exploitation.
+
+alternative_proposal:
+  method: revolutionary_agitational_counter-calculation
+  elements:
+    - Transform passive suffering into active political demand by
+      quantifying the total stolen wealth: Wolff's articles calculated
+      that Silesian Junkers had extracted 240 million talers directly,
+      plus 40 million in tax fraud, totaling 280 million talers—the
+      "Silesian milliard."
+    - Reject all compensation to feudal lords; demand instead that
+      lords *return* the capital expropriated through forced
+      redemptions and illegal tithes.
+    - Expose the legal and bureaucratic mechanisms of theft in detail,
+      village by village, tax by tax, to make each peasant see his
+      personal loss and unite grievances into a province-wide claim.
+    - Publish in a mass-circulation newspaper to bypass censorship;
+      where local law forbade reprinting, organize secret reprints
+      (10,000 copies in Silesia) and free distribution by Peasants'
+      Unions.
+    - Link the peasant demand to the democratic revolution, insisting
+      that only a new revolution—not legal petitioning—could enforce
+      restitution.
+  evidence:
+    - "If there is to be any talk of compensation for feudal burdens
+      then it is the *peasants* who must be compensated for the
+      knightly robbery perpetrated on them."
+    - "The next revolution will bring it to bear in practice, and the
+      Silesian peasants will then probably be able to devise a
+      'Compensation Law' restoring not only the stolen capital but
+      also the 'customary interests' to the pockets of the people."
+    - "From village to village people are now occupied with the
+      question of how much our lords the robber knights have stolen
+      from the rural people over the last thirty years."
+
+direction_constraint:
+  core: revolutionary_remobilization_dependent_on_peasant_proletariat_alliance
+  specific: |
+    The restitution of the "Silesian milliard" cannot occur through
+    existing state structures, because the bureaucracy, judiciary, and
+    monarchy are instruments of the Junker class. The direction is
+    necessarily a second revolution that completes the bourgeois-
+    democratic tasks by force, but this revolution requires overcoming
+    the peasantry's isolation and localism. The material constraint is
+    that peasant consciousness has been deliberately suppressed; only
+    systematic agitation that makes the theft legible (the arithmetic
+    of subtraction) can create the organizational basis for a
+    revolutionary alliance with the urban working class. The 1848
+    experience proved that when peasants ceased statute labor and
+    demanded written renunciations from lords, the Junkers only
+    complied temporarily and then used the courts to reimpose
+    obligations. Thus the direction anticipates that legal reforms
+    within capitalism will always revert; only the political
+    overthrow of the feudal-absolutist state can secure peasant land
+    and labor. This constraint means the alternative is a transitional
+    demand—the "milliard" as rallying cry—to bridge immediate economic
+    grievances to the political task of smashing the Prussian state
+    machine.
+  key_insight: |
+    "The ever-growing awareness that *if* there is to be any talk of
+    compensation ... it is the *peasants* who must be compensated ...
+    is an 'achievement' which will soon bear fruit. It will not be
+    overthrown by any dictatorial wiles." The material moment of
+    revolution depends on the peasants learning the "subtraction"
+    that reveals their exploitation, a pedagogical process that
+    Wolff's articles performed and that any later revolution must
+    repeat.

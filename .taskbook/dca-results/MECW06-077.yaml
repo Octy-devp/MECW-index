@@ -1,0 +1,114 @@
+reasoning: |
+  The circular from the First Congress of the Communist League (1847) 
+  is a report on internal reorganization following a crisis that 
+  nearly destroyed the League. The crisis is described as a threat to 
+  the League's existence caused by factional splits, theoretical 
+  backwardness, police persecution, and neglect by the previous 
+  central authority. The text explains the lag through three 
+  interrelated mechanisms: outdated ideas (Weitlingians, Grün's 
+  Proudhonism), organizational disarray (quarrels over formalities, 
+  weak leadership), and ideological dilution (sentimentalism, 
+  religiosity). The Congress's alternative is a series of concrete 
+  structural and programmatic changes—new name, democratic centralism, 
+  regular congresses, a central organ, a credo—aimed at forging a 
+  disciplined, theoretically clear, internationalist communist party. 
+  However, the full implementation is deferred to a second congress 
+  because the League is still weak, its members are poor, and 
+  democratic legitimacy requires community debate. These material 
+  constraints define the direction: immediate steps are preparatory, 
+  aimed at consolidating forces for a revolutionary movement whose 
+  timing remains beyond the League's control.
+
+crisis_diagnosis:
+  type: organizational_disintegration
+  specific: |
+    By early 1847 the League of the Just faced a crisis of survival. 
+    The preceding central authority (Paris Halle) had neglected its 
+    duties, allowing communities to drift into factional strife and 
+    ideological stagnation. The Paris branch had split three ways 
+    (Weitlingians, Grünians, progressives), the Swiss communities were 
+    disorganized by police measures and religious attitudes, and the 
+    Berlin circle was broken up by arrests after Mentel's betrayal. 
+    The report states: "the League was indeed in a difficult position... 
+    elements of opposition had gradually germinated even in the 
+    individual communities... the existence of the League [was] 
+    threatened."
+  evidence: 
+    - "The League has survived a crisis and must not fight shy of an 
+      extraordinary effort for once."
+    - "the previous Central Authority had not at all attended to the 
+      duties incumbent on it; that it had utterly neglected to hold 
+      the whole together"
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    The dominant factions clung to superseded forms of communism. 
+    Weitling's egalitarianism and Grün's Proudhonist "true socialism" 
+    blocked theoretical development. Grün's lectures were "quite 
+    unable to replace communism" and his system was "hostile to the 
+    Communists". The Weitlingian party "had everywhere held up the 
+    League in its development". Both factions diverted members from 
+    engaging with the actual movement of the proletariat.
+  organizational: |
+    The League was paralyzed by internal quarrels over formalities and 
+    personal grievances ("time-wasting, superfluous and divisive 
+    trifles"), absence of central coordination, and infiltration by 
+    police agents (Mentel's denunciations). The three Paris parties 
+    were "irreconcilable", and the Swiss communities showed "inability" 
+    to overcome sectarian struggle. Effective central leadership was 
+    restored only when the London Halle took over and sent emissaries.
+  ideological: |
+    Sections of the League exhibited a "tearful, vapid sentimentality" 
+    and "religious attitude" (the Swiss toward the Young Germans). 
+    Mentel, a Grünian, proved a "maudlin sentimentalist" who collapsed 
+    under police pressure and betrayed comrades. This ideological 
+    weakness made the League vulnerable to both repression and 
+    exploitation by "knights of industry" like Grün and Kuhlmann.
+
+alternative_proposal:
+  method: structural_and_programmatic_reorganization
+  elements:
+    - Change name from "League of the Just" to "Communist League" to 
+      reflect the attack on private property and avoid conspiratorial 
+      connotations.
+    - Replace conspiratorial titles (Gau, Halle) with transparent 
+      organizational terms.
+    - Establish regular congresses with legislative power, subject to 
+      ratification by individual communities, to ensure democratic 
+      centralism.
+    - Create a central fund for salaried emissaries sent by the 
+      Central Authority and encourage the use of traveling members as 
+      occasional emissaries.
+    - Launch a League organ as a weekly or monthly journal, with a 
+      specimen number in July 1847, and use the London printing 
+      press for pamphlets.
+    - Draft a Communist "Credo" through a process of community 
+      discussion, avoiding "barrack-room communism" and 
+      sentimentalism, grounding principles in social relations.
+    - Purge obstructive elements: the Congress expelled the Paris 
+      Weitlingians and removed the three or four Grünians.
+  evidence:
+    - "There is only one suitable name for our League... Communists."
+    - "We have tried... to keep firm ground under our feet by the 
+      constant consideration of the social relations."
+
+direction_constraint:
+  core: organizational_immaturity_and_material_scarcity
+  specific: |
+    The First Congress could only act as a "constituent assembly". 
+    Full implementation of the organ, credo, and final rules was 
+    deferred to a Second Congress because the League needed democratic 
+    legitimacy—the statutes made all legislative decisions subject to 
+    community vote. The members were workers with "hardly a moment to 
+    work for the cause" due to poverty and "famine and the slump in 
+    business". The journal's launch was uncertain because the 
+    subscriber base could not be reliably estimated. Police repression 
+    required that the Central Authority remain in London, where 
+    freedom of speech and security were greatest. Thus, the direction 
+    was toward building a mass propagandist organization, but the 
+    immediate steps were preparatory, aimed at consolidating forces for 
+    a revolutionary upheaval whose onset was historically determined 
+    and not yet imminent.
+  key_insight: "We had to appeal anew to the majority, and to leave it 
+    to the second Congress to carry through what we have prepared."

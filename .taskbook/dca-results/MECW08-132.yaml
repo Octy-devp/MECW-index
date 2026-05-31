@@ -1,0 +1,67 @@
+```yaml
+reasoning: |
+  This note by Marx reports the prohibition of a torchlight procession
+  for Gottschalk's release in December 1848. The acquittal by jury was
+  seen as a democratic victory, but the police and military authorities
+  refused permission. The note exposes the state's logic: "because they
+  once had them arrested the authorities cannot now allow the torchlight
+  procession to take place." This reveals the crisis of bourgeois legality
+  in the counterrevolutionary aftermath of 1848, where legal forms are
+  nullified by executive power. The lag is both organizational (the
+  Workers' Association sought permission rather than asserting a right)
+  and ideological (trust in the neutrality of the state). The alternative
+  is not explicitly stated in this fragment, as it is a descriptive report.
+  The material constraint is the state's armed force, which prevents the
+  procession.
+
+crisis_diagnosis:
+  type: counterrevolutionary_repression_of_democratic_movement
+  specific: |
+    In December 1848, after the acquittal of Gottschalk, Anneke and others,
+    the Workers' Association and democratic organizations in Cologne planned
+    a torchlight procession to celebrate the legal victory. The police and
+    military authorities prohibited it, exposing how the counterrevolutionary
+    state executive disregards legal verdicts and suppresses democratic
+    expression. The crisis is the incompatibility between the revolutionary
+    democratic aspirations of the masses and the continued power of the
+    absolutist-bureaucratic apparatus.
+  evidence: [
+    "the authorities had the men arrested and so on; it is true that they
+    have been acquitted by the jury; but because they once had them arrested
+    the authorities cannot now allow the torchlight procession to take place."
+  ]
+
+lag_mechanism:
+  layers: [organizational, ideological, material]
+  organizational: |
+    The Workers' Association sought permission through official channels
+    (two deputations to police and military), indicating a tactical reliance
+    on the state's administrative procedures rather than mass self-activity.
+    The procession was completely cancelled when permission was denied,
+    showing a lack of organized capacity to defy the ban.
+  ideological: |
+    The movement still approached the authorities as if they were neutral
+    arbiters, expecting that a jury acquittal would compel state recognition.
+    The commandant's response reveals that the state's self-image cannot
+    admit error; the democratic movement had not yet fully grasped the
+    class character of the state.
+  material: |
+    The armed force of the police and military was able to physically prevent
+    the procession, so the correlation of forces on the ground made defiance
+    impossible or inadvisable at that moment.
+
+alternative_proposal: null  # Text is a descriptive report; no explicit programmatic alternative is given.
+  # The absence of an alternative is explained in the reasoning field.
+
+direction_constraint:
+  core: state_armed_power_overrules_legal_and_popular_will
+  specific: |
+    The material condition constraining the democratic movement was the
+    intact repressive apparatus of the Prussian state. Despite the jury
+    acquittal, the police and military could prohibit public celebration.
+    This demonstrates that legal victories cannot be safeguarded without
+    challenging the executive's armed forces and that the democratic
+    movement lacked the organizational strength to overcome this barrier.
+  key_insight: "The authorities cannot now allow the torchlight procession ...
+                because they once had them arrested."
+```

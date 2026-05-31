@@ -1,0 +1,24 @@
+```yaml
+reasoning: |
+  The text is a brief public correction issued by Marx as editor of the *Neue Rheinische Zeitung*. It refutes a claim by the *Kölnische Zeitung* that a democratic committee’s appeal was linked to an (alleged) assurance from the extreme Left of the Prussian National Assembly about a tax refusal already decided upon. Marx states he knows nothing of such a report. There is no structural analysis here: no diagnosis of a specific crisis beyond the immediate misrepresentation, no identification of lag mechanisms preventing a resolution, no programmatic alternative, and no material constraints on direction. The statement performs a factual, defensive function—clarifying a false connection—rather than a critico-theoretical one. Consequently, all DCA dimensions are absent. This is characteristic of a short, reactive newspaper statement in a fluid revolutionary situation, where Marx engages in direct political communication rather than system-building.
+
+crisis_diagnosis:
+  type: null
+  specific: null
+  evidence: null
+
+lag_mechanism:
+  layers: null
+  theoretical: null
+  organizational: null
+  ideological: null
+
+alternative_proposal:
+  method: null
+  elements: null
+
+direction_constraint:
+  core: null
+  specific: null
+  key_insight: null
+```

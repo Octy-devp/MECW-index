@@ -1,0 +1,99 @@
+```yaml
+reasoning: |
+  Marx’s 1859 analysis of the Villafranca treaty exposes the Bonapartist
+  “humbug” that ended the Second Italian War of Independence. The crisis
+  is not just a diplomatic betrayal but a structural reversal of the
+  1848‑49 revolutionary gains, now cloaked in national‑liberation rhetoric.
+  Marx identifies a triple lag mechanism: an ideological lag where the
+  “Idées Napoléoniennes” mask dynastic ambitions, a dynastic lag where
+  emperors barter human populations as property, and a geopolitical lag
+  where the proposed Italian Confederation under papal presidency becomes
+  a vehicle for Austrian domination. The alternative emerges only as a
+  possibility – an Italian revolution led by Mazzini and the Republicans –
+  but the text itself does not elaborate a full program. The direction
+  constraint is rooted in the material reality of Austrian military power,
+  the reactionary role of the Papacy, and the subordination of Piedmont
+  to French protection, which together block genuine national unification.
+  Marx draws on Machiavelli’s insight that papal dominion is the source
+  of Italian degradation, grounding the constraint in centuries‑old
+  structural conditions.
+
+crisis_diagnosis:
+  type: diplomatic_betrayal_and_revolutionary_reversal
+  specific: |
+    The Treaty of Villafranca (July 1859) conclu­ded the Austro‑Sardinian War.
+    Louis Napoleon, who had launched the war on the “false pretense of
+    liberating Italy,” made a separate peace with Emperor Francis Joseph.
+    Lombardy was ceded to France, then gifted to Piedmont; Venice and the
+    Quadrilateral fortresses remained with Austria; the expelled Dukes of
+    Tuscany, Parma and Modena were to be restored; and Italy was to be
+    constituted into a confederation under the honorary presidency of the
+    Pope, effectively under Austrian hegemony. Marx declares the outcome a
+    “humbug” that shattered the illusion of a national war, leaving
+    Piedmont crushed and Italy more deeply ensnared in reaction.
+  evidence:
+    - "the humbug exploded at Villafranca"
+    - "it is not Italy that has been emancipated, but Piedmont that has been crushed"
+    - "Italy, after the pattern of the German Confederation, is to be constituted
+      into an Italian Confederation, under the honorary presidency of the Pope"
+    - "the treaty of Villafranca … exceeds the boldest hopes of Austria"
+
+lag_mechanism:
+  layers: [ideological, dynastic, geopolitical]
+  ideological:
+    - "the false pretense of liberating Italy" – the war was presented as a
+      national liberation, but was actually a Bonapartist ploy to enhance
+      the Bonaparte dynasty and manipulate French and Italian public opinion.
+      The “vocabulary of the Idées Napoléoniennes” (the “restoration of
+      nationalities”) masked the subordination of the national question to
+      dynastic intrigue.
+  dynastic:
+    - The very manner of concluding the treaty reveals the lag: “Francis Joseph
+      surrenders Lombardy to Bonaparte, who makes a present of it to Victor
+      Emmanuel.” The populations are treated as “human chattels” to be
+      bartered, without even the pretence of consulting them. This dynastic
+      logic perpetuates the old order, insulating the settlement from popular
+      sovereignty and the revolutionary aspirations of 1848‑49.
+  geopolitical:
+    - The proposed Italian Confederation, headed by the Pope and backed by
+      Austria, recreates the post‑1815 reactionary system. “What did Austria
+      aim at by her private treaties …? At a confederation of Italian princes
+      under Austrian leadership.” The confederation becomes a mechanism to
+      neutralize Piedmont and keep Italy divided, ensuring that “the papal
+      tiara will be but the emblem of Austrian domination.”
+
+alternative_proposal:
+  method: revolutionary_insurrectionary_possibility
+  elements:
+    - The text does not lay out a positive programme but gestures toward a
+      revolutionary alternative: “Very possibly, however, an Italian Revolution
+      may intervene to change the aspect of the whole peninsula, and to bring
+      Mazzini and the Republicans once more upon the scene.”
+    - Implicitly, the alternative is a popular national uprising that overthrows
+      both Austrian rule and the Bonapartist‑Piedmontese dynastic manoeuvring,
+      restoring the initiative to the democratic‑republican forces defeated
+      in 1848‑49.
+    - The contrast between the “betrayed Italians” trembling with rage and the
+      dynastic “job” of Villafranca suggests that the only legitimate path is
+      a revolution that breaks with the entire system of great‑power
+      manipulation and papal reaction.
+
+direction_constraint:
+  core: entanglement_of_austrian_military_power_papal_reaction_and_piedmontese_dependency
+  specific: |
+    The possibility of a successful Italian revolution is constrained by
+    material and historical conditions: Austria retains the Quadrilateral
+    and the military superiority to pounce on Piedmont (“What Austria keeps
+    is the domineering military position”); the Pope functions as a linchpin
+    of reaction (“the papal dominion … the source of Italian degradation”,
+    citing Machiavelli); and Piedmont, having become a French satrapy, cannot
+    act as a national rallying point. Austria’s “balance of power” strategy,
+    mirrored by French ambitions, locks Italy into a confederal straitjacket
+    that prevents genuine unification. Only a revolution that simultaneously
+    confronts Austrian arms, dismantles the temporal power of the Pope, and
+    repudiates French protectorate can escape these constraints – but the
+    text merely signals its possibility, not its imminence or programme.
+  key_insight: |
+    “the papal dominion … the source of Italian degradation”
+    (Marx quoting Machiavelli’s *History of Florence*)
+```

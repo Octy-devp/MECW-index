@@ -1,0 +1,68 @@
+```yaml
+reasoning: |
+  The article "Speech from the Throne" (February 28 & March 1, 1849)
+  in the Neue Rheinische Zeitung responds to King Frederick William IV's
+  opening address to the newly elected Prussian Chambers. The 1848 revolution
+  had been crushed by a royalist counter-revolution: the National Assembly was
+  dissolved, a constitution was imposed, and a state of siege was in force.
+  Marx and Engels dissect the throne speech as a "skilful comedy" that uses
+  constitutional language to legitimize bureaucratic-military despotism.
+  
+  The crisis is the consolidation of the counter-revolution under a
+  constitutional facade. The lag operates through ideological obfuscation
+  (the liberal press hails the speech as "constitutional"), political
+  manipulation (the two-Chamber system prevents agreement, legislative
+  overload stalls reform), and direct repression (state of siege, loyal army).
+  
+  The alternative is not a positive program but an act of demystification:
+  by interpreting the speech's hidden meaning, the article aims to break the
+  constitutional illusion and reveal the ongoing class struggle. The direction
+  constraint is the material preponderance of the counter-revolutionary state:
+  the army, the bureaucracy, and the legal framework ensure that no real
+  reform can emerge from the imposed Chambers.
+
+crisis_diagnosis:
+  type: counter_revolutionary_consolidation
+  specific: |
+    After the Prussian king's December 1848 dissolution of the 
+    democratically elected National Assembly, the imposition of a 
+    constitution, and the proclamation of a state of siege, the February 
+    1849 throne speech pretends to restore constitutional rule while 
+    actually entrenching bureaucratic-feudal-military despotism. 
+    Manteuffel's speech turns the coup d'état into "events that are 
+    fresh in the memory" and presents a legislative agenda designed to 
+    either paralyze the Chambers or justify continued autocracy. 
+    The only honest passage—about maintaining the state of siege—was 
+    hushed up overnight, exposing the entire performance as a farce.
+  evidence: 
+    - "Forcible transference, adjournment and dissolution of a sovereign 
+      assembly, state of siege, a sabre-rule — in short, the whole 
+      coup d'état — is reduced to 'events that are fresh in the memory 
+      of all of you'."
+    - "This passage, even though it was hushed up, gives away the whole 
+      secret of the speech from the throne."
+    - "The preservation of the bureaucratic-feudal-military despotism 
+      has been guaranteed."
+
+lag_mechanism:
+  layers: [ideological, political, repressive]
+  ideological: |
+    The liberal bourgeoisie, represented by the Kölnische Zeitung, 
+    eagerly accepts the speech as "a constitutional speech from the 
+    throne." They fail to see the trap, mistaking form for substance. 
+    This ideological blindness prevents a unified democratic resistance.
+  political: |
+    The imposed constitution and the two-Chamber system are structured 
+    to make agreement impossible: "two such Chambers as Manteuffel 
+    imposed ... can never 'come to an agreement among themselves'!" 
+    The government overloads the deputies with an unmanageable mass of 
+    organic laws, budgets, and decrees, ensuring that "you will never 
+    be able to complete even the tiniest part of it." Meanwhile, the 
+    state of siege continues, and the government can levy taxes without 
+    parliamentary consent.
+  repressive: |
+    The state of siege is kept in place until "firm laws" are passed, 
+    which is indefinitely delayed. The army's "organisation, fighting 
+    capacity and loyalty" are brandished as a threat should the deputies 
+    follow the path of the dissolved Assembly. The counter-revolution 
+   

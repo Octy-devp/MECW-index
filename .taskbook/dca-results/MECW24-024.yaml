@@ -1,0 +1,7 @@
+reasoning: |
+  This text is a brief forwarding letter from Marx to an editorial board in London, dated December 19, 1877. It merely transmits a letter from Horovitz, a member of the Breslau section of the Social-Democratic Party, with no substantive political or theoretical analysis. There is no diagnosis of a crisis, no identification of lag mechanisms, no proposed alternative, and no direction constraint. The document’s function is purely communication, not analysis. Thus, none of the DCA dimensions are present.
+
+crisis_diagnosis: null  # forwarding letter; no crisis discussed
+lag_mechanism: null  # no mechanisms identified
+alternative_proposal: null  # no proposal made
+direction_constraint: null  # no constraints discussed

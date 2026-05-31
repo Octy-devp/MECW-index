@@ -1,0 +1,25 @@
+reasoning: |
+  The text is Marx's speech recorded in the General Council minutes on June 28, 1870, regarding the split in the Romance Federation of the International Workingmen's Association in Switzerland. The crisis is a factional split at the Swiss Congress (April 1870) caused by the Bakuninist Alliance of Socialist Democracy. Marx diagnoses the split not as a mere disagreement but as an organizational violation: the Alliance attempted to be admitted as a bloc, contrary to prior General Council conditions, leading the Geneva Committee (the original, loyal section) to walk out. The lag mechanism is immediate and organizational: Bakuninist factionalism, exploiting the federal structure to weaken the International. Marx's alternative is a calibrated political response: leave the historically legitimate Geneva Committee intact, while requiring the new Alliance-led committee to adopt a local name, thus containing the split administratively without expelling the dissenters. The direction is constrained by the material facts of the Geneva Committee's foundational role and larger constituency, and by the need to maintain the International's unity without imposing rigid centralism. The text contains all four DCA dimensions, though compressed into a brief speech.  
+crisis_diagnosis:
+  type: organizational_split
+  specific: |
+    The Romance Federation of the International in Switzerland split at its Congress (April 1870). The Bakuninist Alliance of Socialist Democracy, which the General Council had earlier ruled must dissolve as a separate organization, secured a vote for its admission as a bloc. The established Geneva Committee, the original core of the Federation, refused to accept this and withdrew, creating two rival committees: one in Geneva (loyal to the General Council) and one in La Chaux-de-Fonds (the Alliance faction). Marx sees this as a breach of the International's statutes and a threat to organizational integrity.
+  evidence: ["The vote admitting the Alliance should also be communicated."]
+lag_mechanism:
+  layers: [organizational, statutory]
+  organizational: |
+    The Alliance persisted in operating as a separate international body within the International, using the Swiss Congress to force its admission as a block, thereby splitting the established Federation. The Alliance's factional maneuvering prevented a consensual resolution.
+  statutory: |
+    The General Council had previously imposed conditions (dissolution of the Alliance as a distinct body) that were not fulfilled. The split resulted from this violation, and the Council's authority was being undermined.
+alternative_proposal:
+  method: administrative_containment
+  elements:
+    - Leave the Geneva Committee "as it was" — i.e., recognize it as the legitimate Federal Committee of Romance Switzerland, given its foundational role and larger constituency.
+    - Require that the vote admitting the Alliance be formally communicated to the General Council, thereby subjecting the decision to Council scrutiny.
+    - Instruct the other party (the Alliance faction) to adopt a "local name" — i.e., they could form a separate local section but not claim the mantle of the Romance Federation. This constrains their representative scope and prevents confusion.
+  key_quote: "The new committee could choose some local name."
+direction_constraint:
+  core: existing_organizational_legitimacy_and_constituency
+  specific: |
+    The Geneva Committee "had helped from the foundation of the Association" and had "a larger constituency though fewer delegates" than the Alliance faction. Materially, it represented the longer-standing, more numerous worker base. The Alternative is constrained by the need to respect this pre-existing support, as expelling or demoting it would alienate the core of the Swiss International. At the same time, the International's federal structure precludes the Council from simply dictating a single committee; the split is a fact that must be managed by drawing a clear jurisdictional line. The constraint is both historical legitimacy and the political necessity of preserving the organization by isolating rather than defeating the faction.  
+  key_insight: "It had fulfilled its duty in every respect and had had a larger constituency though fewer delegates than [the] other party at the Swiss Congress."

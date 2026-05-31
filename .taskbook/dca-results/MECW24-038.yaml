@@ -1,0 +1,90 @@
+```yaml
+reasoning: |
+  Marx wrote the preamble and collaborated on the minimum programme for the
+  French Workers' Party (Parti Ouvrier) in 1880 at the request of Jules Guesde
+  and his comrades. The text is a direct organisational intervention, designed
+  to unify the fragmented French socialist movement around a revolutionary
+  electoral platform. The crisis is thus implicitly a crisis of organisation
+  and ideological direction: the working class lacked a distinct political
+  party and was being diverted into bourgeois radicalism. The preamble
+  diagnoses this by naming universal suffrage as 'the instrument of deception
+  that it has been until now'. The lag is double: workers are caught in the
+  illusion that the existing state can emancipate them (ideological lag) and
+  they lack a party of their own (organisational lag). The alternative proposal
+  is precisely the programme itself — a clear statement of the communist goal
+  (collective appropriation by revolutionary action of the proletariat) and a
+  set of immediate, achievable demands that would function as practical
+  agitation. Marx insisted in private correspondence that these reforms were
+  not mere bait but genuine transitional tools, a view that later clashed with
+  Guesde's interpretation (the 'je ne suis pas Marxiste' episode). The
+  direction constraint is grounded in the material analysis: the two possible
+  forms of possession are individual (already historically superseded by
+  capitalism) and collective (whose preconditions are now being developed by
+  capitalism itself). The programme must therefore point toward collective
+  appropriation, and the immediate electoral demands are permissible only as
+  steps that build class organisation toward that revolutionary rupture. The
+  programme is a 'minimum' not an end, constrained by the need to first
+  constitute a class party.
+
+crisis_diagnosis:
+  type: organisational_fragmentation_and_ideological_subsumption
+  specific: |
+    In 1880, the French socialist movement was split among competing factions
+    (Guesdists, Possibilists, anarchists) and the working class was largely
+    under the sway of bourgeois Radicalism. No unified party existed that could
+    articulate the workers' independent interests. The capitalist republic
+    had stabilised, and universal suffrage functioned as 'the instrument of
+    deception' — giving the semblance of political power while perpetuating
+    bourgeois rule. Marx's programme was a response to this conjuncture: the
+    movement needed a demarcation from the 'servile belief in the state' and a
+    practical tool for electoral intervention.
+  evidence: ["universal suffrage which will thus be transformed from the instrument
+             of deception that it has been until now into an instrument of emancipation"]
+
+lag_mechanism:
+  layers: [organisational, ideological]
+  organisational: |
+    The productive class (proletariat) had not yet organised itself into 'a
+    distinct political party'. Without such a party, workers remained tied to
+    bourgeois or petty-bourgeois political formations, and class-conscious
+    action was constantly disrupted by cross-class electoral alliances.
+  ideological: |
+    Universal suffrage bred the illusion that the capitalist state was a neutral
+    instrument that could be gradually reformed. As Marx's later conflict with
+    Guesde would confirm, even some militants viewed the programme's immediate
+    demands as mere 'bait' rather than practical tools — a symptom of the
+    broader theoretical confusion between reform and revolution.
+
+alternative_proposal:
+  method: revolutionary_electoral_programme
+  elements:
+    - Preamble: a concise statement of the communist goal — collective appropriation
+      of the means of production through the revolutionary action of the proletariat
+      organised in a distinct political party.
+    - Use of universal suffrage: transform it from an 'instrument of deception' into
+      an 'instrument of emancipation' by entering elections with class demands.
+    - Minimum programme: immediate, achievable demands (not listed in the excerpt, but
+      described by Marx as 'demands that actually have spontaneously arisen out of the
+      labour movement itself'), intended to organise and educate workers.
+
+direction_constraint:
+  core: material_preconditions_of_collective_appropriation_and_revolutionary_mediation
+  specific: |
+    The preamble establishes that 'there are only two forms under which the means of
+    production can belong to' the producers: individual possession (which 'has never
+    been general' and is being destroyed by capitalist concentration) and collective
+    possession, 'whose material and intellectual elements are constituted by the very
+    development of capitalist society'. Collective appropriation is therefore a
+    historically determined possibility, not a utopian choice. It can only arise
+    'from the revolutionary action of the productive class' — the immediate programme
+    is thus strictly transitional. The electoral demands are permissible only because
+    they serve to build the party and heighten class consciousness; they are not
+    substitutes for revolution. The constraint is both material (the productive forces
+    have made individual ownership impossible and created the basis for socialism) and
+    political (the revolutionary rupture is necessary because the state cannot be
+    simply taken over).
+  key_insight: "That there are only two forms under which the means of production
+                can belong to them. 1. The individual form which has never been general ...
+                2. The collective form whose material and intellectual elements are
+                constituted by the very development of capitalist society."
+```

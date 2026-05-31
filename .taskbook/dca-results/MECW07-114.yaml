@@ -1,0 +1,79 @@
+reasoning: |
+  This short 1848 newspaper notice reports an arbitrary arrest of two men
+  attempting to form a workers' association in Wesseling. The arresting
+  officer acted on the word of a parson, before any meeting had begun.
+  Engels presents the incident as an illegal infringement of the right of
+  association, a key gain of the March revolution. The text does not
+  elaborate a full theoretical analysis, but it operates within the DCA
+  structure implicitly:
+
+  Crisis: The revolution's legal gains are being violated by local
+  reactionary forces. The state apparatus (Burgomaster) collaborates
+  with the clergy to suppress workers' organising. This is a concrete
+  instance of the counter-revolution testing its strength.
+
+  Lag: The institutional lag is the persistence of old-regime loyalties
+  in the local administration; the ideological lag is the parson's
+  perception of workers' self-organisation as a threat. The law is
+  formally on the side of association, but enforcement is undermined.
+
+  Alternative: Engels uses the democratic press to expose the illegality
+  and to demand (with sarcasm) that the Public Prosecutor uphold the law.
+  The article itself is the political act — turning the incident into a
+  test case for the revolution's durability.
+
+  Direction: The political constraint is made explicit in the closing
+  rhetorical question: the alternative to legal redress is a vote of
+  thanks, in anticipation of the conservative Radowitz Ministry that
+  would abolish free association. Thus the outcome depends on the
+  ongoing class struggle within the state.
+
+crisis_diagnosis:
+  type: counter-revolutionary repression of workers' association rights
+  specific: |
+    In September 1848, two Cologne organisers, Salget and Blum Jr.,
+    were arrested in Wesseling by Burgomaster von Geier at the
+    denunciation of a parson. The arrest occurred before they had
+    spoken or the meeting had begun, abrogating the right of free
+    association won in the March revolution.
+  evidence:
+    - "arrested ... before they had even spoken a word in public and
+      before the meeting had begun"
+    - "the only reason for this arrest ... was the pastor's
+      denunciation that the two gentlemen wanted to stir up the workers"
+
+lag_mechanism:
+  layers: [institutional, ideological]
+  institutional: |
+    Local state officials (the Burgomaster) continue to serve
+    reactionary interests, using their powers to obstruct working-class
+    organisation despite the formal legal changes. The machinery of the
+    state is not yet transformed.
+  ideological: |
+    The parson's denunciation frames any independent worker organising
+    as illegitimate 'stirring up'. This reflects the persistence of
+    pre-1848 clerical hostility to popular emancipation.
+
+alternative_proposal:
+  method: public_exposure and demand for legal accountability
+  elements:
+    - Publicise the arbitrary arrest in the democratic press to rally
+      public opinion against counter-revolutionary illegality.
+    - Challenge the Public Prosecutor to investigate and punish the
+      infringement, forcing the state to decide between enforcing
+      revolutionary legality or siding with reaction.
+    - Use sarcasm to sharpen the political contradiction and expose
+      the looming threat of the Radowitz Ministry.
+
+direction_constraint:
+  core: balance of class forces in the post-revolutionary state
+  specific: |
+    The article closes by naming the alternative: either the
+    prosecutor acts against the illegal arrest, or he tacitly
+    endorses it in expectation of the Radowitz Ministry and the
+    abolition of free association. The direction is not determined
+    by the law itself but by the political struggle over whether
+    the bourgeois-revolutionary gains will be consolidated or
+    rolled back.
+  key_insight: "The state's response to this violation will signal
+    whether the counter-revolution is already ascendant."

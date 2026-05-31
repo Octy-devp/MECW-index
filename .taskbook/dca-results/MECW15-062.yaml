@@ -1,0 +1,91 @@
+reasoning: |
+  This December 1857 Tribune article describes the European financial crisis
+  centered on Hamburg. Marx explicitly refutes the currency school by noting
+  that Hamburg uses only metallic money yet suffers the worst panic,
+  proving the crisis originates in the commercial system, not paper money.
+  The lag is layered: governments and capitalists attempt palliatives
+  (discount associations, state advances, respite laws) that only "resemble
+  the vain cries of distress which precede a shipwreck" — they cannot
+  resolve the underlying overproduction and credit collapse because they
+  operate within capitalist property relations. Marx notes the irony that
+  the state's proposal to make "the fortune of the whole community…
+  make good for the losses of private capitalists" is "communism, where
+  the mutuality is all on one side." The article offers no explicit
+  alternative; it is a descriptive analysis for a US audience. The
+  direction constraint is the material necessity of the crisis to run its
+  course — productive power has outgrown the market, prices must fall,
+  labor is being reduced to "less than two-thirds its previous amount,"
+  and even the Corn Laws' repeal faces its first serious test. The crisis
+  is systemic, and no state measure can avert it.
+
+crisis_diagnosis:
+  type: general_commercial_crisis
+  specific: |
+    The 1857 global financial crisis, here concentrated in Hamburg, reveals
+    a systemic overproduction and credit collapse. Despite Hamburg's purely
+    metallic currency, the panic rages most severely — "a conclusive answer
+    to those imaginative minds who presume the present crisis to have
+    originated in prices artificially enhanced by a paper currency." The
+    crisis spreads from Hamburg to Sweden, Denmark, Prussia, and threatens
+    England, paralyzing industry and spreading "distress of the laboring
+    classes." Government interventions (Discount Association, state advances
+    on goods) fail utterly because they try to prop up prices without
+    acknowledging the destruction of capital already under way.
+  evidence:
+    - "The Hamburg collapse is a conclusive answer to those imaginative
+      minds who presume the present crisis to have originated in prices
+      artificially enhanced by a paper currency."
+    - "This sort of communism, where the mutuality is all on one side,
+      seems rather attractive to the European capitalists."
+    - "Through the whole of Europe the palsy of industrial activity and the
+      consequent distress of the laboring classes are rapidly spreading."
+
+lag_mechanism:
+  layers: [political, ideological, material]
+  political: |
+    State measures — guaranteed discount institutions, advances on goods,
+    suspension of usury laws, bill-of-credit reprieves — are "vain cries
+    of distress which precede a shipwreck." They can only postpone the
+    required liquidation of fictitious capital and overproduced commodities,
+    not resolve the contradiction. The state steps in to socialize losses
+    while maintaining private profits, a one-sided "communism" that cannot
+    work because it refuses to challenge property relations.
+  ideological: |
+    Political economists are "puzzled" by France’s relative resistance,
+    treating the crisis as a riddle instead of a systemic phenomenon.
+    The prevailing monetary theory (currency school) is refuted by the facts,
+    yet capitals and governments cling to palliative measures as if the
+    crisis were a mere failure of confidence.
+  material: |
+    Overproduction has saturated markets; productive power has vastly
+    expanded in the preceding decade. The necessary adjustment — a fall in
+    commodity prices, a reduction of labour to "less than two-thirds its
+    previous amount," and the accumulation of unsold stock — cannot be
+    avoided by any financial expedient. The material constraint is the
+    anarchy of capitalist production itself.
+
+alternative_proposal:
+  method: null
+  elements: null
+  explanation: |
+    The text is a descriptive newspaper article, not a polemical programme.
+    Marx offers no explicit alternative proposal. The implicit critique is
+    that the capitalist system generates its own crises and that state
+    interventions merely shift the burden onto the community. The article
+    points toward the inevitable unfolding of the crisis rather than
+    prescribing a political course.
+
+direction_constraint:
+  core: systemic_crisis_liquidation
+  specific: |
+    The crisis must run its course because it expresses a real disproportion
+    between productive capacity and market demand. Prices must fall to match
+    the depreciated capital; labour must be laid off or wages cut; stocks
+    must be run down. No amount of state credit or legal respites can
+    alter this material requirement. The repeal of the Corn Laws will be
+    "put to a serious test" as foreign competition and a fall in home demand
+    converge, exposing the limits of free trade as a solution.
+  key_insight: "The fortune of the whole community, which the Government
+    represents, ought to make good for the losses of private capitalists.
+    This sort of communism, where the mutuality is all on one side, seems
+    rather attractive to the European capitalists."

@@ -1,0 +1,91 @@
+reasoning: |
+  The 1865 conflict in the Paris Section of the International Workingmen's 
+  Association threatened organizational unity barely six months after the 
+  Association's founding. Marx's draft resolution responds to an internal 
+  power struggle: Citizen Lefort, an early founder, was apparently at odds 
+  with the existing three-person Administration (Tolain, Fribourg, Limousin). 
+  The resolution confirms the Administration, adds Pierre Vinçard, formally 
+  thanks Lefort but refuses to impose him on the branch, and appoints 
+  Victor Schily as Central Council delegate with surveillance rights. 
+  The crisis is not theoretical but practical—how to maintain unity under 
+  the Bonapartist police state while respecting local autonomy. The lag is 
+  threefold: organizational (unclear statutes and authority), political 
+  (repressive conjuncture forces secrecy), and personal (Lefort's ambitions). 
+  The alternative is a carefully balanced mediation that centralizes 
+  oversight minimally, justified by the branch's own acknowledgment of 
+  necessity. The direction is constrained by the "present political 
+  conjuncture": open democratic procedure is impossible; the organization 
+  must adapt to semi-clandestine operations, making central surveillance a 
+  material prerequisite for survival.
+
+crisis_diagnosis:
+  type: organizational_factionalism
+  specific: |
+    The Paris Section, founded in late 1864, had split between its initial 
+    Administration (Tolain, Fribourg, Limousin) and Citizen Lefort, an 
+    early founder who had recently published a self-serving history of the 
+    association. The conflict risked discrediting the International in 
+    France and paralyzing the only functioning continental branch. Marx 
+    diagnoses not just personal rivalry but a structural weakness in the 
+    Association's young federal constitution.
+  evidence:
+    - "the conflict in the Paris Section" (from the preamble)
+    - "thanking Citizen Lefort for the part he took in the foundation"
+    - "the Paris branch themselves have thought proper to acknowledge as a 
+      necessary attribute of the Central Council under the present political 
+      conjuncture"
+
+lag_mechanism:
+  layers: [organizational, political, personal]
+  organizational: |
+    The International's Statutes (1864) were deliberately vague, combining 
+    central coordination with branch autonomy. This ambiguity fostered 
+    competing interpretations of the Central Council's powers—Lefort may 
+    have claimed direct legitimacy as a founder, bypassing the elected 
+    Administration. The branch had no settled procedure for resolving 
+    internal disputes.
+  political: |
+    Under the Second Empire, open political association was heavily 
+    suppressed. The Paris Section operated in a grey zone, using 
+    friendly societies and study circles as cover. Public factionalism 
+    could attract police infiltration or outright repression, forcing 
+    rapid, discreet resolution.
+  personal: |
+    Lefort's published account of the founding inflated his own role and 
+    implicitly challenged the Administration. Tolain and Limousin feared 
+    his return would transform the branch into a vehicle for personal 
+    ambition rather than working-class organization. The lag thus included 
+    a personality conflict that could not be solved by simple majority 
+    vote.
+
+alternative_proposal:
+  method: central_council_mediation
+  elements:
+    - Confirm the existing Administration (Tolain, Fribourg, Limousin) and 
+      thank them, thus legitimizing their authority.
+    - Add Pierre Vinçard to the Administration, broadening its base and 
+      perhaps diluting factional tensions.
+    - Thank Lefort for his foundational role and wish for his collaboration 
+      "as homme de conseil," but explicitly deny him any official capacity 
+      imposed from London—this isolates him without expulsion.
+    - Appoint Victor Schily as Paris delegate of the Central Council with 
+      "droit de surveillance," creating a direct channel of central 
+      oversight while respecting the branch's own earlier request for such 
+      supervision under the repressive political conditions.
+
+direction_constraint:
+  core: centralization_under_political_repression
+  specific: |
+    The resolution moves the International toward greater central oversight 
+    (delegate with surveillance rights), but only because the "present 
+    political conjuncture" makes open democratic methods impossible and the 
+    branch itself requested such supervision. The direction is therefore not 
+    a general principle of centralization but a temporary, defensive 
+    adaptation to Bonapartist despotism. Any alternative proposal had to 
+    operate within the material reality of police surveillance, which 
+    dictated that internal disputes be settled quietly by the Central Council 
+    rather than through open branch debate.
+  key_insight: |
+    "He will exercise that droit de surveillance which the Paris branch 
+    themselves have thought proper to acknowledge as a necessary attribute of 
+    the Central Council under the present political conjuncture."

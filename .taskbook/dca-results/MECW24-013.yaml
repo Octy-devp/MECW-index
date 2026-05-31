@@ -1,0 +1,119 @@
+```yaml
+reasoning: |
+  Marx's 1875 letter responds to the draft Gotha Programme, a merger document
+  between the Eisenach and Lassallean parties. He sees this as a principled
+  retreat from scientific socialism: theoretical gains from Capital and the
+  First International are replaced by Lassallean slogans ("iron law of wages",
+  "undiminished proceeds of labor", "free state", "reactionary mass"). The
+  crisis is organizational degeneration — a compromise that sacrifices clarity
+  for unity. Marx traces three layers of lag: theoretical (Lassalle's pre-
+  scientific economics, e.g., confusing value of labor with value of labor-power),
+  organizational (merger pressure forces concessions), and ideological ("servile
+  belief in the state"). His alternative is a systematic correction of each
+  Lassallean error, grounding the program in the materialist conception of
+  history. The direction is constrained by the phase of communism: the transition
+  period requires the dictatorship of the proletariat, and even in the first
+  phase, distribution must reflect labor contribution because "right can never
+  be higher than the economic structure of society." Only in a higher phase, when
+  productive forces allow abundance and labor becomes life's prime want, can
+  bourgeois right be transcended. Marx's DCA structure is explicit: he diagnoses
+  the crisis, dissects the mechanisms of regression, proposes a concrete
+  alternative, and specifies the material conditions that limit what is possible.
+
+crisis_diagnosis:
+  type: organizational_degeneration
+  specific: |
+    The 1875 Gotha Unity Congress draft programme replaced scientific socialism
+    with Lassallean catchwords: "iron law of wages", "undiminished proceeds
+    of labor", "free state", and the labeling of all non-proletarian classes
+    as "one reactionary mass". Marx identifies this as a principled retreat
+    — the theoretical advances of *Capital* and the International are traded
+    for organizational merger. The programme "bungled in style and content"
+    is a "crime" that perverts the party's "realistic outlook" with "obsolete
+    verbal rubbish".
+  evidence:
+    - "What a crime it is to attempt to force on our Party again, as dogmas,
+      ideas which in a certain period had some meaning but have now become
+      obsolete verbal rubbish"
+    - "criminal levity and ... lack of conscience" in drafting
+    - "the programme ... is tainted through and through by the Lassallean
+      sect's servile belief in the state"
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    Lassalle did not understand wages scientifically: he took the appearance
+    (value/price of labor) for the essence (value/price of labor-power).
+    Fifteen years after *Capital* Vol. 1, the programme reverts to pre-
+    scientific economics, ignoring the discovery that wage labor is a masked
+    form of slavery based on surplus-value. The "iron law of wages" rests on
+    Malthusian population theory, which makes poverty a natural law, not a
+    social relation.
+  organizational: |
+    The Eisenach wing accepted theoretical concessions to secure unification
+    with the Lassalleans. Organizational urgency overrode programmatic
+    clarity. Marx notes the "compromise program" was stitched together
+    "with criminal levity".
+  ideological: |
+    The programme exhibits a "servile belief in the state" (Lassalle's
+    "state aid" for cooperatives, the "free state" slogan) and a narrow
+    national outlook (ignoring internationalism). It treats the state as an
+    independent ethical entity rather than an organ of class rule. The
+    phrase "all other classes are only one reactionary mass" falsifies the
+    *Manifesto* and caters to Bismarck's divide-and-rule strategy.
+
+alternative_proposal:
+  method: systematic_correction
+  elements:
+    - Replace "iron law of wages" with scientific theory of labor-power
+      (wages as value/price of labor-power, not labor; abolition of the
+      wage system, not of a spurious law).
+    - Replace "free state" with the "revolutionary dictatorship of the
+      proletariat" during the transition period between capitalist and
+      communist society.
+    - Replace "undiminished proceeds of labor" and "fair distribution" with
+      a two-phase analysis:
+        Phase 1: The individual producer receives back the equivalent of
+        his labor contribution after deductions for social funds (still
+        stamped with bourgeois right).
+        Phase 2: Only when productive forces are fully developed, labor
+        becomes "life's prime want", and the antithesis of mental and
+        physical labor vanishes can society inscribe "From each according to
+        his ability, to each according to his needs!".
+    - Replace the national framework ("framework of the present-day national
+      state") with a clear internationalism: the working class organizes at
+      home "in form" but its struggle is international "in substance", and
+      it must have "international functions".
+    - Reject Lassalle's "state aid" for producers' co-operatives; instead,
+      co-operatives are valuable only as autonomous workers' creations, and
+      the real task is the revolutionary transformation of the conditions of
+      production.
+    - Democratic demands (universal suffrage, etc.) are meaningless in a
+      police-guarded military despotism; the party should either demand the
+      democratic republic openly or not raise demands that presuppose it.
+    - On education: reject "elementary education by the state"; demand
+      technical schools combined with elementary schools, exclude church and
+      state from influence on schools.
+
+direction_constraint:
+  core: productive_forces_and_class_rule_determine_transitional_forms
+  specific: |
+    The transition from capitalism to communism has two phases. In the first
+    phase, society is "just as it emerges from capitalist society" and is
+    "still stamped with the birthmarks of the old society". This imposes a
+    material constraint: equal right remains bourgeois right, because it
+    measures by the standard of labor, ignoring individual inequalities. The
+    producer receives back from society exactly what he gives to it, after
+    deductions for social funds. This is not a moral choice but an economic
+    necessity. Only when productive forces are fully developed, labor becomes
+    "life's prime want", and the division of labor (mental vs. physical) is
+    overcome can distribution transcend this limitation. The state in the
+    transition period can only be the "revolutionary dictatorship of the
+    proletariat" — a temporary organ to suppress the old ruling classes.
+    Democratic demands are contingent on the specific state form: they are
+    meaningless in a despotic empire unless the party explicitly aims for a
+    democratic republic. The direction is not a blueprint but is constrained
+    by the material conditions of the existing society.
+  key_insight: "Right can never be higher than the economic structure of
+    society and its cultural development conditioned thereby."
+```

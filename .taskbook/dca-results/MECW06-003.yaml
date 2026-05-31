@@ -1,0 +1,102 @@
+reasoning: |
+  Engels' "The State of Germany" (1845) offers a historical-materialist diagnosis of Germany's post-Napoleonic stagnation. The crisis is the stubborn persistence of feudal-political fragmentation and reaction, compounded by the failure of the German bourgeoisie to carry out its historical revolutionary task. Engels exposes the "liberation war" of 1813–15 as a fraud serving restoration, not liberty. He traces how a metaphysical enthusiasm for the French Revolution quickly turned to hatred when the revolution became radical, revealing a theoretical lag (Germans as "theorists" who mistake shadow for substance). Organizational lag is rooted in Germany's division into 38 states and the weak, self-absorbed middle classes, who "were glad to be left alone to their little private business." Ideological lag appears in the servile "Christian-Germanic" romanticism and the fake heroism of figures like Andreas Hofer. Materially, the lag arises from the lack of large-scale industry, which has not yet produced a strong proletariat. The alternative is only implicitly adumbrated: a future democratic revolution led by the working class, once the middle class ceases to be progressive and large-scale industry develops. The direction is constrained precisely by these material underdevelopments—Prussia is identified as the key battleground, but the time for a general middle-class or proletarian movement is "not yet come." Engels is thus providing a sober assessment meant to strip away romantic illusions and prepare the ground for a properly proletarian politics.
+
+crisis_diagnosis:
+  type: structural_stagnation_of_bourgeois_revolution
+  specific: |
+    Germany, decades after the French Revolution, remains a "living mass
+    of putrefaction and repulsive decay." The Holy Roman Empire's
+    fragmentation has been replaced by a 38-state confederacy under
+    bureaucratic-monarchical reaction. The bourgeoisie, though nominally
+    liberal, refuses to seize political power; the "liberation war"
+    against Napoleon was actually a restoration of feudal despotism
+    under the banner of Christian-Germanic legitimacy. The result is a
+    society where "everything worn out, crumbling down, going fast to
+    ruin, and not even the slightest hope of a beneficial change."
+  evidence:
+    - "It was all over one living mass of putrefaction and repulsive decay."
+    - "The 'glorious liberation war' … was a piece of insanity such as
+      will drive the blood into the cheeks of every honest and intelligent
+      German."
+    - "Germany was cheated on all hands … the very first act of the German
+      restored despots showed their thorough incapacity."
+    - "The middle classes of Germany were glad to be left alone to their
+      little private business … wherever they had none [constitution], they
+      were glad to be saved the trouble of electing deputies."
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological, material]
+  theoretical: |
+    Germans are "a nation of theorists" who mistake abstract principles
+    for practical reality. The initial enthusiasm for the French Revolution
+    was "merely metaphysical" and collapsed as soon as the revolution
+    revealed its practical, terroristic consequences. Liberal demands
+    (press freedom, jury trial, constitution) were treated as ends, not
+    means, while the material basis of bourgeois rule—industrial
+    development—was absent. "They took the shadow for the substance,
+    and therefore got nothing."
+  organizational: |
+    Germany's division into 38 separate states prevents any unified
+    national movement. The middle classes are "men in a small way of
+    business" with no pan-German industrial interest; they "interfered
+    little in the political business of the state." The revolutionary
+    party from 1815 to 1830 consisted solely of isolated student
+    theorists, lacking mass support. Prussia, the key battlefield, has
+    remained apathetic.
+  ideological: |
+    The "Christian-Germanic" ideology of servility and the romantic cult
+    of "Church and Emperor" (exemplified by the heroization of the
+    reactionary peasant Andreas Hofer) obscures the real class interests
+    of the people. The post-1815 reaction draped itself in sentimental
+    phrases like "Holy Alliance" and "confidence between prince and
+    subject," while "the anti-revolutionary party held the reins of
+    government" everywhere.
+  material: |
+    Large-scale industry is almost non-existent. "The working people
+    wanted that great lever which in France and England aroused them—
+    extensive manufactures—and the consequence of it, middle-class rule.
+    They, therefore, remained quiet." Without a developed industrial
+    bourgeoisie and a concentrated proletariat, the objective conditions
+    for a bourgeois-democratic revolution are lacking.
+
+alternative_proposal:
+  method: implicit_direction_toward_proletarian_revolution
+  elements:
+    - Expose the falsity of the romantic "liberation war" narrative and
+      the historically progressive role of Napoleon as the "representative
+      of the revolution" who destroyed feudal society.
+    - Redirect democratic energies away from reactionary heroes (Hofer)
+      toward genuine revolutionaries from the plebeian tradition (Thomas
+      Müntzer, George Forster).
+    - Recognize that the middle class, once it has achieved its own
+      political emancipation, ceases to be revolutionary; thereafter
+      the working-class movement "takes the lead and becomes the
+      national movement."
+    - Focus on Prussia as the "battle-field on which the future fate
+      of Germany is to be decided," because it is the state where the
+      contradictions are most concentrated and where the working class
+      will find its lever in large-scale industry.
+
+direction_constraint:
+  core: productive_forces_must_first_develop_the_proletariat_and_its_opposition
+  specific: |
+    The realisation of a proletarian-democratic revolution in Germany is
+    constrained by the very underdevelopment of modern industry. The
+    working class "wanted that great lever … extensive manufactures"
+    before it could become a political force. Germany still lacked the
+    economic concentration that creates a class-conscious proletariat.
+    Moreover, the petty-bourgeois character of German society and its
+    deep feudal-ideological residues ("servile belief in the state,"
+    Christian-Germanic loyalties) mean that any immediate movement would
+    be amateurish and easily suppressed, as happened after 1834. The
+    "time for a general middle-class movement in Germany was not yet
+    come," and it would take further capitalist development to bring the
+    proletariat onto the stage as an independent actor.
+  key_insight: |
+    "Let the Corn Laws be repealed today, and tomorrow the Charter is the
+    leading question in England — tomorrow the Chartist movement will
+    exhibit that strength, that energy, that enthusiasm and perseverance
+    which ensures success." — By analogy, only when the economic
+    preconditions of bourgeois rule are fully developed can the
+    working-class movement supersede it; in Germany, those preconditions
+    are still absent.

@@ -1,0 +1,99 @@
+```yaml
+reasoning: |
+  Engels responds to the "revolt of men of letters and students" within the 
+  German Social Democratic Party, which he treats as a crisis of internal 
+  organizational degeneracy. The retiring editors of the Sächsische 
+  Arbeiter-Zeitung had claimed that "petty-bourgeois parliamentary socialism" 
+  dominated the party and invoked Engels in their hope for its overthrow. 
+  Engels forcefully disavows solidarity, diagnosing their theoretical 
+  distortion, tactical adventurism, and arrogance as a threat to the party's 
+  unity and effectiveness. The lag mechanism operates on three levels: 
+  theoretical (a "frenziedly distorted 'Marxism'" combined with ignorance 
+  of historical facts), ideological (an overestimation of their own 
+  "immeasurable superiority"), and organizational (a "schoolboy policy" 
+  that ignores the real conditions of party struggle). The alternative is 
+  not a new program but a practical correction: the intellectual opposition 
+  must subordinate itself to the discipline of the mass movement, learn from 
+  the workers, and earn positions of trust through proven reliability and 
+  experience. The direction is constrained by the material reality of the 
+  class struggle under the newly repealed Anti-Socialist Laws—adventurism 
+  would provoke state repression and "bury the strongest party of millions 
+  under the well-earned laughter of the whole hostile world." The DCA is 
+  complete: crisis in the opposition's revolt, lag due to their immaturity, 
+  alternative of integration through practical learning, and direction 
+  bounded by the concrete conditions of the German workers' movement.
+
+crisis_diagnosis:
+  type: organizational_degeneration
+  specific: |
+    The 1890 internal opposition in the German Social Democratic Party, 
+    led by young intellectuals who claim to represent true "Marxism" but 
+    threaten the party's cohesion and practical effectiveness. Their 
+    public attacks on the parliamentary group and party executive, 
+    combined with a distorted theoretical stance and reckless tactics, 
+    risk splitting the mass movement and exposing it to state repression.
+  evidence:
+    - "the latest revolt by men of letters and students in our German party"
+    - "a ruthless disregard of all the actual conditions of party struggle, 
+      a death-defying 'surmounting of obstacles' in the imagination... 
+      would be sufficient to bury the strongest party of millions"
+    - "their 'academic education'... does not provide them with an officer's 
+      commission and a claim to a corresponding post in the party"
+
+lag_mechanism:
+  layers: [theoretical, ideological, organizational]
+  theoretical:
+    The opposition propagates a "frenziedly distorted 'Marxism'", marked by 
+    "considerable misunderstanding of the viewpoint" and "gross ignorance 
+    of the decisive historical facts on every occasion." They cling to a 
+    caricatured Marxism that Engels likens to Marx's self-distancing from 
+    French "Marxists": "I am not a 'Marxist'."
+  ideological:
+    The writers exhibit "knowledge of their own immeasurable superiority" 
+    and "naive self-deception about their own importance," which blinds 
+    them to the real state of the party and the practical demands of the 
+    class struggle. Their conviction that academic education confers 
+    entitlement to leadership prevents self-assessment.
+  organizational:
+    Their tactics amount to a "schoolboy policy" of imaginary obstacle-
+    surmounting that, if implemented, would destroy the party. They lack 
+    "familiarity with the conditions of party struggle and adjustment to 
+    its forms," "proven personal reliability and constancy of character," 
+    and the willingness to "join the ranks of the fighters." Their 
+    complaints are "simple trifles" inflated by inexperience.
+
+alternative_proposal:
+  method: practical_correction
+  elements:
+    - Reject the opposition's distorted 'Marxism' and its theoretical-
+      tactical adventurism; affirm the party's existing course and 
+      leadership.
+    - Demand that academically educated members subject themselves to 
+      "thorough, critical self-assessment" and recognize that they 
+      "have much more to learn from the workers than the workers from 
+      them."
+    - Insist that party positions are earned not through "literary talent 
+      and theoretical knowledge" alone, but through practical experience, 
+      proven reliability, and disciplined integration into the mass 
+      movement.
+    - Call for the opposition to abandon factional posturing and work 
+      constructively within the party, learning the "forms" of struggle 
+      under given legal-political conditions.
+
+direction_constraint:
+  core: real_conditions_of_party_struggle
+  specific: |
+    The party operates under the recently lifted Anti-Socialist Laws in 
+    a still-hostile monarchical state. Adventurous "surmounting of 
+    obstacles" in the imagination ignores the material risk of provoking 
+    renewed repression that could annihilate the mass movement. Any 
+    alternative must be grounded in "knowledge of the decisive historical 
+    facts" and adapt to the actual legal, political, and organizational 
+    environment. Theory must serve the practical building of a party of 
+    millions, not the vanity of intellectual coteries.
+  key_insight:
+    "Positions of trust in the party are not won simply through literary 
+    talent and theoretical knowledge... but that this also demands 
+    familiarity with the conditions of party struggle and adjustment to 
+    its forms."
+```

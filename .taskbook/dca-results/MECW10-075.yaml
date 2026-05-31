@@ -1,0 +1,76 @@
+```yaml
+reasoning: |
+  The 1850 split in the Communist League pitted Marx and Engels 
+  against the Willich-Schapper faction. The Cologne Central Authority 
+  had ordered the formation of two independent districts in London, 
+  but the factionalists refused, set up a rival central authority 
+  (the "Sonderbund"), and sought to isolate the Marxists. This 
+  proposal, endorsed by the Central Authority, responds to an 
+  imminent organizational crisis: the League's disintegration at 
+  the hands of a disciplined, rebellious faction. The numbered 
+  grounds for expulsion catalogue specific breaches: spreading 
+  disinformation to external allies, open rebellion against the 
+  legitimate authority, violation of secret-society obligations, 
+  and actions that would "hasten its disintegration." The DCA 
+  structure is stark: the crisis is factional rebellion, the lag 
+  (why the crisis persists) lies in the faction's willful rule-breaking 
+  and active organizational subversion, the alternative is expulsion, 
+  and the direction constraint is the objective necessity of 
+  discipline in a clandestine revolutionary organization.
+
+crisis_diagnosis:
+  type: organizational_split_and_rebellion
+  specific: |
+    The Communist League faces an immediate threat of disintegration 
+    due to the open rebellion of the Willich-Schapper faction. They 
+    have rejected the Cologne Central Authority's decision to form 
+    two London districts, established a rival headquarters (the 
+    "Sonderbund"), and are actively working to recruit League 
+    communities across Germany to their separatist organisation. 
+    The crisis is not merely a disagreement but an organized attempt 
+    to destroy the existing League structure from within.
+
+lag_mechanism:
+  layers: [ideological, organizational, tactical]
+  ideological: |
+    The Willich-Schapper faction embodies a putschist, adventurist 
+    deviation that substitutes immediate insurrectionary action for 
+    long-term class organization. This ideology rejects central 
+    discipline and fuels the rebellion.
+  organizational: |
+    The faction is in "open rebellion"—defying lawful decisions and 
+    treating the League's statutes as obstacles. From the moment of 
+    separation they have systematically violated all obligations 
+    binding on members of a secret society, making normal operation 
+    impossible.
+  tactical: |
+    They circulate false reports to outside secret societies and 
+    refugee circles, sowing confusion and undermining the Central 
+    Authority's legitimacy. An emissary is being sent around Germany 
+    to build the Sonderbund, directly competing with the League's 
+    own network.
+
+alternative_proposal:
+  method: organizational_expulsion
+  elements:
+    - "To expel all members of the Sonderbund and in particular 
+      Schapper, Willich, Schärttner, Lehmann, Dietz (Oswald), Gebert, 
+      Fränkel" 
+    - To notify all League districts and communities of the expulsion 
+      decision 
+    - To inform the Sonderbund itself and its leaders
+
+direction_constraint:
+  core: clandestine_discipline_is_a_material_necessity
+  specific: |
+    A secret revolutionary society depends on absolute adherence to 
+    collective decisions and internal rules; without this it cannot 
+    act, communicate securely, or withstand police repression. The 
+    faction's systematic violations (false reports, parallel 
+    organization, open defiance) would, if tolerated, "hasten its 
+    disintegration." The direction—expulsion—is constrained by the 
+    objective need to preserve the League as a functioning 
+    instrument; any accommodation with rebellion would destroy it.
+  key_insight: "To permit them to remain in the League any longer 
+                would only serve them to hasten its disintegration."
+```

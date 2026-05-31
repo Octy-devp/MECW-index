@@ -1,0 +1,92 @@
+```yaml
+reasoning: |
+  The article satirizes the Prussian government's July 1848 compulsory loan bill,
+  framed as a voluntary patriotic contribution but enforced through bureaucratic
+  coercion. Marx/Engels diagnose the crisis as a fiscal crisis of the counter-
+  revolutionary Prussian state, which attempts to extract funds under the guise
+  of restoring "circulation" and "confidence." The lag device is the state's
+  ideological appeal to patriotism masking a coercive apparatus: self-assessment
+  is a sham, appeals are punished, and the burden falls regressively on small
+  property. The alternative is not a technical fiscal proposal but a political
+  tactic: refusal to contribute, using material deprivation to force Prussia
+  to submit to the German central authority. The direction is constrained by
+  the material dependence of the state on popular extraction—resistance to the
+  loan directly weakens the particularist Prussian state and advances the
+  revolutionary goal of German unification.
+
+crisis_diagnosis:
+  type: fiscal_crisis_of_counter_revolutionary_state
+  specific: |
+    Following the March 1848 revolution, the Prussian state faces a financial
+    shortfall. The Hansemann ministry introduces a compulsory loan disguised
+    as voluntary, invoking patriotic confidence and economic necessity. The
+    crisis is not merely fiscal but political: the state must fund its
+    counter-revolutionary operations while maintaining a constitutional façade.
+    The loan becomes a means to extract wealth from the populace, particularly
+    the less propertied, under the pretext of "putting idle money into circulation."
+  evidence:
+    - "the admissibility of the compulsory loan rests upon the well-founded
+      supposition that a major portion of the available cash lies idle in the
+      possession of private individuals... and can be put into circulation only
+      by a compulsory loan"
+    - "While the voluntary loan cloaks itself in confidence and patriotism, the
+      compulsory loan reveals the 'sinister, hypochondriacal' reality: if you do
+      not give, it will be taken from you"
+
+lag_mechanism:
+  layers: [ideological, administrative]
+  ideological: |
+    The state deploys the rhetoric of confidence, patriotism, and economic
+    circulation to mask compulsion. The "uncertainty" about the state's real
+    needs is inverted—citizens are blamed for their lack of confidence while
+    the state itself has no credit. The sliding scale of contribution is
+    presented as progressive but in fact imposes a heavier relative burden on
+    small wealth.
+  administrative: |
+    The self-assessment procedure is a trap: declarations are examined by
+    ministerially appointed commissions; any discrepancy leads to an "amicable
+    exhortation" followed by an official estimate, which is immediately
+    enforceable. Appeals are permitted but collection proceeds irrespective
+    of the appeal, costs are borne by the appellant if the appeal is even
+    partially rejected, and refusal can trigger inspection of ledgers,
+    inventories, and sworn affidavits. The system turns every contributor
+    into a suspect and enforces extraction through bureaucratic terror.
+
+alternative_proposal:
+  method: political_boycott_and_exposure
+  elements:
+    - Publicly expose the compulsory loan as a predatory tax, not a voluntary
+      patriotic act.
+    - Expose the regressive sliding scale: "the ability to supply money...
+      decreases to the same degree that wealth increases."
+    - Call upon all patriots to refuse voluntary contributions: "only by
+      persistent deprivation of nourishment can Prussia be forced to surrender
+      to Germany."
+    - Use the refusal to starve the particularist Prussian state of funds,
+      thereby strengthening the revolutionary German central authority
+      against Prussian separatism.
+  textual_basis:
+    - "it is the duty of every patriot to refuse to contribute a single penny
+      voluntarily to the compulsory loan."
+
+direction_constraint:
+  core: material_dependence_of_state_on_popular_extraction
+  specific: |
+    The Prussian state’s fiscal crisis cannot be resolved without extracting
+    resources from the population. Its legitimacy rests on the illusion of
+    voluntary confidence. If that illusion is shattered and contributions are
+    withheld, the state’s material capacity to act—especially to pursue counter-
+    revolutionary policies and resist German unification—is undermined. The
+    direction is therefore constrained by the population’s willingness to
+    withhold funds; refusal becomes a lever to enforce political concessions.
+    The class dimension is central: the burden falls on small property while
+    the state protects large capital, so mass non-compliance is both necessary
+    and possible.
+  key_insight: |
+    "The state, finding itself in dire need, appeals to patriotism. It politely
+    asks patriotism to deposit 15 million talers on the altar of the fatherland,
+    and moreover not as a gift but only as a voluntary loan. One possesses the
+    greatest confidence in the state but turns a deaf ear towards its cry for help!
+    ... The entire misfortune, as we have seen, lay just in this embarrassing
+    uncertainty. If you do not give, it will be taken from you."
+```

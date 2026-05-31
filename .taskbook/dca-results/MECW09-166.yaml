@@ -1,0 +1,45 @@
+```yaml
+reasoning: |
+  This is an editorial notice from Marx, dated 1849, published in the
+  Neue Kölnische Zeitung. The text is purely administrative: it informs
+  correspondents that reports intended for the now-suppressed Neue
+  Rheinische Zeitung should be sent to the Neue Kölnische Zeitung.
+  Marx is facilitating the continuation of the revolutionary press
+  network under conditions of defeat. The DCA dimensions are present
+  only in a rudimentary, implicit form. The crisis (suppression of the
+  NRZ and Marx's expulsion from Cologne) is the silent context that
+  makes the notice necessary, but Marx does not diagnose it here. The
+  lag mechanism is absent — no analysis of why the revolution failed or
+  what prevents resolution. The alternative is a practical adaptation
+  (redirecting correspondence) rather than a political program. The
+  direction constraint is the material reality of press censorship and
+  exile, which limits the alternative to clandestine continuity rather
+  than open agitation. Three of four DCA dimensions are marked null
+  because the text is a functional communication, not a theoretical or
+  strategic analysis.
+
+crisis_diagnosis: null
+  # The crisis is the historical context (suppression of the Neue
+  # Rheinische Zeitung, defeat of the 1848-49 revolutions, Marx's
+  # expulsion from Cologne), but the text itself does not diagnose it.
+
+lag_mechanism: null
+  # No mechanism preventing resolution is identified in the text.
+
+alternative_proposal:
+  method: practical_continuity
+  elements:
+    - Redirect correspondence from the suppressed Neue Rheinische Zeitung
+      to the Neue Kölnische Zeitung to maintain the revolutionary press
+      network despite political defeat and exile.
+
+direction_constraint:
+  core: press_suppression_and_exile
+  specific: |
+    The alternative is constrained by the material conditions of
+    counter-revolutionary victory: the NRZ has been suppressed, Marx
+    has been expelled from Cologne, and open revolutionary journalism
+    is no longer possible. The continuation of the press network must
+    operate through a different, still-permitted newspaper, reflecting
+    the narrowed field of political action under repression.
+```

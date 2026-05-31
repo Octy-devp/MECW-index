@@ -1,0 +1,79 @@
+```yaml
+reasoning: |
+  The London Conference (September 1871) was convened urgently after the 
+  Paris Commune's defeat. Governments across Europe blamed the International 
+  for the uprising and launched severe repression. Internally, the 
+  International faced disorganization: branches were not paying dues, 
+  names varied causing confusion, secret societies had infiltrated, and 
+  a mutilated French translation of the Statutes was spreading heresy. 
+  Marx's propositions respond to this crisis with a package of 
+  organizational reforms and centralizing measures to ensure the 
+  Association's survival and ideological clarity. The DCA structure is 
+  present: crisis is organizational persecution and fragmentation; lag 
+  operates through financial, organizational, and ideological mechanisms; 
+  the alternative is a set of practical resolutions; direction is 
+  constrained by the need to operate under varying degrees of repression 
+  while excluding secretism.
+crisis_diagnosis:
+  type: organizational_persecution_and_fragmentation
+  specific: |
+    In the aftermath of the Paris Commune, the International faces 
+    governmental repression across Europe, making regular organization 
+    impossible in some countries (point 2a). The General Council is 
+    under attack, and prosecutions are ongoing (point 5). Internally, 
+    disorganization prevails: some branches withhold financial 
+    contributions (point 1), naming conventions are ignored contrary 
+    to the Basle Congress resolution (point 4), and a 'mutilated 
+    French translation' of the Statutes has circulated, deviating 
+    from authentic principles (point 8). Secret organizations 
+    (anarchist/Blanquist) threaten to compromise the open, mass 
+    character of the Association (point 2γ).
+  evidence: ["after the close of the Conference, no branch be acknowledged ... until its annual contribution ... shall have been remitted",
+             "countries in which the regular organization ... may for the moment become impossible by Government interference",
+             "a mutilated French translation has hitherto been in circulation in France, and re-translated into Spanish and Italian",
+             "but all secret organizations are formally excluded"]
+lag_mechanism:
+  layers: [financial, organizational, ideological]
+  financial: |
+    Point 1: Branches are not remitting the per capita contribution of 
+    1 penny, undermining the General Council's financial capacity and 
+    creating a material obstacle to central coordination and support.
+  organizational: |
+    Points 2 and 4: Government repression disrupts normal structures, 
+    and failure to enforce the Basle resolution on standardized naming 
+    ('Federal Councils') leads to confusion and weakens international 
+    cohesion. The persistence of secret organizations (2γ) reflects a 
+    lag in adopting the open, mass organizational principle.
+  ideological: |
+    Point 8: The circulation of an incorrect French translation and its 
+    re-translations into Spanish and Italian introduces ideological 
+    distortion across major Latin sections, hindering unified theoretical 
+    understanding of the Association's aims.
+alternative_proposal:
+  method: organizational_centralization_and_clarification
+  elements:
+    - Enforce universal per capita contributions as condition for branch recognition (point 1).
+    - In countries with severe repression, allow reorganization under other names but formally exclude secret societies (point 2).
+    - General Council to report on its administration and propose a collective reply to prosecuting governments (points 3,5).
+    - Standardize nomenclature: Central Councils to become Federal Councils, local units to be identified by locality (point 4).
+    - Grant General Council delegates right to attend but not vote at all meetings for oversight (point 7).
+    - Issue new authentic edition of Statutes with all Congress resolutions, and provide a correct French translation to replace flawed ones (point 8).
+    - (Supplements from draft): Initiate propaganda among agricultural/industrial workers, compile working-class statistics, form working women's sections to broaden the base.
+direction_constraint:
+  core: adapt_to_repression_while_rejecting_secretism
+  specific: |
+    The International cannot persist as a fully open organization in all 
+    countries due to government bans; thus it must adopt flexible 
+    temporary forms ('under other names') without lapsing into secret 
+    societies, which are 'formally excluded.' The direction is toward a 
+    more disciplined, financially self-sufficient, ideologically unified 
+    international party rooted in the broad working class (including 
+    agricultural workers and women). Material constraints include national 
+    legal environments, the financial capacity of branches, and the 
+    availability of accurate theoretical materials. The exclusion of 
+    secretism imposes a minimum level of openness and mass character.
+  key_insight: |
+    The International must remain an open, mass organization even while 
+    forced underground; secret societies are a barrier to working-class 
+    self-emancipation because they substitute conspiracy for mass action.
+```

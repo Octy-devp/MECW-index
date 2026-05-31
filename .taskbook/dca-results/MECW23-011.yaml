@@ -1,0 +1,125 @@
+```yaml
+reasoning: |
+  This resolution responds to an organizational crisis within the
+  International Working Men's Association in the immediate aftermath
+  of the Paris Commune. The crisis is concrete: a group of French
+  refugees in London, claiming to represent the "French revolutionary
+  element," formed a "French Section of 1871" and drafted local rules
+  that violate the General Rules and principles of the International.
+  Marx, writing for the General Council, systematically refutes the
+  section's objections to earlier resolutions, diagnosing the conflict
+  as one of principle rather than wording. The text reveals a triple
+  lag: (1) theoretical—the section misreads or ignores the literal
+  provisions of the General Rules, including the exclusive right of
+  the General Council to co-opt members; (2) organizational—it claims
+  the "right" to send delegates with imperative mandates, threatening
+  the international character and central authority of the Council;
+  (3) ideological—its rule on "means of existence" as a condition of
+  membership embodies a "bourgeois innovation" that ties morality to
+  property, contrary to working-class solidarity. The alternative is
+  not a new proposal but a firm reaffirmation of existing resolutions
+  and a procedure to isolate the dissident section by exposing its
+  behavior to the wider federations. The direction is constrained by
+  past decisions of the Basle Congress, the London Conference of 1871,
+  and the core principle that the International must remain a unified
+  political body of the working class, not a loose collection of
+  autonomous groups. As Marx puts it: "members of the General Council
+  are bound to represent the principles of the International Working
+  Men's Association, rather than the opinions and interests of this
+  or that corporation."
+
+crisis_diagnosis:
+  type: organizational_split
+  specific: |
+    In November 1871, the "French Section of 1871," composed largely of
+    Communard refugees in London, presented the General Council with a
+    set of rules that contradicted the General Rules of the International.
+    The section claimed the right to send delegates to the Council
+    without going through the proper channel of co-option, and included
+    a "bourgeois innovation" requiring prospective members to demonstrate
+    their "means of existence" as a guarantee of morality. It attacked
+    the General Council insultingly and demanded a radical revision of the
+    Council's constitutional powers. The Council saw this as a principled
+    challenge that, if tolerated, would destroy the International's
+    character and open the door to its fragmentation into autonomous,
+    ideologically arbitrary local groups.
+  evidence:
+    - "The General Council considers that the ideas expressed by the
+      'French Section of 1871' about a radical change to be made in the
+      articles of the General Rules concerning the constitution of the
+      General Council have no bearing on the question"
+    - Article 2 of the section's Rules imposes a means-of-existence test,
+      which the Council calls "a bourgeois innovation contrary to the
+      letter and spirit of the General Rules"
+    - The section "did not hesitate to send ... two delegates, armed with
+      'imperative mandates' ... even before the section had been recognized
+      by the General Council"
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    The section shows ignorance or selective reading of the Association's
+    constitutional documents. It asserts a non-existent "literal sense" of
+    the General Rules that would give it the right to send delegates; it
+    misapplies a precedent (the case of Citizen Herman) who was co-opted
+    at the recommendation of the Belgian Congress, not a Liège section;
+    it is unaware of the Basle Congress's Administrative Resolution VI
+    and the London Conference's Resolution XV. The Council notes: "This is
+    a patent demonstration of the fact that the section is not familiar
+    with the literal sense of the General Rules."
+  organizational: |
+    The section insists on a privileged, autonomous status outside the
+    structures of the International. It claims its own local rules are
+    of no concern to anyone else and that it alone represents the "French
+    revolutionary element" because some of its members were once presidents
+    of workers' societies. This corporatist logic threatens to replace the
+    Association's principle of class-wide representation with the rule of
+    individual sections and their special interests.
+  ideological: |
+    The section's moral code is bourgeois: it links membership eligibility
+    to "means of existence," treating poverty as a potential sign of
+    immorality rather than a condition of the working class. The Council
+    retorts that "there may be cases in which the absence of means of
+    existence may well be a guarantee of morality" and that strikes often
+    force workers into debt—yet no one demands private financial details
+    from them. This innovation, if generalized, would exclude proletarians
+    and open the door to arbitrary moral policing by individual sections.
+
+alternative_proposal:
+  method: reaffirmation_and_isolation
+  elements:
+    - Reaffirm in their entirety the resolutions of October 17, which
+      rejected the section's rules and insisted on the Council's
+      co-optive power.
+    - Give the French Section a final deadline (November 21) to accept
+      these resolutions.
+    - If the section remains intransigent, circulate its rules, its
+      delegates' mandate, the Council's resolutions, and the section's
+      reply to all Federal Councils, Committees, or local groups, thereby
+      exposing the conflict to the entire International and isolating
+      the dissidents.
+    - Uphold the principle that "members of the General Council are bound
+      to represent the principles of the International Working Men's
+      Association, rather than the opinions and interests of this or that
+      corporation."
+
+direction_constraint:
+  core: organizational_centralism_and_proletarian_universalism
+  specific: |
+    The direction imposed is that the International must remain a unified,
+    centralised body governed by democratically adopted General Rules and
+    decisions of Congresses and Conferences. No section can claim special
+    rights or impose conditions that contradict the fundamental principles
+    of the Association. The material constraint is that if the Council
+    were to approve the section's rules, it would be "obliged to insert
+    it into the rules of all the other sections," thereby nullifying the
+    Council's own constitutional power and destroying the International's
+    capacity to act as a class-wide political force. The transition from
+    the present crisis to a healthy organization requires strict adherence
+    to the rule that the working-class movement is international in
+    character, not a federation of national or corporate enclaves.
+  key_insight: |
+    "Members of the General Council are bound to represent the principles
+    of the International Working Men's Association, rather than the opinions
+    and interests of this or that corporation."
+```

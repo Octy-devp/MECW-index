@@ -1,0 +1,101 @@
+```yaml
+reasoning: |
+  Engels's 1855 dispatch analyzes the failed British assault on the
+  Redan during the general allied attack on Sevastopol. He contrasts
+  the meticulous French planning and swift capture of the Malakoff
+  with the British blunder, which endangered the whole operation. The
+  crisis is not merely a lost battle, but a systemic failure of British
+  military organization: routine-bound engineering, incompetent
+  leadership, and deteriorating troop quality. The French success
+  provides the implicit alternative—pragmatic siegecraft, adequate
+  force concentration, and rapid consolidation. The lag operates on
+  doctrinal (rigid adherence to textbook rules), organizational (weak
+  storming columns, failure to commit reserves), leadership (generals
+  'stamped with indelible incapacity'), and material (raw recruits,
+  inferior soldiers) levels. The direction is constrained by the
+  need to reform the army amid an ongoing war, but the outcome remains
+  open as field operations begin.
+
+crisis_diagnosis:
+  type: systemic_military_failure
+  specific: |
+    On 8 September 1855, the British assault on the Great Redan (Bastion
+    No. 3) during the general storm of Sevastopol collapsed
+    catastrophically, leaving the French to secure the decisive Malakoff
+    alone. This exposes the degeneration of the British army in the
+    Crimea: the troops are raw, the generals incapable, and the
+    engineering corps trapped in routine, endangering the entire allied
+    effort.
+  evidence:
+    - "This feeble attack of the English on the Redan stamps their
+      Crimean generals with the indelible mark of incapacity."
+    - "The English, then, have actually failed to do what their allies
+      had a right to expect from them, and on a very important point,
+      too."
+    - "two defeats in three months form a novel feature in British
+      military history."
+
+lag_mechanism:
+  layers: [doctrinal, organizational, leadership, material]
+  doctrinal: |
+    'The spirit of routine still predominant in the English army.'
+    British engineers stopped sapping at 240 yards from the Redan
+    because further advance would be enfiladed from the Flagstaff
+    bastion—a correct theoretical rule—but here it prevented any
+    covered approach. The French urged them to continue saps despite
+    losses, but 'the British engineers knew better. The result shows
+    them to have been grossly in the wrong.'
+  organizational: |
+    The storming force was absurdly small (1,800 men) forced to cross
+    250 yards of open ground under flanking fire, while 25,000 men
+    stood idle. Reserves dribbled in or never advanced. No lodgments
+    were made, guns were not spiked, and coordination broke down:
+    'the machine was out of train in a few minutes.'
+  leadership: |
+    Generals Simpson, Codrington, and others 'appear to have an innate
+    tendency to surpass each other in blundering.' Simpson was
+    'determined even to outdo his late chief' Lord Raglan. Windham
+    repeatedly pleaded for regular reinforcements but was ignored; when
+    he fetched a regiment himself the troops were already retreating.
+    Simpson still had 20,000 intact men and resolved to try again the
+    next morning—a plan already proven suicidal.
+  material: |
+    The soldiers were 'mostly young lads recently arrived in the
+    Crimea,' lacking discipline and training. They 'sought shelter, and
+    to fire instead of attacking with the bayonet.' The 'raw material
+    for soldiers ... is far inferior to what it used to be.' The army
+    is physically and morally degraded.
+
+alternative_proposal:
+  method: systematic_correction_through_pragmatic_siegecraft
+  elements:
+    - Close sapping regardless of theoretical flanking fire ('better to
+      lose men now ... than during an assault')
+    - Adequate storming forces with strong reserves (French used one
+      division to assault Malakoff, another as reserve, plus Guards)
+    - Immediate consolidation: cut passages through the works, fill
+      ditches, bring up field guns, close the gorge, spike enemy
+      artillery if needed
+    - Equip soldiers with short-handled trenching tools; use
+      purpose-built bridges that lay down in under a minute
+    - Active leadership that supervises and times assaults (Pélissier
+      and Niel on the spot)
+  text_evidence:
+    - 'The arrangements of the French for this assault on the Malakoff
+      were admirable. Everything was foreseen and provided for.'
+    - 'in ten minutes it was taken, never to be recaptured.'
+
+direction_constraint:
+  core: military_reform_dependent_on_command_rethinking_and_troop_quality
+  specific: |
+    The British army cannot simply copy French methods; it must overcome
+    deep-seated routine and the physical deterioration of its infantry.
+    The article closes with the onset of field operations: another
+    fortnight will show whether the Russians can hold. The direction is
+    thus constrained by the immediate need to salvage the Crimean
+    campaign while reforming the army's practice. If reform fails, 'the
+    Allies' might yet lose the chance to force a decisive conclusion.
+  key_insight: |
+    'of all men in the world, the British generals in the Crimea are the
+    best fitted to ruin the physical and moral character of the army.'
+```

@@ -1,0 +1,124 @@
+```yaml
+reasoning: |
+  Marx’s 1858 Tribune article “The Increase of Lunacy in Great Britain”
+  uses government statistics and official reports to expose a structural
+  contradiction: during a period of unprecedented commercial prosperity
+  (1852‑1857), pauperism and lunacy grow in tandem with exports and
+  wealth. The crisis is not an acute event but a chronic, built‑in
+  feature of capitalist development — wealth accumulation generates
+  mental distress and social breakdown, while the institutions charged
+  with care are perverted by the profit motive and public parsimony.
+  Marx details three layers of lag: legal provisions are systematically
+  ignored (the parish surgeon–magistrate–asylum pathway is bypassed);
+  private licensed houses treat lunacy as a profit‑making trade,
+  reducing care to its lowest cost; and workhouses, driven by ‘economy’,
+  become de facto asylums with horrific conditions. The alternative is
+  not a revolutionary programme but a series of concrete, immediate
+  reforms demanded by the facts themselves: separate asylums for the
+  incurable and hospitals for the curable, enforce the law, expand
+  properly funded public asylums, and end the contract system that
+  makes care a commodity. However, the direction is constrained by the
+  capitalist principle that dominates all public provision: “The
+  decisive principle for the Boards of Guardians is economy.” As long
+  as the state subordinates care to cost‑cutting and private profit,
+  even the most rational reforms will be thwarted. The article thus
+  points toward the need for a social order in which human need
+  rather than exchange‑value governs institutional life.
+
+crisis_diagnosis:
+  type: structural_contradiction
+  specific: |
+    The commercial boom of 1852–1857, marked by a steep rise in exports
+    and wealth, is accompanied by a parallel increase in pauperism and
+    mental illness. Marx presents statistical evidence showing that
+    lunacy grows faster than population and outstrips even the export
+    surge. The crisis is the human cost of capitalist prosperity: the
+    very system that produces unprecedented riches simultaneously
+    generates mass mental distress, and the institutions meant to care
+    for the afflicted are designed to extract profit or minimise
+    expense rather than to heal.
+  evidence:
+    - "The increase of lunacy in Great Britain has kept pace with the
+      increase of exports, and has outstripped the increase of
+      population."
+    - "Its rapid progress in England and Wales during the period
+      extending from 1852 to 1857, a period of unprecedented commercial
+      prosperity, will become evident from the following tabular
+      comparison…"
+
+lag_mechanism:
+  layers: [legal_administrative, economic, ideological]
+  legal_administrative: |
+    The legal process for committing pauper lunatics to asylums —
+    examination by the district parish surgeon, notification to the
+    relieving officer, communication to the magistrate — is completely
+    disregarded. Instead, the insane poor are “hurried into the
+    workhouses” and permanently detained there if judged “manageable.”
+    Official recommendations to transfer curable patients to asylums
+    are overridden by the report of the union medical officer that the
+    patient is “harmless.” These procedural failures leave the most
+    vulnerable without proper medical intervention.
+  economic: |
+    Two profit‑driven mechanisms block adequate care. First, private
+    licensed houses operate on contracts paying as little as 5s. to
+    8s. 4d. per head per week, so “the whole study of the contractors
+    consists … in making large profits out of these small receipts,”
+    keeping patients at the lowest possible expense. Second, public
+    workhouses and asylums are governed by “the decisive principle …
+    economy”: guardians refuse to fund expansion, overcrowd
+    facilities, provide substandard diet and attendance, and even
+    resort to fabricating appearances of comfort during inspections.
+  ideological: |
+    The insane are not seen as patients requiring medical treatment
+    but as a disorderly element to be confined at minimal cost. The
+    class character of this neglect is unmistakable: pauper lunatics
+    are warehoused in stables‑like wards, while the affluent enjoy
+    “snug retreats.” The entire system rests on a premise that the
+    lives of the poor are not worthy of proper care, a prejudice
+    naturalised by the logic of capitalist economy.
+
+alternative_proposal:
+  method: immediate_reform_of_lunacy_care
+  elements:
+    - Separate asylums into two distinct categories: hospitals for
+      the curable and asylums for the incurable, because “by huddling
+      both classes together, neither receives its proper treatment
+      and cure.”
+    - Enforce existing legal provisions so that pauper lunatics come
+      first under the care of the district surgeon and are promptly
+      moved to properly regulated public asylums.
+    - Increase public asylum capacity to match the rapid spread of
+      mental disorders; end the practice of leaving thousands of
+      pauper lunatics “unprovided for in either of its asylums.”
+    - Abolish the contract system that puts private profit above
+      treatment, and subject private licensed houses to strict
+      regulation with genuine inspection.
+    - Raise the standard of care in workhouses — proper diet,
+      trained attendants, separation of patients, adequate
+      ventilation and space — so that they cease being “low
+      Pandemoniums” worse than stables.
+
+direction_constraint:
+  core: capitalist_cost_principle
+  specific: |
+    The entire system of lunatic care is subordinated to the imperative
+    of minimising public expenditure, a reflection of a state that
+    serves the interests of the propertied classes. “Economy” is the
+    overriding principle of Boards of Guardians, private contractors
+    seek only profit, and the state tolerates the resulting horror
+    because any substantial improvement would require diverting
+    resources from accumulation to social reproduction. Hence, even
+    the most rational reforms — separate asylums, expanded public
+    care, enforcement of the law — are materially constrained by the
+    class character of the bourgeois state. The direction of history
+    suggested by this analysis is that the contradiction between the
+    social character of mental health and the private, profit‑driven
+    logic of care under capitalism can only be resolved by a
+    transformation of the social order.
+  key_insight: |
+    “The decisive principle for the Boards of Guardians is economy.”
+    This principle encapsulates the limit of all reform within the
+    existing system: as long as care is a cost centre rather than a
+    human right, the insane will continue to be treated as a nuisance
+    to be managed at the cheapest possible price.
+```

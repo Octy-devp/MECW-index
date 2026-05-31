@@ -1,0 +1,104 @@
+reasoning: |
+  Marx's "A New Year Greeting" responds to the Prussian king's January 1849
+  New-Year message to his army, which openly praised its loyalty during the
+  March 1848 revolution and its actions in Schleswig, Posen, and South Germany.
+  The article is a sarcastic exposé of the counter-revolutionary consolidation
+  in Prussia. Marx diagnoses the crisis as the moment when the monarchy drops
+  its liberal pretenses ("misunderstandings" become "revolt") and aligns with
+  the most reactionary elements (Kreuz-Zeitung). The lag is multilayered:
+  the army remains loyal to the crown (organizational), the bourgeois public
+  still believes in "liberal institutions" (ideological), and the revolutionary
+  forces have been disarmed by treachery and division (theoretical/organizational).
+  Marx does not propose a concrete alternative in this short polemic, but the
+  implication is that revolutionary forces must recognize the true class nature
+  of the state and prepare for renewed struggle; the comparison with the Duke of
+  Brunswick's 1792 manifesto suggests the king has declared war on the people.
+  The direction is constrained by the material superiority of the counter-
+  revolutionary military and the geopolitical pressure of Russian reaction
+  (noted in the Polish campaign). The article functions as a political
+  intervention to sustain revolutionary consciousness in the face of defeat.
+
+crisis_diagnosis:
+  type: counter_revolutionary_consolidation
+  specific: |
+    The Prussian monarchy, after briefly feigning liberal concessions in March
+    1848, openly celebrates the army's role in suppressing the revolution and
+    the national movements in Schleswig-Holstein, Posen, and South Germany.
+    The king's New-Year greeting marks a definitive break with constitutional
+    pretenses, calling the March events a "revolt" and endorsing the most
+    reactionary press. This signals the triumph of the counter-revolution in
+    Prussia, exposing the alliance of crown, military, and Junkerdom against
+    the democratic movement.
+  evidence:
+    - "Previously people spoke of the March events, of 'misunderstandings'...
+      Now there is no longer need for disguise: the March 'misunderstandings'
+      are cast in our face as 'revolt'."
+    - "The royal New-Year greeting breathes on us the same spirit as that
+      which emanates from the columns of the 'Dame of the Cross' [Kreuz-Zeitung]."
+
+lag_mechanism:
+  layers: [organizational, ideological, military]
+  organizational: |
+    The revolutionary forces, including the workers, democrats, and Polish
+    insurgents, were outorganized and disarmed. The Prussian army remained
+    an instrument of the crown; its loyalty was rewarded and celebrated.
+    The Polish democrats were tricked into disbanding their army, then
+    massacred. In Germany, the Central Authority (Federal Diet) relied on
+    Prussian bayonets to crush insurrections; the revolution lacked an
+    independent armed power.
+  ideological: |
+    The bourgeoisie and a section of the people still entertained illusions
+    about the king's "liberal institutions." The official narrative painted
+    the army's crimes as "discipline" and "self-control," masking the
+    reality. The revolutionary press had to combat this deception, but the
+    public had been "led astray for rather a long time." The king's message
+    is an attempt to solidify this bourgeois fiction.
+  military: |
+    The Prussian army used terroristic methods (shrapnel against scythes,
+    point-blank shootings, arson) to terrorize the population. Its
+    "heroic deeds" served as a model for other reactionary forces (Croats,
+    Windischgrätz), creating a chain of counter-revolutionary violence
+    across Europe. The army's material superiority and willingness to use
+    extreme force paralyzed revolutionary action.
+
+alternative_proposal:
+  method: ideological_exposure_and_mobilization
+  elements:
+    - Demystify the king's "liberal" language by juxtaposing it with the
+      army's atrocities.
+    - Refute the "glory" narrative by detailing the defeats and shameful
+      conduct in Schleswig-Holstein and Posen.
+    - Link the Prussian counter-revolution to the international reaction
+      (Russia, Austria).
+    - Use the press to preserve the memory of the revolution and to
+      prepare for a new round of struggle (explicit comparison to the
+      Brunswick manifesto implies that the monarchy has declared war
+      on the people and that the people must respond).
+  note: |
+    This text is a polemic, not a programmatic document. The "alternative"
+    is not spelled out as positive measures but as the continuation of
+    revolutionary critique and organization. The reference to the
+    Brunswick manifesto (1792), which threatened Paris with exemplary
+    vengeance, frames the king's greeting as a declaration of war and
+    calls for a revolutionary answer — implicitly, the revival of the
+    armed popular resistance.
+
+direction_constraint:
+  core: balance_of_military_forces_and_international_reaction
+  specific: |
+    The revolution's immediate future is constrained by the ongoing
+    material supremacy of the Prussian army, which acts as "jailor and
+    policeman" for the counter-revolution, and by the shadow of Russian
+    intervention (the army's "courage against the Poles occurred only
+    owing to fear of the Russians"). The Prussian state's reliance on
+    violence and its ability to draw on the resources of the old order
+    (Junkerdom, bureaucracy, alliance with other monarchies) limits the
+    possibility of rapid democratic advance. Any new revolutionary wave
+    would need to overcome this military-reactionary bloc and to break
+    the ideological hold of the crown.
+  key_insight: |
+    "The royal New-Year message breathes on us the same spirit as that
+    which emanates from the columns of the 'Dame of the Cross'"
+    — the counter-revolution has shed its liberal mask, making its class
+    character unmistakable. This very clarity is a material precondition
+    for the next phase of struggle.

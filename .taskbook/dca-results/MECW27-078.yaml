@@ -1,0 +1,122 @@
+```yaml
+reasoning: |
+  Engels' 1894 text On the History of Early Christianity is not a direct 
+  intervention in an immediate political crisis but a historical-materialist 
+  analysis of the socialist movement's trajectory. By drawing a systematic 
+  parallel between early Christianity and the modern workers' movement, 
+  Engels diagnoses persistent organizational and ideological lag within 
+  socialism. The crisis is the recurrence within the movement of confusion, 
+  sectarianism, and exploitation by impostors (Peregrinus/Kuhlmann figures), 
+  which mirrors early Christianity's chaotic development. Engels identifies 
+  dual lag: organizational (countless sects, lack of unified dogma, 
+  competition among factions) and ideological (utopianism, religious 
+  disguise, asceticism, apocalyptic revenge fantasies). The alternative is 
+  implicit but clear: the movement must mature through struggle, shedding 
+  superstition and sectarianism to achieve scientific unity — a process 
+  already advanced by the International's break with anarchism and the 
+  development of Marxist theory. The direction is constrained by material 
+  conditions: while modern means of communication (railways, telegraph, 
+  press) accelerate unification compared to antiquity, the mass character 
+  of the movement means confusion is an inevitable initial phase. 
+  Crucially, Engels insists that "neither of these two great movements 
+  were made by leaders or prophets — they are mass movements," and 
+  that "mass movements are bound to be confused at the beginning." The 
+  historical parallel thus serves to normalize the lag as a necessary 
+  stage while pointing toward an immanent resolution rooted in the 
+  movement's own dynamic and the development of productive forces.
+
+crisis_diagnosis:
+  type: organizational_degeneration_and_ideological_confusion
+  specific: |
+    The socialist movement of 1894, despite rapid growth, still exhibits 
+    the same chaotic features that marked early Christianity: infiltration 
+    by impostors, profusion of sects, a tendency toward apocalyptic fantasy, 
+    and exploitation of the masses by self-proclaimed prophets. Engels 
+    does not name a single contemporary event but identifies a structural 
+    recurrence — a 'Peregrinus' syndrome — that periodically afflicts 
+    the movement, from Weitling's communities to the International. The 
+    crisis is that the movement has not yet fully overcome the utopian, 
+    sectarian, and religious-tinged forms of its infancy, even as it 
+    stands on the threshold of victory.
+  evidence:
+    - "Everybody who has known by experience the European working-class 
+      movement in its beginnings will remember dozens of similar examples."
+    - "Today such extreme cases, at least in the large centres, have become 
+      impossible; but in remote districts where the movement has won new 
+      ground a small Peregrinus of this kind can still count on a temporary 
+      limited success."
+    - "That was a time when even in Rome and Greece … an absolutely 
+      uncritical mixture of the crassest superstitions … was 
+      indiscriminately accepted … It was in that atmosphere, and, 
+      moreover, among a class of people who were more inclined than any 
+      other to listen to these supernatural fantasies, that Christianity 
+      arose." (parallel applied to early socialism)
+
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    The movement is split into countless sects that "fight against one 
+    another with at least the same zeal as against the common external 
+    enemy." Engels lists the divisions within the First International: 
+    "Communists of the French pre-1848 tradition … Weitling's school 
+    … Proudhonists … Blanquists, the German Workers' Party, and 
+    finally the Bakuninist anarchists." These divisions persist because 
+    the movement is still a mass movement in formation; unity through 
+    discussion and struggle takes a "whole quarter of a century."
+  ideological: |
+    Early Christianity and early socialism share a confusion of ideas, 
+    a reliance on prophets, and a tendency to clothe worldly interests 
+    in religious disguise. Engels notes that "behind the religious 
+    exaltation there was every time a very tangible worldly interest." 
+    In the 19th century, vestiges of this appear in utopian socialism, 
+    Weitling's communism, and Kuhlmann's "New World" nonsense. The 
+    ideological lag is the persistence of pre-scientific, moralistic, 
+    or apocalyptic thinking that substitutes fantasy for materialist 
+    analysis.
+
+alternative_proposal:
+  method: historical_materialist_analysis_and_organizational_maturation
+  elements:
+    - Recognition that mass movements necessarily pass through a phase 
+      of confusion and sectarianism; this phase is historically limited.
+    - Unity achieved not by imposed dogma but by working through 
+      contradictions: "There was among the early Christians the same 
+      division into countless sects, which was the very means by which 
+      discussion and thereby later unity was achieved."
+    - The development of modern means of communication and large-scale 
+      industry accelerates this process, making the victory of socialism 
+      "absolutely certain" within decades rather than centuries.
+    - A clear break with religious and utopian worldviews: socialism 
+      places salvation "in this world, in a transformation of society," 
+      not in heaven or the millennium.
+    - The modern movement has already advanced beyond early Christianity 
+      in key respects: the International achieved separation from 
+      anarchists and "unity … in respect of most general economic 
+      viewpoints."
+
+direction_constraint:
+  core: mass_character_of_revolutionary_movements_produces_initial_confusion
+  specific: |
+    "Mass movements are bound to be confused at the beginning; confused 
+    because the thinking of the masses at first moves among contradictions, 
+    lack of clarity and lack of cohesion, and also because of the role 
+    that prophets still play in them at the beginning." The lag is not 
+    a failure but a necessary stage. The direction is constrained by 
+    the historical development of the productive forces: modern 
+    capitalism has created "railways, telegraph, giant industrial cities, 
+    the press, organized people's assemblies" — means that allow the 
+    socialist movement to overcome its infancy much faster than 
+    Christianity did. Yet the process remains determined: unity emerges 
+    only through immanent struggle within the movement, not by 
+    external fiat. The material basis of class society ensures that 
+    the movement's ultimate victory is "absolutely certain," but the 
+    tempo and forms of that victory depend on the movement's internal 
+    development. Engels projects that the parallel with Christianity 
+    demonstrates the inevitability of triumph: "Three hundred years 
+    after its appearance Christianity was the recognized state 
+    religion … and in barely sixty years socialism has won itself a 
+    position which makes its victory absolutely certain."
+  key_insight: "Neither of these two great movements were made by leaders 
+    or prophets — although there are prophets enough among both of them 
+    — they are mass movements."
+```

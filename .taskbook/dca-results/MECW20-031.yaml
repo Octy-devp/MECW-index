@@ -1,0 +1,14 @@
+reasoning: |
+  The text is a brief record of a procedural motion at a meeting of the
+  General Council of the International Workingmen's Association. It thanks
+  delegates for their representation at the Geneva Congress (1866). The
+  content is purely ceremonial — a vote of thanks — and contains no
+  substantive political or economic analysis. No crisis, lag mechanism,
+  alternative proposal, or direction constraint is articulated. Thus,
+  all DCA dimensions are absent from this text. Per the extraction rules,
+  missing dimensions are marked null with an explanatory note.
+
+crisis_diagnosis: null  # no crisis identified; text is procedural
+lag_mechanism: null  # no lag analysis; text is purely ceremonial
+alternative_proposal: null  # no alternative proposed; just a vote of thanks
+direction_constraint: null  # no direction discussed

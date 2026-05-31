@@ -1,0 +1,16 @@
+```yaml
+reasoning: |
+  The text is a biographical encyclopedia entry on Marshal Berthier, compiled
+  by Marx from Engels’ notes. It offers a factual narrative of Berthier’s
+  military career, personal traits, and ultimate fate. There is no diagnosis
+  of a historical crisis, no lag mechanism in the sense of social or political
+  obstruction, no proposed alternative, and no direction constraint. The
+  article is a straightforward historical portrait written for the *New
+  American Cyclopaedia*, not a theoretical or political intervention.
+  Therefore, the DCA structure is absent.
+
+crisis_diagnosis: null
+lag_mechanism: null
+alternative_proposal: null
+direction_constraint: null
+```

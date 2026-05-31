@@ -1,0 +1,53 @@
+```yaml
+reasoning: |
+  The 1853 article weaves together forced emigration from Britain
+  (especially of Celtic populations), European refugee politics,
+  election bribery, and a critique of Cobden. Marx diagnoses the
+  forced emigration not as a natural population surplus but as a
+  consequence of the increase in productive power under capitalism
+  — a "modern compulsory emigration" that expropriates small
+  producers. He draws a contrast with ancient colonization, showing
+  that now it is not a lack of productive power but its excess that
+  drives out population. This creates a revolutionary situation: the
+  rural population is dispersed while the industrial proletariat is
+  concentrated in manufacturing towns, positioned to appropriate the
+  very forces that have expropriated them. The political events
+  (Kossuth's vacillation, Palmerston's posture, election bribery) are
+  surface phenomena masking the underlying class contradiction. The
+  lag is ideological (bourgeois economists justify the destruction,
+  workers are not yet conscious) and organizational (the proletariat
+  is concentrated but not yet acting). The alternative is not a
+  reform project but a historical prognosis: the proletariat will
+  "go a step further and appropriate these forces." The direction is
+  constrained by the material development of productive forces
+  — the transition cannot be willed; it emerges from the silent
+  revolution in the economic base, which must first run its course
+  in the most advanced capitalist country (England).
+
+crisis_diagnosis:
+  type: structural_transformation_of_agrarian_society
+  specific: |
+    The application of modern science and machinery to agriculture
+    in Britain is destroying the old system of small holdings and
+    potato cultivation, expelling the Celtic populations of Ireland
+    and the Scottish Highlands, and now even driving English small
+    farmers to emigrate. This is not a natural crisis but a result
+    of the increased productive power creating a surplus population
+    that is driven away by famine or emigration. The same process
+    concentrates the industrial proletariat in manufacturing towns,
+    while the bourgeoisie justifies it through the 'net revenue'
+    doctrine. The crisis is systemic: the productive forces have
+    outgrown the existing property relations, leading to mass
+    expropriation. On the Continent, revolutionary unrest simmers
+    ('heaven is fulminating'), but in England the economic
+    foundation itself is trembling — 'the earth itself is trembling.'
+  evidence:
+    - "It is the increase of productive power which demands a diminution
+       of population, and drives away the surplus by famine or emigration."
+    - "The rural population, the most stationary and conservative element
+       of modern society, disappears, while the industrial proletariat...
+       finds itself gathered in mighty centers, around the great
+       productive forces, whose history of creation has hitherto been
+       the martyrology of the laborers."
+    - "On the Continent heaven is fulminating, but in England the earth
+       itself

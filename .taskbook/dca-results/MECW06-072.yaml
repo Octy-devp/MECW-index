@@ -1,0 +1,35 @@
+```yaml
+reasoning: |
+  This 1847 notebook fragment on "Demand" is a descriptive historical 
+  materialist outline of how demand becomes cosmopolitan through 
+  intercourse, voyages, wars, and trade-route shifts. It traces the 
+  material conditions for the world market’s emergence, not a political 
+  or theoretical crisis. There is no diagnosis of a specific 
+  conjuncture, no identification of a lag mechanism preventing 
+  resolution, and no alternative program. The text is a preparatory 
+  note, likely for a speech or lecture, and thus lacks three of the 
+  four DCA dimensions. Directional constraint is implicitly present 
+  in the emphasis on material factors (geographical contact, transport 
+  infrastructure, political events) that condition the expansion of 
+  demand and the rise/fall of trading powers.
+
+crisis_diagnosis: null  # No explicit crisis in this preparatory note.
+
+lag_mechanism: null  # The text describes historical stages, not delays.
+
+alternative_proposal: null  # No proposal for action or change offered.
+
+direction_constraint:
+  core: material_conditions_determine_development_of_demand
+  specific: |
+    The cosmopolitan growth of demand depends on concrete historical 
+    events that bring nations into contact (Crusades, discoveries, 
+    wars). Market towns thrive only as “general stores” for exchange 
+    among regions and decline when trade routes shift (Italian city-
+    states after 1498, Bruges, Antwerp). Dominant trading nations 
+    (Dutch) emerge only when carrying trade, industry, and large-
+    scale grain imports overcome domestic agricultural limits. 
+    Thus the direction toward a unified world market is constrained 
+    by the material infrastructure of intercourse and the uneven 
+    development of productive forces across regions.
+```

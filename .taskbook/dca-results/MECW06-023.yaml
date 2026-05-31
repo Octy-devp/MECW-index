@@ -1,0 +1,30 @@
+```yaml
+reasoning: |
+  Marx's 1847 speech responds to the specific conjuncture of the International Congress of Economists in Brussels, where protectionist and free trade positions were debated. The crisis is the structural contradiction within protectionism itself: it cannot simultaneously protect both industrial progress (which requires machinery and large-scale capital) and handicraft labor (which it destroys). Marx identifies this as a systemic impasse, not a policy disagreement. The lag mechanism is ideological: protectionists present their system as beneficial to workers, but Marx shows it merely preserves the existing class relations ('conservation of the present state of affairs') while workers need transformation. The alternative is not fully developed in this fragment—Marx explicitly defers to his later speech on free trade—but he points toward the necessity of social reforms that come from 'the strength of the weak' (workers' self-organization) rather than from capital's philanthropy. The direction constraint is material: protectionism cannot transcend capitalism because it operates within the logic of national capital competition; any social reform must be international and based on workers' power, not on appealing to capital's goodwill.
+
+crisis_diagnosis:
+  type: structural_contradiction_in_protectionism
+  specific: |
+    The 1847 Brussels Congress debate between protectionists and free traders. Marx diagnoses that protectionism faces an insoluble contradiction: it cannot simultaneously protect handicraft labor (small industry) and industrial progress (machinery, large-scale capital). The German schools of List and Gülich represent the two poles: List sacrifices labor for industrial development; Gülich sacrifices industrial progress to protect labor. Neither can resolve the antagonism between capital and labor within the national framework.
+  evidence: ["If it wishes to protect industrial progress, then it at once sacrifices handicraft production, labour; if it wishes to protect labour, then industrial progress is sacrificed."]
+
+lag_mechanism:
+  layers: [ideological]
+  ideological: |
+    Protectionists present their system as benefiting workers ('It is better to be exploited by one's fellow-countrymen than by foreigners'), but Marx shows this is a patriotic illusion. The lag is that workers are offered only the 'conservation of the present state of affairs'—i.e., continued exploitation within national boundaries—rather than the transformation of class relations. Protectionism's final refuge is to claim it enables social reforms, but Marx exposes this as a contradiction: the same system that strengthens national capital against foreign capital cannot simultaneously weaken it against the working class.
+  evidence: ["The preservation, the conservation of the present state of affairs is accordingly the best result the protectionists can achieve... the problem for the working class is not to preserve the present state of affairs, but to transform it into its opposite."]
+
+alternative_proposal:
+  method: deferred_to_later_speech
+  elements:
+    - Marx explicitly leaves protectionists aside and turns to free trade's relationship to the working class, indicating the alternative is not developed in this fragment.
+    - He hints at the necessity of social reforms based on 'the strength of the weak' (workers' self-organization) rather than capital's philanthropy.
+    - The alternative is implicitly internationalist: protectionism's national framework is insufficient; social reforms must transcend national competition.
+  evidence: ["Social reforms can never be brought about by the weakness of the strong; they must and will be called to life by the strength of the weak."]
+
+direction_constraint:
+  core: material_limits_of_national_capital_competition
+  specific: |
+    Protectionism operates within the logic of national capital competition, which cannot resolve the class antagonism. The constraint is that any system based on strengthening national capital against foreign capital simultaneously strengthens capital against labor. Social reforms cannot emerge from this framework; they require a different basis—workers' collective power, which is international by nature. Marx's turn to free trade analysis in the subsequent speech suggests the alternative must confront the global character of capitalist exploitation.
+  key_insight: "The system of protective tariffs places in the hands of the capital of one country the weapons which enable it to defy the capital of other countries; it increases the strength of this capital in opposition to foreign capital, and at the same time it deludes itself that the very same means will make that same capital small and weak in opposition to the working class."
+```

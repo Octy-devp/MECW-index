@@ -1,0 +1,104 @@
+```yaml
+reasoning: |
+  Marx's 1871 speech on trade unions comes in the aftermath of the Paris
+  Commune and amid the growth of the International Working Men's
+  Association. He diagnoses trade unions as structurally incapable of
+  leading the proletariat because they organize only a "aristocratic
+  minority" of skilled, better-off workers, while the great mass of
+  proletarians—agricultural laborers, day laborers, the unskilled—remain
+  permanently excluded. The lag has both organizational and ideological
+  layers: unions are designed to protect sectional interests and often
+  forbid political engagement, leaving them isolated and powerless.
+  Language barriers further prevent international federation. Marx's
+  alternative is not to reform the unions but to bypass their limitations
+  through the International, whose ideas directly inspire the unorganized
+  masses and whose political leadership can carry even the trade unions
+  into effective action. The direction is constrained by the uneven
+  development of the working class itself: the International must
+  organize the growing mass of dispossessed workers whom the unions
+  cannot reach, while using its influence to push the unions toward
+  political struggle.
+
+crisis_diagnosis:
+  type: organizational_insufficiency
+  specific: |
+    Trade unions are an "aristocratic minority" incapable of representing
+    or mobilizing the vast and growing mass of the proletariat. Their
+    base is restricted to a narrow layer of skilled workers; the poorest,
+    the rural-to-urban migrants, farm laborers, and day laborers remain
+    permanently outside. As a result, "the trade unions by standing alone
+    are powerless," and they had no role in England's greatest
+    revolutionary movements. The crisis is that the existing
+    organizational form of the working class fails to match the scale and
+    composition of the actual proletariat, leaving the class without
+    effective leadership at a revolutionary moment.
+  evidence:
+    - "The trade unions... are an aristocratic minority. The poorer workers
+      could not join them: the great mass of workers... remain outside the
+      trade unions for a long time, and the poorest of all never belong to
+      them."
+    - "The trade unions by standing alone are powerless — they will remain
+      a minority."
+    - "The trade unions stood outside England's greatest revolutionary
+      movement."
+
+lag_mechanism:
+  layers: [organizational, ideological, structural]
+  organizational: |
+    Trade unions are inherently exclusive, limited to skilled, often
+    better-paid workers. Their statutes and practices bar entry to the
+    unskilled, the casualized, and the rural proletariat. This creates a
+    permanent division between the unionized "aristocracy" and the mass
+    of workers. Additionally, language barriers prevent the formation of
+    an effective international trade union federation.
+  ideological: |
+    Trade unions enforce a depoliticized, purely economic form of
+    struggle. "They have in their statutes a section which prohibits them
+    from mixing in politics; they ventured upon political action only
+    under the influence of the International." This self-imposed
+    limitation keeps them from addressing the political roots of
+    exploitation and from acting as a class force.
+  structural: |
+    Capitalist development itself constantly generates new layers of
+    proletarians pushed from countryside to cities who are structurally
+    excluded from the old craft-based unions. The material conditions of
+    the poorest workers—insecurity, dispersion, lack of skill—make
+    traditional trade union organization impossible for them.
+
+alternative_proposal:
+  method: direct_mass_organization_through_the_International
+  elements:
+    - The International directly inspires and organizes the unorganized
+      masses, bypassing the narrowness of the trade unions. "The
+      International doesn't need the organization of trade unions in order
+      to win the workers — the ideas of the International inspire them at
+      once."
+    - The International serves as the political leadership that can
+      coordinate all sections of the class, including trade unions when
+      they can be brought into action. "If the trade unions want to
+      utilize their forces, they could with our help obtain everything."
+    - The General Council maintains direct relations with trade unions in
+      key industrial cities to exert political influence and bring them
+      into common struggle.
+
+direction_constraint:
+  core: fragmented_class_formation_under_capitalism
+  specific: |
+    The working class is not a homogeneous bloc but is deeply stratified
+    by skill, income security, and origin. The International's greatest
+    strength is that it can reach the unorganized masses directly,
+    offering them a political identity when trade unions cannot. The
+    direction is toward a unified political movement of the whole class,
+    but this presupposes overcoming the material division between the
+    labor aristocracy and the mass of pauperized workers. The constraint
+    is that the unions themselves, as presently constituted, cannot be the
+    vehicle for this unification; they must be subsumed under a broader
+    political organization that speaks to the entire class, including its
+    most oppressed layers.
+  key_insight: |
+    The International's direct influence over the non-unionized masses
+    demonstrates that class consciousness can precede and even shape
+    organizational forms, rather than requiring the prior existence of
+    trade unions. The material basis for this is the daily immiseration
+    and displacement that capitalism imposes on the working class.
+```

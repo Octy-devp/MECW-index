@@ -1,0 +1,60 @@
+```yaml
+reasoning: |
+  This review from January-February 1850 analyzes the political 
+  and economic conjuncture following the defeats of the 1848 
+  revolutions. Marx and Engels diagnose a temporary stabilization 
+  of the counter-revolution across Europe (Prussia, Austria, 
+  Switzerland) but identify the contradictions that will soon 
+  shatter it: the financial bankruptcy of the old regimes, the 
+  looming commercial crisis in England (predicted for summer 1850), 
+  and the inevitable new European war. The lag is the period of 
+  illusionary 'prosperity' and political compromise that delays 
+  the resurgence of the revolution. The text does not propose a 
+  specific alternative program—it is a diagnostic review, not a 
+  manifesto. Instead, it predicts that the impending crisis will 
+  necessarily produce a new revolutionary upsurge, the character of 
+  which is materially constrained by the uneven development of 
+  capitalism and the global economic cycle. The discovery of gold 
+  in California and the Chinese revolution are seen as accelerating 
+  capitalist expansion and, simultaneously, its contradictions.
+crisis_diagnosis:
+  type: counter-revolutionary_stabilization_and_impending_crisis
+  specific: |
+    The post-1848 counter-revolution is consolidating through 
+    compromises (Prussian constitutional farce), financial 
+    exhaustion (Austria's bankruptcy), and the betrayal of small 
+    states (Switzerland). However, this stabilization is superficial 
+    and contradictory. The old regimes are financially ruined and 
+    are being pushed toward a foreign war as their last hope. 
+    Simultaneously, England’s industrial boom is about to turn into 
+    a commercial crisis by mid-1850, which will coincide with the 
+    continental political turmoil, producing a general revolutionary 
+    situation.
+  evidence:
+    - "The king of Prussia is doing his best to provoke a crisis out 
+      of the present period of lukewarm agreements..."
+    - "Austria is in the full flower of national bankruptcy. ... 
+      Only an act of desperation still holds out a slight chance of 
+      salvation: a foreign war."
+    - "England is enjoying the full bloom of 'prosperity'. ... 
+      with the first news of their saturation 'panic' will ensue 
+      ... as early as the end of spring, at the latest in July or 
+      August."
+    - "This crisis will necessarily coincide with great clashes on 
+      the Continent, it will bear fruit of a very different type 
+      from all preceding crises."
+lag_mechanism:
+  layers: [political, economic, ideological]
+  political: |
+    The constitutional bourgeoisie in Prussia and the petty-
+    bourgeois Federal Council in Switzerland suppress the 
+    revolution through cowardice and compromise, preferring to 
+    accept humiliations rather than risk a revolutionary struggle. 
+    The counter-revolutionary regimes temporarily buy time through 
+    concessions and repression.
+  economic: |
+    The industrial prosperity in England and its temporary spread 
+    to the Continent after the February revolution created an 
+    illusion of stability, absorbing surplus capital and delaying 
+    the open eruption of class antagonisms. This boom is cyclical 
+    and already overextending, but for the

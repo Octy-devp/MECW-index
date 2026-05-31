@@ -1,0 +1,108 @@
+```yaml
+reasoning: |
+  Engels' "The Mark" (1882) is a historical sketch appended to
+  "Socialism: Utopian and Scientific," aimed at educating German
+  socialist workers and peasants about the primitive communal land
+  system and its destruction. The text traces the mark from its
+  origins through feudal expropriation, peasant wars, the Thirty
+  Years' War, and the formal emancipation that left peasants with
+  insufficient land and heavy debts. The immediate crisis is the
+  economic ruin of the small peasantry in the face of capitalist
+  large-scale agriculture and American grain imports: "Cultivation
+  on a small scale a method of production more and more antiquated,
+  less and less capable of yielding a livelihood." Engels diagnoses
+  the peasant's condition as the culmination of centuries of land
+  theft, now manifest as debt-servitude to mortgagees and the state.
+  The lag is primarily ideological—the peasant does not yet
+  understand how to help himself—and organizational, rooted in
+  isolation. The alternative, only hinted at, is socialized
+  agriculture through worker-peasant alliance. The direction
+  constraint is the material development of productive forces:
+  just as machinery displaced hand-spinning, large-scale production
+  must replace small plots, and this transition is only possible
+  once the peasant grasps the necessity.
+
+crisis_diagnosis:
+  type: agrarian_crisis
+  specific: |
+    The formal emancipation of German peasants through redemption
+    payments has left them with tiny, fragmented holdings, burdened
+    by mortgages and taxes. They are being economically destroyed
+    by large-scale capitalist agriculture and cheap American grain
+    imports. This is the latest stage of centuries of land theft
+    that began with the Frankish kings and intensified through
+    feudalization, the Thirty Years' War, and the 19th-century
+    "redemption" swindles. The peasant is now a "free" proprietor
+    only in name—a debt-serf facing extinction.
+  evidence:
+    - "But how very inferior is the position of our free peasant
+      of to-day compared with the free member of the mark of the
+      olden time! ... The tax-collector and the officer of the law
+      threatening in the rear of him ... And so was the mortgagee,
+      into whose clutches nowadays one peasant's holding after
+      another falls."
+    - "Against this soil, fertile, manured by nature for a long
+      range of years, and to be had for a bagatelle, neither our
+      small peasants, up to their eyes in debt, nor our large
+      landowners, equally deep in debt, can fight."
+    - "Cultivation on a small scale a method of production more
+      and more antiquated, less and less capable of yielding a
+      livelihood."
+
+lag_mechanism:
+  layers: [ideological, organizational, material]
+  ideological: |
+    The peasant does not understand the historical process that
+    has dispossessed him, nor the socialist solution. The text
+    ends by stating that the value of the free peasant class
+    lies in the possibility of self-help "as soon as he once
+    understands *how*." The long history of defeats (1525 peasant
+    war, Thirty Years' War, legal chicanery) has instilled
+    passivity and a servile belief in the existing order.
+  organizational: |
+    Peasants are isolated on their small holdings; the old
+    mark communal structures have been destroyed, leaving no
+    basis for collective action. They have not yet formed an
+    alliance with the working class—their "natural comrade."
+  material: |
+    The physical fragmentation of land (tiny plots, lack of
+    common pastures and forests) prevents efficient production
+    and reinforces individualistic survival. The mark system
+    that once sustained communal life is reduced to "a few very
+    small and poor bits of communal forest."
+
+alternative_proposal:
+  method: historical_education_and_socialist_transformation
+  elements:
+    - Socialized agriculture on a large scale, using scientific
+      methods and machinery, for the benefit of society as a whole
+    - Alliance between peasants and the industrial working class,
+      who together can seize the means of production
+    - Abolition of private property in land, returning to a
+      higher form of common ownership that transcends the
+      primitive mark
+    - Peasant self-help based on understanding of historical
+      necessity; the text itself serves as a pedagogical tool
+      to reveal the robbery and point toward socialism
+
+direction_constraint:
+  core: productive_forces_determine_agricultural_organization
+  specific: |
+    The direction is constrained by the irreversible development
+    of capitalist productive forces. Small-scale farming is as
+    obsolete as the spinning-wheel: "As spinning and weaving
+    by machinery replaced the spinning-wheel and the hand-loom,
+    so these new methods of agricultural production must
+    inevitably replace the cultivation of land in small plots
+    by landed property on a large scale." The transition can
+    only occur on the basis of the large-scale production that
+    capitalism has already created, not by restoring the
+    primitive mark. Global competition (American grain) makes
+    socialization an economic necessity, but its realization
+    depends on the peasant's conscious alliance with the
+    proletariat.
+  key_insight: |
+    "Agriculture, as far as Europe is concerned, will only be
+    possible if carried on upon socialized lines, and for the
+    advantage of society as a whole."
+```

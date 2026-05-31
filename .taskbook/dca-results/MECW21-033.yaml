@@ -1,0 +1,38 @@
+reasoning: |
+  Marx’s confidential communication diagnoses Bakunin’s organized attempt to seize the International by creating a secret “Alliance of Socialist Democracy” as a sect within it. The crisis is not a clash of personalities but a structural attack: Bakunin’s pseudo-theoretical program (equality of classes, abolition of inheritance) and his organizational conspiracy aim to depose the London General Council and substitute a Bakuninist dictatorship in Geneva. The lag mechanism operates on three levels: an organizational loophole (autonomous sections can be infiltrated by clandestine societies), ideological confusion (apoliticism, primitive anti‑inheritancism, rhetorical radicalism that appeals to members’ impatience), and a material‑geographical diffi‑culty (decentralised national councils make central oversight slow). The alternative is the General Council’s two‑pronged counter‑action: the circular refutes the calumnies point by point, reinforces the statutory authority, and explains the material rationale for keeping the General Council in London; simultaneously, the Council demands the dissolution of the Alliance and the submission of its branches to proper federal control. The direction constraint is grounded in the material analysis that England, as the “metropolis of capital,” is the only country where the economic pre‑conditions for a socialist revolution are fully mature; the General Council must therefore hold direct control over the English lever and must not allow a separate English Federal Council to dis‑articulate the international‑from‑national. This strategic imperative limits the permissible forms of decentralisation and rules out the “apolitical” sectarianism Bakunin promotes.
+
+crisis_diagnosis:
+  type: factional_conspiracy_with_organizational_and_theoretical_threat
+  specific: |
+    Bakunin, after years of nominal membership, established a secret “Alliance of Socialist Democracy” with a ludicrous programme (class equality, abolition of inheritance) and a parallel organisational structure designed to usurp the International. His aim was to use the Basel Congress to transfer the General Council from London to Geneva, thereby placing the International under his personal dictatorship. When the Basel manoeuvre failed, he used Swiss newspapers to publicly attack the General Council, accusing it of breach of duty, bourgeois domination, and authoritarian communism, while secretly encouraging splits along political‑versus‑apolitical lines.
+  evidence: ["the Alliance is nothing but a machine for the disorganization of the International", "Bakunin then sought to achieve his aim – to transform the International into his private instrument – by other means", "Even fake mandates were not lacking"]
+
+lag_mechanism:
+  layers: [organizational, ideological, material‑geographical]
+  organizational: |
+    The International’s federal structure, with autonomous national sections and communication delays, allowed Bakunin to build a secret society inside it without immediate detection. The Romanish Federal Committee was initially captured by his supporters, and the General Council had to wait for a procedural moment (submission of Alliance statutes) to act. Even after the nominal dissolution of the Alliance, it continued factually under Bakunin’s control.
+  ideological: |
+    Bakunin’s programme of “equality of classes,” “abolition of the right of inheritance as the beginning of the social revolution,” and an apolitical rejection of state‑directed action appealed to the most impatient and theoretically untrained members. This “senseless prattle” provided a simplistic‑sounding alternative to scientific socialism and masked Bakunin’s dictatorial ambitions. The confusion was compounded by mistranslations of the Statutes (e.g., omission of “abolition of all class rule” from the French version) that blurred the International’s political‑class character.
+  material‑geographical: |
+    Communication between the General Council in London and the Swiss sections depended on slow correspondence and an over‑worked secretary; decisive replies could be overtaken by events, as happened when Perret’s official letter crossed the General Council’s circular. The distance also enabled Bakunin to operate in relative secrecy in Geneva and Tessin.
+
+alternative_proposal:
+  method: decisive_organisational_counter_action_plus_theoretical_clarification
+  elements:
+    - Formal resolution requiring the dissolution of the Alliance of Socialist Democracy as an independent international organisation and submission of its branches’ lists to the General Council.
+    - A definitive circular (reproduced in the communication) that:
+      • Refuses to engage in public polemics with newspapers that are not the legitimate representatives of the sections.
+      • Explains the conditional obligation to publish bulletins (dependent on means and data from national committees, never fulfilled).
+      • Demonstrates why a separate English Federal Council would remove the great lever of world revolution from the General Council’s hands, because England is the “metropolis of capital.”
+      • Defends the General Council’s resolution on the Irish amnesty as a necessary step toward striking the decisive blow against English landlordism and thus hastening social revolution in England.
+      • Clarifies that the Eisenach group belongs to the International, while Schweitzer’s sectarian Lassallean organisation does not.
+      • Reaffirms the original text of the Statutes: economic emancipation is the end to which “every political movement ought to be subordinate as a means,” and the goal is “the abolition of all class rule,” not mere “equal rights.”
+    - Withholding of recognition from Bakunin‑controlled organs and support of the honest Russian refugee group in Geneva that plans to publicly unmask Bakunin’s double‑tongued politics.
+
+direction_constraint:
+  core: england_as_the_lever_of_worldwide_economic_revolution
+  specific: |
+    The General Council must remain in London and directly control the English movement because England is the only country where the material conditions for a socialist revolution are fully matured: a proletarian majority, concentrated landed property, capitalist production throughout the economy, and domination of the world market. “Every revolution in economic relationships must directly affect the whole world.” If the General Council were to let the lever fall into purely English hands, it would lose the capacity to generalise the struggle internationally. Conversely, any action by the International must be subordinated to accelerating the social revolution in England, and the decisive blow against English landlordism must be struck in Ireland. This geo‑economic constraint dictates both the organisational structure (no separate English Federal Council) and the priority of political intervention (e.g., the Irish question), and it absolutely excludes Bakunin’s apolitical, anti‑centralising model.
+  key_insight: "England… is the *metropolis of capital*. … Only the General Council can … accelerate a truly revolutionary movement here and, in consequence, *everywhere*."
+  additional_constraint: |
+    The Statutes’ definition of the relationship between political and economic movement (political movement as means, economic emancipation as end) is non‑negotiable and was factually violated by Bakunin’s abstentionism.

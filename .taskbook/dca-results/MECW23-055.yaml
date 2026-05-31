@@ -1,0 +1,120 @@
+reasoning: |
+  The 1872 amendments to the International Working Men's Association's 
+  General Rules and Administrative Regulations respond to a factional 
+  and strategic crisis after the Paris Commune. Bakuninist anarchists 
+  rejected political action and central authority, threatening to 
+  dissolve the International into isolated local groups. Marx's 
+  amendments diagnose this as a lag in organizational form and 
+  ideology: the International still operated as a loose federation 
+  rather than a disciplined political party, and its members had not 
+  universally accepted the necessity of conquering political power. 
+  The alternative proposed is a thoroughgoing reorganization: 
+  mandating the constitution of the working class into a political 
+  party, strengthening the General Council with suspension powers, 
+  ensuring proletarian dominance in sections, and concentrating 
+  congress agenda-setting. The direction is constrained by national 
+  legal diversity (Art. 7 notes peculiar laws) and the irreducible 
+  fact that as long as propertied classes exist, the working class 
+  must fight politically, not only economically. The amendments 
+  themselves are the text’s alternative, and their specific articles 
+  map directly onto a crisis-lag analysis: crisis of factional 
+  fragmentation, lag in organizational centralization and political 
+  consciousness, alternative enforced through binding rules.
+
+crisis_diagnosis:
+  type: factional_disintegration
+  specific: |
+    In the aftermath of the Paris Commune (1871), the International 
+    was riven by a strategic schism between centralized Marxist 
+    leadership and Bakuninist anarchists who opposed political 
+    action and organizational authority. The anarchist and federalist 
+    factions threatened to dissolve the IWMA into a mere propaganda 
+    forum, unable to act as a class force. The 1872 Hague Congress 
+    was imminent, and the amendments aimed to preempt the split by 
+    codifying a Marxist organizational model that would exclude or 
+    marginalize anti-authoritarians.
+  evidence:
+    - "The conquest of political power has therefore become the great 
+      duty of the working class" (Art. 8) directly counters the 
+      anarchist rejection of political struggle.
+    - The General Council's new suspension powers (Reg. II.6) were 
+      designed to discipline recalcitrant federations (notably the 
+      Jura Federation).
+    - The requirement that two‑thirds of branch members be wage‑workers 
+      (Art. 9) was aimed at preventing ‘bourgeois’ elements or 
+      professional revolutionaries without a working‑class base from 
+      dominating sections, as occurred in some Bakuninist groups.
+
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    The IWMA was a loose association of national sections and local 
+    societies. Until these amendments, the General Council had few 
+    powers over federations, congresses could be called only annually, 
+    and no mechanism existed to suspend recalcitrant bodies. Local 
+    groups operated autonomously, often bypassing national coordination. 
+    This fragmented structure prevented the communal action that the 
+    crisis demanded. The rules thus insert centralizing levers: the 
+    Council can replace a Congress with a private Conference, set the 
+    congress agenda (Reg. I.8), and suspend branches or entire 
+    federations (Reg. II.6).
+  ideological: |
+    An influential current within the International (Bakuninists, 
+    Blanquists, Proudhonists) rejected political party formation, 
+    believing either in insurrectionary putschs, general strike, or 
+    purely economic mutualism. They argued that political activity 
+    corrupts workers’ movements. Article 8 explicitly counters this 
+    by declaring that the working class “cannot act as a class except 
+    by constituting itself into a political party” and that such a 
+    party is “indispensable” for social revolution. The requirement 
+    that two‑thirds of branch members be wage‑workers (Art. 9) also 
+    reflects a concern that non‑proletarian or declassed elements were 
+    injecting anti‑political ideologies into the Association.
+
+alternative_proposal:
+  method: organizational_transformation_via_rule_amendments
+  elements:
+    - "The working class cannot act as a class except by constituting 
+      itself into a political party" (Art. 8) — mandatory political 
+      party formation, distinct from all bourgeois parties.
+    - Centralization of authority in the General Council: power to 
+      change Congress date and place, or replace it with a Conference 
+      (Art. 4); right to suspend branches, federal councils, or entire 
+      federations (Reg. II.6); power to draw up the Congress programme 
+      and accept submitted questions (Reg. I.8).
+    - Guarantee of proletarian character: no less than two‑thirds of 
+      each branch must be wage‑workers (Art. 9).
+    - National bodies to combine local societies, but with flexibility 
+      for local groups to correspond directly with the General Council 
+      (Art. 7), acknowledging national legal obstacles.
+    - Proportional delegate representation based on membership 
+      (Reg. I.2-3); Congress divided into private administrative 
+      sittings and public discussion of principles (Reg. I.7).
+    - Requirement that groups outside federal associations immediately 
+      announce adhesion to the General Council (Reg. II.4).
+
+direction_constraint:
+  core: national_legal_differences_and_irreducible_political_conflict
+  specific: |
+    The text repeatedly conditions organizational measures on “the 
+    peculiar laws of each country” (Art. 7), acknowledging that 
+    national legislation both enables and constrains the formation of 
+    open political parties and the transmission of communications. 
+    Moreover, the necessity of a political party is rooted in the 
+    structural fact that “the lords of land and the lords of capital 
+    will always use their political privileges for the defence and 
+    perpetuation of their economical monopolies” (Art. 8). Thus, as 
+    long as private property in the means of production persists, 
+    political struggle is unavoidable; the direction is constrained 
+    by the class antagonism itself, which requires the working class 
+    to conquer political power, not merely reform it. The amendments 
+    do not promise immediate revolution but create the organizational 
+    form capable of waging that struggle across diverse legal and 
+    political landscapes.
+  key_insight: |
+    "The combination of forces which the working class has already 
+    effected by its economical struggles ought, at the same time, to 
+    serve as a lever for its struggles against the political power 
+    of its exploiters." — The material combat on the economic front 
+    both enables and limits the political leap; the party becomes 
+    the indispensable lever.

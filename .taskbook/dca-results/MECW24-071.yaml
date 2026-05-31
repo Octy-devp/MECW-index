@@ -1,0 +1,36 @@
+reasoning: |
+  The text is a celebratory speech marking the 36th anniversary of the
+  German Workers' Educational Society in London. Marx provides a historical
+  overview of the Society's founding in 1840, its association with the
+  League of the Just, the Chartist movement, and its role as a refuge.
+  He notes the Society's contribution to the 'present movement' and
+  expresses hope for its continuation. Engels honors early communists
+  (Weitling, Moll) and sarcastically remarks that persecutors like
+  Bismarck unwittingly aid the socialist movement. Wroblewski reaffirms
+  Polish solidarity. The speech contains no explicit crisis diagnosis
+  (no conjuncture or structural contradiction is identified), no lag
+  mechanism (no analysis of barriers internal or external), no alternative
+  proposal (no concrete program beyond continued activity), and no
+  direction constraint grounded in material conditions. It is a
+  commemorative and motivational address, not a strategic intervention.
+  Hence all DCA dimensions are absent.
+
+crisis_diagnosis:
+  type: null
+  specific: null
+  evidence: null
+
+lag_mechanism:
+  layers: null
+  theoretical: null
+  organizational: null
+  ideological: null
+
+alternative_proposal:
+  method: null
+  elements: null
+
+direction_constraint:
+  core: null
+  specific: null
+  key_insight: null

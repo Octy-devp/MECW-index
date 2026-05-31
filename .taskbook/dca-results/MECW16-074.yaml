@@ -1,0 +1,32 @@
+reasoning: |
+  Engels' analysis of the Battle of Solferino (24 June 1859) is a piece of military-political journalism that implicitly deploys the Crisis-Delay-Alternative-Direction framework. The immediate crisis is the Austrian defeat, but the deeper crisis is the exposure of the Habsburg monarchy's systemic rot. The lag is the personal incompetence of Emperor Francis Joseph, which demoralized courageous troops and handed victory to a numerically superior enemy — a lag rooted in the political structure of the reactionary "old-Austrian system". The alternative is not a theoretical blueprint but a concrete military-strategic reorientation (fortresses, small engagements, Hess's command, reserve mobilization) combined with a political opening forced by domestic discontent. The direction is constrained by material factors: French overextension, Austrian reserves, Prussian mobilization, and the post-1848 political awakening of the German people that limits sovereign power. All four dimensions are present and grounded in the text.
+
+crisis_diagnosis:
+  type: military_defeat_political_crisis
+  specific: |
+    The Austrian army, despite superb troop quality, lost the Battle of Solferino (24 June 1859) due to the supreme command's incompetence. Francis Joseph's personal failure — indecision, contradictory orders, tactical blunders — has "compromised himself irrevocably in the eyes of his army". This military crisis immediately becomes a political crisis: "the entire old-Austrian system is tottering. Discontent with the concordat business, with the centralisation, with rule by the bureaucracy, is breaking out all over Austria." The loss exposes a structural legitimacy deficit of the Habsburg monarchy.
+  evidence:
+    - "Indecision, wavering, contradictory orders, as if the troops were to be quite intentionally demoralised..."
+    - "this arrogant youth presuming to command an army and yielding like a reed in the wind to the most contradictory influences"
+    - "one great result has been achieved: One of our principal sovereigns has made an utter laughing-stock of himself, and his entire old-Austrian system is tottering"
+
+lag_mechanism:
+  layers: [personal_leadership, systemic_political]
+  personal_leadership: |
+    Francis Joseph's personal military incapacity directly caused the defeat: an offensive with a thin 12-mile line against a superior enemy, alternation between retreat and attack without strategic rationale, reliance on contradictory advice from old Hess and Grünne. The troops fought with "outstanding valour" for 16 hours, but leadership nullified their sacrifice.
+  systemic_political: |
+    The Austrian system of hereditary monarchy places an untrained, arrogant supreme commander at the head of the army — a structural weakness that reproduced defeats abroad. The same "old-Austrian system" of oppressive centralisation, bureaucracy, and the concordat generated popular revolt at home, sapping the regime's ability to wage war effectively. The lag is thus not merely personal but inherent to a reactionary state form.
+
+alternative_proposal:
+  method: military_strategic_repositioning_with_political_concessions
+  elements:
+    - Shift command to the experienced "old Hess", who understands positional warfare.
+    - Use the Austrian fortresses (Mantua, Peschiera, etc.) to force the French to split their forces after crossing the Mincio, creating opportunities for local superiority.
+    - Conduct a series of small engagements for individual posts, avoiding pitched battles until reserves arrive.
+    - Bring up the 120,000 reserve reinforcements, while Napoleon, facing Prussian mobilisation, cannot reinforce; then concentrate to deliver a decisive counter-blow, replicating the victories of Sommacampagna and Custozza.
+    - Politically: Francis Joseph must make concessions in Vienna to quell domestic unrest, while the German people, "an entirely different people since the revolution of 1848," have become strong enough to contain their own sovereigns.
+
+direction_constraint:
+  core: material_distribution_of_forces_and_popular_awakening
+  specific: |
+    The French advance across the Mincio will inevitably disperse their forces, making them vulnerable to Austrian concentration once reserves are deployed. Prussia’s mobilisation blocks French reinforcement. These material conditions give the Austrian army, still cohesive and courageous, a genuine chance to turn the war. Politically, the direction is constrained by the popular ferment in Austria, which forces the regime towards concessions, and by the post-1848 transformation of the German national movement, which now possesses the strength to impose limits on princely power — both pressures shaping the outcome.

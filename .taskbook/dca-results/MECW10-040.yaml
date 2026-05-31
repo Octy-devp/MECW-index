@@ -1,0 +1,97 @@
+```yaml
+reasoning: |
+  Engels analyzes the 1522 uprising of the German nobility (Sickingen and Hutten) within the
+  broader context of the Reformation. The crisis is the structural decline of the nobility as
+  an independent political force, accelerated by the Reformation's unleashing of class
+  contradictions. The lag is not merely organizational but rooted in the nobility's class
+  interests: their refusal to abolish serfdom prevented any alliance with the peasants or
+  cities, leaving them isolated against the princes. Hutten's alternative — a "democracy of
+  the nobility headed by a monarchy" — was a reactionary utopia, impossible under 16th-century
+  German conditions (powerful cities, persistence of serfdom, lack of national centralization).
+  The material constraint forces the actual direction: the nobility's defeat and subsequent
+  subordination to the princes. The failed uprising demonstrates that a class committed to
+  preserving its feudal privileges cannot lead a broad revolutionary movement; only a peasant-
+  middle-class alliance could have succeeded, but the nobility was incapable of renouncing
+  its own exploitation.
+
+crisis_diagnosis:
+  type: structural_decline
+  specific: |
+    The German nobility at the beginning of the 16th century was losing its independence to
+    the growing power of lay and clerical princes. The empire was fragmenting into sovereign
+    principalities, and the nobility perceived its own collapse as part of the collapse of the
+    German nation. The Reformation created a sudden alliance of all opposition elements, but
+    this unity was fleeting; internal contradictions, especially between nobility/middle-class
+    and peasants/plebeians, rapidly surfaced. Sickingen's 1522 feud against the Elector-
+    Archbishop of Trier was the nobility's attempt to realize its demands by force, but it
+    ended in disaster.
+  evidence:
+    - "The nobility was losing its independence to the ever-increasing power of the lay and
+      clerical princes."
+    - "This alliance of all the opposing elements, though formed overnight and of brief
+      duration, suddenly revealed the enormous power of the movement, and gave it further
+      impetus."
+    - "In September, 1522, he opened hostilities by declaring a feud against the Elector-
+      Archbishop of Trier... his reinforcements were cut off by a quick intervention of the
+      princes."
+
+lag_mechanism:
+  layers:
+    - class_interest
+    - organizational
+    - ideological
+  class_interest: |
+    The nobility's entire existence was based on feudal exploitation of the peasantry.
+    "Only total abolition of serfdom, bondage and all privileges of nobility could have united
+    the rural population with it. The nobility, like every privileged class, had not, however,
+    the slightest desire to give up its privileges, its favourable situation, and the major
+    parts of its sources of income." This blocked the only possible alliance that could have
+    defeated the princes.
+  organizational: |
+    The rapid growth of the Reformation movement tore apart the heterogeneous opposition into
+    two hostile camps: nobility and middle-class on one side, peasants and plebeians on the
+    other. The nobility attempted a separate uprising but without allies. The cities rejected
+    alliance, knowing the nobility too well; the peasants saw the nobility as their bitterest
+    enemy. When the struggle broke out, "the nobles were alone in the field against the
+    princes."
+  ideological: |
+    Hutten's propaganda deliberately omitted any promise of abolition of serfdom or relief
+    for the peasants. "No mention was ever made by Hutten of abolishing serfdom or other
+    burdens imposed upon the peasants by the nobility." The utopian vision of a noble-led
+    monarchy ignored the material interests of the vast majority of the population, making it
+    impossible to mobilize a mass base.
+
+alternative_proposal:
+  method: reactionary_utopia
+  elements:
+    - "Elimination of all princes"
+    - "Secularisation of all church principalities and estates"
+    - "Restoration of a democracy of the nobility headed by a monarchy"
+    - "Reunification of the empire, free from Roman Church dominance"
+  note: |
+    This program, formulated by Ulrich von Hutten, was not a genuine alternative for the
+    oppressed classes. It aimed to restore a primitive form of society founded on serfdom,
+    analogous to the early Polish republic. Engels explicitly characterizes it as "one of the
+    most primitive forms of society," which "had already become an impossibility in Germany
+    of the Sixteenth Century."
+
+direction_constraint:
+  core: material_impossibility_of_noble_democracy
+  specific: |
+    Three factors made Hutten's plan unfeasible: (1) important and powerful German cities
+    existed, making an England-style alliance between nobility and bourgeoisie impossible;
+    (2) serfdom was still the common practice and the nobility's source of income, unlike
+    England where it had been virtually eliminated; (3) conditions for national
+    centralization were rudimentary, preventing a French-style resolution. The nobility's
+    retreat into serfdom and its refusal to transform its economic base condemned its
+    political project. The actual outcome was determined by this material base: "With this
+    defeat... the power of the nobility as a body, independent of the princes, was broken.
+    From then on the nobility appeared only in the service and under the leadership of the
+    princes."
+  key_insight: |
+    The German nobility preferred to continue exploiting the peasants under princely
+    sovereignty rather than overthrow the princes and priests through an open alliance with
+    the *emancipated* peasants. Only a total transformation of property relations could have
+    united the anti-princely forces, but the class nature of the nobility made this
+    impossible.
+```

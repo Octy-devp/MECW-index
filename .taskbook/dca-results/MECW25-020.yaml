@@ -1,0 +1,90 @@
+reasoning: |
+  Engels traces the material causes of infantry tactics from 1700 to 1870, 
+  showing a dialectical pattern: each tactical formation (line, column) 
+  arose from specific weaponry and social composition of armies. The crisis 
+  emerges with the introduction of rifled breech-loading firearms in the 
+  mid-19th century, which render close-order formations obsolete. 
+  The Franco-Prussian War's Battle of St. Privat (1870) is the decisive 
+  empirical proof: the Prussian Guard suffered catastrophic casualties 
+  trying to advance in company columns. The lag is the conservatism of 
+  military doctrine—officers and regulations cling to linear/column 
+  tactics inherited from smoothbore days, opposing the soldiers' 
+  instinctive shift to dispersed skirmish chains. The alternative is 
+  precisely this dispersed, cover-based skirmishing, already prefigured 
+  in earlier conflicts (American Revolution, French Revolutionary Wars) 
+  but now forced by the breech-loader's firepower. The direction is 
+  constrained by the material base: the effectiveness of new weapons 
+  compels further tactical evolution, while the social character of 
+  modern mass armies (conscription, citizen-soldiers) makes such 
+  independent, dispersed fighting feasible.
+
+crisis_diagnosis:
+  type: military-technical obsolescence
+  specific: |
+    The rifled breech-loader (chassepot, needlegun) introduced in the 1860s 
+    gave infantry unprecedented accuracy, range, and rate of fire. 
+    The 1870 Franco-Prussian War, particularly the assault on St. Privat 
+    (August 18), demonstrated that traditional close-order formations 
+    (line, column, company column) could not survive this firepower. 
+    The Prussian Guard's attack resulted in over 30% casualties among 
+    the engaged regiments, including nearly all officers, proving the 
+    suicidal nature of existing tactics.
+  evidence:
+    - |
+      three brigades of the Prussian Guard tried to apply the company 
+      column formation seriously, the devastating power of the 
+      breech-loaders became apparent. Of the five chiefly engaged 
+      regiments (15,000 men) almost all officers (176) and 5,114 men, 
+      that is, upwards of one-third, fell.
+
+lag_mechanism:
+  layers:
+    - institutional
+    - ideological
+  institutional: |
+    Despite the introduction of breech-loading rifles, military 
+    regulations and the higher commands persisted with outdated 
+    formations: "the regulations for moving and fighting remained 
+    essentially the same as at the time of the old flint-locks." 
+    Officers forbade the natural dispersal into skirmish chains, 
+    deeming it contrary to good order.
+  ideological: |
+    A doctrinal lag existed where the official theory of warfare, 
+    embodied by the officer corps, failed to recognize the tactical 
+    implications of the new weapon. The rank-and-file soldiers, 
+    however, adapted instinctively: "Once again the soldier had 
+    been shrewder than the officer." This reflects a broader 
+    materialist point that practical reality often overtakes 
+    ideological superstructure.
+
+alternative_proposal:
+  method: tactical adaptation driven by material conditions
+  elements:
+    - Abandonment of all close-order formations (line, battalion mass, 
+      company column) under effective rifle fire.
+    - Adoption of dispersed swarms of skirmishers (tirailleurs) using 
+      terrain for cover, with high mobility.
+    - The double-quick pace as the only step within the killing zone 
+      of the new rifles.
+    - The soldier's own innovation: fighting in "compact chains of 
+      tirailleurs" that had previously been only a preliminary 
+      skirmishing phase but now became the primary battle formation.
+
+direction_constraint:
+  core: weapon_technology_determines_tactics
+  specific: |
+    The rifled breech-loader compels the dispersion of infantry; no 
+    future tactic can ignore its lethality. Additionally, the 
+    transition from mercenary to mass conscript armies (e.g., Prussian 
+    Landwehr system, French levée en masse) provides the social 
+    precondition for dispersed fighting—soldiers who fight for a cause 
+    can be trusted to act independently without deserting. The 
+    direction is toward ever more flexible, individual-soldier 
+    initiative within a framework that maximizes cover and firepower, 
+    as material weapon developments continue.
+  key_insight: |
+    "Once again the soldier had been shrewder than the officer; it was 
+    he who instinctively found the only way of fighting which has 
+    proved of service up to now under the fire of breech-loading 
+    rifles, and in spite of opposition from his officers he carried 
+    it through successfully."

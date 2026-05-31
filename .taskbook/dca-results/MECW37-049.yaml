@@ -1,0 +1,92 @@
+reasoning: |
+  This chapter from Capital Vol. 3 (1894) reveals Marx's diagnosis of a  
+  structural contradiction within capitalist production: the passive  
+  extraction of ground-rent by landowners who contribute nothing to  
+  production yet appropriate surplus-value through legal monopoly of the  
+  earth. The "crisis" is not a single event but the chronic parasitism  
+  and irrationality of landed property. Marx shows how building rent,  
+  especially in growing cities, enriches speculators ("the principal part  
+  of the profit out of the improved ground-rents"), while the ultimate  
+  reversion of land and buildings to the original landlord after 99 years  
+  locks in tribute. The lag mechanisms are both ideological (the  
+  capitalised rent masquerading as interest on purchase price, concealing  
+  that title arises from production relations) and legal/economic (the  
+  system of private ownership of the globe that forces society to pay for  
+  access to space and natural forces). Marx's alternative is not a  
+  political program in this text but a clear normative vision: a higher  
+  society would treat land as a communal usufruct, with each generation  
+  obligated to improve and hand it down. The direction constraint is  
+  material: such a transformation presupposes that capitalist production  
+  relations have ripened to the point where they "must shed their skin";  
+  only then can the historical justification for private landed property  
+  dissolve. The constraint also includes the recognition that absolute  
+  ownership is false—even all societies together are not the owners, only  
+  possessors, pointing toward an inter‑generational sustainability  
+  imperative.
+
+crisis_diagnosis:
+  type: structural_contradiction
+  specific: |
+    Capitalist landownership is diagnosed as a parasitic barrier to  
+    production and a mechanism of class exploitation. The landowner  
+    "exploit[s] the progress of social development, toward which he  
+    contributes nothing and for which he risks nothing." In building  
+    speculation, the builder's real profit comes from increased  
+    ground-rent, not from the buildings themselves. The entire system  
+    rests on a monopoly of the earth that forces workers to pay tribute  
+    for the very space they inhabit — "one part of society thus exacts  
+    tribute from another for the permission to inhabit the earth."
+  evidence: ["the palpable and complete passiveness of the owner",  
+             "the monstrous power wielded by landed property … used  
+             against labourers", "poverty is more lucrative for  
+             house-rent than the mines of Potosi ever were for Spain"]
+
+lag_mechanism:
+  layers: [ideological, legal-economic]
+  ideological: |
+    The buyer of land perceives rent as interest on his purchase capital,
+    not as unearned tribute. "The buyer, therefore, does not feel that 
+    his title to the rent is obtained gratis … but rather that he has 
+    paid for it with an equivalent." This mystification conceals that 
+    the title originates in production relations, not in market 
+    exchange. The slave-holder analogy makes the illusion explicit.
+  legal-economic: |
+    The institution of private property in land, codified in law and 
+    enforced by the state, enables the passive extraction of rent. 
+    The speculative cycle — builders leasing for 99 years, expiring 
+    leases reverting improved land and buildings to the original 
+    landlord — locks in a perpetual tribute. Even the confusion 
+    between house-interest and ground-rent is prevented in England 
+    only because landlord and speculator are distinct, but the 
+    systematic extraction remains.
+
+alternative_proposal:
+  method: abolition_of_private_landownership
+  elements:
+    - Abolition of private ownership of the earth by individuals
+    - Land becomes the possession of society as a whole, held in 
+      usufruct: "Even a whole society … are not the owners of the globe.  
+      They are only its possessors, its usufructuaries"
+    - Inter-generational stewardship: land must be "hand[ed] down to  
+      succeeding generations in an improved condition"
+    - This stands in contrast to the existing regime where the landlord 
+      "assigns … the privilege of exploiting the terrestrial body, the 
+      bowels of the earth, the air, and thereby the maintenance and 
+      development of life"
+
+direction_constraint:
+  core: maturity_of_production_relations
+  specific: |
+    The transformation presupposes that capitalist production relations  
+    have developed far enough to become a fetter: "As soon as these  
+    have reached a point where they must shed their skin, the material  
+    source of the title … falls by the wayside, along with all  
+    transactions based upon it." Thus the abolition of landed property  
+    is not a voluntaristic demand but a historical possibility  
+    conditioned by the productive forces. Additionally, the constraint  
+    that the earth is not truly ownable — even by the whole of existing  
+    society — imposes a material limit: land is a trans‑generational  
+    common, not a disposable asset, and must be managed sustainably  
+    (improved condition) rather than exhausted. This prefigures an  
+    ecological constraint internal to a rational human metabolism with  
+    nature.

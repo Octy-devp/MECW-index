@@ -1,0 +1,81 @@
+```yaml
+reasoning: |
+  The text is Engels' 1855 war correspondence analyzing a specific
+  battle during the Siege of Sevastopol. It diagnoses the military
+  crisis: the Allies' siege has stalled, and a Russian counter-
+  redoubt threatens to neutralize their recent gains. The failed
+  French assault reveals organizational and psychological lags —
+  delayed mobilization, confused command, and troop demoralization
+  feeding calls for reckless assaults. Engels identifies layered
+  lag mechanisms (tactical proximity, organizational weakness,
+  ideological reactions) but offers no explicit alternative plan,
+  as this is reportage. The direction is constrained by material
+  factors: layered Russian defenses, terrain, disease, and
+  logistical limits, making a quick victory impossible. Thus DCA
+  is partially present — crisis, lag, and direction are extracted;
+  alternative is absent.
+
+crisis_diagnosis:
+  type: military_stalemate
+  specific: |
+    The Allied siege of Sevastopol, after initial advances, ground to
+    a halt when trenches pushed to within 300 yards of the Malakoff
+    Hill. The Russians constructed a flanking redoubt (night of Feb 21,
+    1855) that enfiladed the new Allied batteries, rendering them
+    useless. The subsequent French assault (night of Feb 23–24) with
+    1,600 Zouaves and 3,000 Marines failed, leaving the redoubt in
+    Russian hands and demoralizing the Allied troops. The crisis is
+    a siege stalemate where the besiegers cannot achieve fire
+    superiority and the besieged can counter-attack.
+  evidence: [
+    "they could not push their approaches",
+    "this work was admirably situated to enfilade their own enfilading
+    batteries, and thus to make them all but useless",
+    "the Russians... had just taken a step which has been carried out
+    with uncommon skill and boldness"
+  ]
+
+lag_mechanism:
+  layers: [tactical, organizational, psychological]
+  tactical: |
+    The proximity of opposing lines equalized force, enabling Russian
+    sorties to match Allied trench-guards within the first hour.
+    Additionally, the Allies failed to understand the Russian redoubt
+    until it was nearly complete, missing the window to prevent its
+    construction: "they appear to have been entirely unable to
+    understand the meaning of this...content to let well alone".
+  organizational: |
+    Weak trench-guards due to numeric weakness of British infantry
+    and obstinacy of French General Bizot. The assault was delayed:
+    orders given late, troops collected slowly, starting at 2 a.m.
+    instead of earlier. During the attack, the Marines either lost
+    their way or halted, exposing the Zouaves to artillery.
+  psychological: |
+    After the defeat, French troops blamed treason, demanded a
+    reckless general assault, and Canrobert responded with
+    contradictory commands — calling it a "brilliant though relative
+    success" while also proposing an immediate assault to Raglan.
+    This reflects a breakdown in command discipline and troop morale.
+
+alternative_proposal: null  # no explicit alternative proposed in this reportage;
+                            # Engels diagnoses and projects constraints,
+                            # but does not recommend a specific course of action.
+
+direction_constraint:
+  core: layered_Russian_defenses_and_material_difficulties
+  specific: |
+    Even if the Allies were to open a superior bombardment, silence
+    the first line, and storm it, they would face "fresh defenses,
+    fresh batteries, strong buildings converted into small citadels"
+    requiring new batteries. The terrain (the peninsula of five by
+    ten miles), the weather ("wet and heat... animal decay"), and the
+    threat of field attacks on Inkermann and Balaklava make the
+    siege a war of attrition where "the pestilence... will reign
+    within the town as well as without." The side with more endurance
+    will prevail, and the Allies' logistical capacity to maintain
+    ammunition and morale is questionable.
+  key_insight: |
+    "which party will have to give in to it first?" — pointing to the
+    material and epidemiological constraints that will determine the
+    outcome, not just tactical brilliancy.
+```

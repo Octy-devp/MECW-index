@@ -1,0 +1,87 @@
+reasoning: |
+  This 1880 interview account is a journalistic impression, not a
+  systematic political text. Yet Swinton records Marx's views on the
+  European conjuncture, his ongoing theoretical work, and his
+  philosophical law of 'struggle.' The DCA here is latent. The crisis
+  is the post-Commune lull: visible revolutionary activity is absent,
+  leading to the question 'Why are you doing nothing now?' Marx
+  diagnoses this as superficial; beneath the surface, forces are
+  working toward 'ends which will assuredly be realized.' The lag is
+  multiple: his Capital remains untranslated into English (theory not
+  yet accessible to British workers), English politics are mired in
+  'atomistic reforms,' and the International is dissolved.
+  Organizationally, Marx works quietly, preparing the intellectual
+  ground. Ideologically, bourgeois reformism masks the struggle. The
+  alternative is not a specific political program but the continued
+  elaboration of the critique of political economy (the trilogy on
+  Land, Capital, Credit) and the universal recognition of struggle as
+  the law of life. The direction is constrained by national
+  specificities (Russia's motion, Germany's philosophy, France's
+  cheer, England's immobility) and by the need for theory to be
+  completed and disseminated before the 'new advent.'
+
+crisis_diagnosis:
+  type: revolutionary_lull
+  specific: |
+    The interview occurs in 1880, nearly a decade after the Paris
+    Commune's defeat and the dissolution of the First International.
+    Swinton's question 'Why are you doing nothing now?' reveals a
+    public perception of Marx's inactivity and, by extension, the
+    ebbing of the revolutionary tide. Marx's response—that 'things
+    were working toward ends which will assuredly be realized'—
+    reframes the apparent calm as a subterranean crisis where
+    'earthquakes' are building. The crisis is thus the tension
+    between surface quiet and underlying class antagonisms.
+  evidence: [
+    "Why are you doing nothing now?",
+    "he has stood and yet stands behind more of the earthquakes which
+     have convulsed nations and destroyed thrones... than any other man",
+    "things were working toward ends which will assuredly be realized"
+  ]
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    Marx's masterwork 'Capital' remains untranslated into English,
+    and its full scope (the trilogy on Land, Capital, Credit) is
+    incomplete. The 'seed field' of his ideas has not yet sprouted
+    into mass consciousness.
+  organizational: |
+    The International Workingmen's Association no longer exists. Marx
+    works alone, from a seaside cottage. The visible apparatus of
+    revolutionary organization is absent, creating the impression he
+    is 'doing nothing.'
+  ideological: |
+    The English working class is absorbed in 'atomistic reforms' and
+    liberal parliamentarism. Marx refers contemptuously to this
+    immobility, indicating an ideological lag where reformism has
+    displaced revolutionary class consciousness.
+
+alternative_proposal:
+  method: theoretical_preparation_and_instinctive_struggle
+  elements:
+    - Complete the critique of political economy (the Land/Capital/Credit
+      trilogy) as the intellectual groundwork for the movement.
+    - Broaden the reach of 'Capital' through translations (the French
+      edition is already superior; an English one is proposed).
+    - Recognize that quiet preparation is itself a revolutionary act:
+      "his hand is at work preparing the way for the new advent."
+    - Affirm the universal law of 'Struggle!' as the philosophical
+      foundation—not despair, but the 'law of life.'
+  quote: "Struggle!"
+
+direction_constraint:
+  core: national_differentiation_and_theory_first
+  specific: |
+    Marx surveys Europe country by country, each with a distinct
+    political motion: Russia's 'vast current,' Germany's 'motions of
+    the mind,' France's 'cheerful' action, England's 'immobility.'
+    These differences constrain any uniform revolutionary blueprint.
+    Moreover, the direction presupposes that theory precedes practice:
+    the full trilogy must be completed to illuminate the laws of
+    motion of modern society, with the final volume on Credit
+    'largely illustrated from the United States.' Only then can the
+    'new advent' be realized.
+  key_insight: "It was evident that this man... is deep in the times,
+               and that... his hand is at work preparing the way for
+               the new advent."

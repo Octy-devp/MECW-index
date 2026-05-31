@@ -1,0 +1,83 @@
+reasoning: |
+  This letter responds to Liebknecht's request to postpone the International congress due
+  to Reichstag elections and the threat of disruption by Schweitzer supporters, who Marx
+  and Engels identify as police tools. The crisis is the immediate threat to the congress
+  and the International's authority: postponement would violate the Rules and signal that
+  national electoral politics take precedence over international class organization, while
+  a scandalous brawl would discredit the movement. The lag is threefold: organizational
+  (Liebknecht's reluctance to uphold the Rules), political (police manipulation through
+  the Schweitzer faction), and ideological (public perception of worker factionalism).
+  The alternative is firm adherence to the Rules, public exposure of the police connection,
+  and physical self-defense if necessary. The direction is constrained by the repressive
+  Prussian state and the need to maintain organizational integrity as a prerequisite for
+  future working-class unity.
+
+crisis_diagnosis:
+  type: organizational_sabotage_and_factional_threat
+  specific: |
+    The 1870 Mainz congress of the International faces a dual threat: a request by
+    Liebknecht and the German Social-Democratic Workers' Party to postpone it because
+    of Reichstag elections, which would violate the Rules and subordinate international
+    solidarity to national parliamentary strategy; and the planned disruption by
+    Schweitzer's Lassallean faction, aided by the Prussian police, aiming to turn the
+    congress into a factional brawl that would discredit the International and the
+    German working class.
+  evidence:
+    - "Liebknecht authorises me to write to you that because of the Reichstag elections,
+      which are to be held precisely at that time, it might be better to hold the
+      congress here on October 5."
+    - "the plan of the Prussian police to obstruct the international congress in Mainz...
+      through their tool, the Schweitzer organisation"
+    - "the Schweitzerites in Forst informed the Burgomaster in advance of their intention
+      to create mayhem"
+
+lag_mechanism:
+  layers: [organizational, political, ideological]
+  organizational: |
+    Despite being members of the International, Liebknecht and the Committee request a
+    postponement that directly contravenes the Rules (Art. 3), exposing a lag in
+    organizational discipline. This reflects a tendency to privilege national electoral
+    politics (the North German Reichstag elections) over the binding statutes of the
+    International, weakening its authority as an autonomous class organization.
+  political: |
+    The Prussian police, under Bismarck, actively uses the Schweitzer organization to
+    provoke violence at the congress, aiming to portray the German workers' movement as
+    incapable of principled debate. The lag consists in the failure to preemptively expose
+    this police connection, allowing the provocation to shape public perception.
+  ideological: |
+    The risk is that internal conflicts will be framed by the press as "alleged spontaneous
+    'typical German factional brawls between workers' labelled 'struggles of principle'".
+    This ideological block obscures the real class struggle and locks the movement into an
+    image of sectarian infighting, diverting from the political content of the congress.
+
+alternative_proposal:
+  method: rule_enforcement_and_public_exposure
+  elements:
+    - "Strictly refuse any postponement, citing the International's Rules that permit
+      changing the place but not the time of the congress."
+    - "Preemptively denounce the police-Schweitzer conspiracy in the German press
+      (Volksstaat, Zukunft) and internationally (London, Paris) to ensure that any scandal
+      'rebounds on its instigators'."
+    - "Investigate through the Burgomaster whether Schweitzerites have received police
+      instructions to fight, turning state surveillance back on the state."
+    - "Ensure cheap lodgings for delegates to facilitate participation."
+    - "If necessary, physically defend against disruptors outside the congress venue
+      ('they can be given a thrashing fit to put them off fighting for good'), though
+      such clashes must be separated from the congress session itself."
+
+direction_constraint:
+  core: organizational_integrity_under_state_repression
+  specific: |
+    The direction of the workers' movement is constrained by the need to defend the
+    International as an autonomous, rule-governed body capable of resisting state
+    infiltration and factional sabotage. The material context is the Prussian police
+    state under Bismarck, which deploys agents provocateurs to divide the movement. The
+    congress cannot yield to threats or postpone without undermining the International’s
+    authority and setting a precedent that national election timelines override
+    international class solidarity. Thus, the immediate direction is to rigidly enforce
+    the Rules, expose covert state intervention, and maintain organizational discipline,
+    thereby creating the conditions for a future unification of German socialism on a
+    principled basis.
+  key_insight: "The International can stand a conflict with Mr. Bismarck, but not alleged
+    spontaneous 'typical German factional brawls between workers' labelled 'struggles of
+    principle'."

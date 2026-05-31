@@ -1,0 +1,91 @@
+```yaml
+reasoning: |
+  These fragmentary notes from March 1865 record Marx's personal
+  timeline of the conflict between the Paris Administration
+  (Proudhonist workers Tolain, Limousin) and the bourgeois
+  republican Lefort, who claimed leadership of the French
+  International. The text is a practical log, not a theoretical
+  exposition, but Marx's intervention is clear: he supports a
+  Central Council resolution that temporarily meets Lefort halfway
+  (appointing him literary counsel) to prevent a split, while
+  simultaneously strengthening proletarian leadership and
+  criticising Proudhonist dogmas. This is a micro‑crisis of
+  organisational form, where the lag is the persisting
+  Proudhonist ideology and the practical difficulty of building
+  a class‑independent organisation. The alternative is inherent in
+  Marx's draft resolution: a dialectical move that draws in
+  Lefort's workers but secures the Paris section against bourgeois
+  capture. The direction constraint is the material‑political
+  context of Bonapartist tyranny, which imposes tactical
+  caution and limits overt confrontation.
+
+crisis_diagnosis:
+  type: organisational_split
+  specific: |
+    A direct conflict in the Paris section of the International
+    (early 1865): a bourgeois republican, Lefort, claims to be
+    the founder and leader of the French section, challenging the
+    legitimacy of the existing Administration led by Proudhonist
+    workers Tolain and Limousin. This threatened a split and the
+    capture of the organisation by a non‑proletarian element.
+  evidence:
+    - "Lefort... claimed to be the founder and leader of the
+      International Working Men's Association in France"
+    - "Those close to Lefort accused Tolain... of being in
+      contact with the Bonapartists"
+
+lag_mechanism:
+  layers: [ideological, organisational]
+  ideological: |
+    Many Paris workers, including those in the Administration,
+    adhered to Proudhonist mutualist dogmas—a non‑revolutionary
+    current that made it difficult to build a unified proletarian
+    line and created openings for bourgeois republicans like
+    Lefort. The introduction notes that the Council resolutions
+    "criticised certain Proudhonist dogmas defended by members of
+    the Paris Administration."
+  organisational: |
+    The International was still in its infancy; procedures for
+    membership and authority were unclear. Lefort could plausibly
+    claim leadership because the Paris section lacked strong,
+    centralised proletarian leadership. Marx's notes record
+    meetings, negotiations, and the need "to meet Lefort halfway"
+    (Schily), showing that organisational flexibility was forced
+    by the risk of an irreparable rupture.
+
+alternative_proposal:
+  method: dialectical_organisational_move
+  elements:
+    - Temporarily appoint Lefort "Counsel for the literary defence"
+      of the International in France, drawing in his worker
+      following while containing his personal claims (Central
+      Council resolution of 7 Feb. 1865).
+    - Simultaneously, through the final resolution drafted by Marx
+      (based on these notes), defend the Paris Administration
+      against bourgeois intrusion and strengthen proletarian
+      leadership.
+    - Criticise Proudhonist errors within the Administration itself,
+      aiming to elevate the section politically.
+  text_evidence: |
+    The introductory paragraph states: "Marx tried to protect the
+    French organisation of the International from attacks by
+    bourgeois elements and to strengthen the leadership of the
+    Paris Section by bringing in revolutionary proletarians."
+    The notes themselves show Schily "did not conceal from him that
+    he considered his claim... untenable" while still taking "Steps
+    to meet Lefort halfway."
+
+direction_constraint:
+  core: bonapartist_repression_limits_open_conflict
+  specific: |
+    The International operated under the surveillance and
+    repression of Louis‑Napoleon's Bonapartist regime. Accusations
+    of Bonapartist ties (levelled against Tolain) could be
+    weaponised; any appearance of illegality or conspiracy would
+    invite state intervention. This forced the Council to act with
+    tactical caution—giving Lefort a formal role to avoid a public
+    breach while gradually isolating his bourgeois influence.
+    Schily's diplomatic mission and the postponement of
+    membership‑card distribution (noted in Marx's letter to
+    Engels) reflect this constrained practical direction.
+```

@@ -1,0 +1,29 @@
+reasoning: |
+  The International General Council meeting of March 28, 1871, discusses the republican movement in England amidst the Paris Commune. Marx and Engels diagnose a crisis of political form: the movement is led by bourgeois radicals (Odger, Taylor) who confine it to constitutional reforms—a mere republic—while the working class must transform it into a social revolution. The lag mechanism is twofold: organizationally, trade union leaders like Odger act as 'wire pullers' keeping the movement moderate; ideologically, bourgeois republicanism masks class content, threatening to turn the movement into a middle-class clique. The alternative is a working-class intervention that pushes the republican movement beyond its bourgeois limits, making it inevitably social— 'no Republican movement could become serious without becoming social.' The direction is constrained by England's semi-feudal state apparatus (State Church, House of Lords), whose abolition is a necessary preliminary, but this very abolition, if driven by workers, can become a lever for social emancipation, analogous to how America's republic provided a 'fair field' for labor agitation.
+
+crisis_diagnosis:
+  type: political_form_of_movement
+  specific: |
+    The republican movement in England (March 1871) is captured by bourgeois radicals like Odger and Peter Taylor, who limit it to advocacy for a French-style bourgeois republic. In the context of the Paris Commune—the first workers' government—this bourgeois republicanism is a dangerous narrowing that could confine the emerging working-class movement within a purely political framework without social content. The crisis is the potential derailing of the movement into a 'middle class affair', a 'clique' that fails to address the economic and social emancipation of the proletariat.
+  evidence: |
+    "The question was not whether we support a republican movement but whether under present circumstances it would drive into our path." "There were men like Peter Taylor and others who were simply for the Republic." "The wire pullers of the present move of course intended no such thing [making it social]."
+
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    Leading positions in the republican movement are held by trade union officials (Odger) and middle-class radicals who 'intended no such thing' as a social transformation. They function as 'wire pullers', keeping the movement on a safe bourgeois course. The working-class participation risks being instrumentalised unless it breaks with these leaders.
+  ideological: |
+    The slogan of a mere 'republic' abstracts political form from social content, masking class exploitation. Bourgeois republicanism presents the abolition of monarchy as an end in itself, ignoring the need to also abolish the State Church, House of Lords, and other semi-feudal institutions that uphold class rule. This ideological lag perpetuates a false unity between workers and middle-class reformers.
+
+alternative_proposal:
+  method: transform_movement_into_social_one
+  elements:
+    - Participate in the republican movement but 'try to shape it' toward working-class goals
+    - Use the abolition of monarchy as a lever to also abolish the State Church, House of Lords, and other class institutions
+    - Ensure the movement 'expands into a working class movement' by breaking 'with all established forms'
+    - Make the movement 'become serious' by becoming 'social'—i.e., linking the republic to social emancipation
+
+direction_constraint:
+  core: bourgeois_republic_as_terrain_for_proletarian_class_struggle
+  specific: |
+    England retains semi-feudal political institutions (monarchy, State Church, House of Lords) that hinder full working-class mobilization. Abolishing them is a necessary prerequisite—'before our ideas could be carried into practice we must have the Republic'—because the republic provides a 'fair field for the working classes to agitate', as seen in America. However, this very bourgeois democratic revolution, if led by the proletariat, opens the path to socialism. The material constraint is the underdeveloped class consciousness and organization of the English proletariat, which still follows bourgeois leaders, and the presence of a frontier-like effect (as in America) that diffuses class conflict—though Engels notes that in England, dense population and developed industry make this constraint less severe than in America.

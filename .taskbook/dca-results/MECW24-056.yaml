@@ -1,0 +1,47 @@
+```yaml
+reasoning: |
+  This text is an obituary for Jenny Marx, not a political or theoretical
+  analysis. It recounts the personal suffering and resilience of a
+  revolutionary woman and her vindication through the growth of the
+  proletarian movement. While the narrative contains elements of adversity
+  (persecution, isolation) followed by a turn (founding of the International,
+  electoral success), it does not diagnose a historical or structural crisis
+  with lag mechanisms, propose a corrective alternative, or identify material
+  constraints on a direction. These are the life events of an individual,
+  not a system-level DCA. Therefore, all DCA dimensions are absent.
+
+crisis_diagnosis:
+  type: null
+  specific: |
+    No political crisis is diagnosed. The text laments a personal loss (the
+    death of Jenny Marx). It mentions historical adversities (exile,
+    slander, isolation of Marx), but these are not framed as a crisis
+    of the movement requiring analysis; they are biographical circumstances.
+
+lag_mechanism:
+  layers: null
+  specific: |
+    There is no analysis of mechanisms delaying resolution. The narrative
+    notes that the proletariat was for a time unable to move independently,
+    but this is not elaborated as a layered lag mechanism (organizational,
+    ideological, etc.). It is simply a condition that later changed.
+
+alternative_proposal:
+  method: null
+  elements: |
+    No alternative is proposed. The obituary describes what happened
+    (the founding of the International, the spread of Marx's doctrines)
+    as factual historical developments, not as a programmatic alternative
+    to be pursued. It is a retrospective tribute, not a forward-looking
+    plan.
+
+direction_constraint:
+  core: null
+  specific: |
+    The text identifies no material constraints or enabling conditions
+    for a future direction. It states that the European proletariat
+    "regained such conditions of existence as allowed it... to move
+    independently," but this is a passing observation, not an analysis
+    of productive forces or structural limits. The obituary does not
+    engage in political economy or strategic direction-setting.
+```

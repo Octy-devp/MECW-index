@@ -1,0 +1,102 @@
+```yaml
+reasoning: |
+  Engels' May 1849 article exposes the Prussian government's plan to
+  stage a violent crackdown and impose absolutist rule. The immediate
+  crisis is the counter-revolutionary conspiracy to abolish the last
+  remnants of the 1848 revolutionary gains through deliberate
+  provocation, martial law, and dissolution of the Chamber. Engels
+  diagnoses the lag as a combination of strategic deception (the
+  government's "avoid bloodshed" narrative), organizational asymmetry
+  (the state controls troops, the Left is not militarily prepared),
+  and ideological fragmentation (German democrats not yet fused with
+  Hungarian and Polish revolutions). The alternative is not armed
+  confrontation on the government's terms, but calm resistance that
+  refuses the provocation while exposing the plot to rally a broader,
+  international revolutionary front. The material constraint is the
+  need for a unified Hungarian-Polish-German revolutionary war to
+  defeat the counter-revolution, which is itself accelerated by the
+  government's open absolutist turn.
+
+crisis_diagnosis:
+  type: counter_revolutionary_conspiracy
+  specific: |
+    In late April 1849, the Prussian government under Manteuffel
+    and Radowitz planned to provoke a Berlin insurrection, crush it
+    with military force (modeled on Cavaignac's June 1848 massacre
+    in Paris), then impose martial law, dissolve the Chamber, abolish
+    the December 5 constitution, and restore absolutist rule. This
+    was a deliberate conspiracy to eliminate all vestiges of the
+    revolutionary 1848 settlement.
+  evidence:
+    - "It was intended that a new stage of the Prussian
+      counter-revolution should date from April 27. It was desired
+      to provoke the Berlin people into street fighting... then to
+      crush it by Cavaignac's means... to proclaim martial law...
+      get rid of the troublesome fetters which even the martial-law
+      Charter of December 5 still imposed on our counter-revolution."
+    - "The rescript is signed: *Manteuffel.* ... coming forward
+      openly with his plans for the restoration of the absolutist
+      regime."
+
+lag_mechanism:
+  layers:
+    - strategic_deception
+    - organizational_asymmetry
+    - ideological_fragmentation
+  strategic_deception: |
+    The government frames repression as "avoiding bloodshed" and
+    cynically claims the people "are not yet mature enough" for
+    freedom. This narrative is designed to mislead the public and
+    justify the coup. The brutal provocations (encircling Dönhoff
+    Square, firing on unarmed crowds) are disguised as maintaining
+    order.
+  organizational_asymmetry: |
+    The state possesses overwhelming military force: troops encircle
+    the Left's meeting place and fire rapidly on civilians. The
+    democratic Left lacks any comparable armed organization and would
+    be crushed if provoked into street fighting.
+  ideological_fragmentation: |
+    The German democratic movement remains disconnected from the
+    simultaneous bourgeois-national revolutions in Hungary and Poland.
+    The Prussian government can act with impunity as long as these
+    struggles remain separate.
+
+alternative_proposal:
+  method: exposure_and_calm_mobilization
+  elements:
+    - Refuse the government's provocation — as the Berlin people did
+      by remaining calm despite rapid fire
+    - Publicly expose the conspiratorial plans to strip away
+      constitutional forms, turning the government's openness into a
+      weapon for the revolution
+    - Link the German democratic struggle with the developing
+      Hungarian and Polish national revolutions to create a unified
+      revolutionary front
+    - Prepare for revolutionary action on terms favourable to the
+      people, not on the government's timetable
+  textual_basis: |
+    "The calm behaviour of the people despite all provocation upset
+    the calculations of the counter-revolutionaries... Herr Manteuffel,
+    or rather Herr Radowitz, his superior, could not have rendered a
+    better service to the developing *Hungarian-Polish-German*
+    revolution than precisely at the present time to come forward
+    openly with his plans for the restoration of the absolutist
+    regime."
+
+direction_constraint:
+  core: international_revolutionary_solidarity
+  specific: |
+    The Prussian counter-revolution cannot be defeated in isolation.
+    The material condition for a successful alternative is the fusion
+    of the German democratic struggle with the ongoing bourgeois
+    revolutions in Hungary and Poland. The government's open
+    absolutist turn accelerates this fusion by revealing the common
+    enemy and forcing German democrats to seek allies beyond national
+    borders. Only as part of a broader European revolutionary war can
+    the Prussian counter-revolution be overthrown.
+  key_insight: |
+    "The open conspiracy of the Prussian state serves the revolution
+    by driving the German movement toward a necessary alliance with
+    the Hungarian and Polish revolutions — a condition without which
+    any isolated uprising would be crushed."
+```

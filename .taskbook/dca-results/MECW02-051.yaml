@@ -1,0 +1,34 @@
+```yaml
+reasoning: |
+  Engels writes in November 1842, analyzing England's political-economic condition. He argues that England's industrial state is caught in an insoluble dilemma: protective tariffs have raised wages and prices, making exports uncompetitive, yet free trade would devastate industry. Continental markets are lost, colonies insufficient. Any trade stagnation throws the huge propertyless class (one-third to half the population) into unemployment and starvation, inevitably leading to revolt. The 1842 general strike ("disturbances of last summer") exemplified the workers' dawning power but failed due to lack of organization, leadership, and the contradiction of seeking "legal revolution." Engels diagnoses a systemic crisis of English capitalism, with the working class held back by ideological respect for law and theoretical immaturity (the belief in peaceful change), but predicts that material necessity (starvation) will overcome these lags and drive a violent social revolution. The alternative is not elaborated systematically, but the direction is constrained by the primacy of material interests over principles; the revolution will be social, not political.
+
+crisis_diagnosis:
+  type: structural_crisis_of_industrial_capitalism
+  specific: |
+    England's industrial state is trapped in the contradiction of protective tariffs: they are necessary to shield home industry but raise costs and prices, causing loss of foreign markets; abolishing them would flood England with cheaper foreign goods and collapse domestic industry. Markets in Germany and France are lost; colonies are too small to absorb output. Any trade slowdown throws the huge propertyless class (one-third to half the population) into unemployment and starvation, making periodic crises inevitable. The summer 1842 disturbances were a symptom of this structural crisis.
+  evidence: ["the system of protective tariffs has undermined England's state revenue, and for this reason alone the tariffs must be abolished", "the slightest stagnation in trade deprives a considerable part of this class of their bread, a large-scale trade crisis leaves the whole class without bread"]
+
+lag_mechanism:
+  layers: [ideological, organizational, theoretical]
+  ideological: |
+    The English proletarian is not yet conscious of its power; there is 'the Englishman's inherent respect for the law' that restrains violent revolution. The dominant national standpoint focuses on immediate material interests and ignores the underlying principles driving history, blinding the workers to the necessity of social transformation.
+  organizational: |
+    The 1842 strike movement was spontaneous, 'unprepared, unorganised and without leadership.' The strikers had no definite aim or unity on method. When Chartists belatedly took over, it was too late. The tactic of 'legal revolution' — trying to achieve revolution by peaceful, legal means — was a contradiction that paralyzed the movement.
+  theoretical: |
+    The Chartists' guiding idea of 'revolution by legal means' reveals a theoretical confusion: a revolution cannot be legal under the existing state. The movement lacked a scientific understanding that only a forcible overthrow of the existing order can improve the proletarians' condition.
+
+alternative_proposal:
+  method: violent_social_revolution
+  elements:
+    - Forcible abolition of existing 'unnatural conditions'
+    - Radical overthrow of the nobility and industrial aristocracy
+    - Revolution driven by material interests of the proletariat, not by political principles
+    - The revolution will be 'social, not political', i.e., it will target property relations and economic structure, not merely the form of government
+  evidence: ["only a forcible abolition of the existing unnatural conditions, a radical overthrow of the nobility and industrial aristocracy, can improve the material position of the proletarians", "the revolution will be social, not political"]
+
+direction_constraint:
+  core: primacy_of_material_interests_over_principles
+  specific: |
+    The revolution is inevitable because the contradictions of the industrial state will periodically produce mass starvation. It cannot be a political (principled) revolution because the English masses are driven by immediate material needs, not abstract principles. The direction is set by economic necessity: hunger will overcome the legal scruples of the workers, forcing a violent social revolution that overthrows the ruling classes. The revolution's character is determined by the material conditions of English capitalism — it must be a social revolution targeting property relations, not merely a change in political form.
+  key_insight: "it will be interests and not principles that will begin and carry through the revolution; principles can develop only from interests"
+```

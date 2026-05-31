@@ -1,0 +1,19 @@
+```yaml
+reasoning: |
+  This is a short biographical entry from Marx's work for the
+  New American Cyclopaedia (1857), a purely factual sketch of
+  Napoleon's private secretary. The text chronicles Bourrienne's
+  opportunistic career, financial crimes, and political
+  turncoating during the revolutionary and Napoleonic era. Marx
+  offers no analysis of a crisis, no systematic lag mechanisms
+  (beyond the individual's moral corruption), no alternative
+  political proposal, and no material constraints on direction.
+  The DCA framework extracted from the Gotha Programme and
+  Manifesto does not apply; the text lacks these dimensions
+  entirely.
+
+crisis_diagnosis: null
+lag_mechanism: null
+alternative_proposal: null
+direction_constraint: null
+```

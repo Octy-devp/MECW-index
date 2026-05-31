@@ -1,0 +1,67 @@
+reasoning: |
+  The text is a letter from Marx (as vice-president) on behalf of the Brussels Democratic Association
+  to the Fraternal Democrats in London, dated 13 February 1848, on the eve of the 1848 revolutions.
+  It is an organizational progress report, not a theoretical manifesto, but it embeds a DCA logic
+  applicable to the democratic movement. The crisis is implicit: democratic forces across Europe
+  are fragmented, and national divisions prevent a united front against reaction. The letter
+  emphasizes the need for international congresses and systematic correspondence to overcome this.
+  The lag is twofold: organizationally, the Belgian working class lacks a unified party; ideologically,
+  Irish workers' prejudice conflates the English oppressing classes with the oppressed, hindering
+  a necessary alliance. The alternative proposed is concrete: hold a Democratic Congress in Brussels
+  and later London, build branch societies in Belgian industrial towns (Ghent as the pivot), and
+  forge an alliance between English Chartists and Irish popular movements under O'Connor's leadership.
+  The direction points toward a "strong, united, and organised democratic party" in Belgium and
+  international working-class solidarity. The material constraints include the geographic and industrial
+  structure (key manufacturing centers like Ghent becoming focal points) and the existing consciousness
+  barriers that must be systematically overcome. Because the text is a short tactical communication,
+  the crisis diagnosis remains largely contextual, and no theoretical lag is articulated.
+crisis_diagnosis:
+  type: revolutionary_conjuncture
+  specific: |
+    In early 1848, democratic and working-class movements across Europe were isolated by national
+    borders and lacked a coordinated international strategy. The letter responds to a call for
+    a "Democratic Congress of all nations" to overcome this fragmentation. The address on
+    "National Defences" suggests that reactionary forces misdirect popular anger toward foreign
+    enemies rather than class oppressors — a crisis of political consciousness.
+  evidence: |
+    "We entirely share in the view which in your recent address to the working people of
+    Great Britain and Ireland you have taken of the question of 'National Defences'. We hope
+    that this address will contribute in a great measure to the enlightenment of the people
+    of England as to the question who are their veritable enemies."
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    The democratic movement in Belgium was previously weak or non-existent outside Brussels.
+    The letter reports that they are now 'reconstituting' a party by sending delegations to
+    provincial towns. The lag is the absence of a national organization linking local democratic
+    associations. Ghent's adhesion is celebrated precisely because it is the chief manufacturing
+    town — its organization marks a step toward a working-class party.
+  ideological: |
+    The Irish people's prejudice "to confound in one common hatred the oppressed classes of
+    England with the oppressors of both countries" prevents a united British-Irish front.
+    This is an ideological lag — national consciousness obscures class solidarity. Similarly,
+    the English working class must be 'enlightened' about who their 'veritable enemies' are.
+alternative_proposal:
+  method: organizational_expansion_and_international_alliance
+  elements:
+    - Hold an international Democratic Congress, first in Brussels (September 1848) and then in London
+    - Establish monthly correspondence between the Brussels Association and the Fraternal Democrats in London
+    - Build democratic branch societies in all major Belgian towns, starting with industrial Ghent
+    - Forge a close alliance between the English Chartists and the Irish popular movement, under Feargus O'Connor's leadership
+    - Educate workers on the real class interests, dispelling national prejudices (e.g., on "National Defences")
+direction_constraint:
+  core: geographic_and_ideological_barriers
+  specific: |
+    The movement advances step by step from the metropolitan centre to the key industrial towns;
+    Ghent's manufacturing character makes its adhesion 'decisive for all working class movement
+    of the country.' The direction toward a unified democratic party in Belgium and international
+    solidarity is constrained by the need to expand organization town by town and to overcome
+    the 'prejudice' that divides Irish from English workers. Materially, the working class is
+    concentrated in specific industrial centers, so winning those is the condition for national
+    organization. Ideologically, the lag cannot be broken by mere propaganda but requires
+    demonstrated political unity under democratic leadership.
+  key_insight_from_text: |
+    "The position taken by Ghent is decisive for all working class movement of the country.
+    Thus we may accept the adhesion of the factory workers of that Belgian Manchester to the
+    revival of a pure democratic movement, as implying and foreboding the adhesion of the
+    generality of the Belgian proletarians."

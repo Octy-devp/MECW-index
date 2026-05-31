@@ -1,0 +1,45 @@
+reasoning: |
+  The 1870 'Confidential Communication' is Marx's internal rebuttal to public attacks on the General Council by the International's own French-Swiss press, notably Égalité and Progrès. The immediate crisis is an organisational challenge — newspapers usurping the role of the Federal Committee — but Marx diagnoses a deeper political crisis: reformist and sectarian tendencies that would subordinate the class struggle to provincial interests and distort the Association's principles. The text addresses multiple questions, each revealing a layer of lag. On the administrative front, Égalité's 'public' interrogation undermines discipline and threatens the Association's underground work. Theoretically, Marx points to the French translation's excision of 'as a means' (subordinating political to economic emancipation) and its distortion of the Rules, reflecting a syndicalist deviation. Organisationally, the separation of the General Council from the English regional work would deprive the International of its strategic 'lever' — England's mature capitalism. Ideologically, the English workers' lack of 'revolutionary passion' and the artificial division between English and Irish proletarians prevent a unified movement. Marx's alternative is a centrally directed, internationally coordinated strategy: keep the General Council in England, intervene on Ireland to break landlordism and unite the class, and maintain the political content of the Rules. The direction is constrained by the material fact that England is the 'metropolis of capital', the only country where landownership is fully concentrated and the working class a majority, making it the decisive terrain; yet this advantage can only be realised if the Irish national question is solved, demonstrating that colonial oppression directly shackles the metropolitan proletariat.
+
+crisis_diagnosis:
+  type: organizational_challenge_with_theoretical_deviations
+  specific: |
+    The French-Swiss newspapers Égalité and Progrès, claiming to speak for the Federal Committee, publicly attacked the General Council's authority, demanding answers to questions and calling for a separation of the British regional council. Underneath the procedural dispute lay a broader crisis of principle: the Paris translation of the Rules omitted key phrases ('as a means', 'means of labour, the sources of life'), reflecting a tendency to divorce the economic from the political movement — a position 'contrary to our Rules'. The hostile publicity and sectarian manoeuvres (including urging Le Travail to join the attacks) threatened the underground functioning of the International and its ability to act as a lever in England.
+  evidence:
+    - "administrative correspondence... cannot be made public without doing considerable damage... the General Council would be forced either to remain silent... or to violate its obligations by making a public reply."
+    - "the hyper-naive pronouncements... as to the connection, or rather lack of connection, between the social movement and the political movement... are in fact contrary to our Rules"
+    - "the Paris translation... left out... 'as a means'"
+
+lag_mechanism:
+  layers:
+    - theoretical
+    - organizational
+    - ideological
+  theoretical:
+    - |
+      The French translation's systematic distortion of the Provisional Rules — removing 'as a means' to sever political from economic emancipation, and replacing 'means of labour, the sources of life' with mere 'capital' — indicates a syndicalist or reformist reduction that erases the need for political class struggle and the land question. Additionally, the Lassallean sect (Schweitzer) refuses International discipline, perpetuating an 'artificial and sectarian organization' incompatible with the spontaneous historic movement.
+  organizational:
+    - |
+      Égalité and Progrès bypass the Federal Committee, using public press attacks to undermine Council authority. The proposal to separate the General Council from the English regional work would forfeit direct control over the 'tremendous lever' of England's working class, leaving it to purely English leadership that lacks 'the sense of generalization and revolutionary passion'. Existing reporting obligations remain 'dead letter' because national committees fail to supply documents and funds.
+  ideological:
+    - |
+      In England, the proletariat is materially ripe but ideologically backward: 'the English have all that is needed materially for social revolution. What they lack is the sense of generalization and revolutionary passion.' The bourgeoisie artificially foments antagonism between English and Irish workers (analogous to poor whites and black slaves in the U.S. South), keeping the proletariat divided. The Irish are driven to America, nourishing Anglo-American tensions and preventing transatlantic working-class alliance.
+
+alternative_proposal:
+  method: centralized_strategic_direction_and_doctrinal_correction
+  elements:
+    - Reassert the authority of the General Council as the sole legitimate executive, demanding all communication go through the Federal Committee secretary, not the press.
+    - Maintain the General Council's direct grip on England, described as 'the metropolis of capital', because its economic structure (no peasantry, concentrated land, wage-labour majority) makes it the decisive lever for social revolution.
+    - Intervene on the Irish question with a clear program: amnesty for Fenians, followed by resolutions declaring that the abolition of the enforced union is 'an essential precondition for the emancipation of the English working class' — either a free confederation or total separation.
+    - Defend the authentic text of the Rules: restore 'as a means' to reassert the political content of the economic struggle, and restore 'means of labour, the sources of life' to include the land question.
+    - Exclude the Lassallean sect (Schweitzer) from the International, while supporting the Eisenach group (Liebknecht's) that belongs to it.
+  evidence:
+    - "the General Council is now in the happy position of having its hand directly upon this tremendous lever... what lunacy... to let it fall into purely English hands!"
+    - "transform the present enforced union... into a free and equal confederation, if possible, and into a total separation, if necessary"
+    - "the original and authentic text has been restored in the French translation published in Brussels"
+
+direction_constraint:
+  core: england_as_metropolis_of_capital_and_ireland_as_leverage
+  specific: |
+    Marx's strategy is constrained by the material fact that England is the only country where the capitalist mode of production has fully dissolved pre-capitalist agricultural relations, creating a mass of wage-labourers. This makes it the epicentre of any economic revolution, but also a place where the system is 'most traditionally established'. Therefore, the International must directly organise there, using its 'underground activity' rather than public theatre. However, the English working class cannot emancipate itself without first breaking the colonial stranglehold on Ireland: 'A people which subjugates another people forges its own chains.' The solution is not to bypass national oppression, but to make it the detonator — striking at English landlordism through its Irish bulwark, while overcoming the artificial division between workmen. The direction is thus doubly conditioned: by England's unique economic structure and by the necessity of solving the Irish national question as a precondition for proletarian unity.
+  key_insight: "If England is the bulwark of European landlordism and capitalism, the only point at which one can strike a major blow against official England is Ireland."

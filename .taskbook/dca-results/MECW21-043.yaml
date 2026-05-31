@@ -1,0 +1,29 @@
+reasoning: |
+  This document is a brief administrative communication from Marx to the International's sections in July 1870, addressing the potential relocation of the General Council. The proximate context is the debate within the General Council on Marx's motion of June 28, 1870, which Hales opposed, and the resolution after further debate on July 5 and 12. Marx frames the relocation as a measure to "avoid creating privileged conditions for workers of one or another country." The crisis here is not a large-scale historical upheaval but an internal organizational contradiction: the permanent location of the General Council in London risks entrenching English dominance and undermining the International's principle of equal national sections. The lag mechanism is double: Hales' objections (likely reflecting English labour-aristocratic attachment to London's centrality) and the sections' own eventual opposition, revealing vested interests and inertia. Marx's alternative proposal is a democratic procedure: delegates receive formal instructions, and if agreement emerges, the seat moves to Brussels. The direction is toward rotating the centre of gravity to prevent national privilege, constrained by the sections' democratic will and the practicalities of the moment (including the impending Franco-Prussian War, which would postpone the congress). The text lacks deeper theoretical layers typical of Marx's substantive analyses but yields a micro-level DCA reflecting the politics of international organization.
+
+crisis_diagnosis:
+  type: organizational_contradiction
+  specific: |
+    The General Council's permanent seat in London risked creating "privileged conditions for workers of one or another country" (as Marx's June 28 motion put it), contradicting the International's principle of the equality of all national sections. This was an internal structural contradiction: the leading body, if fixed in one national setting, could become identified with that nation's labour movement, fostering perceptions of English hegemony within the Association.
+  evidence: ["Marx proposed that the sections of the Association should discuss the change of the seat of the General Council so as to avoid creating privileged conditions for workers of one or another country."]
+
+lag_mechanism:
+  layers: [organizational_inertia, national_interest]
+  organizational_inertia: |
+    The General Council had operated out of London since the International's founding; its infrastructure, key members, and routines were anchored there. Hales, a prominent English member, objected to the motion, and after the debate the sections themselves "opposed any change of the Council's seat, considering London the most suitable place." This suggests that London's suitability was taken as self-evident, masking a tacit acceptance of the status quo.
+  national_interest: |
+    Hales' objections, though not detailed in this text, are part of a pattern of English labour leaders who saw the International primarily through the lens of British trade unionism and were reluctant to cede the centre to a continental city. The privileging of English workers was thus both a perceived risk and a material interest.
+
+alternative_proposal:
+  method: democratic_consultation
+  elements:
+    - The sections should instruct their delegates on the advisability of changing the venue.
+    - If there is agreement, the General Council proposes Brussels as the new seat for 1870–71.
+    - This procedural move would allow the International to rotate its leading body, breaking identification with any single nation.
+
+direction_constraint:
+  core: international_equality_through_rotation
+  specific: |
+    Marx's underlying direction is to institutionalize a practice whereby the General Council's seat is not permanently fixed but can move, thereby embodying the International's character as a federation of equal national sections. The proposal is modest – merely to seek delegates' views – and does not dictate the outcome, respecting the democratic autonomy of the sections.
+  key_constraint: |
+    The sections' ultimate opposition – "considering London the most suitable place" – shows that the material and organizational conditions (London as a communications hub, the presence of Marx and other experienced leaders, the weakness of alternatives in 1870) provided a rational basis for the lag. Additionally, the outbreak of the Franco-Prussian War on July 19, 1870, shortly after this communication, would disrupt any plans and made the Mainz Congress impossible, freezing the debate.

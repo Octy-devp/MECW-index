@@ -1,0 +1,82 @@
+```yaml
+reasoning: |
+  This text is a military inspection report, not an overtly political
+  analysis. However, Engels' detailed critique of tactical performance
+  implies a diagnosis of a defense crisis (the post-1859 invasion scare
+  that prompted the Volunteer Force) and a lag between the potential of
+  the volunteer system and its actual readiness. The article identifies
+  specific shortcomings: excessive reliance on parade-ground drill,
+  poor open-order combat skills, weak officer leadership, and adherence
+  to unrealistic regulations. The alternative is implicit in Engels'
+  praise for practical, unprogrammed manoeuvres, the need for better
+  field training, and his suggestion to spare volunteers “artificial
+  marches and counter-marches.” The direction constraint is material:
+  part-time civilian soldiers, heterogeneous unit composition, limited
+  government funding, and the terrain itself. While the text lacks the
+  political‑economic dimension of Marx’s major works, it applies the
+  same structural logic to a military-organisational problem.
+
+crisis_diagnosis:
+  type: defence_vulnerability
+  specific: |
+    Britain’s reliance on an untried volunteer force to deter invasion
+    after the French scare of 1859. Despite three years of existence
+    and a paper strength of 163,000, the Volunteers’ tactical
+    proficiency was still inadequate for independent field operations.
+    The review revealed systemic flaws that, in a real invasion, could
+    prove fatal.
+  evidence: ["the combat in loose order was not executed particularly
+              well", "the officers of the English volunteers are still
+              the weak side of the entire corps", "the men ... were much
+              too anxiously concerned with their alignment to think of
+              cover"]
+
+lag_mechanism:
+  layers: [organisational, doctrinal, professional]
+  organisational: |
+    Volunteer units are part‑time, composed of civilians with variable
+    attendance; battalion strengths fluctuate, commanders sometimes
+    keep untrained men at home. The heterogeneous nature of urban vs.
+    rural corps creates uneven quality.
+  doctrinal: |
+    Training is patterned on peacetime parade‑ground drill rather than
+    realistic field tactics. Regulations prescribe complex manoeuvres
+    (e.g., breaking off by companies in close proximity to the enemy)
+    that Engels regards as dangerous and outdated.
+  professional: |
+    The officer corps lacks the experience and judgement of
+    long‑service professionals. They treat terrain features as
+    obstacles rather than opportunities, leading to confusion and
+    misalignment in skirmishing.
+
+alternative_proposal:
+  method: realistic_training_reform
+  elements:
+    - Abandon artificial “marches and counter‑marches” from the
+      regulations; concentrate on manoeuvres directly useful in
+      combat.
+    - Provide regular encampments and brigade‑level exercises; Engels
+      estimates three to six weeks would suffice to create a
+      dependable field force.
+    - Emphasise open‑order combat, use of cover, and independent
+      action by small units.
+    - Continue the practice of unprogrammed reviews, forcing
+      commanders to react to unexpected situations.
+
+direction_constraint:
+  core: civilian_reserve_limitations
+  specific: |
+    The Volunteer Force will never equal a standing army because it is
+    composed of civilians with limited training time, led by amateur
+    officers, and sustained by minimal government expenditure. Progress
+    is possible only if the government allocates time for extended
+    encampments, simplifies tactical doctrine to match the force’s
+    nature, and accepts that effectiveness comes through field
+    experience rather than parade‑ground precision.
+  key_insight: "The experiment is to be regarded, after three years,
+                as completely successful. Almost without any expense to
+                the Government, England has created an organised army
+                of 163,000 men... it needs only three to six weeks of
+                encampment and exercises to become a thoroughly
+                dependable field force."
+```

@@ -1,0 +1,37 @@
+```yaml
+reasoning: |
+  This text is a biographical sketch of Marx by Engels, written in 1877. It does not present a single crisis-diagnosis in the manner of the Gotha critique or the Manifesto, but rather surveys Marx's entire intellectual and political trajectory. However, a DCA structure can be extracted from Engels' retrospective framing of Marx's work and the historical conjuncture of 1877. The crisis is the post-Commune reaction and the dissolution of the International, which threatened to disorient the labour movement. The lag is theoretical (bourgeois economics and idealist history still dominate), organizational (the International had to be dissolved to prevent adventurism), and ideological (Bakuninist and other false socialist currents). The alternative is Marx's scientific socialism, grounded in historical materialism and surplus value theory. The direction constraint is the material development of productive forces, which has made class rule obsolete in advanced countries but requires the proletariat to take conscious, organized possession of those forces. The text is rich in evidence for each dimension, though the crisis is more diffuse than in the worked examples.
+
+crisis_diagnosis:
+  type: post-commune_reaction_and_organizational_crisis
+  specific: |
+    The fall of the Paris Commune (1871) put the International in an 'impossible position.' It was thrust into the forefront of European history at a moment when it had been 'deprived of all possibility of successful practical action.' The general reaction made continued activity impossible without risking 'inevitable defeat and the setting back of the labour movement for decades.' Additionally, Bakuninist elements sought to exploit the International's fame for personal ambition, threatening to drag the movement into 'useless putsches.' The crisis was both external (state repression) and internal (factional degeneration).
+  evidence: |
+    "The fall of the Paris Commune put the International in an impossible position... The events which raised it to the position of the seventh Great Power simultaneously forbade it to mobilize its fighting forces and employ them in action, on pain of inevitable defeat... In addition, from various sides elements were pushing themselves forward that sought to exploit the suddenly enhanced fame of the Association for the purpose of gratifying personal vanity or personal ambition."
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    Before Marx, the whole conception of history was based on changing ideas, not material conditions. Professional historians lacked 'sufficient knowledge of the particular economic condition of society.' Political economy had failed to explain the relation between capital and labour — the question of how the worker does not receive the full value of his labour remained unanswered. Marx's two discoveries (historical materialism and surplus value) filled this theoretical gap.
+  organizational: |
+    The International, after the Commune, could not function as a formal organization without becoming a 'fetter.' The decision to transfer the General Council to America was a 'heroic decision' to withdraw from the stage temporarily, because the organizational form had become an obstacle to the movement's survival.
+  ideological: |
+    Bakuninists and other 'unreasonable and unsavoury elements' pushed forward, seeking to exploit the International's fame for personal ambition, without understanding the 'real position of the International.' Bourgeois phrases about 'right and justice, equality of rights and duties and a general harmony of interests' still masked exploitation. The text explicitly states that Marx's surplus value theory 'removed the last justification for all the hypocritical phrases of the possessing classes.'
+
+alternative_proposal:
+  method: scientific_socialism_as_theoretical_and_organizational_grounding
+  elements:
+    - Historical materialism: 'History was for the first time placed on its real basis' — the material conditions of production determine all social and political relations.
+    - Surplus value theory: Demonstrates that capitalist exploitation consists of appropriating unpaid labour, exposing the 'hypocritical phrases' of bourgeois harmony.
+    - Organizational withdrawal: The International's dissolution was a strategic retreat to preserve the movement's life-blood, proving that 'the consciousness of the identity of interests... is able to assert itself even without the bond of a formal international association.'
+    - The proletariat as the new historical leadership: 'Historical leadership has passed to the proletariat, a class which... can only free itself by abolishing altogether all class rule.'
+  evidence: |
+    "Modern, scientific socialism is based on these two important facts [historical materialism and surplus value]." "The International withdrew from the stage for the time being by transferring the General Council to America. The results have proved how correct was this decision."
+
+direction_constraint:
+  core: productive_forces_determine_possibility_of_emancipation
+  specific: |
+    The text argues that class rule existed in the past because production was 'so little developed' that historical progress could only proceed through the exploitation of the majority by a minority. However, 'in consequence of the tremendously increased productive forces of the present time, even the last pretext has vanished for a division of mankind into rulers and ruled... at least in the most advanced countries.' The bourgeoisie has become a 'hindrance to the development of production,' as proven by trade crises and the 'last great collapse' (likely the 1873 depression). The social productive forces 'have outgrown the control of the bourgeoisie' and 'are only waiting for the associated proletariat to take possession of them.' The constraint is that this transition requires the proletariat to consciously organize and take possession of these forces — it is not automatic. The text also notes that the second volume of Capital will further develop these discoveries, implying that the theoretical work is still incomplete.
+  key_insight: |
+    "The social productive forces, which have outgrown the control of the bourgeoisie, are only waiting for the associated proletariat to take possession of them in order to bring about a state of things in which every member of society will be enabled to participate not only in production but also in the distribution and administration of social wealth."
+```

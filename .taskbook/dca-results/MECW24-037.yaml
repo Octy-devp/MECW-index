@@ -1,0 +1,84 @@
+reasoning: |
+  Marx's questionnaire, published in the French socialist Revue Socialiste in 1880, is
+  not a detached theoretical text but an intervention in the post‑Commune conjuncture.
+  After the Paris Commune's defeat (1871), the French workers' movement was disoriented
+  and split into rival schools. Marx diagnosed a crisis of consciousness: the working
+  class lacked systematic, self‑generated knowledge of its own exploitation, while the
+  bourgeois state refused any official inquiry that might fuel social unrest. The lag
+  operates on three planes: (1) political — the French Republic, like its monarchical
+  predecessors, fears an impartial inquiry would expose capitalist barbarity; (2)
+  material — the socialist press lacks resources to conduct a wide‑ranging survey; (3)
+  ideological — workers still look to “saviors sent by Providence” rather than
+  recognising that only they can describe their own suffering and apply the remedies.
+  The alternative is the questionnaire itself: a practical instrument of socialist
+  democracy that turns workers into self‑investigators, breaks through bourgeois
+  obfuscation, and prepares the ground for “social regeneration.” The direction is not
+  a blueprint for the future society but a constraint: any genuine emancipation must
+  begin from a scientific, worker‑led understanding of the concrete material conditions
+  of capitalist production, without which even the best‑intentioned saviors would fail.
+
+crisis_diagnosis:
+  type: consciousness_gap
+  specific: |
+    Post‑Commune France: the Third Republic systematically avoids any official
+    investigation into workers' conditions, while the labour movement remains
+    fragmented and deprived of the factual knowledge needed for unified action.
+    Marx frames this absence of “serious inquiry” as a crisis of socialist
+    democracy — without a worker‑generated inventory of exploitation, the class
+    cannot pass from a “class in itself” to a “class for itself.”
+  evidence:
+    - "NOT A SINGLE government … has yet ventured to undertake a serious inquiry
+      into the position of the French working class."
+    - "the French bourgeoisie … tremble even more before the dangers which an
+      impartial and systematic investigation might represent."
+
+lag_mechanism:
+  layers: [political, material, ideological]
+  political: |
+    The French republican government, no less than the monarchy, protects
+    capitalist interests by refusing to document “the facts and crimes of
+    capitalist exploitation.” The English monarchy’s inquiry, which forced
+    factory legislation, shows that exposure is possible, but the French
+    bourgeoisie closes ranks rather than risk similar reforms.
+  material: |
+    Socialist organisations have “poor resources” and cannot match the
+    state’s capacity. The inquiry can only proceed “with those poor resources
+    which are at our disposal,” relying on voluntary replies and the
+    goodwill of dispersed readers of the Revue Socialiste.
+  ideological: |
+    Workers themselves are hampered by a “fog of illusions” — they look to
+    “saviors sent by Providence” instead of taking their own condition as
+    an object of systematic study. The questionnaire is designed to cut
+    through habitual responses, making the worker “aware of his own
+    predicament in capitalist society.”
+
+alternative_proposal:
+  method: worker_self-inquiry
+  elements:
+    - A detailed questionnaire of 101 questions covering wages, hours,
+      health, machinery, trade‑union organisation, and living budget,
+      circulated through the Revue Socialiste.
+    - Replies are returned by workers themselves, “not saviors sent by
+      Providence,” guaranteeing that the information flows from the
+      immediate producers.
+    - The collected material will be classified, published in the Revue,
+      and later reprinted as a separate volume, providing “an exact and
+      positive knowledge of the conditions in which the working class
+      works and moves.”
+    - The inquiry is explicitly the “first act” that socialist democracy
+      must perform “in order to prepare the way for social regeneration” —
+      a necessary step towards the self‑emancipation of labour.
+
+direction_constraint:
+  core: worker_self_emancipation_through_scientific_knowledge
+  specific: |
+    The questionnaire does not prescribe the institutional shape of the
+    future society. It confines itself to the condition sine qua non of any
+    genuine social transformation: workers must first grasp the material
+    reality of their exploitation, as documented by their own answers.
+    The direction — “social regeneration” — is thereby constrained by the
+    requirement that emancipation be the work of the workers themselves,
+    grounded in empirically verified facts rather than abstract speculation
+    or charitable intervention.
+  key_insight: "only they … can energetically apply the healing remedies
+                for the social ills to which they are a prey"

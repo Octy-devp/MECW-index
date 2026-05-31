@@ -1,0 +1,67 @@
+reasoning: |
+  This text is a theoretical excerpt from Marx's 1861–63 Economic Manuscripts, developing the concept of profit as a 
+  converted form of surplus value. It diagnoses a permanent structural crisis within capitalist political economy: 
+  the systematic mystification that presents profit as the fruit of capital as a whole, concealing its origin in 
+  unpaid labor. The lag is twofold — real (the circulation and competition processes that distribute surplus value 
+  and invert appearances) and ideological (the economists who uncritically adopt the capitalists' viewpoint). The 
+  alternative is Marx's scientific correction: revealing profit as surplus value measured against total capital, 
+  demystifying the capital-relation. The direction is constrained by the material fact that this inverted 
+  consciousness arises necessarily from the real relations of production; thus, theory alone cannot abolish it — 
+  only a revolutionary transformation of the relations themselves.
+
+crisis_diagnosis:
+  type: theoretical_mystification_inherent_in_capital
+  specific: |
+    Bourgeois political economy systematically confuses profit with surplus value, treating capital as a self-acting 
+    automaton that independently creates value. "The organic relation [between surplus value and variable capital] is 
+    extinguished in the relation between profit and capital. Surplus value obtains a form in which the secret of its 
+    origin is no longer hinted at with the slightest trace." This mystification is not a mere error but a necessary 
+    expression of the capital-relation in bourgeois consciousness, leading to "the greatest blunders in political 
+    economy." The crisis is latent but structural — it pervades all capitalist understanding and practice, enabling 
+    exploitation to appear as a natural property of things.
+
+lag_mechanism:
+  layers: [real_appearance, ideological]
+  real_appearance: |
+    In the actual circulation and competition of capitals, surplus value is distributed and appears as profit on total 
+    capital. "The real movement of capitals... in which alone the laws of capital are realised" generates an average 
+    rate of profit. Individual capitalists "do not know" how much of their profit comes from their own workers' 
+    surplus labor. Circulation time and labor time "cut across each other," and surplus value appears as the excess of 
+    selling price over cost, obscuring its origin in production. This real inversion in the process itself produces 
+    the mystified form.
+  ideological: |
+    Bourgeois economists from Malthus to Senior, Torrens, and "the better political economists" like Ricardo fail to 
+    consciously distinguish surplus value from profit. They mistake the appearance born of competition for the essence, 
+    "sanctioning" the capitalist's notion that profit results from taking advantage in exchange. Even the most rigorous 
+    economists introduce fixed capital or circulation time into value determination, "abolishing his so-called law." 
+    The capitalist "feels at home in these contradictions," while the wage-laborer, trapped in the same inverted 
+    conception from the opposite side, is driven to resistance.
+
+alternative_proposal:
+  method: scientific_critique_and_demystification
+  elements:
+    - Distinguish surplus value (organic relation to variable capital) from profit (relation to total capital). 
+      "Profit = s/(c+v) is a converted form of surplus value... the rate of profit always represents the ratio in 
+      which capital appropriates alien labour as much smaller than it really is."
+    - Show that profit extinguishes the memory of exploitation: "the original form in which capital and wage labour 
+      confront each other disappears... surplus value no longer appears as a product of the appropriation of labour 
+      time, but as the excess of the selling price of commodities over their value."
+    - Explain that equal profits can express different rates of surplus value, depending on the ratio of constant to 
+      variable capital. This demystifies the "general rate of profit" as a redistribution of total surplus value, not 
+      a property of individual capitals.
+    - Demonstrate that commodities can be sold above cost but below value and still yield profit — a key to 
+      understanding competition and average profit without abandoning the law of value.
+
+direction_constraint:
+  core: inversion_rooted_in_material_relations
+  specific: |
+    The mystification is not an intellectual oversight but a necessary product of the real movement of capital. "The 
+    actual production process of capital is constantly bound up with its circulation process... they constantly falsify 
+    each other's characteristic distinguishing marks." The inverted form — profit as the natural fruit of capital — 
+    corresponds to "an inverted conception, a transposed consciousness, which is completed by the transformations and 
+    modifications of the actual process of circulation." Therefore, the alternative (scientific demystification) can 
+    only fully overcome this lag if the material relations that produce it are revolutionized. "The wage labourer... is 
+    driven in practice, as the oppressed side, to resistance against the whole relation, hence also against the 
+    notions, concepts and modes of thinking corresponding to it." The direction is constrained by the fact that 
+    consciousness itself is materially conditioned; theory can expose the inversion but not abolish it under 
+    capitalism.

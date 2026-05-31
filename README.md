@@ -92,6 +92,37 @@ python3 scripts/validate-mecw.py              # 全庫校驗
 
 ---
 
+## ⚠️ 已知局限（Known Limitations）
+
+> 2026-05-31，基於 134 篇 DCA 抽樣 + 殘差考古學首次分析
+
+### 一、長波 ≠ 物質歷史週期
+
+`theoretical_longwave` 是從 MECW 文本的**關鍵詞頻率**經 Butterworth 低通濾波計算得出。它反映的是「Marx/Engels 的寫作注意力長期趨勢」，而非獨立的宏觀經濟週期（Kondratiev waves）。兩者可能相關，但尚未與外部經濟史數據做交叉驗證。
+
+- **症狀**：`state` 關鍵詞權重過高（3.78），1843 年萊茵報查封事件造成尖峰，Butterworth 平滑後迫使 1848 年革命處於數學上的「下行段」
+- **影響**：長波/中波/短波三層分解的物理意義需要謹慎對待——它們是「關鍵詞注意力的頻率成分」，不是「資本主義的結構節律」
+- **待修復**：與 NBER 經濟週期數據、Kondratiev 價格指數做交叉驗證；考慮以主題建模（topic modeling）取代關鍵詞加權
+
+### 二、Crisis Type 映射表是預設的
+
+`LONGWAVE_CRISIS_EXPECTATION` 映射表（長波相位 → 預期危機類型）是根據歷史常識手寫的，不是從數據中學習的。94/134（70%）的 DCA 結果被標為「理論突變體」，部分原因正是映射表覆蓋範圍有限——Marx/Engels 的 crisis type 詞彙遠比手寫表豐富。
+
+- **影響**：「對齊」標籤只能解讀為「crisis type 恰好落在映射表的範圍內」，不能解讀為「歷史的客觀共振」
+- **待修復**：從 DCA 數據中無監督聚類 crisis type，再與頻譜相位做統計檢驗（而非規則匹配）
+
+### 三、Few-Shot Prefix 可能造成回音室
+
+系統提示詞（Version B prefix）以《共產黨宣言》第一章（1848）為 DCA 示範。這可能導致 AI 在處理 1848 年前後文獻時，輸出的 crisis type 向示範文本靠攏。
+
+- **待驗證**：A/B/C 三版 prefix 對照實驗（示範文本分別為 1848 / 1867 / 1875），檢測 crisis type 分佈是否顯著偏移
+
+### 四、抽樣策略與未覆蓋文獻
+
+當前 DCA 基於分層抽樣（134/2,259 篇 article+chapter，覆蓋率 6%）。4,304 封書信完全未做 DCA 提取——它們可能包含不同類型的 crisis diagnosis（更即時、更組織化、更個人化）。
+
+---
+
 ## 🧪 未來研究遊樂場（Future Research Playground）
 
 以下六個方向是 DCA + 頻譜 + 人物網絡的組合玩法。每一個都可以獨立發展成論文或工具。
@@ -112,14 +143,20 @@ python3 scripts/validate-mecw.py              # 全庫校驗
 
 ---
 
-### 二、殘差考古學（Residual Archaeology）
+### 二、殘差考古學（Residual Archaeology）🔄 已初步驗證
 
 頻譜把信號切成長波（正規化）+ 中波（週期）+ **短波（殘差）**。傳統做法把短波當 noise。反過來：**專門獵殺短波中的異常**。
 
 **玩法**：
-1. 找出 `theoretical_shortwave` 絕對值最高的 20 個年份
-2. 提取這些年份所有文本的 DCA，追問：這些 crisis type 是否無法被當時的長波趨勢解釋？
-3. 標記為 **「理論突變體」（theoretical mutants）**
+1. 找出 `theoretical_shortwave` 絕對值最高的 20 個年份 ✅
+2. 提取這些年份所有文本的 DCA，追問：這些 crisis type 是否無法被當時的長波趨勢解釋？ ✅
+3. 標記為 **「理論突變體」（theoretical mutants）** ✅
+
+**首次分析結果**（2026-05-31，134 篇 DCA）：
+- 94 篇被標記為理論突變體（70%），22 篇對齊
+- **1875 年**（短波 +3.21）是最大異常：《哥達綱領批判》的 crisis type 為 `organizational_degeneration`——物質條件允許前進（長波上升），政治組織卻在後退
+- 完整報告：`.taskbook/reports/residual-archaeology-20260531.md`
+- 已知局限：見上方 ⚠️ 節
 
 **案例**：1857 年（經濟危機）短波異常高，但 DCA 顯示 Marx 在寫的卻是 *theoretical retreat* 類型（《政治經濟學批判》導言中對方法論的退縮式反思）——物質危機高峰時，理論反而在後撤。這種張力本身就是最有價值的歷史問題。
 

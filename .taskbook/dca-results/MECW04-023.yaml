@@ -1,0 +1,78 @@
+```yaml
+reasoning: |
+  This excerpt from Engels' 1845 "The Condition of the Working Class in England" 
+  traces the genesis of the industrial proletariat through manufacture's 
+  centralisation of property and population. It diagnoses a structural 
+  crisis: the "mad rush of manufacture" polarises society into "rich 
+  capitalists on the one hand and poor workers on the other", annihilates 
+  the stable petty middle class, and concentrates an increasingly conscious 
+  proletariat in vast cities where "only a rich and a poor class" remain. 
+  The crisis is not a single event but a permanent feature of industrial 
+  capitalism. The lag mechanism is explicitly stated: workers' "degree of 
+  intelligence" – i.e., class consciousness – is uneven, directly 
+  proportional to their connection with manufacture; factory-hands are 
+  most enlightened, miners less so, agricultural labourers scarcely at all. 
+  The text provides no specific alternative programme; it describes an 
+  existing labour movement whose nucleus is the factory-hands and whose 
+  growth mirrors industrial development. The direction constraint is 
+  deterministic: the spread of machinery into handicrafts will inevitably 
+  draw other sections into the movement, making the labour movement an 
+  organic outgrowth of the industrial revolution itself. As a descriptive 
+  analysis, it offers no political prescription; therefore the 
+  alternative_proposal is null.
+
+crisis_diagnosis:
+  type: structural_polarisation
+  specific: |
+    Industrial manufacture systematically annihilates the petty middle class,
+    centralises property in few hands, and concentrates an impoverished
+    proletariat in cities where traditional social bonds dissolve. The 
+    result is a permanent antagonism: "Here the centralisation of property
+    has reached the highest point; here the morals and customs of the good
+    old times are most completely obliterated... Hence, too, there exist
+    here only a rich and a poor class." The "mad rush of manufacture" 
+    threatens to turn entire industrial districts into one continuous 
+    manufacturing town, intensifying the contradiction.
+  evidence: ["the centralising tendency of manufacture... money in the hands 
+             of the few", "the numerous petty middle-class... has been 
+             annihilated by manufacture, and resolved into rich capitalists 
+             on the one hand and poor workers on the other"]
+
+lag_mechanism:
+  layers: [consciousness, material]
+  consciousness: |
+    The proletariat's capacity to act as a class for itself is unevenly 
+    developed. "The degree of intelligence of the various workers is in 
+    direct proportion to their relation to manufacture." Factory-hands, 
+    closest to the heart of industrial production, are most enlightened 
+    about their interests; miners lag behind; agricultural labourers 
+    remain almost wholly unconscious. This differential consciousness 
+    retards a unified class movement.
+  material: |
+    The very process that creates the proletariat also keeps sections of it 
+    isolated: handicraft workers are only gradually absorbed as machinery 
+    invades their trades, delaying their entry into the labour movement. 
+    Additionally, competition between town and country wages temporarily 
+    disperses investment, counteracting centralisation and slowing 
+    consciousness in rural areas.
+
+alternative_proposal: null
+
+direction_constraint:
+  core: productive_forces_determine_class_consciousness
+  specific: |
+    The text posits a direct correlation between the spread of industrial 
+    manufacture and the growth of the labour movement. "The factory-hands, 
+    eldest children of the industrial revolution, have from the beginning 
+    to the present day formed the nucleus of the Labour Movement, and how 
+    the others have joined this movement just in proportion as their 
+    handicraft has been invaded by the progress of machinery." The movement 
+    is not a voluntarist project but a necessary outcome of material 
+    development. Full proletarian unity is constrained by the pace at which 
+    machinery transforms pre-industrial sectors.
+  key_insight: |
+    The industrial revolution itself supplies both the crisis (pauperisation,
+    polarisation) and the means of its resolution (class consciousness), and 
+    the lag is simply the temporal gap until machinery pulls every branch 
+    of labour into the vortex of industry.
+```

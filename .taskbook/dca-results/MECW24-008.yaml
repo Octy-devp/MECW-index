@@ -1,0 +1,107 @@
+```yaml
+reasoning: |
+  The text is a speech delivered at a London meeting marking the 12th
+  anniversary of the 1863 Polish uprising. The immediate context is the
+  enduring partition of Poland among Russia, Prussia and Austria, which
+  Marx and Engels view not merely as a national tragedy but as a structural
+  obstacle to the social emancipation of the European working class. Marx’s
+  speech, in particular, systematises three grounds for working-class
+  solidarity with Poland: sympathy for subjugated peoples, the geopolitical
+  role of Poland’s partition in binding the three military despotisms
+  together, and Poland’s historical record as “the cosmopolitan soldier of
+  the revolution.” The crisis is the ongoing existence of this tripartite
+  despotism, cemented by the partition, that prevents any social
+  transformation in Europe. The lag has ideological (national chauvinism
+  used to suppress Russian reform movements; reactionary Polish deputies
+  misleading workers), organisational (the working-class parties do not yet
+  consistently champion Polish independence) and material (the sheer
+  military-repressive weight of the three powers) dimensions. The
+  alternative is the explicit inclusion of Polish national restoration in
+  the programme of the International Working Men’s Association, understood
+  as a revolutionary Poland fundamentally different from the aristocratic
+  Poland of 1772 and as a necessary condition for breaking the despotic
+  alliance. The direction is constrained by the material reality that a
+  subjugated people must expend all its energy against the external
+  oppressor, so only after regaining independence can Poland internally
+  develop and participate in the European social revolution.
+
+crisis_diagnosis:
+  type: persistent_geopolitical_obstruction
+  specific: |
+    The partition of Poland, maintained by Russia, Prussia and Austria,
+    functions as “the mortar binding together the three great military
+    despotisms.” This tripartite reactionary bloc stands as the greatest
+    obstacle to the social emancipation of the European peoples. Poland’s
+    subjugation is not a side-issue but the linchpin of continental
+    counter-revolution, paralysing revolutionary potential across Europe.
+  evidence:
+    - "The partition of Poland is the mortar binding together the three great
+      military despotisms: Russia, Prussia and Austria. Only the
+      reconstitution of Poland can break this bond and thus remove the
+      greatest obstacle to the social emancipation of the peoples of Europe."
+    - "the political situation in which Poland has been placed is a
+      thoroughly revolutionary one, leaving Poland with no other choice than
+      to be revolutionary or to perish."
+
+lag_mechanism:
+  layers: [ideological, organizational, material]
+  ideological: |
+    National chauvinism, especially in Russia, is exploited by the
+    government to divert internal reform movements. The 1863 uprising was
+    provoked by the Tsarist regime to replace the student and peasant
+    agitation of 1861 with a wave of Russian chauvinism directed against
+    Poland. Furthermore, reactionary Polish deputies in the German Reichstag
+    act in their private class interests and threaten to mislead the German
+    working-class movement about the true character of the Polish cause.
+  organizational: |
+    The working-class parties of Europe have not yet consistently made
+    Polish independence a central demand. Marx recalls that the original
+    programme of the International included the restoration of Poland, but
+    practical solidarity remains intermittent. The meeting itself is an
+    attempt to reinforce this commitment, especially among the growing
+    German Social-Democratic movement.
+  material: |
+    The three partitioning powers have enormous military and fiscal
+    resources invested in maintaining the status quo. Engels notes that
+    Prussia-Germany, under “the signboard of national unification,” has
+    become entangled in a “threefold Venice” – enemies everywhere, massive
+    debts and taxes, and a large army that also serves to suppress German
+    workers. The sheer weight of this repressive apparatus delays any
+    revolutionary breakthrough.
+
+alternative_proposal:
+  method: proletarian_internationalism
+  elements:
+    - Restoration of Polish national independence as a stated goal of
+      working-class politics, already inscribed in the original programme of
+      the International Working Men’s Association.
+    - Support for a revolutionary Poland that breaks completely with the
+      aristocratic Poland of 1772; the new Poland must be socially and
+      politically transformed, aligning itself with the European
+      working-class movement.
+    - Breaking the bond of the three military despotisms by reconstituting
+      an independent Poland, thereby removing the chief obstacle to social
+      emancipation across the continent.
+    - Active solidarity that rejects any misleading by reactionary Polish
+      elements and understands that the Polish peasant and worker have no
+      other ally in Europe than the Working Men’s Party.
+
+direction_constraint:
+  core: national_liberation_as_prerequisite_for_internal_social_development
+  specific: |
+    A subjugated people must necessarily apply all its strength, efforts
+    and energy against the external oppressor; for as long as this condition
+    lasts, its internal life remains paralysed and it cannot work for social
+    emancipation. Therefore, Poland can only take part in the European social
+    transformation after it has re-conquered its independence and regained
+    control over itself as a free people. The alternative is not immediately
+    a socialist Poland but a national liberation that creates the necessary
+    conditions for internal class struggle and social progress. The entire
+    strategy is conditional upon breaking the tripartite alliance, a material
+    precondition that none of the three despotisms will voluntarily accept.
+  key_insight: "As long as a viable people is fettered by a foreign
+                conqueror, it must necessarily apply all its strength, all
+                its efforts, all its energy against the enemy from without;
+                for this length of time, then, its inner life remains
+                paralysed, it remains unable to work for social emancipation."
+```

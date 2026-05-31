@@ -1,0 +1,88 @@
+reasoning: |
+  The Draft Rules of the Communist League (June 1847) codify the transformation of the
+  conspiratorial, sectarian League of the Just into a democratic centralist propaganda
+  organization. The crisis is the failure of the old forms—secret societies with utopian
+  slogans and authoritarian structures—to build a mass working-class movement capable of
+  emancipation. Marx and Engels diagnosed this as an organizational lag rooted in
+  theoretical backwardness (no scientific communism) and ideological residues (oaths,
+  secrecy, exclusion of other groups). The alternative proposed is a league based on
+  democratic congresses, accountable executive bodies, and systematic spread of the
+  principle of community of property; yet the draft still bears "birthmarks" of the old
+  society—sectarian admission requirements, limited congressional power, and a fetish
+  for secrecy—revealing an incomplete break. The direction is constrained by the
+  material conditions of illegality and the low level of class consciousness, which
+  force a trade-off between mass agitation and organizational security.
+
+crisis_diagnosis:
+  type: organizational_immaturity_and_sectarianism
+  specific: |
+    The workers' movement in the mid-1840s, embodied by the League of the Just,
+    was trapped in conspiratorial forms inherited from Blanquism and utopian
+    socialism. Its narrow 'People's Chamber' leadership, secretive rituals,
+    and moralistic admission oaths prevented it from becoming a mass
+    revolutionary force. The crisis is structural: the organization reproduces
+    the isolation and passivity of the politically immature proletariat, unable
+    to intervene effectively in the revolutionary conjuncture then developing
+    across Europe.
+  evidence:
+    - "the reorganisation work done by the League of the Just leaders as agreed
+      with Marx and Engels, who consented early in 1847 to join the League on the
+      condition that it would be reorganised on a democratic basis and all elements
+      of conspiracy and sectarianism in its structure and activity would be
+      eliminated."
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    The old League's program rested on the abstract notion of "community of
+    property" (a pre-Marxian, utopian formula) without grounding in the critique
+    of political economy or class struggle. Members were not required to study
+    scientific socialism; the Five Questions merely asked for conviction in
+    "truth of the principles" without defining them rigorously.
+  organizational: |
+    The League of the Just was a quasi-Masonic secret society: authority flowed
+    top-down from an unaccountable People's Chamber, local groups were isolated
+    from each other (Art. 10: "communities do not know each other"), and
+    recruitment relied on personal trust and moral vetting rather than political
+    education.
+  ideological: |
+    Sectarian exclusionism: Art. 3(e) forbade members to belong to any other
+    political or national association, isolating communists from broader
+    democratic and labour movements. The oath of secrecy and honor (Arts. 3(g),
+    36) instilled a conspiratorial ethos that mistrusted open propaganda.
+
+alternative_proposal:
+  method: democratic_centralist_reorganization
+  elements:
+    - Replace the secret, dictatorial "People's Chamber" with a regular Congress
+      of delegates from local circles (Arts. 17-19), exercising legislative power
+      (though initially subject to community veto, Art. 21).
+    - Introduce an elected Central Authority as executive, accountable to Congress
+      and without a decisive vote (Art. 22).
+    - Establish a nested structure of communities and circles with elected
+      officers and regular meetings (Arts. 6-8, 26).
+    - Commit the League to spreading the "theory of the community of property"
+      through discussion material and propaganda (Arts. 1, 31).
+    - Adopt the internationalist motto "Working Men of All Countries, Unite!"
+      (mentioned in introduction).
+    - Institute democratic safeguards: annual elections, recall of officers,
+      financial transparency (Arts. 28-30).
+
+direction_constraint:
+  core: illegality_and_low_class_consciousness
+  specific: |
+    The League operates under severe police repression across Europe, making
+    complete openness impossible; hence secrecy and compartmentalization
+    (communities unknown to each other, Art. 10) are defensive necessities.
+    The working class is not yet a self-conscious political subject; thus the
+    organization must begin as a propaganda group of "capable men" (Art. 8)
+    who disseminate principles before mass recruitment is feasible. The draft's
+    residual sectarian features—vetting of new members, exclusion from other
+    groups, the oath—reflect the practical difficulty of building a disciplined
+    revolutionary party while remaining permeable to spies and hostile elements.
+    Marx and Engels recognized these as transitional compromises: the direction
+    points toward an openly mass party that fuses the organized proletariat with
+    the theory of scientific communism, but that horizon is constrained by the
+    immediate need for a consolidated vanguard nucleus.
+  key_insight: "The reorganisation was not yet complete ... On the insistence of
+                Marx and Engels these points were later deleted or altered."

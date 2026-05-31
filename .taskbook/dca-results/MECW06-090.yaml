@@ -1,0 +1,32 @@
+reasoning: |
+  The address, written on 28 February 1848, responds to the February Revolution in France. As Vice-President of the Brussels Democratic Association—a multi-national body—Marx articulates an internationalist perspective. The crisis is the collapse of the post-1815 reactionary order opened by the French revolution. The lag is the slowness of other European nations in achieving their own democratic transformations; the address notes that the Swiss had already moved and urges others to "hasten to follow." The alternative is the formation of a voluntary "alliance of peoples" based on mutual example, not French hegemony—explicitly contrasting with the old "hateful policy" of Great Power rivalry. Direction is constrained by geography ("nations nearest to France will be the first") and the imperative that the revolution not menace any nation's independence, i.e., must be a process of self-emancipation. All four DCA dimensions are present.
+crisis_diagnosis:
+  type: revolutionary_conjuncture
+  specific: |
+    The February 1848 Revolution in France overthrows the July Monarchy and shatters the European reactionary system established by the Congress of Vienna. This rupture opens the possibility for a continent-wide democratic transformation, moving from the era of dynastic alliances and "hateful policy" to one of international brotherhood.
+  evidence: ["the great task the French nation has just accomplished",
+             "the immense service which this nation has just rendered the cause of humanity"]
+lag_mechanism:
+  layers: [organizational, ideological, political]
+  organizational: |
+    Most European peoples are not yet organized for revolution; only Switzerland has recently undertaken democratic reform (Sonderbund War, 1847). The address implies that the pace of liberation across nations is unequal and too slow.
+  ideological: |
+    The legacy of the "hateful policy of certain men"—the reactionary diplomacy of the Holy Alliance—has sown division and mistrust among nations, making an alliance of peoples appear utopian.
+  political: |
+    Monarchies and conservative governments still dominate Germany, England (despite parliamentarism), Italy, Spain, Poland (under partition), and Russia. Their continued existence prevents the immediate realization of the alliance.
+  evidence: ["hateful policy of certain men succeeded in shattering",
+             "all the nations should hasten to follow in your footsteps"]
+alternative_proposal:
+  method: international_democratic_solidarity
+  elements:
+    - France acts as an example, not a ruler: "We salute in the France of February 1848 not the mistress of the peoples but an example for them"
+    - A voluntary "alliance of peoples" replacing the old system of great-power rivalry and subjugation, inspired by Beranger's songs
+    - Concrete expectation that England, Germany, Spain, Italy, Switzerland, Belgium, Poland, and eventually Russia will join the movement
+    - The revolution's expansion must respect national independence and avoid any semblance of French imperial domination
+direction_constraint:
+  core: geographic_proximity_and_national_self_determination
+  specific: |
+    The sequence of revolutions is materially influenced by geography: "the nations nearest to France will be the first to follow her." The alternative can only advance if it is not perceived as French expansionism—the revolution must "strengthen the bonds which link it to all nations than to menace the independence of any." Hence, each nation's liberation must be its own act, and any forced export of revolution would undermine the alliance of peoples.
+  evidence: ["the nations nearest to France will be the first to follow her",
+             "France will henceforward look for no other homage",
+            

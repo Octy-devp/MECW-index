@@ -1,0 +1,111 @@
+reasoning: |
+  The text is an 1848 Neue Rheinische Zeitung article by Marx and Engels,
+  intervening in the revolutionary conjuncture to counter the German
+  press's nationalist warmongering. The crisis is identified as a structural
+  contradiction of the German revolution: precisely when the masses are
+  struggling for domestic freedom, their governments orchestrate wars of
+  restoration against Poles, Italians, and Czechs — using national hatred to
+  channel revolutionary energy into counter-revolution and to train a brutal
+  soldiery for civil war. This is a political crisis of betrayal by the
+  liberal bourgeoisie and press. The lag operates on three levels:
+  ideologically, the press spreads a narrow nationalism that obscures the
+  class character of the conflicts; organizationally, figures like Göschen
+  and the "German League" lend legitimacy to repression by portraying the
+  Prague uprising as a Slav conspiracy; theoretically, the liberal public
+  fails to grasp that the Prague barricades were a joint German–Czech
+  anti-absolutist struggle, not an ethnic clash. The alternative is
+  explicitly stated: a revolutionary war against Russia, the gendarme of
+  European reaction, which would compel Germany to defeat its own autocrats
+  and liberate oppressed nations, thereby transforming the revolution into a
+  genuinely emancipatory force. The direction is constrained by the material
+  reality that Germany's internal counter-revolution must first be overcome;
+  without defeating the old authorities at home, any external war remains a
+  tool of reaction. The article's report from Prague provides factual
+  evidence dismantling the "Slav conspiracy" lie, revealing state violence
+  against an unorganized, multi-ethnic populace.
+
+crisis_diagnosis:
+  type: revolutionary_conjuncture_co-opted_by_reaction
+  specific: |
+    In the 1848 revolutions, the German feudal–absolutist governments are
+    inciting a "narrow-minded national hatred" and waging wars of restoration
+    against Poles, Italians, and Czechs. These external crusades are designed
+    to "paralyse democratic energies, to deflect attention from itself... and
+    forge the weapon of suppression within the country." The Prague uprising
+    (June 1848) is falsely presented as a Slav conspiracy against Germans,
+    when in reality it was a spontaneous, cross-ethnic anti-absolutist revolt.
+    The crisis is thus a double betrayal: the revolutionary potential of the
+    German people is diverted into counter-revolutionary violence, while the
+    liberal bourgeoisie legitimizes this through nationalist hysteria.
+  evidence:
+    - "What deep plot it is to let the Germans under the command of their
+      governments undertake a crusade against the freedom of Poland, Bohemia
+      and Italy at the same moment that they are struggling with these same
+      governments to obtain freedom at home!"
+
+lag_mechanism:
+  layers: [ideological, organizational, theoretical]
+  ideological: |
+    The German press (Deutsche Allgemeine Zeitung, Frankfurter Journal) and
+    liberal orators (Wuttke, Stradal) propagate nationalist hatred, painting
+    the Prague events as a Slav conspiracy to suppress Germans. This
+    false narrative masks the reactionary purpose of the military
+    operations and prevents solidarity among oppressed nationalities.
+  organizational: |
+    The "German League" and liberal figures like Dr. Göschen draft
+    congratulatory addresses to Prince Windischgrätz, thanking him for
+    "protecting the German fatherland." This lends a veneer of popular
+    legitimacy to the brutal suppression of the unarmed and mixed
+    population of Prague, and entrenches a network of nationalist
+    agitation that diverts organizational energy away from democratic
+    revolution.
+  theoretical: |
+    The liberal public and press systematically misdiagnose the character
+    of the Prague uprising. They assume an ethnic conflict ("Germans vs.
+    Slavs") when, as the correspondent proves, "not the smallest trace of
+    a rivalry between nationalities could be observed during the fighting
+    on the barricades. Germans and Czechs stood side by side." This
+    failure to grasp the class and anti-absolutist nature of the revolt
+    leaves the revolution vulnerable to reactionary manipulation.
+
+alternative_proposal:
+  method: internationalist_revolutionary_war
+  elements:
+    - |
+      Instead of national crusades against oppressed peoples, Germany must
+      wage a revolutionary war against tsarist Russia, the main prop of
+      European reaction. "Only a war against Russia would be a war of
+      revolutionary Germany."
+    - |
+      Such a war would compel Germany to defeat its own internal autocrats,
+      "cleanse herself of her past sins," and transform the struggle for
+      national existence into an emancipatory process for all peoples.
+    - |
+      Solidarity with the oppressed nations (Poles, Italians, Czechs) must
+      replace nationalist enmity; the Prague press's goal of "preservation
+      of Bohemia's independence and the equal rights of both nationalities"
+      exemplifies the correct position.
+    - |
+      Exposure of the state's counter-revolutionary technique: "German
+      reaction is seeking to rouse a narrow-minded nationalism... in order
+      to suppress the revolution in the interior of Germany and partly to
+      train the soldiery for civil war."
+
+direction_constraint:
+  core: internal_revolution_precedes_external_liberation
+  specific: |
+    A revolutionary war against Russia, and genuine solidarity with
+    oppressed nations, is only possible if Germany first breaks the power
+    of its own reactionary governments. As long as the old authorities
+    hold the instruments of state (the army, the press), external wars will
+    remain tools of domestic counter-revolution. The direction is materially
+    constrained by the existing correlation of class forces inside Germany:
+    the liberal bourgeoisie’s complicity and the ideological grip of
+    nationalism must be overcome before the revolutionary alternative can
+    materialize.
+  key_insight: |
+    "Only a war against Russia would be a war of revolutionary Germany, a
+    war by which she could cleanse herself... make herself free within her
+    borders by bringing liberation to those outside." — The external goal
+    is inseparable from the internal precondition: the overthrow of the
+    German autocrats.

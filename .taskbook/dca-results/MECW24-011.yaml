@@ -1,0 +1,37 @@
+```yaml
+reasoning: |
+  The text is Marx's 1875 critique of the Gotha Program, a draft for the unification of the Eisenach and Lassallean factions of the German workers' movement. Marx diagnoses a crisis of theoretical and organizational degeneration: the program replaces scientific socialism with Lassallean slogans (e.g., 'iron law of wages', 'undiminished proceeds of labor', 'free state'). The lag is multi-layered: theoretical (Lassalle's ignorance of wage-labor as value of labor-power, not labor), organizational (merger pressure forcing concessions), and ideological (servile belief in the state, democratic illusions). The alternative is a systematic correction: Marx replaces each error with scientific concepts (e.g., two-phase communism, dictatorship of the proletariat, distribution determined by production). The direction constraint is material: the first phase of communism still bears 'birthmarks' of capitalist society, and right can never exceed the economic structure. The text explicitly states that 'right can never be higher than the economic structure of society and its cultural development conditioned thereby,' grounding the alternative in productive forces and historical development.
+
+crisis_diagnosis:
+  type: organizational_degeneration
+  specific: |
+    The 1875 Gotha merger program replaced scientific socialism with Lassallean slogans: 'iron law of wages', 'undiminished proceeds of labor', 'free state', 'reactionary mass'. Marx diagnoses this as a principled retreat — the theoretical gains of Capital and the International are traded for organizational unity. The crisis is not merely bad wording but a 'decidedly retrograde step' that threatens to re-impose pre-scientific economics and sectarian politics.
+  evidence: ["What a crime it is to attempt to force on our Party again, as dogmas, ideas which in a certain period had some meaning but have now become obsolete verbal rubbish"]
+
+lag_mechanism:
+  layers: [theoretical, organizational, ideological]
+  theoretical: |
+    Lassalle 'did not know what wages were' — he took the appearance (value of labor) for the essence (value of labor-power). Fifteen years after Capital Vol.1, the program reverts to Malthusian population theory and the 'iron law of wages', ignoring the scientific understanding that wages are a masked form of labor-power value.
+  organizational: |
+    Merger pressure: the Eisenach wing accepted theoretical concessions to secure unification. Marx notes 'with what criminal levity and with what lack of conscience they set to work in drawing up this compromise program.' Organization was prioritized over clarity.
+  ideological: |
+    The program's 'servile belief in the state' — treating the Prussian state as a neutral instrument rather than an organ of class rule. It demands 'free state' and democratic reforms from a 'police-guarded military despotism,' revealing a 'democratic belief in miracles' that is 'remote from socialism.'
+
+alternative_proposal:
+  method: systematic_correction
+  elements:
+    - Replace 'iron law of wages' with scientific theory of labor-power (wages = value of labor-power, not labor)
+    - Replace 'free state' with 'revolutionary dictatorship of the proletariat' as the political transition form
+    - Replace 'fair distribution' and 'undiminished proceeds' with two-phase analysis:
+      Phase 1: 'to each according to labor' (still bourgeois right, with deductions for social funds)
+      Phase 2: 'to each according to needs' (post-scarcity, after labor becomes 'life's prime want')
+    - Replace national framework with internationalism: the working class must organize nationally but its struggle is international in substance
+    - Replace 'state aid' for cooperatives with independent workers' creations; reject sectarian nostrums for class movement
+  evidence: ["Between capitalist and communist society lies the period of the revolutionary transformation of the one into the other. Corresponding to this is also a political transition period in which the state can be nothing but the revolutionary dictatorship of the proletariat."]
+
+direction_constraint:
+  core: productive_forces_determine_distribution_possibilities
+  specific: |
+    Phase 1 communism is 'still stamped with the birthmarks of the old society.' Equal right remains bourgeois right because it measures by labor, ignoring individual inequality. Only when productive forces are fully developed and labor becomes 'life's prime want' can distribution transcend bourgeois right. The key insight: 'Right can never be higher than the economic structure of society and its cultural development conditioned thereby.' Distribution is a consequence of the distribution of the conditions of production, not an independent variable.
+  key_insight: "Any distribution whatever of the means of consumption is only a consequence of the distribution of the conditions of production themselves. The latter distribution, however, is a feature of the mode of production itself."
+```

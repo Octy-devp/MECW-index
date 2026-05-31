@@ -1,0 +1,27 @@
+reasoning: |
+  Marx's 1858 article "British Commerce" uses a parliamentary controversy over the trade deficit to diagnose the structural dynamics of British capitalism during the 1857–58 crisis. Lord Derby's claim of a £160 million excess of imports is corrected but reveals a deeper mechanism: Britain's export of capital develops foreign competitors who bid up raw material prices, squeezing domestic profits and forcing wage cuts. Marx marshals detailed trade data to show that despite rising wool imports, the quantity available for home consumption fell, while failures multiply in the woolen districts. The text embeds a crisis diagnosis, lag mechanism, and direction constraint, but does not propose a positive alternative; it is an analytical intervention, not a programmatic text.
+
+crisis_diagnosis:
+  type: industrial_crisis
+  specific: |
+    The 1857–58 commercial crisis, acutely manifest in the British woolen industry, where failures "follow upon failure" and are concealed by the press. The crisis is not a mere monetary panic but a structural malady: overproduction, raw material price inflation driven by foreign competition, and the self‑undermining dynamic of Britain's world‑market role.
+  evidence:
+    - "At the present moment the industrial crisis rages most violently the British Woolen districts, where failure follows upon failure, anxiously concealed from the general public by the London press."
+
+lag_mechanism:
+  layers: [structural, ideological]
+  structural: |
+    Britain, as the "workshop of the world," accumulates surplus capital that cannot find adequate domestic employment and must be exported as credits to foreign nations. These loans build up continental manufacturing (e.g., French woolens), which then competes with Britain for raw materials, driving up their price. The same foreign industries use those raw materials to manufacture goods that undercut British exports and even re-enter Britain. The result is a profit‑squeeze on British manufacturers, who compensate by depressing wages, thereby immiserating the working class. The export of capital thus forges "the weapons for her competitors." The import surplus is partly the return on those investments (interest, dividends), masking the erosion of the domestic industrial base.
+  ideological: |
+    The British press and public fixate on the nominal "balance of trade" figure, bewailing an "annual sacrifice of £33,000,000." This superficial reading ignores the structural mechanism—the fetishism of trade statistics—and prevents a realistic understanding of the actual process undermining British industry.
+
+alternative_proposal: null
+
+direction_constraint:
+  core: self_destructive_logic_of_imperial_capital_export
+  specific: |
+    Britain's global industrial hegemony compels it to export surplus capital, which inevitably nurtures industrial rivals. This raises raw material costs, squeezes domestic profit rates, and forces continual wage suppression to maintain competitiveness. The direction is a spiral of intensified exploitation, declining relative competitiveness, and eventual loss of supremacy. The material constraint is inherent in capital's need for valorization: unable to absorb all surplus at home, Britain must lend abroad, but that very lending undermines the home industry. The downward pressure on wages and the "home misery" are the "natural price" of that supremacy. Within the capitalist framework, this trajectory is inescapable.
+  key_insight: "She is forced, by giving large credits, to foster speculation in other countries in order to find a field of employment for her surplus capital, and thus to hazard her acquired wealth in order to augment and conserve it."
+  evidence:
+    - "She is forced, by giving large credits, to foster speculation in other countries in order to find a field of employment for her surplus capital, and thus to hazard her acquired wealth in order to augment and conserve it."
+    - "The small margin of profit thus left to the British manufacturer, still reduced by the constant necessity ... constantly to undersell the rest of the world, is, then compensated for by curtailing the wages of the laboring classes and creating home misery on a rapidly-enlarging scale."

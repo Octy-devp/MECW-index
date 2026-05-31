@@ -1,0 +1,20 @@
+```yaml
+reasoning: |
+  This document is a factual report from the Neue Rheinische Zeitung about
+  a general meeting of the Cologne Workers' Association in February 1849.
+  It records agenda items—Schapper's account of the Association's activity,
+  a reorganization plan, financial report, and decisions on a newspaper and
+  statutes—without any theoretical or strategic analysis. Unlike the Gotha
+  Critique or the Manifesto, which systematically diagnose a crisis, identify
+  lag mechanisms, propose alternatives, and state material constraints, this
+  text contains only procedural description. No historical conjuncture,
+  structural contradiction, or class analysis is articulated. The reorganization
+  plan could be seen as an implicit alternative, but the crisis it addresses
+  is not named in the text, nor is there any discussion of why a lag exists
+  or what constraints the direction. Therefore, the DCA structure is absent.
+  All dimensions are marked null with explanations.
+crisis_diagnosis: null
+lag_mechanism: null
+alternative_proposal: null
+direction_constraint: null
+```

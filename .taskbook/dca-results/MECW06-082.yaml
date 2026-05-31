@@ -1,0 +1,91 @@
+reasoning: |
+  Engels' 1847 lecture to the London German Workers' Educational Society
+  provides a sweeping historical-materialist explanation of how Columbus's
+  discovery of America set in motion processes that have, by the mid-19th
+  century, created the objective conditions for proletarian revolution. The
+  text identifies the present as a moment where the contradiction between
+  two globally polarized classes—propertyless workers versus property-
+  owning bourgeoisie—has become acute. The crisis is not a single event
+  but the structural antagonism that has emerged from the dissolution of
+  pre-capitalist orders. Engels explicitly connects machinery and world
+  market to the ruin of old aristocracies, the creation of a universal
+  working class, and the interdependence of nations: "when a revolution
+  breaks out in one country it must necessarily affect the other countries,
+  and only now can real liberation take place." The `lag` here is the
+  historical process itself—the long duration in which nations were
+  separated, production was local, and workers remained in "barbarian
+  condition" or isolated. That lag is now overcome by the very development
+  described. Thus the `alternative` is the imminent international
+  revolution of the unified working class. The `direction_constraint` is
+  the world market itself: it has made international revolution both
+  necessary and possible; any liberation must account for this global
+  interdependence
+
+crisis_diagnosis:
+  type: structural_class_polarization_on_world_scale
+  specific: |
+    The rise of machinery and the world market—initiated by Columbus's
+    discovery—has dissolved the old multi-class societies (aristocracy,
+    petty bourgeoisie, etc.) across Europe, Asia, and elsewhere, leaving
+    two mutually hostile classes: bourgeoisie and proletariat. Engels
+    describes this as "the struggle which we are conducting today, the
+    struggle of the propertyless against the property owners." The crisis
+    is not an isolated event but the permanent, escalating antagonism
+    embedded in the capitalist mode of production, now global in reach
+    (India, China, Austria, Italy all cited). The immediate conjuncture
+    (1847, eve of revolutions) makes this antagonism politically acute.
+  evidence: ["the whole of human society, which formerly consisted of four
+             to six different classes, was divided into two mutually
+             hostile classes", "the classes of society have been changed,
+             the small craftsmen are being ruined and forced to become
+             ordinary workers, whereby an element has entered which can
+             become dangerous"]
+
+lag_mechanism:
+  layers: [historical_underdevelopment, cultural_isolation, national_segmentation]
+  historical_underdevelopment: |
+    Before the discovery of America and the advent of machinery,
+    "countries even in Europe were still very much separated from one
+    another and trade was on the whole slight." Production served local
+    needs; no world market existed to unify the interests of producers
+    across borders. The working class as a global class was absent.
+  cultural_isolation: |
+    Engels points to India, where "the Indians went on living in the same
+    way for centuries, i.e., they ate and drank and vegetated" and were
+    not "accessible to civilisation." Similarly, China "for more than a
+    thousand years has defied development and all history." Such isolation
+    prevented workers from perceiving common interests or acting in concert.
+  national_segmentation: |
+    Even in Europe, Austria is labeled "the China of Europe," its internal
+    institutions resistant to change until steam and machinery break
+    through. Only when the world market integrates national economies do
+    "the different interests coincide" and the workers of all countries
+    share the same position.
+
+alternative_proposal:
+  method: international_proletarian_revolution
+  elements:
+    - Unification of "the workers of the whole world" who "have everywhere
+      the same interests" and whose "different interests coincide"
+    - Revolution in one country necessarily affecting others, creating
+      conditions for simultaneous or coordinated insurrection
+    - "Real liberation" (exact phrase) achieved through the self-activity
+      of the propertyless class, enabled by the maturity of objective
+      conditions
+
+direction_constraint:
+  core: world_market_interdependence
+  specific: |
+    Engels argues that only now, after the world market has integrated
+    national economies and created a global working class, can "real
+    liberation take place." The direction of revolutionary action is thus
+    constrained by this very interconnection: a purely national liberation
+    is impossible because "when a revolution breaks out in one country it
+    must necessarily affect the other countries." The struggle must be
+    conducted on the terrain of the world market, and the transition to a
+    classless society presupposes that capitalism has already delivered the
+    productive forces and the global integration that make liberation
+    materially attainable.
+  key_insight: "only now can real liberation take place" — the necessary
+               objective conditions have ripened; the constraint is historical
+               and material, not a matter of mere will

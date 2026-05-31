@@ -1,0 +1,52 @@
+```yaml
+reasoning: |
+  Engels' "Bayonet" (1857) is a concise historical-technical entry,
+  likely for The New American Cyclopaedia. It traces the weapon's
+  origins, adoption dates, and tactical effects. The text is purely
+  descriptive: it states who invented it, how it evolved (plug vs.
+  socket), when various armies replaced pikes, and the first battle
+  with bayonet charges. No class analysis, revolutionary conjuncture,
+  or social relations appear. There is no diagnosis of a crisis, no
+  identification of mechanisms delaying resolution, no alternative
+  political or social proposal, and no material constraints on a
+  direction. The entire DCA framework is inapplicable because the
+  text lies outside the domain of historical materialism—it treats
+  a military artefact with the neutral empiricism of a reference work.
+
+crisis_diagnosis:
+  type: null
+  specific: null
+  evidence: []
+  explanation: |
+    No crisis is identified or implied. The text describes a technical
+    transition (pike to bayonet) but not as a symptom of structural
+    contradiction, class conflict, or revolutionary conjuncture.
+
+lag_mechanism:
+  layers: []
+  theoretical: null
+  organizational: null
+  ideological: null
+  explanation: |
+    No lag is diagnosed. The delay in adopting the bayonet is noted
+    (pikes persisted) but only as a factual chronology, not as a
+    blockage produced by social forces, outdated theory, or
+    organizational inertia in a political sense.
+
+alternative_proposal:
+  method: null
+  elements: []
+  explanation: |
+    No alternative is proposed. The text describes the bayonet’s
+    development, not a program for change. There is no normative
+    political content.
+
+direction_constraint:
+  core: null
+  specific: null
+  key_insight: null
+  explanation: |
+    No direction is constrained. The transition from pike to bayonet
+    is presented as a straightforward military innovation without
+    material conditions limiting or enabling a social transformation.
+```

@@ -1,0 +1,119 @@
+```yaml
+reasoning: |
+  Marx’s 1859 article for the New-York Daily Tribune dissects the war
+  alarm then gripping Europe. The immediate crisis is the rhetorical
+  escalation between Napoleon III (“the Little”) and Austria, matched
+  by troop movements in Lombardy and Sardinian saber-rattling. Marx
+  treats this not as a sudden diplomatic spat but as a structurally
+  conditioned conjuncture: the same financial and political forces that
+  compel a delay (the need for loans, the fear of internal backlash)
+  simultaneously propel the powers toward war (the need to divert
+  domestic tensions, the lure of speculative profit). His analysis
+  exposes a double lag — the material time required to float loans
+  (“two months’ respite at least”) and the contradictory political
+  calculations of each state. Marx offers no political program here;
+  the text is a strategic intelligence report for a working-class
+  readership. Its implicit alternative is demystification: revealing
+  that war is not a national crusade but a stock-jobbing maneuver
+  underwritten by the very “peace-loving capitalists” who profit from
+  both war and peace. The direction is thereby constrained by the
+  iron law of financial solvency and the latent threat of class
+  revolt—should defeat come, it “would ring the funeral knell of the
+  Brummagem Empire.”
+
+crisis_diagnosis:
+  type: diplomatic-military_conjuncture
+  specific: |
+    Europe, January 1859, is gripped by a war alarm after Napoleon III’s
+    New Year’s apostrophe to the Austrian ambassador (“Dutch cousin to
+    the battle of Austerlitz”) and King Victor Emmanuel’s bellicose
+    throne speech. Austrian troops mass in Lombardy, Sardinia forms
+    new chasseur corps and fortifies Casale, while France tests new
+    cannon at Vincennes. The crisis is structural: the post-1848
+    settlement is fracturing over Italian unification, with Russia
+    maneuvering to regain dominance lost in the Crimean War.
+    Financially, all powers need massive loans from London, making
+    the money market the true arbiter.
+  evidence:
+    - “On all the centers of the money market the barometer points to ‘stormy.’”
+    - “altogether bills to the amount of thirty millions sterling must
+      be drawn by the crown-bearers and sword-bearers, upon the English
+      purse, before armies can move”
+
+lag_mechanism:
+  layers: [financial, political, material]
+  financial:
+    specific: |
+      War is impossible until loans totaling ca. £30 million are raised
+      from British capitalists—Russia (≈£10m), France, Austria
+      (≈£6–8m), Sardinia. This requires “two months’ respite at least,”
+      pushing any conflict into spring. Yet the same glut of idle
+      capital (40 million gold in bank vaults, interest at 2.5%) means
+      that even “Satan himself… would succeed in selling his scrip at a
+      premium.” The delay is therefore conditional—a pause for
+      financial engineering, not a peace guarantee.
+    evidence:
+      - “if there is to be war, it must be delayed until Spring”
+      - “Satan himself… would… sell his scrip at a premium”
+
+  political:
+    specific: |
+      Each power faces internal opposition that counsels delay:
+      – Russia wants war to divert from domestic unrest and break the
+        nobility, but fears that new taxes and conscriptions could
+        drive the peasantry to “violent commotions.”
+      – Austria “is afraid of war” but may be forced into it.
+      – France: the ecclesiastical party opposes the “unholy crusade”;
+        the bourgeoisie recalls “L’Empire c’est la paix”; any defeat
+        would destroy the Bonapartist imposture.
+      These cross-pressures create a stand-off in which no actor can
+      afford to be seen as the clear aggressor.
+    evidence:
+      - “the Ecclesiastical party in France is violently opposed… the
+        middle class reminds him of L’Empire c’est la paix”
+      - “any defeat on the plains of Lombardy would ring the funeral
+        knell of the Brummagem Empire”
+
+  material:
+    specific: |
+      Military preparations themselves impose a tempo: troop movements
+      (Austrian 3rd Corps to Lombardy), fortification works (Casale),
+      the reorganization of the Sardinian National Guard. Even the
+      weather matters—campaigning cannot start before spring.
+    evidence:
+      - “An Austrian army of about 30,000 men… will by this time have
+        marched into the Lombardo-Venetian Kingdom”
+      - “the fortifications of Casale are pushed forward with the utmost activity”
+
+alternative_proposal:
+  method: null
+  elements: null
+  explanation: |
+    This is a journalistic analysis for the New-York Daily Tribune,
+    not a manifesto or programmatic document. Marx offers no positive
+    political alternative. His intervention is diagnostic: by exposing
+    the financial and dynastic machinery behind the war scare, he arms
+    a working-class readership against nationalist manipulation. The
+    implicit alternative is class-conscious refusal to be cannon-fodder
+    for stock-jobbers.
+
+direction_constraint:
+  core: finance_capital_imposes_war_rhythms
+  specific: |
+    War is not determined by chauvinist passions but by the ability to
+    raise credit in the London money market. This gives the appearance
+    of capitalist peace-promotion, yet “the very same circumstances
+    which may put off the European war… push on to such an issue.”
+    Ultimately, the direction (peace or war) is constrained by the
+    contradictory pressures of financial speculation, dynastic
+    survivalism, and the latent threat of popular revolt. The
+    Bonapartist regime needs a victorious war to “cement that monster
+    imposture,” but it cannot survive a defeat. The material basis of
+    these regimes—their dependence on loans and their fear of the
+    classes that pay the bills—sets the boundaries within which
+    decisions are taken.
+  key_insight: |
+    “No confessor knows more exactly the vulnerable parts of a fair
+    penitent’s heart than do the hard-cash men… know where the shoe
+    pinches the European potentates.”
+```

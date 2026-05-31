@@ -1,0 +1,21 @@
+reasoning: |
+  This is Engels' 1849 analysis of the disintegration of the Habsburg counter‑revolutionary coalition. The text diagnoses a specific crisis: the inevitable split between the Austrian government and its Slav allies after the Vienna October uprising, now breaking into open conflict. Engels traces the lag to organisational dependence and ideological deception, but the article remains a tactical exposé—it offers no concrete revolutionary alternative for the Slavs or the Hungarian revolution, only a demonstration of the monarchy's internal contradictions. Consequently, alternative and direction are absent.
+
+crisis_diagnosis:
+  type: counterrevolutionary_coalition_fracturing
+  specific: |
+    Following the storming of Vienna, the Austrian government's promises of national autonomy to Croats, Serbs, and Slovaks in exchange for military support against Hungary are being broken. Windischgrätz's new Pest government reasserts Hungarian sovereignty over Slav territories, dispatches decrees in Magyar without translation, and puts Karlowitz under siege. The Serbs are openly defying the military authorities; Croats are "foaming" at being treated like under Kossuth. The fissure between the monarchy and its Slav auxiliaries has become unbridgeable, threatening the "united monarchy" itself.
+  evidence: ["the split between the Austrian Government and the Slavs. That split is now an open one."]
+
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    The Slav nationalities are "in disarray and powerless without Austrian leadership." They lack independent armies and political structures; Jellachich, their figurehead, has been rendered harmless by splitting his troops. Without Austrian organisation, they cannot mount an effective defence against the now‑hostile imperial authorities.
+  ideological: |
+    The Slavs had invested in dynastic loyalty, believing that service to the "united monarchy" would secure national rights. The "purity" of their sympathy was a fiction; they were pawns who accepted the illusion of a multi‑national empire under Habsburg aegis. When betrayal comes, they have no revolutionary horizon of their own, only indignation.
+
+alternative_proposal: null
+  # The text is a contemporary political intelligence—it identifies the crisis and its causes but does not formulate a revolutionary programme or strategic direction for the democratic movement. Missing dimension.
+
+direction_constraint: null
+  # Without an explicit alternative, no material constraints on a proposed direction are articulated. The obstacles (Slav dependence, aristocratic hegemony) are already captured in the lag mechanism.

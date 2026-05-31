@@ -1,0 +1,32 @@
+reasoning: |
+  The text is Fourier's 1845 polemic “On Trade” selected and published by Engels. It does not offer a constructive alternative but is entirely an exposé of the systemic crimes of commercial capitalism. The crisis is the total subordination of society to a parasitic merchant class that, far from facilitating circulation, obstructs it through speculation, cornering, and fictitious money. The lag is tripartite: a pseudo-science (economics) that sacralises free trade, a public ideology that venerates commerce as the “Ark of the Covenant,” and an organisational dispensation that grants merchants impunity for acts that would be punishable as forgery if committed by others. The text contrasts the mechanism of “free trade, i.e., free lying” with a hinted “system of mutuality” but never specifies its workings; therefore the alternative is absent. The direction constraint is internal: the very principle of unlimited commercial freedom generates the artificial famines and surpluses that demonstrate irrationality, yet any attempt at reform is immediately sabotaged by the merchants’ power to restrict credit – the system locks itself in place.
+
+crisis_diagnosis:
+  type: structural_subordination_of_society_to_commercial_anarchy
+  specific: |
+    The existing trade mechanism is organised as a ‘slap in the face for all common sense’: it subordinates the essential productive classes (proprietor, farmer, manufacturer) and even the government to an unproductive, parasitic merchant class. By means of cornering, stockjobbing, and the issue of unbacked bills of exchange (fictitious money), merchants artificially create scarcity and oppressive surpluses, systematically plundering both producers and consumers.
+  evidence:
+    - "It has subordinated the whole of society to one class of parasitical and unproductive people, the merchants."
+    - "the trade mechanism is organised in such a way that it is a slap in the face for all common sense"
+    - "artificial obstruction of supply sources" and "oppressive surpluses" (features 7 and 8 of the thirty-six vices)
+    - "Trade does not content itself with delivering commodities from the producer to the consumer, it schemes by means of cornering and stockjobbing speculation to produce an artificial dearth"
+
+lag_mechanism:
+  layers: [theoretical, ideological, organizational]
+  theoretical: |
+    The “inexact sciences” – political economy – have become the apologists of commerce. They treat ‘free trade’ as an unquestionable dogma, the ‘Ark of the Covenant before which everything bows down.’ Their principle – ‘Let the merchants do their job, their complete freedom is the guarantee of circulation’ – legalises fraud, stockjobbing, and bankruptcy as legitimate commercial wisdom.
+  ideological: |
+    Public opinion has been corrupted into ‘stupid veneration’ for the mercantile spirit. Commerce is so sacralised that to criticise it invites ‘anathemas just as much as if one had spoken against the tyranny of the popes and the barons in the twelfth century.’ The distinction between honest dealing and systematic plunder is dissolved; even ‘honest bankruptcies’ (where the speculator steals only half) are socially accepted.
+  organizational: |
+    The state itself is captive to the merchant class. Merchants enjoy the exclusive right to issue bills of exchange that are in effect ‘counterfeit money’ – a privilege for which others are hanged. Governments, ‘daily deeper and deeper in debt,’ are forced to spare the ‘mercantile blood‑suckers’ and to accept the principle of complete commercial freedom. Any administrative measure that hampers commercial machinations is met by the merchants restricting credit and paralysing circulation (the phenomenon of ‘repercussion’).
+
+alternative_proposal: null
+alternative_explanation: |
+  The text is a diagnostic polemic. It gestures towards a ‘system of mutuality adapting itself to the interests of both parties’ and a return to ‘simple, open go‑betweens,’ but it nowhere elaborates an institutional design. No concrete alternative is presented.
+
+direction_constraint:
+  core: contradiction_between_social_needs_and_commercial_anarchy
+  specific: |
+    The text demonstrates that competition and fraudulent freedom produce precisely the opposite of what they promise: artificial famine and unmarketable surpluses. The only rational direction would be a system of mutual guarantee under which trade serves society openly and without speculation. However, this path is blocked by the despotic power of the merchants: ‘as soon as any administrative measure hampers the machinations of trade, trade restricts credit and paralyses circulation.’ The existing mechanism thus contains a lock‑in effect – the merchants’ power to cause disruption protects their impunity and precludes reform.
+  key_insight: |
+    "The despotism of trade, that real satrap of the civilised world!" – The merchant class is the real despot of civilization, and their ‘complete freedom’ is the source of systematic, legally protected robbery.

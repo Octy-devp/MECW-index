@@ -1,0 +1,118 @@
+reasoning: |
+  Marx's 1854 article "The English Middle Class" dissects the bourgeoisie's
+  contradictory position between aristocracy and proletariat. The immediate
+  crisis is the Preston strike (1853–4), where 14,000 workers confronted
+  the capitalists, which Marx interprets as the beginning of a national
+  social struggle. The deeper crisis is structural: the same industrial
+  development that elevated the middle class against the aristocracy now
+  empowers the working class, turning the bourgeoisie from an ally of the
+  workers into their principal antagonist. The lag is maintained through
+  ideological deception (blaming the aristocracy for worker misery, crying
+  'Communism' against labor laws), organizational fragmentation (pitting
+  skilled against unskilled, evading factory legislation, using hired pens),
+  and political repression (armed special constables in 1848, refusal to
+  extend Reform to workers). As these deceptions become exhausted ("With
+  this rag of a grievance vanished the last chance of gulling the working
+  classes"), the workers awaken to the real enemy. The alternative is not a
+  detailed program but a historical prognosis: the working class will move
+  from economic to political struggle, forming an independent force that
+  will overthrow the bourgeoisie just as the bourgeoisie overthrew the
+  aristocracy. The direction is constrained by material laws: the industrial
+  wave, emigration, the fear that paralyzes middle-class action against
+  the aristocracy, and the inevitable concentration of capital that creates
+  the revolutionary class — all guaranteeing the eventual triumph of labor.
+
+crisis_diagnosis:
+  type: structural_contradiction_of_bourgeois_intermediary_position
+  specific: |
+    The English middle class, after using the working class to win reforms
+    from the aristocracy (1832 Reform Bill, 1846 Corn Law repeal), now finds
+    itself at war with those it once mobilized. The immediate symptom is the
+    1853–4 Preston lock-out and nationwide strike of 14,000 workers ("Our
+    St. Petersburg is at Preston!"), which Marx reads as the opening of a
+    direct social struggle between labor and capital. The deeper crisis is
+    systemic: the industrial development that lifted the bourgeoisie against
+    the landed aristocracy now empowers the proletariat; the middle class,
+    "hemmed in by the aristocracy on the one hand and the working classes on
+    the other," is losing its ability to maneuver and deceive. This is the
+    beginning of a nationalized class war that will produce "phases never
+    before seen in history."
+  evidence:
+    - "Whatever other shapes this social struggle may hereafter assume, we
+      have seen only the beginning of it."
+    - "The same industrial wave which has borne the middle class up against
+      the aristocracy, is now... bearing the working classes up against the
+      middle classes."
+    - "Our St. Petersburg is at Preston!"
+
+lag_mechanism:
+  layers:
+    ideological:
+      - Deceit: "[The middle class] told the working classes that their
+        grievances were attributable to some aristocratic privilege and
+        monopoly."
+      - Red-baiting: "Every subsequent attempt in Parliament to subject
+        Labor to more humane conditions has been met... with the
+        catch-cry of Communism!"
+      - Hypocritical 'respectability': "In their cant, 'respectable men
+        don't join them, Sir'."
+      - Cultural snobbery: aping the aristocracy, disdaining science and
+        real learning, reducing education to mere accomplishments.
+    organizational:
+      - "Within the workshops... the aim of the employers has been... by an
+        unprincipled use of the contract system, by pitting one man against
+        another, to cut down the earning of the skilled to that of the
+        unskilled laborer."
+      - Cunning evasion of the Ten Hours Bill to keep hours beyond human
+        endurance.
+      - Hiring a "third-rate litterateur" to fight workers' press; once the
+        strike was broken, he was dismissed — a contempt for any independent
+        intellectual or public support for workers.
+    political:
+      - After using workers for the 1832 Reform Bill, the middle class
+        "actually stood arrayed against them armed with special constable
+        staves" in 1848.
+      - Refusing to extend political rights to workers, closing off legal
+        channels for redress.
+      - Instinctive fear of workers' political movements fetters even the
+        middle-class struggle against the aristocracy.
+
+alternative_proposal:
+  method: historical_prognosis_of_class_independent_action
+  description: |
+    Marx does not advance an immediate programmatic alternative; the text is
+    analytical. The implicit alternative is that the working class must
+    throw off middle-class tutelage, recognize the bourgeoisie as the real
+    enemy, and prepare for a direct political confrontation. The ongoing
+    labour struggle (Preston) is the seed of a new form of class war that
+    will "nationalize itself" and culminate in the political entry of the
+    working class as an independent force that will overthrow the bourgeoisie.
+    The article thus functions as a call to break from all middle-class
+    alliances and to build autonomous labor power.
+  evidence:
+    - "The eyes of the working classes are now fully opened: they begin to
+      cry: 'Our St. Petersburg is at Preston!'"
+    - "When the time shall be ripe for their recognized entry upon the stage
+      of political action, there will be within the lists three powerful
+      classes... as the second is triumphing over the first, so, in its
+      turn, it must yield before its successor."
+
+direction_constraint:
+  core: industrial_development_and_its_contradictions
+  specific: |
+    The triumph of the working class is not voluntary but determined by
+    "great social and economical laws": the same industrial wave that created
+    the bourgeoisie empowers the proletariat through concentration of
+    production and the development of collective labour. Emigration (colonial
+    expansion) assists this process. Moreover, the middle class's fear of
+    the workers paralyzes its last struggles against the aristocracy,
+    accelerating the resolution toward a direct clash between money and
+    labor. The direction is thus constrained by the objective development
+    of capitalism itself, which produces its own gravediggers.
+  evidence:
+    - "The same industrial wave which has borne the middle class up... is
+      now ... bearing the working classes up against the middle classes."
+    - "Great social and economical laws are in operation which must
+      eventually insure their triumph."
+    - "It is the instinctive perception of this fact that already fetters
+      the action of that class against the aristocracy."

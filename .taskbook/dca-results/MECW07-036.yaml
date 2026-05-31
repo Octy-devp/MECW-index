@@ -1,0 +1,33 @@
+```yaml
+reasoning: |
+  The article, published June 22, 1848, addresses the imminent collapse of the Camphausen government, which had ruled Prussia since the March Revolution. Marx and Engels diagnose that the liberal-bourgeois government served as a “cloak” for counter-revolution, allowing the old feudal state to regather strength. Now, the counter-revolution feels strong enough to discard the mask and install an openly reactionary “Government of the Prince of Prussia”. The crisis is therefore the exposure of the bourgeoisie’s betrayal of democratic goals and the looming victory of absolutist restoration. The lag is rooted in the bourgeoisie’s own class position: it “tried to cheat the revolution out of its democratic gains” and allied with the aristocracy out of fear of the popular movement, thus becoming the “tool of counter-revolutionary aims”. The text does not explicitly propose an alternative program; it is a diagnosis of imminent regression. The direction is constrained by material factors: the military readiness of the counter-revolution (Russian and Prussian troops, brutalized army), the exhaustion of the bourgeoisie with revolution, and the international model of bourgeois class rule in England. The closing image of the sun rising “in the East” hints that future revolutionary impetus may come from outside the current German liberal-bourgeois framework, perhaps from the Slavic movements.
+
+crisis_diagnosis:
+  type: counter_revolutionary_consolidation
+  specific: |
+    The liberal Camphausen government, formed after the March 1848 revolution, has functioned as a “liberal-bourgeois cloak” for the counter-revolution. By late June, the feudal-absolutist forces feel sufficiently reorganized to discard this mask. The government’s downfall is imminent, and its “real successor will be the Government of the Prince of Prussia” — an open restoration of the old regime. The crisis is thus the collapse of bourgeois revolutionary pretense and the reassertion of feudal-military power.
+  evidence: ["The Camphausen Government has covered the counter-revolution with its liberal-bourgeois cloak. The counter-revolution now feels strong enough to shake off this irksome mask.", "Its real successor will be the Government of the Prince of Prussia."]
+
+lag_mechanism:
+  layers: [class_betrayal, strategic_deception, ideological]
+  class_betrayal: |
+    The big bourgeoisie, personified by Camphausen, fears the democratic revolution and consciously “cheat[s] the revolution out of its democratic gains”. In doing so, it allies with the aristocratic party, becoming the instrument of counter-revolutionary aims. The bourgeoisie’s own class interest prevents it from leading a thoroughgoing democratic transformation and instead drives it into the arms of the old order.
+  strategic_deception: |
+    Camphausen is “the deceived deceiver”: he believed he could manipulate the aristocracy while preserving bourgeois dominance, but his strategy backfired. The aristocracy used the breathing space provided by the liberal government to rebuild its power, eventually discarding the bourgeois protector.
+  ideological: |
+    The liberal cloak masks the continuing power of the feudal state and military, leading to the illusion that the revolution was won. The bourgeoisie tires of revolution and contents itself with a sham constitutional arrangement, ignoring the material reality of unreformed state structures.
+  evidence: ["Since it served the big bourgeoisie, it was compelled to try to cheat the revolution out of its democratic gains; in combating democracy it was forced to ally itself with the aristocratic party and become the tool of its counter-revolutionary aims.", "The aristocratic party is now strong enough to throw its protector overboard.", "Herr Camphausen has sown reaction as envisaged by the big bourgeoisie and he has reaped reaction as envisaged by the feudal party."]
+
+alternative_proposal:
+  method: null
+  elements: null
+  explanation: |
+    The article is a short polemical commentary focused entirely on diagnosing the failure of the Camphausen government. It does not outline an alternative program of action. The only positive hint is the closing poetic line — “it will rise again in the East” — which may gesture toward future revolutionary impulses emerging from outside the corrupt liberal-bourgeois framework, perhaps from the Slavic East or the ongoing national liberation struggles, but no concrete proposals are given.
+
+direction_constraint:
+  core: military_feudal_restoration_and_bourgeois_exhaustion
+  specific: |
+    The direction of the current German revolution is blocked by the material and political consolidation of the counter-revolution. The army has been brutalized in the Danish and Polish wars and in clashes with the people; Russian troops stand on the eastern frontier and Prussian troops on the western border, ready to intervene. The bourgeoisie itself has “tired of revolution” and is unwilling to push further. Internationally, England stands as a model of stable bourgeois constitutional monarchy “upon which the counter-revolution will build its church,” providing a template for the restoration. The only possible rupture lies in the East — implying that in 1848 the revolutionary movement cannot succeed solely within the liberal-bourgeois German framework and must await a different conjuncture, likely driven by national and democratic movements beyond the immediate Prussian context.
+  key_insight: |
+    “Is not the bourgeoisie tired of revolution? And is there not standing in the middle of the ocean the rock upon which the counter-revolution will build its church: England?”
+```

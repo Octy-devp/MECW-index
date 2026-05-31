@@ -1,0 +1,97 @@
+```yaml
+reasoning: |
+  Marx and Engels respond to the crisis of the Italian national
+  revolution in the autumn of 1848, after the Piedmontese defeat
+  and the armistice imposed by Radetzky. The text diagnoses the
+  Italians’ error in appealing to the French bourgeois government
+  under Cavaignac, which had just crushed the Parisian workers in
+  June and now offers “mediation” to preserve peace at any price.
+  The authors expose the ideological lag: Italians believe the
+  French bourgeoisie will liberate them, whereas it is in fact
+  “a true pillar of European reaction.” Moreover, they fail to
+  grasp that reaction is a pan-European phenomenon, so a national
+  revolution cannot succeed in isolation. The alternative is not
+  diplomatic mediation but a revolutionary chain: first the French
+  proletariat must overthrow its bourgeoisie and proclaim a
+  “democratic social republic,” only then can the Italian, German,
+  Polish, and Hungarian democratic movements triumph. This is not
+  a voluntarist wish but a structural constraint: the umbilical
+  link between European reactionary powers means that the epicentre
+  of revolution must lie in the most advanced country—France—and
+  radiate outward.
+
+crisis_diagnosis:
+  type: revolutionary_defeat_and_misplaced_trust
+  specific: |
+    The Italian national movement of 1848 has collapsed before the
+    Austrian counter-revolution under Radetzky, and the imminent
+    expiration of the armistice (21 September 1848) raises the prospect
+    of further repression. The French bourgeois republic under
+    Cavaignac, fresh from the June massacres of the Paris proletariat,
+    offers Anglo-French “mediation”—but this is not rescue, only a
+    device to keep its own “peace at any price” while leaving Italy
+    under foreign rule. The crisis is thus twofold: military defeat
+    and a political misorientation that looks to a reactionary state
+    for salvation.
+  evidence:
+    - "The armistices concluded as the result of Karl Albert's
+      treachery will expire in about three weeks"
+    - "Austria understands perfectly well that the French
+      bourgeoisie wants ‘peace at any price’"
+    - "Only the fall of this government could save them."
+
+lag_mechanism:
+  layers: [ideological, political]
+  ideological: |
+    The Italian democrats cling to the illusion that the French
+    government—regardless of its class character—will act as a
+    liberator, as in 1796. They do not see that the bourgeois
+    republic is now the gendarme of order, suppressing the
+    proletariat at home and propping up reaction abroad. The
+    text calls this a “mistake” that expects “salvation from
+    the present government of France.”
+  political: |
+    The Italian movement treats the struggle as merely national,
+    ignoring the transnational character of the counter-revolution.
+    “Reaction, to whose blows Italy has succumbed, is not merely
+    an Italian phenomenon, it is a European phenomenon. Italy
+    alone cannot possibly free herself.” This political parochialism
+    prevents coordination with the revolutionary forces in France,
+    Germany, and elsewhere.
+
+alternative_proposal:
+  method: revolutionary_contagion_from_france
+  elements:
+    - Overthrow of the Cavaignac government and the liquidation of
+      bourgeois rule in France.
+    - Proclamation of a “democratic social republic” by the
+      French proletariat—i.e., a state form that is democratic
+      in content, not merely in form, and serves the workers.
+    - The French proletariat “must first subjugate its bourgeoisie”
+      as the precondition for “a lasting democratic victory… in
+      Italy, Germany, Poland, Hungary and other countries.”
+    - Only after the revolution has been secured in France can
+      the other national movements hope to break free: the
+      defeat of reaction is indivisible.
+
+direction_constraint:
+  core: transnational_interdependence_of_revolution
+  specific: |
+    Marx and Engels insist that European reaction forms a single
+    system—its pillar is the French bourgeoisie. Therefore, no
+    Italian, German, or Polish national-democratic revolution can
+    succeed in isolation. The revolution must follow a definite
+    sequence: first the overthrow of the bourgeoisie in the most
+    developed capitalist country (France), then the extension of
+    the revolution to the dependent states. This is not a
+    voluntarist model but a material necessity dictated by the
+    interconnectedness of the counter-revolutionary powers and
+    the uneven development of the class struggle.
+  key_insight: |
+    “Before reaction can be destroyed in Italy and Germany, it
+    must be routed in France. A democratic social republic must
+    first be proclaimed in France and the French proletariat must
+    first subjugate its bourgeoisie, before a lasting democratic
+    victory is conceivable in Italy, Germany, Poland, Hungary
+    and other countries.”
+```

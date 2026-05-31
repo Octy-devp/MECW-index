@@ -1,0 +1,74 @@
+```yaml
+reasoning: |
+  Marx analyzes news of the Indian Rebellion (1857), focusing on British
+  military failures. He diagnoses a crisis: the revolt threatens British rule,
+  and strategic blunders are leading to defeats (Havelock's failure to relieve
+  Lucknow, the stalemated siege of Delhi). The lag is multi-layered:
+  (1) strategic – violation of basic military principles (Napoleon's rules on
+  feasibility and concentration of force), (2) organizational – dispersed
+  garrisons, independent commands, no unified field army, (3) ideological –
+  the British are trapped by native superstition about Delhi's symbolic
+  importance, shaping their strategy around it. Marx's alternative is a
+  strategic reorganization: isolate Delhi, create a concentrated field army,
+  reduce garrisons, and evacuate non-essential stations. The direction constraint
+  is the material limits of British power: troop shortages, disease, and the
+  nature of colonial counter-insurgency, where even optimal strategy may not
+  overcome the revolt's momentum.
+crisis_diagnosis:
+  type: colonial_military_crisis
+  specific: |
+    The 1857 Indian Rebellion threatens to overthrow British rule. British
+    military operations, particularly the siege of Delhi and the failed relief
+    of Lucknow, demonstrate strategic incompetence that compounds the political
+    crisis. The rebellion exposes the fragility of colonial power when its
+    military arm is mismanaged.
+  evidence:
+    - "the failure of Gen. Havelock to advance to the relief of Lucknow, and
+      the persistence of the English at Delhi."
+    - "If Delhi is not taken... its walls will stand till they fall of
+      themselves."
+lag_mechanism:
+  layers: [strategic, organizational, ideological]
+  strategic: |
+    The British violate Napoleon's two rules: they undertake a siege they
+    cannot support (6,000–7,000 men against requirements of 15,000–20,000)
+    and misplace their main force at Delhi instead of destroying the enemy in
+    the field. "The chances of success... were all against a siege of Delhi."
+  organizational: |
+    Forces are dispersed into isolated garrisons with independent commands
+    and no supreme leadership. "acting... like bodies belonging to different
+    and even hostile nations." The "immobilization" of the only active army
+    before Delhi "petrified their own garrisons."
+  ideological: |
+    British strategy defers to native prejudice about Delhi's "superstitious
+    importance," thereby making Delhi the focal point of the campaign and
+    ceding the initiative to the rebels. "They have thus simply played into
+    the hands of the mutineers."
+alternative_proposal:
+  method: strategic_reorganization
+  elements:
+    - Leave Delhi isolated to divest it of symbolic influence; do not besiege.
+    - Concentrate forces into an active field army to maintain communications,
+      crush disaffection, and throw the enemy onto defensive points.
+    - Reduce garrisons to a minimum, evacuate women and children, and abandon
+      non-strategic stations.
+    - Establish a unified command structure.
+  textual_basis: |
+    "Concentration is the secret of strategy. Decentralization is the plan
+    adopted by the English in India. What they had to do was to reduce their
+    garrisons to the smallest possible number... and thus collect the greatest
+    possible army in the field."
+direction_constraint:
+  core: limits_of_colonial_military_power
+  specific: |
+    Even with optimal strategy, British forces are constrained by troop
+    shortages ("absurdly disproportionate" reinforcements), the debilitating
+    effects of climate and disease (the "invulnerable and invisible enemy"),
+    and the deeply embedded symbolic power of Delhi, which, though "fancied,"
+    has real-material consequences for native support and rebel morale. The
+    dialectic of colonial rule—relying on native sepoys while repressing
+    them—makes the entire enterprise fragile.
+  key_insight: |
+    Napoleon's advice: "leave its destruction to the disease" — a bitter
+    irony as the British now face the same fate before Delhi.
+```

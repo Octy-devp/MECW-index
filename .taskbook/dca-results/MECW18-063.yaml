@@ -1,0 +1,14 @@
+```yaml
+reasoning: |
+  The text is a purely technical entry from the New American Cyclopaedia (1858),
+  describing cartridges for firearms. It provides definitions, materials, and
+  manufacturing methods. There is no diagnosis of any historical crisis, no
+  analysis of lag mechanisms, no alternative proposal, and no direction constraint.
+  The content is entirely non-Marxist, non-political, and descriptive. Therefore,
+  all DCA dimensions are null.
+
+crisis_diagnosis: null
+lag_mechanism: null
+alternative_proposal: null
+direction_constraint: null
+```

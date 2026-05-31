@@ -1,0 +1,114 @@
+reasoning: |
+  The text, written with Marx's direct assistance, is itself a
+  founding document of the International Working Men's Association.
+  Marx's Inaugural Address and Rules (reproduced in the pamphlet)
+  diagnose a crisis born of the post-1848 reaction: working-class
+  movements crushed on the Continent, English labour demoralised and
+  isolated. The lag is triple: organisational (fragmentation, national
+  isolation, competition among workers), ideological (bourgeois
+  political economy, apathy), and political (state repression,
+  lack of independent political party). The alternative is the
+  International itself—a practical effort to unite existing class
+  movements into international solidarity. The direction is
+  constrained by the necessity of conquering political power, by
+  the national peculiarities of each country, and by the fact that
+  cooperative labour, while a proof of principle, cannot by itself
+  arrest the growth of monopoly unless expanded to national scale
+  through political means. Marx underscores that on the ‘present
+  false base’ every increase in productive power deepens social
+  contrasts.
+
+crisis_diagnosis:
+  type: post-revolutionary_demobilisation_and_immiseration_amidst_growth
+  specific: |
+    After the failure of the 1848 revolutions, working-class parties and
+    press were crushed on the Continent; the English working class, cut
+    off from its continental allies, lapsed into ‘a state of political
+    nullity.’ Yet the same period saw an ‘unheard-of development of
+    industry’ and a staggering increase in wealth—entirely confined to
+    the propertied classes. Official reports showed that large sections of
+    the working population in Britain, the richest European nation, were
+    receiving less nourishment than that prescribed as the bare minimum
+    to avert starvation. The crisis is thus not conjunctural but
+    structural: the very dynamism of capitalism deepens social
+    antagonisms and periodically plunges the masses into misery.
+  evidence:
+    - "After the failure of the Revolutions of 1848, all party
+      organisations and party journals of the working classes were,
+      on the Continent, crushed by the iron hand of force…"
+    - "…the English working class so thoroughly reconciled to a state
+      of political nullity."
+    - "In all of them the augmentation of wealth and power entirely
+      confined to classes of property was truly intoxicating. In
+      all of them, as in England, a minority of the working classes
+      got their real wages somewhat advanced; while… the great mass
+      of the working classes were sinking down to a lower depth…"
+
+lag_mechanism:
+  layers: [organisational, ideological, political]
+  organisational: |
+    Workers in each country, and across countries, are isolated and
+    compete with one another. The English movement after 1848 lost its
+    continental links and its own active members to emigration or
+    temporary bribes of higher wages. The International’s Rules
+    explicitly state that all previous efforts failed ‘from the want
+    of solidarity between the manifold divisions of labour in each
+    country, and from the absence of a fraternal bond of union between
+    the working classes of different countries.’
+  ideological: |
+    The bourgeoisie’s political economy—the blind rule of supply and
+    demand—dominates consciousness. Even after the Ten Hours’ Bill,
+    English labour was ‘reconciled to a state of political nullity,’
+    its press organs dying of apathy. Capitalist apologists touted
+    trade statistics while denying the structural misery.
+  political: |
+    State repression on the Continent after 1848 smashed workers’
+    organisations. In England, the landed and moneyed classes, having
+    regained confidence, ‘insolently withdrew concessions already
+    advertised.’ Without independent political power, workers cannot
+    prevent the ruling classes from using the state to defend their
+    economic monopolies.
+
+alternative_proposal:
+  method: international_solidarity_and_political_organisation
+  elements:
+    - The International Working Men’s Association provides ‘a central
+      medium of communication and cooperation between Working Men’s
+      Societies’ across countries.
+    - Workers must combine isolated societies into national bodies,
+      respecting each country’s legal conditions.
+    - Immediate practical steps: mutual aid in strikes, a simultaneous
+      international statistical inquiry into the condition of the
+      working class, and struggle for the legal limitation of the
+      working day to eight hours.
+    - Cooperative production, though a victory of principle, must be
+      developed to ‘national dimensions’ and fostered by ‘national
+      means’—i.e. requires political power.
+    - The ultimate goal: ‘the protection, advancement, and complete
+      emancipation of the working classes’ by ‘abolition of all class
+      rule.’
+
+direction_constraint:
+  core: necessity_of_conquering_political_power_and_national_specificity
+  specific: |
+    The pamphlet makes clear that neither mere numbers nor isolated
+    economic experiments suffice. ‘To conquer political power has
+    therefore become the great duty of the working classes.’ The
+    lords of land and capital ‘will always use their political
+    privileges for the defence and perpetuation of their economical
+    monopolies.’ Hence the alternative is constrained by the
+    existing class state. Moreover, the Rules stipulate that the
+    formation of national bodies ‘will depend upon the peculiar
+    laws of each country,’ and that the transition from isolated to
+    associated labour can only be completed when the working class
+    achieves political supremacy. On the ‘present false base,’ every
+    fresh development of the productive powers of labour intensifies
+    social contradictions rather than resolving them—only the
+    overthrow of that base can realise the direction.
+  key_insight: |
+    "…cooperative labour, if kept within the narrow circle of the
+    casual efforts of private workmen, will never be able to arrest
+    the growth in geometrical progression of monopoly, to free the
+    masses… To save the industrious masses, cooperative labour ought
+    to be developed to national dimensions, and, consequently, to be
+    fostered by national means."

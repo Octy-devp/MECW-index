@@ -1,0 +1,124 @@
+```yaml
+reasoning: |
+  Engels' 1878 review of the European working-class movement in 1877
+  diagnoses a crisis of fragmentation and stagnation caused by the
+  anarchist/abstentionist sect that had split the International after
+  the Commune. The turning point is the German Social Democrats' gain
+  of over 600,000 votes in the January 1877 Reichstag elections—a
+  material proof that political action works. This factual refutation
+  dissolves the anarchist dogma and restores unity around a common
+  plan of action. Engels traces the lag mechanisms: the anarchists'
+  theoretical error (rejection of all political action), the
+  organizational split, and the demobilization it spawned (collapse
+  in Spain, stalemate in Belgium, defeats in Italy). The alternative
+  is the spread of the German model: an independent political party
+  using universal suffrage, trade unions, and a prolific press,
+  coordinated internationally without a formal organization. Material
+  constraints shape the direction: in France the proletariat must
+  first defend the bourgeois republic to regain legal space for
+  self-organization and ally with the newly republican peasantry; in
+  Russia the botched Emancipation, financial ruin, and looming war
+  are driving an imminent revolution that will remove the props of
+  European despotism and unleash working-class movements everywhere.
+  Crisis → Delay (anarchist error) → Alternative (political action)
+  → Direction (constrained by national class dynamics and inevitable
+  revolutionary upheavals).
+
+crisis_diagnosis:
+  type: organizational_fragmentation_and_sectarian_paralysis
+  specific: |
+    By the late 1870s the European proletarian movement had splintered
+    after the Hague Congress (1872), with Bakuninist “anarchists”
+    gaining influence in Italy, Spain, Belgium, and Swiss Jura. Their
+    principled abstention from political action—condemning even voting
+    as treason to the proletariat—had left the working class without
+    means of real struggle. In Spain the International was crushed
+    after 1873, in Belgium the movement reached a dead stand, in
+    Italy it suffered repeated defeats, and everywhere “their
+    organizations dropped into oblivion, their press organs disappeared
+    one after the other.” This was not mere disagreement but a crisis
+    of paralysis: the largest and most advanced national movement
+    (Germany) was deliberately isolated by the sect’s dogmatism,
+    while the rest stagnated. The crisis is both internal (sectarian
+    leadership vs. mass) and structural (lack of a common plan of
+    action).
+  evidence: ["the working class of those countries, where abstention
+             was the order of the day, suffered defeat after defeat,
+             and got tired of a movement barren of results"]
+
+lag_mechanism:
+  layers: [theoretical, organizational, material]
+  theoretical: |
+    The anarchist dogma rejected all political action on principle,
+    insisting on “nothing but downright, violent revolution.” This
+    prevented the use of elections, parliaments, and legal agitation
+    to build class consciousness and organization, forcing workers
+    into fruitless abstention or hopeless insurrections (e.g., Bologna
+    1874, Naples 1877). The theory inverted the real relation between
+    political and economic struggle, treating the state as passable
+    only by violence, not by systematic contestation.
+  organizational: |
+    The split in the International after 1872 fragmented the European
+    movement into isolated national groups, each under different
+    sectarian leaderships (Bakouninists, Proudhonists, Mazzinians).
+    Without international coordination and a common strategy, defeats
+    in one country could not be compensated by advances elsewhere.
+    The German party’s success was initially unable to influence
+    Belgium or Italy because the abstentionists controlled the
+    movements there and “pretended to supremacy.”
+  material: |
+    In countries like Austria-Hungary, Russia, and partly France,
+    repressive legislation (muzzled press, bans on association,
+    police surveillance) made open political organizing extremely
+    difficult, reinforcing the anarchist contempt for legality. Yet
+    Engels shows that these material obstacles could be overcome once
+    the correct political line was adopted—the real lag was therefore
+    ideological rather than purely repressive.
+
+alternative_proposal:
+  method: political_action_through_independent_party
+  elements:
+    - Rejection of abstentionist dogma; embrace of universal suffrage and parliamentary elections as means of agitation and measurement of strength
+    - Combination of political party with trade unions, with unions drawing indifferent workers into the political movement and the party securing mutual support among isolated trades
+    - A prolific working-class press (75 German-language periodicals by end of 1877) as the main instrument of continuous public propaganda
+    - A common plan of action that “adapts itself freely to the varying conditions of each nation and each locality” while maintaining unity of purpose—emancipation of labor by the working class itself
+    - International solidarity without a formal central organization; the “community of action and policy” that now unites the proletariat of all Europe is the true work of the International, now outgrown its organizational form
+    - In France, immediate defense of the Republic against monarchist restoration to secure minimal democratic liberties necessary for independent working-class organization
+  evidence: ["a common plan of action originally traced by the International
+             but now universally adopted because everywhere it has grown
+             consciously or unconsciously out of the struggle of the
+             necessities of the movement"]
+
+direction_constraint:
+  core: national_class_relations_determine_the_path_to_emancipation
+  specific: |
+    Engels stresses that the working class cannot leap to its final
+    goal without passing through intermediate stations conditioned by
+    national history and class alliances. In France, the proletariat
+    has been “the fighting army of progress” for a century, but its
+    defeats have always been followed by violent reaction that
+    destroyed its organizational capacity. Therefore the immediate
+    direction is not a direct assault on capital but the defense of
+    the bourgeois Republic against the three monarchist factions,
+    because only the Republic can provide the legal space for a
+    workers’ press, meetings, and independent party. Furthermore,
+    the shift of the peasantry from Bonapartism to Republicanism
+    creates the possibility of a town‑country alliance, without which
+    “future victories” will again be “short-lived triumphs of Paris
+    over France.” In Russia, the material contradictions of the 1861
+    emancipation—reduced allotments, crushing redemption payments,
+    loss of common rights—have made a future revolution “an absolute
+    necessity.” The Turkish war and approaching financial crash are
+    driving the Tsarist government toward either humiliating retreat
+    (triggering domestic explosion) or a European war that will force
+    it to grant “important popular concessions.” A Russian revolution
+    will not only end the “united despotisms of Europe” but will
+    awaken a genuine working-class movement there and emancipate
+    Germany from Prussianism. The overall direction is thus
+    conditioned by the uneven development of class forces, the need
+    for democratic space, and the approach of an Eastern upheaval
+    that will fundamentally alter the European balance of class
+    power.
+  key_insight: "the only class that has no interest in their present
+                miserable condition, the working class of the town"
+```

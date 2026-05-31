@@ -1,0 +1,56 @@
+```yaml
+reasoning: |
+  This text is from Engels' 1877–78 *Anti-Dühring*, written to combat
+  Eugen Dühring's growing influence within the German Social Democratic
+  Party. Engels diagnoses a twofold crisis: (1) a structural crisis of
+  capitalism, where colossal productive forces can no longer be mastered
+  by the bourgeoisie, creating a revolutionary proletariat; (2) a
+  theoretical crisis within the socialist movement, as Dühring's system
+  reverts to ahistorical "eternal natural laws" and substitutes moral
+  justice for scientific necessity. The lag is both theoretical and
+  ideological — Dühring detaches distribution from production, reduces
+  historical causality to force, and appeals to subjective "justice"
+  rather than material development. This obscures the economic laws of
+  capitalist contradiction and proletarian revolution, retarding
+  class consciousness. The alternative is Marx's materialist political
+  economy, which demonstrates capitalism's self-dissolution and the
+  material basis for socialism. Direction is constrained by the
+  objective development of productive forces: capitalism must mature
+  to become a fetter, and the proletariat must become a conscious,
+  majority class — political force cannot substitute for economic
+  development.
+
+crisis_diagnosis:
+  type: theoretical_retrogression_and_structural_crisis_of_capitalism
+  specific: |
+    The German Social Democratic Party's unification (Gotha 1875)
+    and Dühring's rising influence threatened to replace Marx's
+    scientific socialism with an ahistorical, moralistic system.
+    Engels brings this theoretical crisis into sharp relief against
+    the backdrop of capitalism's inherent structural crisis: "the
+    colossal productive forces created within the capitalist mode
+    of production… can no longer master… they are only waiting to
+    be taken possession of by a society organised for co-operative
+    work on a planned basis." The bourgeoisie is visibly incapable
+    of controlling the forces it unleashed; the proletariat emerges
+    as the class that can abolish all classes. Dühring's system, by
+    tracing exploitation to "force" rather than to the economic laws
+    of commodity production and capital accumulation, disarms the
+    workers' movement of its scientific weapon precisely when the
+    objective crisis demands revolutionary clarity.
+  evidence:
+    - "modern large-scale industry has brought into being… a class
+       which for the first time in history can demand the abolition…
+       of classes themselves"
+    - "Dühring will trace political economy also back to final and
+       ultimate truths, eternal natural laws"
+    - "by confusing the two essentially different… processes of
+       production and circulation… he merely shows that he either
+       does not know or does not understand the colossal development
+       which precisely circulation has undergone during the last
+       fifty years"
+
+lag_mechanism:
+  layers: [theoretical, ideological]
+  theoretical: |
+    Dühring's political economy is built

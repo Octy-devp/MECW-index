@@ -1,0 +1,98 @@
+```yaml
+reasoning: |
+  Engels’ 1844 report on the Silesian weavers’ riots is a factual,
+  almost journalistic, account of the uprising that broke out in
+  Peterswalden and Langenbielau. The text diagnoses the immediate
+  crisis as a violent explosion of anger by impoverished hand-loom
+  weavers, triggered by the manufacturer Zwanziger’s arrest of
+  singing protesters. The deeper structural crisis is the factory
+  system’s intrusion into Silesian linen weaving, destroying
+  livelihoods through machine competition (from both local
+  industrialists and English imports), low wages, and debt slavery.
+  Engels identifies a lag at multiple levels: economic (the “avarice
+  and greediness of the manufacturers”, the debt trap),
+  competitive (English machine advantage), and repressive (the
+  state’s military intervention, riots acts, state of siege). No
+  explicit alternative is proposed in the text—it is a dispatch,
+  not a program. The only direction constraint implied is the
+  relentless logic of capitalist development, which makes such
+  outbreaks inevitable but offers no immediate resolution beyond
+  the weavers’ moral restraint (they did not steal). The text thus
+  contains a full crisis diagnosis and an analysis of the lag
+  mechanisms, but the alternative and direction remain unstated,
+  because Engels as reporter is not yet articulating a positive
+  proletarian strategy; he is chronicling a symptom.
+
+crisis_diagnosis:
+  type: local_insurrectionary_outbreak
+  specific: |
+    The 1844 Silesian weavers’ riots—a spontaneous, violent protest
+    by hand-loom weavers in the Reichenbach district (Peterswalden,
+    Langenbielau, Alt‑Friedland, Leutmansdorf). The immediate spark
+    was the arrest of weavers who sang a mocking song outside the
+    manufacturer Zwanziger’s house, but the underlying crisis is
+    the immiseration produced by the factory system, low wages,
+    competition from English machine-woven goods, and the debt
+    slavery imposed by the manufacturers.
+  evidence:
+    - "the incredible sufferings of these poor weavers, produced by
+       low wages, machinery, and the avarice and greediness of the
+       manufacturers"
+    - "the factory system with all its consequences that pressed upon
+       the Silesian weavers"
+    - "the competition of the English article, which had an advantage
+       over them from the superior machinery of the English factories"
+
+lag_mechanism:
+  layers: [economic, competitive, repressive]
+  economic: |
+    Manufacturers like Zwanziger and Dierig paid wages so low that
+    a whole family working at the loom could earn no more than the
+    equivalent of six English shillings. The same manufacturers
+    advanced small sums that the weavers could never repay,
+    creating “an absolute sovereignty over them”—a debt slavery
+    that prevented any collective resistance until it exploded in
+    rage.
+  competitive: |
+    The Silesian hand-loom weavers faced direct competition from
+    English factory goods, produced with superior machinery and
+    even lower wages, driving down their own earnings and
+    intensifying the pressure to reduce costs, which fell on the
+    weavers’ pay.
+  repressive: |
+    The state’s machinery was slow but then massively deployed:
+    the military initially refused to act without orders from
+    Breslau; once a detachment arrived, the Riot Act was read,
+    and troops fired, killing twelve. Subsequently two battalions
+    of infantry, rifles, cavalry and artillery suppressed the
+    riots, and the district was declared in a state of siege.
+    This repression re‑established order but addressed none of
+    the causes.
+
+alternative_proposal: null
+alternative_proposal_explanation: |
+  The text is a news report, not a political program. Engels
+  describes the events and their causes but does not put forward
+  any alternative course of action for the weavers or the working
+  class. He notes only that the weavers refrained from robbery—a
+  moral distinction—but offers no political, organizational, or
+  economic remedy. Hence “alternative_proposal” is null.
+
+direction_constraint:
+  core: capitalist_factory_system_determines_immiserization
+  specific: |
+    The outbreak is presented as a direct consequence of the
+    factory system, which had already produced the same results
+    in England. The weavers’ actions are understood as a
+    spontaneous reflex to unbearable conditions, not as a step
+    towards an attainable alternative. The text implies that as
+    long as the factory system—with its machinery, competition,
+    and wage slavery—prevails, such “riotous outbreaks” are
+    inevitable, but it offers no vision of how the cycle might
+    be broken.
+  evidence:
+    - "the factory system with all its consequences … has
+       occasioned more dissatisfaction and riotous outbreaks
+       within this country than anything else"
+    - No passage points beyond the current state of affairs.
+```

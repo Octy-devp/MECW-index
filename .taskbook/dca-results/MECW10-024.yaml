@@ -1,0 +1,64 @@
+reasoning: |
+  Marx's statement responds to a newspaper report alleging multiple refugee committees in London dividing contributions. The conjuncture is the post-1848 refugee crisis: waves of exiles from Switzerland overwhelm the funds of the sole existing social-democratic committee. The crisis is twofold: a material shortage of funds and an organizational legitimacy crisis caused by rumors of dissension and factional partiality. Marx diagnoses these rumors as deliberately spread, hindering contributions. The lag mechanism is thus ideological (sectarian gossip eroding solidarity) and organizational (no coordination with rival claimants who have no real resources). The alternative is this very statement — a transparent public accountability that documents the committee's impartial work, the refugees' own approval, and the emptiness of competing committees. It aims to restore trust and encourage donations. The direction is constrained by the material limits of charity in exile: "the imminent revolution" alone can end the need for such support; until then, the committee must manage perceptions to survive.
+
+crisis_diagnosis:
+  type: organizational_legitimacy_and_material_crisis
+  specific: |
+    In April 1850, London's Social-Democratic Refugee Committee faces a double crisis. Influxes of expelled German revolutionaries from Switzerland exhaust its funds (material crisis). Simultaneously, a newspaper article claims multiple committees exist and divide contributions "in a partial way," casting doubt on the committee's impartiality. This misinformation, which Marx calls "deliberate spreading of rumours," threatens to dry up public donations from the Continent, the committee's main resource.
+  evidence:
+    - "The masses of refugees pouring in here now as a result of the Swiss
+      expulsions have at last, it is true, almost exhausted the funds of
+      this committee too."
+    - "The simultaneous deliberate spreading of rumours in the newspapers
+      about dissensions between competing committees has hindered the
+      sending of sufficient contributions to London."
+
+lag_mechanism:
+  layers: [ideological, organizational, material]
+  ideological: |
+    Sectarian gossip and false reports (the rumour that heaps of money
+    await refugees, the claim of "dissension" and partial distribution)
+    create distrust among potential donors and the refugee community itself.
+    This "deliberate spreading of rumours" is an ideological lag: it substitutes
+    factional accusation for solidarity, mirroring earlier revolutionary
+    divisions now transplanted into exile.
+  organizational: |
+    There is no coordinating body among the different refugee advocates.
+    Marx documents that individuals like Schramm, Struve, and Bauer either
+    have only unsold lottery tickets or, like Bauer's "Democratic Association"
+    committee, are practically bankrupt. The lack of a unified, transparent
+    channel allows misinformation to fill the void.
+  material: |
+    The overstretched funds and the sheer number of refugees create a
+    survival crisis. The "demands... which could not be fulfilled" stem from
+    the rumour of hidden wealth, further destabilizing the committee's capacity.
+
+alternative_proposal:
+  method: public_accountability_and_factual_correction
+  elements:
+    - Issue a detailed statement in a party-aligned newspaper (Neue Deutsche
+      Zeitung) to correct the false report.
+    - Provide documentary evidence: correspondence with Schramm, Struve,
+      Bauer showing they have no funds, and a signed statement by the refugees
+      expressing satisfaction and rejecting alternative committees.
+    - Reaffirm the committee's principle of impartial distribution "absolutely
+      equally to all those who... participated in the revolutionary movements...
+      regardless of whichever party faction they belonged to."
+    - Call on the public to disregard insinuations and send contributions to
+      the legitimate committee.
+
+direction_constraint:
+  core: material_dependence_on_public_trust_and_revolutionary_horizon
+  specific: |
+    The committee's capacity to support refugees is entirely dependent on
+    external donations, which in turn require the public's trust. By issuing
+    this statement, Marx attempts to restore that trust, but acknowledges
+    the ultimate solution lies beyond charity: the refugee statement he
+    endorses expresses the wish that "only these members may take care of us
+    until the imminent revolution we all desire relieves them of this
+    responsibility." The direction is thus constrained by the political calendar:
+    revolution is the only permanent solution; temporary organizational work
+    merely staves off starvation.
+  key_insight: "Solidarity in exile is not a technical admin problem but a
+                political one; without a clear, unified, and trusted recipient,
+                even the most generous contributions cannot reach those in need."

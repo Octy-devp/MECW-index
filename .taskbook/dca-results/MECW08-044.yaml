@@ -1,0 +1,75 @@
+reasoning: |
+  This short polemic from November 1848 responds to addresses
+  by Berlin and Halle professors supporting King Friedrich Wilhelm IV
+  and the Brandenburg Ministry after the Prussian counter-revolutionary
+  turn: the dissolution of the National Assembly, the imposition of
+  martial law, and the tax refusal campaign by democratic forces.
+  Marx and Engels diagnose the professors' servility not as mere
+  cowardice but as rooted in their material dependence on the
+  monarchy for their privileged positions ("privileged erudition").
+  The crisis is the reactionary coup and the rallying of the
+  intellectual bourgeoisie to the crown. The lag mechanism is the
+  professors' class interest: tax-funded salaries. The alternative
+  is the revolution's victory, which would abolish this privilege
+  and sweep them away. The direction constraint is material: only
+  the abolition of the monarchy can break the link between state
+  funding and servile ideology.
+
+crisis_diagnosis:
+  type: counter_revolutionary_offensive_and_betrayal_of_intellectuals
+  specific: |
+    November 1848 in Prussia: the Brandenburg Ministry has abolished
+    freedom of discussion, menaced deputies, and frustrated the
+    National Assembly. The tax refusal movement is a democratic
+    response. The addresses by 80 Berlin and 19 Halle professors
+    (including noted scholars) cheer the coercive measures and
+    condemn the tax refusal. This signals the intellectual
+    bourgeoisie's alignment with the counter-revolution — a crisis
+    of the revolution's social base.
+  evidence: |
+    "Freedom of discussion was abolished, the lives of the deputies
+    menaced, the dignity of the Assembly and the honour of the nation
+    besmirched, and the most well-intentioned and just proposals for
+    putting an end to this reign of terror were frustrated..."
+    — quoted from the professors' address, exposing its lies.
+
+lag_mechanism:
+  layers: [ideological, material]
+  ideological: |
+    The professors exhibit "lackey nature", "servile frame of mind",
+    and speak with "brazen lies" and "servile assurances of inborn
+    loyalty". They justify the coup with falsehoods, showing how
+    ideology masks material interests.
+  material: |
+    Their fury centers on the refusal to pay taxes, revealing their
+    direct pecuniary stake: "No more taxes — and privileged erudition
+    goes bankrupt." Their monopoly is rooted in the monarchy; their
+    science is for sale.
+
+alternative_proposal:
+  method: popular_revolution_overthrow
+  elements:
+    - Victory of the people against the counter-revolution
+    - Abolition of the monarchy ("royalty 'by the grace of God'")
+    - End of "privileged erudition" — the tax-funded monopoly of
+      learning
+    - The people will cry "too late" and put a speedy end to this
+      evil
+  notes: |
+    Implicitly, the alternative is the completion of the
+    revolution, which would destroy the material basis of
+    professorial servility. No detailed program is offered;
+    this is a polemic.
+
+direction_constraint:
+  core: |
+    Material dependency of intellectuals on state funding under
+    monarchy. As long as the monarchy stands, the professors'
+    material interest compels them to support the reaction.
+  specific: |
+    The people's victory is a precondition for breaking this
+    dependency. The direction (revolution) is constrained by the
+    need to overcome the economic interests of the educated class
+    tied to the old regime.
+  key_insight: |
+    "Their monopoly is rooted in royalty 'by the grace of God'."

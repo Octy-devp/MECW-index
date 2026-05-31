@@ -1,0 +1,85 @@
+reasoning: |
+  Marx’s 1867 memorial protests the imminent execution of Fenian
+  prisoners after a biased Manchester trial. He diagnoses this as an
+  act of political revenge, not justice—a crisis of British state
+  repression against Irish national liberation. The immediate crisis is
+  the execution, but deeper it is the structural antagonism revealed:
+  England’s moral authority is being destroyed by its colonial violence.
+  The lag is found in the British government’s refusal to commute, the
+  reformist trade union leaders who suppressed the memorial (showing
+  ideological/organizational lag: English workers not yet aligned with
+  Irish revolutionaries), and a broader theoretical lag where the
+  English labour movement sees the Irish question as external. Marx’s
+  alternative is the commutation of sentences as an act of political
+  wisdom, accompanied by building international working-class
+  solidarity through the IWA. The direction is constrained by the
+  material fact that the British state is a class instrument unlikely
+  to yield; the real direction points toward the English working class
+  breaking with bourgeois radicalism and actively supporting Irish
+  independence as a precondition for its own emancipation—a path
+  blocked by the entrenched reformism and imperial dividends.
+
+crisis_diagnosis:
+  type: state_repression
+  specific: |
+    The British state’s execution of Fenian prisoners Allen, Larkin,
+    and O’Brien (after Maguire’s pardon exposed tainted evidence)
+    represents an act of political revenge masking as judicial process,
+    aimed at crushing Irish revolutionary resistance. It undermines
+    England’s “moral influence” on the continent and deepens the
+    structural antagonism between the British ruling class and the
+    Irish people.
+  evidence: ["the execution... will bear the stamp not of a judicial
+            act, but of political revenge", "the British Government...
+            would now have to choose between the bloody-handed practices
+            of old Europe and the magnanimous humanity of the young
+            Transatlantic Republic"]
+
+lag_mechanism:
+  layers: [political, organizational, ideological]
+  political: |
+    The British government ignored the memorial, demonstrating that the
+    state’s class character precludes mercy; it treats Irish
+    revolutionaries as enemies to be destroyed.
+  organizational: |
+    Reformist trade union leaders, in collusion with bourgeois
+    radicals, refused to publish the memorial in full in the English
+    labour press (The Bee-Hive only summarised it, omitting the
+    signatories). This sabotaged the solidarity campaign and kept the
+    English working class isolated from the Irish struggle.
+  ideological: |
+    The dominant labour leadership denied the Fenians’ right to
+    revolutionary methods, reflecting a deep attachment to liberal
+    legality that obscured the colonial nature of British rule and the
+    necessity of Irish independence for the workers’ movement.
+
+alternative_proposal:
+  method: international_working_class_solidarity_campaign
+  elements:
+    - Memorial to the Home Secretary demanding commutation of death
+      sentences, presented as a practical act of justice and political
+      wisdom
+    - Launching a widespread campaign among English workers to support
+      Irish national liberation, embodied in the IWA’s special meeting
+      and public agitation
+    - Building an organizational link between the English and Irish
+      struggles, overcoming reformist isolationism
+
+direction_constraint:
+  core: english_working_class_must_lead_in_supporting_irish_liberation
+  specific: |
+    The commutation memorial was a tactical appeal, but Marx understood
+    that the British state would not voluntarily concede. The
+    direction toward a lasting resolution of the crisis is constrained
+    by the English workers’ subordination to bourgeois liberal
+    ideology and the reformist leaders’ refusal to break with the
+    ruling class on colonial policy. Only when the English proletariat
+    actively champions Irish independence—making the “moral influence”
+    its own—can the structural division that weakens both the Irish
+    struggle and the English workers’ movement be overcome. This is
+    materially constrained by the imperial dividends that bribe
+    sections of the working class into complicity.
+  key_insight: "The English working class will never achieve its own
+                emancipation until it supports Irish self‑determination
+                against British rule; the lag is therefore rooted in the
+                political economy of empire."

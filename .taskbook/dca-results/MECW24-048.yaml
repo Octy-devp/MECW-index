@@ -1,0 +1,31 @@
+reasoning: |
+  Engels' 1881 article diagnoses the agrarian crisis in Europe caused by cheap American grain and meat. The crisis is structural: since 1879, the immense, level, stone-free prairie soil, cultivated on a giant scale and combined with revolutions in transport, has made European farming—whether large or small—unprofitable by setting global prices below local costs. The lag mechanism is dual: organizationally, individual farmers compete hopelessly while landlords cling to rents; ideologically, landowners and farmers believe the situation will right itself, trying stop-gap measures (switching to meat) only to find that market also undercut. The alternative is explicitly stated: the inevitable "nationalisation of the land and its cultivation by co-operative societies under national control." The direction is constrained by material conditions: the vast remaining unexhausted prairie and similar lands globally will sustain the pressure "for another century," so only collective, rent-free, large-scale cultivation can restore viability. The productive forces of modern farming and transport have rendered private landed property obsolete.
+
+crisis_diagnosis:
+  type: structural_agricultural_crisis
+  specific: |
+    Starting in 1879, American grain cultivated on enormous scale in the virgin prairie and shipped cheaply to Europe has broken the traditional protection of distance. European harvest failures no longer raise prices; the price of corn is determined by American production costs plus transport. This renders all European farming—whether British large-scale landlord-tenant or Continental small peasant—uneconomical, wiping out rents and threatening to "kill all the landlords of Europe, great and small, at least twice over."
+  evidence:
+    - "The virgin soil of the Western prairie... is now beginning to rule the price of wheat, and, consequently, the rent of wheat land."
+    - "For the first time the British farmer had a bad crop and low prices of wheat at the same time."
+    - "It is a peculiar effect of this American competition that it renders not only large landed property, but also small landed property useless, by rendering both unprofitable."
+
+lag_mechanism:
+  layers: [organizational, ideological]
+  organizational: |
+    European agriculture remains fragmented into competing private units. Farmers individually try to maintain incomes by switching from wheat to meat, but this resource is cut off as American and soon Australian/South American meat and cattle flood the market. Landlords seek to preserve rent, refusing to abandon the existing property structure. No collective action or move toward national cooperation occurs because the immediate interests of individual owners block the necessary systemic change.
+  ideological: |
+    Entrenched belief in the eternal necessity of private landownership and the hope that the crisis will pass. Landlords "felt alarmed" but still "half inclined" to go to America rather than accept nationalisation. The text mocks the notion that the system "cannot go on for ever and things must come right again," revealing an ideological lag that masks the permanent transformation of global agriculture.
+
+alternative_proposal:
+  method: productive_forces_impose_new_property_relation
+  elements:
+    - Nationalisation of the land
+    - Cultivation by co-operative societies under national control
+    - This will make farming pay again regardless of foreign competition
+
+direction_constraint:
+  core: global_productive_forces_rend_private_property_inefficient
+  specific: |
+    The immense supply of cheap virgin land (American prairie, South Russian steppe, Argentine pampas) combined with modern transport will keep global grain and meat prices low for at least a century. Under these conditions, no private farmer paying rent can compete. Only by eliminating rent and pooling resources through cooperative cultivation on a national scale can European agriculture become sustainable. The direction is not a moral choice but a material necessity imposed by the scale and cost-structure of modern farming.
+  key_insight: "Then, and then alone, it will again pay both the cultivators and the nation to work it, whatever the price of American or any other corn and meat may be."

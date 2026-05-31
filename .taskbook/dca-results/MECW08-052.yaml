@@ -1,0 +1,91 @@
+reasoning: |
+  Engels’ December 5, 1848 article responds to the immediate aftermath of the 
+  Austrian counter‑revolutionary victory over the Vienna October Uprising. The 
+  pro‑monarchy press (Augsburg Allgemeine Zeitung) is flooding the public sphere 
+  with a legitimating narrative: the army restored “order” against a “democratic 
+  reign of terror.” Engels counters this ideological offensive by publishing 
+  eyewitness testimonies from Swiss capitalists – conservative, bourgeois, 
+  “full‑blooded Swiss aristocrats” – who were brutalised by the imperial troops. 
+  By amplifying these reports from a serious conservative Swiss newspaper, he 
+  seeks to de‑legitimise the counter‑revolutionary propaganda and vindicate the 
+  revolutionary proletariat. The crisis is thus not the military defeat itself 
+  but the consolidation of that defeat through systematic lying; the lag is the 
+  institutional grip of the bought press and the difficulty of getting the truth 
+  past class‑bound credibility filters; the alternative is a specific 
+  counter‑propaganda tactic: weaponising facts from unimpeachable bourgeois 
+  sources to split the ruling‑class public; and the direction is constrained by 
+  the physical suppression of the armed proletariat, which forces the struggle 
+  into the ideological terrain. Every element is directly anchored in the text.
+
+crisis_diagnosis:
+  type: counter_revolutionary_propaganda
+  specific: |
+    The Vienna October Uprising has been crushed, and the Austrian monarchy’s 
+    military (Windischgrätz, Jellachich) is rehabilitating itself through a 
+    propaganda campaign that paints the army as the restorer of “law and order” 
+    and the revolutionaries as the agents of terror. This mythologisation is 
+    not incidental but central to the consolidation of the counter‑revolution, 
+    because it morally disarms the democratic movement internationally and 
+    justifies the savage repression.
+  evidence:
+    - "While the Augsburg *Allgemeine Zeitung* and other bought newspapers exalt 
+      a Windischgrätz and a Jellachich to heaven for restoring law and order, 
+      crown the valiant Austrian troops with laurels and never tire of recounting 
+      the horrors of the democratic reign of terror…"
+
+lag_mechanism:
+  layers: [institutional, ideological]
+  institutional: |
+    The main channel of public opinion – the bourgeois press – is directly 
+    bought and therefore systematically suppresses or distorts the truth. 
+    Eyewitness reports from victims that contradict the official narrative 
+    cannot break through in the German‑language press, leaving the monarchist 
+    version unchallenged.
+  ideological: |
+    The credibility barrier: reports from radical or proletarian sources are 
+    dismissed out of hand by the conservative public. Thus even when the Swiss 
+    conservatives eventually publish their accounts, the “bought newspapers” 
+    refuse to investigate them, because acknowledging these facts would 
+    dismantle the entire “order” mythology upon which the counter‑revolution 
+    relies. Engels explicitly challenges the Allgemeine Zeitung to verify the 
+    named details, predicting they will refuse.
+
+alternative_proposal:
+  method: counter_propaganda_through_bourgeois_witnesses
+  elements:
+    - |
+      Publish, re‑publish and circulate detailed, named, verifiable testimony 
+      from impeccably conservative bourgeois eyewitnesses (Swiss industrialists 
+      and aristocrats). Their class credentials make the evidence admissible 
+      even to a bourgeois readership and force the lying press either to 
+      investigate or stand exposed as deliberate falsifiers.
+    - |
+      Juxtapose the army’s actual conduct (murder, looting, breaking parole) 
+      with the orderly and courteous behaviour of the armed proletariat during 
+      the so‑called “reign of terror.” This inverts the official narrative and 
+      demonstrates that the real barbarism belonged to the forces of “order.”
+    - |
+      Demand that the same newspapers that printed the lies now verify the 
+      counter‑evidence, using precise names, places and incident details, so 
+      that their refusal becomes a further indictment.
+
+direction_constraint:
+  core: military_defeat_forces_the_struggle_onto_ideological_terrain
+  specific: |
+    The Vienna uprising has been physically broken; the armed proletariat is 
+    disarmed and decimated. Therefore the immediate task is not to propose a 
+    new insurrection but to prevent the counter‑revolution from securing its 
+    moral hegemony. The direction is constrained to an international press 
+    campaign of exposure, undertaken under conditions where only bourgeois 
+    intermediaries can carry the truth past state censorship and class 
+    prejudice. The fact that Engels has to cite a *conservative* Swiss paper 
+    underlines the difficulty: revolutionaries themselves lack the material 
+    means (newspapers, distribution, legitimacy) to be heard. The objective is 
+    to preserve the historical record for future political action and to erode 
+    the authority of the restored old regime.
+  key_insight: |
+    “Will the Augsburg *Allgemeine Zeitung* not let its various correspondents… 
+    collect information as to whether this is not word for word true? … But it 
+    will of course be wary.” — the regime’s legitimacy depends on maintaining 
+    the lie; therefore the exposure of the lie, even through limited bourgeois 
+    channels, is a real political blow.

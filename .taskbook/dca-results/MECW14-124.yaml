@@ -1,0 +1,96 @@
+reasoning: |
+  Engels’ 1856 analysis of the Crimean War diagnoses the decay of a 
+  military-strategic paradigm. The Western Allies’ campaign has “broken 
+  down” because it concentrated forces on a single point (Sevastopol) for 
+  eleven months, yielding only half the city while Russia captured Kars. 
+  The crisis is not merely tactical failure but a fundamental contradiction: 
+  the war began from a miscalculation by Nicholas I but then was conducted 
+  with “extreme politeness,” avoiding decisive blows. The lag mechanism is 
+  political self‑limitation: both sides possessed an “ultima ratio”—the West 
+  could liberate Poland, Hungary, Italy; Russia could invoke Panslavism—but 
+  neither dared unleash a revolutionary war of nationalities, because that 
+  would threaten the existing order. Instead they fought a limited, 
+  concentrated war that left Russia’s vulnerable points (Baltic, Finland, 
+  Transcaucasia) untouched. The alternative that Engels implies is a 
+  broadened, “earnest” campaign aimed at Russia’s weak peripheries, using 
+  naval power and possibly Swedish/Austrian auxiliaries. This alternative 
+  is itself constrained by the same fear of revolutionary upheaval: the 
+  direction of any future campaign remains bound by the neutrality of 
+  Central Europe and the imperative to avoid setting off uncontrollable 
+  national movements. If war continues, it must be more extensive, but the 
+  ruling classes’ horror of “unpleasant questions” may yet force a 
+  negotiated peace.
+
+crisis_diagnosis:
+  type: strategic_paralysis
+  specific: |
+    The Western Powers’ war plan has collapsed. Concentrating all forces 
+    on a single point in Crimea for eleven months yielded only half of 
+    Sevastopol at the cost of 250,000 casualties, while Russia captured 
+    Kars. The campaign has been “a state of official hostilities, 
+    mitigated by extreme politeness.” The system of warfare is broken; 
+    the war as conducted cannot continue without demoralizing the armies 
+    and fleets.
+  evidence: |
+    “The system of warfare ... has completely broken down.” “Never ... 
+    has such brilliant bravery been thrown away for such inadequate 
+    results.” “You cannot go on fighting at the rate of two great battles 
+    ... and yet remain always on the same spot.”
+
+lag_mechanism:
+  layers: [political, ideological]
+  political: |
+    Both sides agree to fight a limited, courtly war to avoid unleashing 
+    revolutionary forces. The West could have liberated oppressed 
+    nationalities (Poland, Hungary, Italy); Russia could have rallied 
+    Panslavism. Neither dared use its “ultima ratio,” because “none of 
+    them liked” a war of principles that would destabilise their own 
+    regimes. Hence operations were confined to Crimea, ignoring the 
+    Baltic, Finland, and Transcaucasia—Russia’s actual weak points.
+  ideological: |
+    The war’s management reflects the shared interest of “upstarts and 
+    usurpers” (Romanoffs, Hanoverians, Bonaparte) in avoiding a European 
+    conflagration. The obsession with avoiding “unpleasant questions” 
+    (nationalities, Panslavism, Central European neutrality) prevented 
+    any decisive blow. Even private property on the enemy’s coast was 
+    spared more than government property, revealing a class solidarity 
+    above the ostensible conflict.
+
+alternative_proposal:
+  method: extended_campaign
+  elements:
+    - Shift from concentration on Crimea to a multi‑front attack on 
+      Russia’s vulnerable peripheries: “invasion of Finland, of 
+      Esthonia, of Bessarabia.”
+    - Draw in Swedish auxiliaries and secure Austrian demonstrations 
+      to threaten Russia’s western flank.
+    - Use overwhelming naval superiority to strike the Baltic and 
+      Caucasian coasts—the “weakest part of Russia”—with amphibious 
+      operations and permanent lodgments, rather than inconclusive 
+      raids.
+    - If war continues, wage it in earnest, aiming at tangible gains 
+      that compensate for the human cost; else accept peace on the 
+      negotiated terms.
+
+direction_constraint:
+  core: fear_of_revolutionary_contagion
+  specific: |
+    Any enlarged campaign still operates within a political cage. The 
+    neutrality of Central Europe (Prussia, Austria) shields Russia’s 
+    land frontier; the Allies cannot attack there without risking a 
+    general European war. More fundamentally, both blocs dread the 
+    “war of principles” that would follow the liberation of 
+    nationalities—a prospect that would transform the Crimea conflict 
+    into a continent‑wide revolutionary upheaval. Hence even the 
+    “earnest” war envisioned remains limited by the rulers’ shared 
+    resolve to prevent “much less decisive results which might 
+    embarrass ulterior negotiations.” The direction is permanently 
+    bent back toward restoration of the status quo, either through 
+    a negotiated peace or a campaign that remains regional and 
+    avoids arming the oppressed.
+  key_insight: |
+    “No nationalities, no Panslavism, no trouble with Central Europe, 
+    no necessities for conquest, no great decisive results which might 
+    embarrass ulterior negotiations ... have appeared upon the scene.” 
+    The war’s logic is determined by the counter‑revolutionary 
+    equilibrium, not by military rationality.

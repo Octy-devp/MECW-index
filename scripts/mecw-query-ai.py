@@ -27,7 +27,7 @@ PREFIX_PATH = ROOT / "index" / "data" / "mecw-prefix.txt"
 DOCS_DIR = ROOT / "index" / "documents-raw"
 
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
-DEEPSEEK_MODEL = "deepseek-chat"
+DEEPSEEK_MODEL = "deepseek-v4-pro"
 
 # ── 加載 ───────────────────────────────────────────
 

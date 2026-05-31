@@ -1,0 +1,25 @@
+reasoning: |
+  This is a short public correction letter from Marx to the *Zeitung für Norddeutschland*, denying a rumor that he was touring the continent to agitate for a Polish insurrection. The text contains only a factual denial and a request for retraction. It identifies a micro-crisis—the publication of a false notice, likely of police origin—and proposes the alternative of printing the correction. However, it provides no analysis of systemic lag mechanisms (why such reports arise or go unchallenged), nor any direction constraints. The document is purely reactive and corrective, lacking the extended structural critique found in longer analytical texts. Thus, lag_mechanism and direction_constraint are set to null with explanations.
+
+crisis_diagnosis:
+  type: false_media_report_with_police_involvement
+  specific: |
+    The newspaper *Zeitung für Norddeutschland* published a notice (issue No. 5522, February 15, 1867) stating that Marx, living in London, "seems to have been chosen to tour the continent to make propaganda for this affair" ("the next" Polish "insurrection"). Marx declares this a "fabrication hatched by the police" and dissociates himself from any such "affair".
+  evidence:
+    - "which probably found its way into your paper ... must be a fabrication hatched by the police, I don't know for what 'affair'."
+
+lag_mechanism:
+  layers: null
+  explanation: |
+    The letter does not diagnose any mechanisms—whether organizational, ideological, theoretical, or material—that permit such fabrications to arise or circulate. Marx attributes it to an "oversight" or police plot without analyzing the structural conditions (e.g., state surveillance of émigrés, press reliance on police sources, or the domesticating effect of rumors on revolutionary figures).
+
+alternative_proposal:
+  method: public_correction
+  elements:
+    - Request the editorial board to print the correction exactly as submitted, thereby retracting the false notice.
+
+direction_constraint:
+  core: null
+  specific: null
+  explanation: |
+    No direction or material constraints are discussed. The text is simply a request to correct a factual error; it does not engage with any broader political program, historical phase, or structural limitations.

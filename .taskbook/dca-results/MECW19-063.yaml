@@ -1,0 +1,88 @@
+```yaml
+reasoning: |
+  Marx's November 1862 dispatch addresses the US midterm election results
+  during the Civil War. He diagnoses the Republican losses not as a
+  fundamental reversal but as a surface reaction to the government's
+  wartime ineptitude, while beneath it the political terrain is shifting
+  decisively toward abolitionism. The crisis is the war stalemate and the
+  consequent political blowback. The lag operates through multiple layers:
+  ideological racism (Irish workers, Midwestern farmers viewing Blacks as
+  competitors), organizational failures (retention of pro‑slavery generals
+  like McClellan), and the delayed transformation of Republican politics
+  from anti‑extension to immediate emancipation. The alternative is clear:
+  the government and Congress must act with “energy” – purge pro‑slavery
+  officers, press the war, and embrace emancipation – which would shift the
+  balance morally and numerically. The direction constraint is that the war
+  itself, by radicalising the conflict, creates the material conditions for
+  an abolitionist majority, but its realisation depends on the political
+  will to overcome the reactionary remnants in the army and the racial
+  fears among certain classes.
+
+crisis_diagnosis:
+  type: political_crisis_of_the_union_war_effort
+  specific: |
+    The 1862 midterm elections deliver a defeat for the Washington
+    government, with Democratic gains in New York, Pennsylvania, Ohio,
+    Indiana. This is a political crisis driven by public dissatisfaction
+    with “financial clumsiness and military ineptitude” in the conduct of
+    the war. The crisis reveals the contradiction between the Union’s
+    original limited war aims and the revolutionary dynamic toward
+    emancipation.
+  evidence:
+    - "The elections have in fact been a defeat for the Washington government."
+    - "The old leaders of the Democratic Party have skilfully exploited the
+      dissatisfaction over the financial clumsiness and military ineptitude..."
+    - "If Lincoln had had Emancipation of the Slaves as his motto at that
+      time [1860], there can be no doubt that he would have been defeated."
+
+lag_mechanism:
+  layers: [ideological, organizational, political_tactical]
+  ideological: |
+    Racial prejudice and economic fears block working‑class support for
+    emancipation. In New York the Irish rabble sees the Negro as a
+    dangerous competitor. In Ohio and Indiana, efficient farmers “hate the
+    Negro almost as much as the slaveholder” and fear flooding of their
+    territories. The Democratic press stokes these fears daily.
+  organizational: |
+    The Union war effort is hamstrung by incompetent and openly pro‑slavery
+    generals like McClellan. Their retention undermines military success and
+    feeds the political reaction. Marx warns that “the only danger lies in
+    the retention of such generals.”
+  political_tactical: |
+    The Republican Party in 1860 was not yet an abolitionist party; it only
+    opposed the extension of slavery. The shift to immediate emancipation
+    as a war aim is incomplete and contested, leaving the party vulnerable
+    to the charge of radicalism in some states. The lag is the incomplete
+    fusion of the Republican and Abolitionist agendas.
+
+alternative_proposal:
+  method: energetic_government_action
+  elements:
+    - Immediate emancipation pursued by Congress and the executive, using it
+      as a war measure and on principle.
+    - Purge pro‑slavery generals like McClellan from the army.
+    - Build on the surprising pro‑government majorities in states like
+      Massachusetts, Michigan, Illinois, Iowa, and Delaware, where even
+      the emancipationist stance won significant support.
+    - Exploit the external threat (Louis Bonaparte’s intervention intentions)
+      to strengthen the abolitionist case “from abroad.”
+
+direction_constraint:
+  core: war_radicalisation_enables_majority_abolitionism
+  specific: |
+    Before the war, a clear emancipation stance would have been electoral
+    suicide. Now, the war itself has created the material and psychological
+    conditions for an abolitionist majority: the Republican‑Abolitionist
+    fusion has already produced surprising majorities or significant
+    minorities in key states. The direction of progressive victory is
+    constrained by the necessity of “energy” – the political will of the
+    government to remove reactionary elements from the military and to
+    pursue emancipation without hesitation. The war is both the condition
+    for the alternative and the arena in which the old ideological and
+    institutional lags must be overcome.
+  key_insight: >
+    “All that is needed now is energy, on the part of the government and
+    of the Congress ... for the Abolitionists, now identical with the
+    Republicans, to have the upper hand everywhere, both morally and
+    numerically.”
+```

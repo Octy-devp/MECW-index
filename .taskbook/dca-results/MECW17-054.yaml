@@ -1,0 +1,93 @@
+```yaml
+reasoning: |
+  Marx’s 1860 article diagnoses a commercial crisis in British
+  exports, particularly to India. He traces the cause to speculative
+  over‑trading: “the enormous profits made in the Indian trade during
+  a portion of last year, led to a sudden and large increase of
+  supplies” far exceeding demand. The crisis is compounded by Indian
+  harvest failures, famine, and cholera. The British press and
+  business circles misattribute the contraction to a recent customs
+  duty increase, ignoring the systemic overproduction. Marx’s
+  analysis points to the anarchy of capitalist trade and the
+  vulnerability of colonial markets, but he does not propose any
+  alternative policy or revolutionary action; the piece is diagnostic.
+  The direction is constrained by the inherent limits of consumption
+  in a poverty‑stricken colony subjected to the profit‑driven flow
+  of commodities.
+
+crisis_diagnosis:
+  type: commercial_overproduction_crisis
+  specific: |
+    British export trade to India has collapsed under the weight of a
+    speculative glut. Cotton piece goods exports rose from £5.7m in
+    1857 to £12m in 1859; yarn from £1.1m to £2.5m. “Large stocks of
+    goods accumulated at all the markets in the North‑West.” Then
+    drought, famine, and cholera struck Upper India from late 1859,
+    destroying purchasing power. The Australian and French trade
+    contracted likewise; the US imported more from Britain but British
+    exports to the US fell by over £2m in the first half of 1860.
+    Failures in the leather trade with assets averaging 5s.6d in the
+    pound added to the general distrust.
+  evidence: |
+    Exports of cotton piece goods rose from £5,714,000 in 1857 to
+    £12,043,000 in 1859. Yarns rose from £1,147,000 to £2,546,000.
+    The Economist admitted “large stocks of goods accumulated at all
+    the markets in the North‑West.” Cholera in the densely peopled
+    cities “suspended” ordinary business. The monsoon failure until
+    mid‑July created famine prospects. Indian trade fell off £2m in
+    the first half of 1860. Anglo‑French trade declined by over £1m.
+    Anglo‑American exports decreased despite a jump in imports.
+
+lag_mechanism:
+  layers: [ideological, material]
+  ideological: |
+    The British press and the Chambers of Commerce blamed the Indian
+    Customs Act that doubled the duty on staple imports, treating it
+    as the cause rather than an accelerator of the crisis. The
+    Economist’s article from the desk of the Indian Chancellor of the
+    Exchequer attempted to “disengage the late Indian customs
+    legislation from all responsibility” while ignoring the systemic
+    over‑trading. The true dynamic of “continuance of large supplies
+    from England” is not even alluded to. This misdiagnosis delays a
+    realistic assessment of the crisis’s structural nature.
+  material: |
+    The speculative glut itself was made possible by a prior period of
+    “enormous profits” that drew in excessive shipments, but real
+    consumption in India was acutely constrained. The autumn 1859
+    crops fell far below average; food prices soared; cholera
+    paralyzed cities; and the delayed monsoon threatened a famine
+    equal to 1837‑38. Such material calamities collided with the
+    overstocked market, making a swift absorption of goods impossible
+    and prolonging the depression.
+
+alternative_proposal:
+  method: null
+  elements: []
+  reason_for_null: |
+    The text is a diagnostic news article; Marx presents no
+    alternative policy or revolutionary program. His implicit
+    standpoint is that the crisis reveals the irrationality of
+    capitalist trade, but he does not advocate any immediate course
+    of action beyond exposing the misdiagnoses of bourgeois
+    economists.
+
+direction_constraint:
+  core: anarchy_of_capitalist_production_and_colonial_vulnerability
+  specific: |
+    The crisis follows directly from the unregulated profit‑seeking
+    that sends “more than was required for any consumption” into
+    colonial markets. The material limits of India’s agrarian economy
+    — crop failure, disease, famine — reveal that the expansion of
+    trade is always bounded by the low and precarious purchasing
+    power of the colonial peasantry. No tariff reform can reconcile
+    the drive to export with these real constraints. The direction is
+    therefore a deepening of the cycle: the glut and distrust will
+    feed further failures and contraction, illustrating the
+    self‑destructive logic of capital.
+  key_insight: |
+    The crisis was “accelerated by [the tariff’s] sudden introduction
+    at a time when the Indian commerce was already bloated to a size
+    beyond its natural capacity” — an early formulation of the theory
+    that capitalist crises are rooted in overproduction, not in trade
+    policy mishaps.
+```
