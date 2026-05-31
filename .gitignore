@@ -12,3 +12,5 @@ __pycache__/
 
 # Symlinks (只在 ECC workspace 內)
 _*/
+.env
+*.env

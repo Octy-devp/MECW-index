@@ -1,0 +1,32 @@
+```yaml
+reasoning: |
+  Engels' text from June 30, 1871, responds to the immediate aftermath of the Paris Commune's suppression and the publication of the General Council's Address "The Civil War in France." The crisis is the bourgeois press's initial attempt to suppress the Address through silence, followed by a coordinated campaign of slander and distortion. The lag mechanism is ideological: the bourgeois press, despite acknowledging the International's power and the Address's stylistic mastery, systematically attacks the proletarian viewpoint and attributes fabricated documents (from Paris police and Bakunin's Alliance) to the International. This lag is compounded by organizational betrayal: two English members of the General Council, Odger and Lucraft, resign under pressure from bourgeois opinion, revealing a weakness in proletarian discipline. The alternative is the Address itself—an energetic assertion of the proletarian point of view and a decisive justification of the Commune—backed by Marx's personal assumption of responsibility for its charges. The direction constraint is material: the bourgeois press's power to shape public opinion and the threat of legal action (libel suits) limit the International's ability to counter slander, but the Address's impact proves that the International is "a great power in Europe to be reckoned with," forcing even hostile papers to engage. The text does not propose a full alternative program but demonstrates the necessity of public confrontation and proletarian unity.
+
+crisis_diagnosis:
+  type: ideological_offensive
+  specific: |
+    The bourgeois press in London initially tried to suppress the General Council's Address on the Paris Commune through silence, then shifted to slander and distortion, attributing fabricated documents (from Paris police and Bakunin's Alliance) to the International. This coordinated campaign aimed to discredit the proletarian viewpoint and isolate the International from public opinion.
+  evidence: ["In the beginning, the main papers tried to kill it with silence...", "It was only to be expected that this bourgeois press would attack...", "the Stieberiades fabricated by the Parisian police papers and the documents of quite a different society... laid at the door of the International"]
+
+lag_mechanism:
+  layers: [ideological, organizational]
+  ideological: |
+    The bourgeois press, despite acknowledging the International's power and the Address's stylistic mastery, systematically attacked the proletarian point of view and justified the suppression of the Commune. They used slander and distortion to misrepresent the International's aims and actions, reflecting a deep ideological resistance to working-class emancipation.
+  organizational: |
+    Two English members of the General Council, Odger and Lucraft, resigned under pressure from bourgeois opinion, revealing a weakness in proletarian discipline and a susceptibility to "respectable" society's influence. This organizational lag threatened the International's unity at a critical moment.
+  evidence: ["Two English members of the General Council, Odger... and Lucraft... were swayed by the fuss in the papers to tender their resignations", "they will soon mark what it means to betray the proletariat at the critical moment"]
+
+alternative_proposal:
+  method: public_confrontation_and_proletarian_unity
+  elements:
+    - The Address itself: an energetic assertion of the proletarian point of view and a decisive justification of the Paris Commune.
+    - Marx's personal assumption of responsibility for the charges in the Address, challenging the French government to bring a libel suit.
+    - Replacement of the resigning members with other English workers, maintaining the General Council's proletarian composition.
+  evidence: ["the Address of the General Council of the International... such an energetic assertion of the proletarian point of view, such a decisive justification of the Paris Commune", "Karl Marx declared... that as the author of the Address he considered himself personally responsible for the charges", "They have already been replaced by two other English workers"]
+
+direction_constraint:
+  core: bourgeois_press_power_and_legal_threats
+  specific: |
+    The bourgeois press's power to shape public opinion and the threat of legal action (libel suits) constrained the International's ability to counter slander. However, the Address's impact proved that the International could not be ignored, forcing even hostile papers to engage. The constraint also included the risk of internal betrayal, as seen in Odger and Lucraft's resignations, which required swift replacement to maintain organizational integrity.
+  evidence: ["The entire press has had to confess unanimously that the International is a great power in Europe to be reckoned with", "the French Embassy does not seem to have any orders to proceed with a libel suit against him", "they will soon mark what it means to betray the proletariat at the critical moment"]
+```
