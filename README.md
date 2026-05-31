@@ -1,8 +1,8 @@
-# MECW-index — 兩院制蘇維埃第二院
+# MECW-index — 馬克思恩格斯全集結構化索引系統
 
-> 馬克思恩格斯全集（MECW）結構化索引系統  
-> 基於 T-SALC 三層認知架構（二進制 / 三進制 / 頻譜制）  
-> 兩院制蘇維埃架構——與 [ECC](https://github.com/Octy-devp/ECC)（第一院，架空小說索引）平行自治
+> 基於 T-SALC 三層認知架構（二進制驗證 / 三進制語義 / 頻譜制節律）  
+> DCA（危機-滯後-替代-方向）方法論的 Marx/Engels 校準基準  
+> `git clone → bash setup.sh → 即用`
 
 ---
 
@@ -70,37 +70,125 @@ MECW-index/
 | L2 | 三進制（語義層） | DCA 20/20 + Prefix v2 CoT + API | ✅ |
 | L3 | 頻譜（節律層） | 理論張力 Butterworth + DCA 結構交叉譜 | ✅ v0.3 |
 
-## 兩院制關係
+## 可用命令
 
-| | ECC（第一院） | MECW-index（第二院） |
-|------|:---:|:---:|
-| 語料 | 架空歷史小說 | 馬克思主義理論文獻 |
-| 核心方法 | mood 標註 | DCA 提取 |
-| 頻譜信號 | valence (虛構情感) | theoretical_tension (理論張力) |
-| DCA 角色 | 應用對象 | 校準源 |
-| 交叉 | `CROSS-CHAMBER.md` (待建) | |
+```bash
+# 查詢
+python3 scripts/query.py --stats              # 全庫統計
+python3 scripts/query.py --timeline           # 60年年表
+python3 scripts/query.py --contact "Ferdinand Lassalle"  # 通信記錄
+
+# AI 分析（需 DEEPSEEK_API_KEY）
+python3 scripts/mecw-query-ai.py --dca MECW35-004         # 單篇DCA提取
+python3 scripts/mecw-query-ai.py --dca-batch P1           # 批量提取
+python3 scripts/mecw-query-ai.py "Paris Commune" --api    # 自然語言+AI
+
+# 頻譜
+python3 scripts/build-theoretical-spectrum.py  # 重建理論張力頻譜
+
+# 驗證
+python3 scripts/validate-mecw.py              # 全庫校驗
+```
 
 ---
 
-## 未來發展方向
+## 🧪 未來研究遊樂場（Future Research Playground）
 
-### 動態網絡層（Phase 8）
+以下六個方向是 DCA + 頻譜 + 人物網絡的組合玩法。每一個都可以獨立發展成論文或工具。
 
-- **概念傳染網**：追蹤 "dictatorship of the proletariat" 從 1848→1875→1891 的 DCA 結構變形
-- **問題迴路**：德國社會民主黨的理論退縮——1848 到 1890 年代，一條 40 年的滯後機制鏈
-- **沉默地圖**：哪些文獻 DCA 欄位為 null？標示出框架的邊界與盲點
+---
 
-### 反向生成層（Phase 9）
+### 一、概念流行病學（Concept Epidemiology）
 
-- **歷史類比模擬器**：輸入當代事件 → 檢索最相似 historical crisis pattern → 合成馬克思式 DCA 分析
-- **缺失文本重建**：基於已知 DCA 結構 + 馬克思慣用論證模式 → 生成可能性區間
-- **教學對話系統**：學生上傳新聞 → 自動比對 MECW 中最接近的 DCA 案例
+把 `character-network.json`（人際網絡）疊上 DCA 提取結果，變成**概念傳染網絡**。
 
-### 前端層（Phase 10）
+- **節點**：人物（Marx、Engels、Lassalle、Bebel…）
+- **邊**：兩人通信中共享的 crisis type 或 lag mechanism
+- **權重**：DCA 結構相似度
 
-- **Web 界面**：git clone → `bash setup.sh` → 本地瀏覽器即可使用
-- **API 服務**：REST API 包裝 query + DCA 提取
-- **可視化**：D3.js 交互式頻譜圖 + 人物網絡力導向圖
+**核心玩法**：追蹤一個 DCA 元素的「零號病人」。`revolutionary dictatorship of the proletariat` 第一次出現在誰的文本？透過什麼 lag mechanism（organizational？ideological？）被傳染給下一位？在頻譜上對應長波的哪個相位？
+
+**假說**：有些概念在長波 crest 時被「發明」，在中波 trough 時被「誤傳」，在短波 spike 時被「背叛」——比傳統觀念史多了**物質節奏的維度**。
+
+---
+
+### 二、殘差考古學（Residual Archaeology）
+
+頻譜把信號切成長波（正規化）+ 中波（週期）+ **短波（殘差）**。傳統做法把短波當 noise。反過來：**專門獵殺短波中的異常**。
+
+**玩法**：
+1. 找出 `theoretical_shortwave` 絕對值最高的 20 個年份
+2. 提取這些年份所有文本的 DCA，追問：這些 crisis type 是否無法被當時的長波趨勢解釋？
+3. 標記為 **「理論突變體」（theoretical mutants）**
+
+**案例**：1857 年（經濟危機）短波異常高，但 DCA 顯示 Marx 在寫的卻是 *theoretical retreat* 類型（《政治經濟學批判》導言中對方法論的退縮式反思）——物質危機高峰時，理論反而在後撤。這種張力本身就是最有價值的歷史問題。
+
+---
+
+### 三、多聲部 DCA 合唱（Polyphonic DCA）
+
+讓系統**故意精神分裂**。同一篇文本，用三種理論人格分別提取 DCA：
+
+| 人格 | 預設 |
+|------|------|
+| **正統派** | 強調 productive forces → class struggle → revolution 的線性邏輯 |
+| **阿爾都塞派** | 尋找 epistemological break，lag 一定是 theoretical |
+| **自治主義派** | crisis 一定是 class composition 的變化，alternative 從工人自主出發 |
+
+**玩法**：
+- 比較三種人格對同一文本的 DCA 提取差異
+- 結構化差異本身：哪些欄位永遠一致（direction_constraint 中的 material limits），哪些永遠分裂（lag_mechanism 的層數歸因）
+- 用頻譜分析**分歧的時間分佈**：某些年份所有流派同意 crisis 是 organizational，但對 lag 大打出手？
+
+產出：一張 **「詮釋學爭議地形圖」**，比任何文獻綜述更精確地標示馬克思主義傳統中的不可通約點。
+
+---
+
+### 四、預測性合成（Predictive Synthesis）
+
+用頻譜外推 + DCA 模式匹配，做**反事實生成**。
+
+**步驟**：
+1. 選一個 Marx 死後的事件（1905 年俄國革命、1929 年大蕭條、2026 年 AI 勞動替代）
+2. 在頻譜上找到歷史上最接近的 longwave + midwave 相位組合
+3. 提取該相位附近所有文本的 DCA 結構，建立「危機反應模式庫」
+4. 以此為 few-shot prompt，要求 AI 生成：「如果 Marx/Engels 在 1905 年寫一篇關於彼得堡總罷工的文本，其 DCA 結構會是什麼？」
+
+**關鍵限制**：輸出必須標記為 `synthetic / counterfactual`，且必須顯示基於哪個歷史相位的外推。這不是「預言」，而是**結構類比的顯影**。
+
+---
+
+### 五、理論地形圖（Topographic Map）
+
+跳出時間軸。把每篇文獻的 DCA 當成向量：
+
+```
+[crisis_type_onehot, lag_layers_count, alternative_elements_count, direction_material_constraint_strength]
+```
+
+用 UMAP / t-SNE 降維，把 6,706 篇文獻攤平成一張二維地圖。
+
+**玩法**：
+- 地形高度 = `tension_per_doc`（頻譜張力值）
+- 顏色 = decade
+- 你會看到「山脈」和「峽谷」：某些區域密集聚集高張力革命文本，某些是低張力書信平原
+- 點擊任意一點，彈出 DCA 詳情和原文摘錄
+
+這比時間軸更直觀：**Marx 的思想空間不是線性進步，而是有引力井和排斥區的複雜地形**。
+
+---
+
+### 六、聲音化（Sonification）
+
+把頻譜的三條波直接轉成聲音：
+
+| 波 | 聲音 | 意義 |
+|----|------|------|
+| **長波** | 極低頻 drone（20–40 Hz） | 歷史的底層結構 |
+| **中波** | 中頻節奏脈衝（2–4 Hz） | 十年週期的「心跳」 |
+| **短波** | 高頻 glitch / noise | 突發事件和異常 |
+
+**玩法**：讓用戶「聽見」1835–1895 年的理論張力。1871 年（巴黎公社）中波突然加速；1875 年（哥達）短波產生尖銳 artifact。這不是藝術裝置，而是**認知輔助**——人耳對時間序列異常比眼睛更敏感。
 
 ---
 
