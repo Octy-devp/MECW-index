@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-MECW 理論張力頻譜計算器 v0.1
-從 keyword-timeseries.json 合成 composite tension index，
-Butterworth 分解長波/中波/短波，輸出 theoretical-spectrum.json
-
-複用 ECC 頻譜層的技術棧：
-  - Butterworth 4th-order: lowpass(0.04) + bandpass[0.04,0.1]
-  - 與 ECC 的 valence → zeitgeist/atmosphere 完全同構
+MECW 理論張力頻譜計算器 v0.2 — 校準版
+v0.1 → v0.2 校準：
+  - 小樣本年份加權（文獻數 < 50 → tension × 衰減因數）
+  - Butterworth order: 4→2（減少過度平滑）
+  - Peak detection: scipy.signal.find_peaks（更敏感）
+  - 新增 decade keyword contribution（哪些詞驅動張力）
+  - 新增 per-keyword 長波分解（供 ANOVA 校準）
 
 用法：
   python scripts/build-theoretical-spectrum.py
-  python scripts/build-theoretical-spectrum.py --plot
+  /workspaces/ECC/.venv/bin/python3 scripts/build-theoretical-spectrum.py
 """
 
 import json, os, argparse
@@ -25,22 +25,25 @@ KEYWORDS_IN = ROOT / "index" / "data" / "keyword-timeseries.json"
 COMPILED = ROOT / "index" / "data" / "compiled-documents.json"
 SPECTRUM_OUT = ROOT / "index" / "data" / "theoretical-spectrum.json"
 
-# Butterworth 參數（與 ECC 一致）
-LOWPASS_CUTOFF = 0.04   # >50 場景週期 → 長波（理論正規化）
-BANDPASS_LOW = 0.04     # 10-50 場景週期 → 中波（篇章級張力）
-BANDPASS_HIGH = 0.1
-FILTER_ORDER = 4
+# Butterworth 參數（v0.2 調整）
+LOWPASS_CUTOFF = 0.05   # 0.04→0.05：讓 1848 年的信號通過
+BANDPASS_LOW = 0.04
+BANDPASS_HIGH = 0.12
+FILTER_ORDER = 2         # 4→2：減少過度平滑，保留更多變異
 
-# 關鍵詞權重（基於理論重要性初步賦權，後續可用 ANOVA 校準）
+# 小樣本閾值
+MIN_DOCS_THRESHOLD = 50  # 年份文獻 < 50 → 衰減
+
+# 關鍵詞權重（初步，後續 ANOVA 校準）
 KEYWORD_WEIGHTS = {
-    "revolution": 1.5,    # 革命是最高張力信號
-    "class": 1.3,         # 階級是核心分析範疇
-    "proletariat": 1.2,   # 革命主體
-    "capital": 1.1,       # 批判對象
-    "communism": 1.4,     # 目標——高張力
-    "state": 0.9,         # 中性分析工具
-    "labour": 0.8,        # 基礎範疇
-    "party": 1.0,         # 組織形式
+    "revolution": 1.5,
+    "class": 1.3,
+    "proletariat": 1.2,
+    "capital": 1.1,
+    "communism": 1.4,
+    "state": 0.9,
+    "labour": 0.8,
+    "party": 1.0,
 }
 
 def build():
@@ -67,19 +70,24 @@ def build():
     years = sorted(y for y in all_years if 1835 <= y <= 1895)
 
     tension_series = []
+    kw_contributions = {kw: defaultdict(float) for kw in KEYWORD_WEIGHTS}
     for year in years:
         composite = 0.0
         for kw, weight in KEYWORD_WEIGHTS.items():
             kw_series = {d["year"]: d["freq_per_10k"] for d in kw_data.get(kw, [])}
             freq = kw_series.get(year, 0)
             composite += freq * weight
-        # 正則化：除以當年文獻數（避免文獻多=張力高的偏差）
+            kw_contributions[kw][year] = round(freq, 2)
         n_docs = docs_per_year.get(year, 1)
+        # v0.2: 小樣本衰減
+        decay = min(1.0, n_docs / MIN_DOCS_THRESHOLD)
         tension_series.append({
             "year": year,
             "tension_raw": round(composite, 2),
-            "tension_per_doc": round(composite / max(n_docs, 1), 4),
+            "tension_per_doc": round(composite / max(n_docs, 1) * decay, 4),
             "documents": n_docs,
+            "_unreliable": decay < 1.0,
+            "_sample_decay": round(decay, 3),
         })
 
     # ── Butterworth 濾波 ──────────────────────────
@@ -120,12 +128,10 @@ def build():
             trend = 0
         d["longwave_trend"] = round(float(trend), 4)
 
-    # 偵測 historical peaks
-    peak_years = []
-    for i in range(2, n - 2):
-        if (longwave[i] > longwave[i - 1] and longwave[i] > longwave[i + 1] and
-            longwave[i] > np.mean(longwave) + 0.5 * np.std(longwave)):
-            peak_years.append(years[i])
+    # 偵測 historical peaks (v0.2: scipy.find_peaks)
+    from scipy.signal import find_peaks
+    peaks, _ = find_peaks(longwave, prominence=0.03 * np.std(longwave), distance=3)
+    peak_years = [tension_series[p]["year"] for p in peaks]
 
     # ── 十年分段統計 ────────────────────────────
     decade_stats = defaultdict(lambda: {"mean_tension": 0, "mean_longwave": 0, "n": 0})
@@ -139,23 +145,34 @@ def build():
         decade_stats[dec]["mean_tension"] /= decade_stats[dec]["n"]
         decade_stats[dec]["mean_longwave"] /= decade_stats[dec]["n"]
 
+    # ── v0.2 Decade keyword contributions ──
+    decade_kw = defaultdict(lambda: defaultdict(float))
+    decade_kw_n = defaultdict(int)
+    for d in tension_series:
+        dec = (d["year"] // 10) * 10
+        for kw in KEYWORD_WEIGHTS:
+            decade_kw[dec][kw] += kw_contributions[kw].get(d["year"], 0)
+        decade_kw_n[dec] += 1
+
     # ── 輸出 ─────────────────────────────────────
     output = {
         "_meta": {
-            "version": "0.1.0",
+            "version": "0.2.0",
+            "changelog": "v0.1→v0.2: 小樣本衰減 + order 4→2 + cutoff 0.04→0.05 + scipy.find_peaks + kw contributions",
             "built": datetime.now().isoformat(),
-            "method": "Keyword composite → Butterworth 4th-order lowpass(0.04)+bandpass[0.04,0.1]",
+            "method": f"Butterworth {FILTER_ORDER}nd-order lowpass({LOWPASS_CUTOFF})+bandpass[{BANDPASS_LOW},{BANDPASS_HIGH}]",
             "years_analyzed": f"{years[0]}-{years[-1]}",
             "data_points": n,
             "keyword_weights": KEYWORD_WEIGHTS,
             "historical_peaks": peak_years,
-            "peak_context": {y: f"https://en.wikipedia.org/wiki/{y}" for y in peak_years},
+            "small_sample_threshold": MIN_DOCS_THRESHOLD,
+            "unreliable_years": [d["year"] for d in tension_series if d["_unreliable"]],
         },
         "spectrum": tension_series,
-        "decade_summary": {
-            str(dec): {"mean_tension": round(v["mean_tension"], 4),
-                        "mean_longwave": round(v["mean_longwave"], 4)}
-            for dec, v in sorted(decade_stats.items())
+        "decade_keyword_contributions": {
+            str(dec): {kw: round(v / max(decade_kw_n[dec], 1), 2)
+                       for kw, v in sorted(kws.items(), key=lambda x: x[1], reverse=True)}
+            for dec, kws in sorted(decade_kw.items())
         },
     }
 
@@ -163,26 +180,32 @@ def build():
     with open(SPECTRUM_OUT, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ {SPECTRUM_OUT}")
+    print(f"✅ {SPECTRUM_OUT} (v0.2)")
     print(f"   {n} years ({years[0]}–{years[-1]})")
+    print(f"   Unreliable: {len(output['_meta']['unreliable_years'])} years (<{MIN_DOCS_THRESHOLD} docs)")
 
-    # 顯示關鍵趨勢
     print(f"\n  Historical Peaks (longwave crests):")
     for y in peak_years:
         for d in tension_series:
             if d["year"] == y:
-                print(f"    {y}: tension={d['tension_per_doc']:.4f}  longwave={d['theoretical_longwave']:.4f}")
+                tag = " ⚠️" if d["_unreliable"] else ""
+                print(f"    {y}: tension={d['tension_per_doc']:.4f}  longwave={d['theoretical_longwave']:.4f}{tag}")
 
-    print(f"\n  Decade Averages:")
-    for dec in sorted(decade_stats):
-        v = decade_stats[dec]
-        bar = "█" * int(v["mean_tension"] * 50)
-        print(f"    {dec}s: tension={v['mean_tension']:.3f}  longwave={v['mean_longwave']:.3f}  {bar}")
+    print(f"\n  Decade Tension + Top 3 Keywords:")
+    for dec in sorted(decade_kw):
+        kws = decade_kw[dec]
+        top3 = sorted(kws.items(), key=lambda x: x[1], reverse=True)[:3]
+        avg_t = sum(d["tension_per_doc"] for d in tension_series
+                     if (d["year"]//10)*10 == dec) / max(decade_kw_n[dec], 1)
+        bar = "█" * int(avg_t * 40)
+        kw_str = ", ".join(f"{k}({v/decade_kw_n[dec]:.1f})" for k, v in top3)
+        print(f"    {dec}s: t={avg_t:.3f} {bar}  [{kw_str}]")
 
-    # 檢測趨勢
+    # 長波軌跡
     first_half = np.mean([d["theoretical_longwave"] for d in tension_series[:n//2]])
     second_half = np.mean([d["theoretical_longwave"] for d in tension_series[n//2:]])
-    print(f"\n  Longwave trajectory: {first_half:.4f} → {second_half:.4f}  (Δ={second_half-first_half:+.4f})")
+    print(f"\n  Longwave: {first_half:.4f} → {second_half:.4f}  (Δ={second_half-first_half:+.4f})")
+    print(f"  v0.2 changes: sample_decay, order 4→2, cutoff 0.04→0.05, scipy peaks")
 
     return output
 
