@@ -1,0 +1,334 @@
+{
+  "_meta": {
+    "version": "0.1.0",
+    "built": "2026-05-31T00:19:39.879328",
+    "dca_results_parsed": 6,
+    "years_covered": "1848-1884"
+  },
+  "dca_entries": [
+    {
+      "id": "MECW07-182",
+      "volume": 7,
+      "year": 1848,
+      "crisis_types": [],
+      "lag_layers": [
+        "organizational",
+        "ideological",
+        "theoretical"
+      ],
+      "alt_concepts": [],
+      "has_reasoning": true,
+      "dca_completeness": "unknown",
+      "title": "Warrant for the Arrest of Heinrich Bürgers and Friedrich Eng"
+    },
+    {
+      "id": "MECW10-010",
+      "volume": 10,
+      "year": 1850,
+      "crisis_types": [
+        "revolutionary_conjuncture"
+      ],
+      "lag_layers": [
+        "ideological",
+        "theoretical"
+      ],
+      "alt_concepts": [
+        "scientific_socialism"
+      ],
+      "has_reasoning": true,
+      "dca_completeness": "unknown",
+      "title": "G. Fr Daumer, Die Religion des neuen Weltalters. Versuch ein"
+    },
+    {
+      "id": "MECW22-033",
+      "volume": 22,
+      "year": 1871,
+      "crisis_types": [
+        "ideological_offensive"
+      ],
+      "lag_layers": [
+        "organizational",
+        "ideological"
+      ],
+      "alt_concepts": [
+        "internationalism"
+      ],
+      "has_reasoning": true,
+      "dca_completeness": "unknown",
+      "title": "The Address The Civil War in France and the English Press"
+    },
+    {
+      "id": "MECW25-021",
+      "volume": 25,
+      "year": 1880,
+      "crisis_types": [
+        "theoretical_disarmament"
+      ],
+      "lag_layers": [
+        "ideological",
+        "theoretical"
+      ],
+      "alt_concepts": [
+        "scientific_socialism"
+      ],
+      "has_reasoning": true,
+      "dca_completeness": "unknown",
+      "title": "Additions to the Text of Anti-Duhring made in the Pamphlet S"
+    },
+    {
+      "id": "MECW26-007",
+      "volume": 26,
+      "year": 1884,
+      "crisis_types": [
+        "revolutionary_conjuncture"
+      ],
+      "lag_layers": [
+        "organizational",
+        "ideological"
+      ],
+      "alt_concepts": [],
+      "has_reasoning": true,
+      "dca_completeness": "unknown",
+      "title": "Marx and the Neue Rheinische Zeitung (1848-49)"
+    },
+    {
+      "id": "MECW41-009",
+      "volume": 41,
+      "year": 1860,
+      "crisis_types": [
+        "ideological_offensive"
+      ],
+      "lag_layers": [
+        "organizational"
+      ],
+      "alt_concepts": [],
+      "has_reasoning": true,
+      "dca_completeness": "unknown",
+      "title": "Letter to Friedrich Engels, January 31, 1860"
+    }
+  ],
+  "crisis_type_timeseries": {
+    "ideological_offensive": [
+      {
+        "year": 1848,
+        "count": 0
+      },
+      {
+        "year": 1850,
+        "count": 0
+      },
+      {
+        "year": 1860,
+        "count": 1
+      },
+      {
+        "year": 1871,
+        "count": 1
+      },
+      {
+        "year": 1880,
+        "count": 0
+      },
+      {
+        "year": 1884,
+        "count": 0
+      }
+    ],
+    "revolutionary_conjuncture": [
+      {
+        "year": 1848,
+        "count": 0
+      },
+      {
+        "year": 1850,
+        "count": 1
+      },
+      {
+        "year": 1860,
+        "count": 0
+      },
+      {
+        "year": 1871,
+        "count": 0
+      },
+      {
+        "year": 1880,
+        "count": 0
+      },
+      {
+        "year": 1884,
+        "count": 1
+      }
+    ],
+    "theoretical_disarmament": [
+      {
+        "year": 1848,
+        "count": 0
+      },
+      {
+        "year": 1850,
+        "count": 0
+      },
+      {
+        "year": 1860,
+        "count": 0
+      },
+      {
+        "year": 1871,
+        "count": 0
+      },
+      {
+        "year": 1880,
+        "count": 1
+      },
+      {
+        "year": 1884,
+        "count": 0
+      }
+    ]
+  },
+  "lag_layer_timeseries": {
+    "ideological": [
+      {
+        "year": 1848,
+        "count": 1
+      },
+      {
+        "year": 1850,
+        "count": 1
+      },
+      {
+        "year": 1860,
+        "count": 0
+      },
+      {
+        "year": 1871,
+        "count": 1
+      },
+      {
+        "year": 1880,
+        "count": 1
+      },
+      {
+        "year": 1884,
+        "count": 1
+      }
+    ],
+    "organizational": [
+      {
+        "year": 1848,
+        "count": 1
+      },
+      {
+        "year": 1850,
+        "count": 0
+      },
+      {
+        "year": 1860,
+        "count": 1
+      },
+      {
+        "year": 1871,
+        "count": 1
+      },
+      {
+        "year": 1880,
+        "count": 0
+      },
+      {
+        "year": 1884,
+        "count": 1
+      }
+    ],
+    "theoretical": [
+      {
+        "year": 1848,
+        "count": 1
+      },
+      {
+        "year": 1850,
+        "count": 1
+      },
+      {
+        "year": 1860,
+        "count": 0
+      },
+      {
+        "year": 1871,
+        "count": 0
+      },
+      {
+        "year": 1880,
+        "count": 1
+      },
+      {
+        "year": 1884,
+        "count": 0
+      }
+    ]
+  },
+  "alternative_concept_timeseries": {
+    "internationalism": [
+      {
+        "year": 1848,
+        "count": 0
+      },
+      {
+        "year": 1850,
+        "count": 0
+      },
+      {
+        "year": 1860,
+        "count": 0
+      },
+      {
+        "year": 1871,
+        "count": 1
+      },
+      {
+        "year": 1880,
+        "count": 0
+      },
+      {
+        "year": 1884,
+        "count": 0
+      }
+    ],
+    "scientific_socialism": [
+      {
+        "year": 1848,
+        "count": 0
+      },
+      {
+        "year": 1850,
+        "count": 1
+      },
+      {
+        "year": 1860,
+        "count": 0
+      },
+      {
+        "year": 1871,
+        "count": 0
+      },
+      {
+        "year": 1880,
+        "count": 1
+      },
+      {
+        "year": 1884,
+        "count": 0
+      }
+    ]
+  },
+  "cross_spectrum_correlations": {
+    "revolutionary_conjuncture": -0.088,
+    "ideological_offensive": -0.655,
+    "theoretical_disarmament": 0.601
+  },
+  "insights": [
+    "'ideological_offensive' crisis type shows strongest correlation with longwave tension (r=-0.655)",
+    "'ideological' is the most frequent lag mechanism (5 occurrences)",
+    "'scientific_socialism': first appears 1850, peaks in 1850"
+  ]
+}
